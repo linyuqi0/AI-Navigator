@@ -1,0 +1,62 @@
+[
+  {
+    "id": "news-1",
+    "title": "OpenAI发布GPT-4o mini，性能大幅提升价格仅为原来的60%",
+    "summary": "OpenAI最新发布的GPT-4o mini模型在多项基准测试中表现出色，同时价格大幅降低，为开发者提供更经济的选择。",
+    "url": "https://openai.com/index/gpt-4o-mini-advancing-cost-efficient-intelligence/",
+    "source": "OpenAI官方博客",
+    "publishedAt": "2024-07-15",
+    "image": "https://picsum.photos/seed/news1/600/400",
+    "category": "大模型"
+  },
+  {
+    "id": "news-2",
+    "title": "Anthropic Claude 3.5 Sonnet发布，编程能力显著增强",
+    "summary": "Anthropic推出Claude 3.5 Sonnet模型，在编程、数学和推理方面取得重大突破，同时保持了有竞争力的定价。",
+    "url": "https://www.anthropic.com/news/claude-3-5-sonnet",
+    "source": "Anthropic官方",
+    "publishedAt": "2024-07-12",
+    "image": "https://picsum.photos/seed/news2/600/400",
+    "category": "大模型"
+  },
+  {
+    "id": "news-3",
+    "title": "Google Gemini 1.5 Pro支持200万token上下文窗口",
+    "summary": "Google扩展Gemini 1.5 Pro的上下文能力，支持最多200万token，可处理更长的文档和代码库。",
+    "url": "https://blog.google/technology/ai/gemini-15-pro-2m/",
+    "source": "Google Blog",
+    "publishedAt": "2024-07-10",
+    "image": "https://picsum.photos/seed/news3/600/400",
+    "category": "大模型"
+  },
+  {
+    "id": "news-4",
+    "title": "Vercel推出AI SDK 4.0，统一多模型开发体验",
+    "summary": "Vercel AI SDK 4.0版本发布，提供更统一的API接口，支持更多主流AI模型和流式响应。",
+    "url": "https://vercel.com/blog/ai-sdk-4",
+    "source": "Vercel Blog",
+    "publishedAt": "2024-07-08",
+    "image": "https://picsum.photos/seed/news4/600/400",
+    "category": "开发工具"
+  },
+  {
+    "id": "news-5",
+    "title": "Runway Gen-3 Alpha发布，视频生成质量迈上新台阶",
+    "summary": "Runway最新的Gen-3 Alpha模型在视频生成质量和一致性方面有显著提升，支持更长的视频输出。",
+    "url": "https://runwayml.com/research/gen-3-alpha",
+    "source": "Runway",
+    "publishedAt": "2024-07-14",
+    "image": "https://picsum.photos/seed/news5/600/400",
+    "category": "AI视频"
+  },
+  {
+    "id": "news-6",
+    "title": "MCP生态快速增长，已有超过100个MCP服务器",
+    "summary": "Model Context Protocol生态持续繁荣，开发者社区贡献了大量MCP服务器，覆盖各种应用场景。",
+    "url": "https://modelcontextprotocol.io",
+    "source": "MCP官方",
+    "publishedAt": "2024-07-13",
+    "image": "https://picsum.photos/seed/news6/600/400",
+    "category": "生态"
+  }
+]
