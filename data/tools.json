@@ -1,0 +1,250 @@
+[
+  {
+    "id": "chatgpt",
+    "name": "ChatGPT",
+    "logo": "https://api.dicebear.com/7.x/shapes/svg?seed=chatgpt",
+    "description": "OpenAI开发的领先AI对话助手，支持自然语言交互、代码生成、内容创作等多种功能。",
+    "url": "https://chat.openai.com",
+    "price": "免费 + $20/月",
+    "isFree": true,
+    "tags": ["聊天机器人", "GPT", "OpenAI", "内容创作", "编程"],
+    "category": "ai-chat",
+    "rating": 4.8,
+    "updatedAt": "2024-07-15",
+    "screenshots": [
+      "https://picsum.photos/seed/chatgpt1/800/500",
+      "https://picsum.photos/seed/chatgpt2/800/500"
+    ],
+    "features": [
+      "自然语言对话",
+      "代码生成与调试",
+      "文档撰写与润色",
+      "多语言支持",
+      "插件生态系统",
+      "DALL-E图像生成"
+    ],
+    "competitors": ["Claude", "Gemini", "Perplexity"],
+    "useCases": ["日常问答", "编程辅助", "内容创作", "学习助手", "数据分析"],
+    "seoTitle": "ChatGPT - 领先的AI对话助手 | AI Navigator Pro",
+    "seoDescription": "ChatGPT是OpenAI开发的领先AI对话助手，支持自然语言交互、代码生成、内容创作等多种功能。",
+    "featured": true,
+    "trending": true,
+    "views": 125000
+  },
+  {
+    "id": "claude",
+    "name": "Claude",
+    "logo": "https://api.dicebear.com/7.x/shapes/svg?seed=claude",
+    "description": "Anthropic开发的AI助手，以安全性和长文本处理能力著称，支持200K上下文窗口。",
+    "url": "https://claude.ai",
+    "price": "免费 + $20/月",
+    "isFree": true,
+    "tags": ["聊天机器人", "Anthropic", "长文本", "安全", "写作"],
+    "category": "ai-chat",
+    "rating": 4.7,
+    "updatedAt": "2024-07-10",
+    "screenshots": [
+      "https://picsum.photos/seed/claude1/800/500",
+      "https://picsum.photos/seed/claude2/800/500"
+    ],
+    "features": [
+      "200K超长上下文",
+      "安全对齐技术",
+      "多文件分析",
+      "代码解释器",
+      "Artifacts功能",
+      "多语言支持"
+    ],
+    "competitors": ["ChatGPT", "Gemini", "Perplexity"],
+    "useCases": ["长文档分析", "学术研究", "创意写作", "代码开发", "法律文书"],
+    "seoTitle": "Claude - 安全可靠的AI助手 | AI Navigator Pro",
+    "seoDescription": "Claude是Anthropic开发的AI助手，以安全性和长文本处理能力著称，支持200K上下文窗口。",
+    "featured": true,
+    "trending": true,
+    "views": 98000
+  },
+  {
+    "id": "midjourney",
+    "name": "Midjourney",
+    "logo": "https://api.dicebear.com/7.x/shapes/svg?seed=midjourney",
+    "description": "业界领先的AI图像生成工具，以艺术性和细节表现力著称。",
+    "url": "https://midjourney.com",
+    "price": "$10/月起",
+    "isFree": false,
+    "tags": ["图像生成", "AI绘画", "艺术创作", "设计"],
+    "category": "ai-image",
+    "rating": 4.9,
+    "updatedAt": "2024-07-12",
+    "screenshots": [
+      "https://picsum.photos/seed/midjourney1/800/500",
+      "https://picsum.photos/seed/midjourney2/800/500"
+    ],
+    "features": [
+      "高质量图像生成",
+      "多种艺术风格",
+      "V6模型",
+      "图像放大",
+      "风格变换",
+      "角色一致性"
+    ],
+    "competitors": ["DALL-E", "Stable Diffusion", "Leonardo AI"],
+    "useCases": ["概念设计", "插画创作", "产品展示", "游戏美术", "营销素材"],
+    "seoTitle": "Midjourney - 领先的AI图像生成工具 | AI Navigator Pro",
+    "seoDescription": "Midjourney是业界领先的AI图像生成工具，以艺术性和细节表现力著称。",
+    "featured": true,
+    "trending": true,
+    "views": 156000
+  },
+  {
+    "id": "github-copilot",
+    "name": "GitHub Copilot",
+    "logo": "https://api.dicebear.com/7.x/shapes/svg?seed=copilot",
+    "description": "GitHub和OpenAI合作开发的AI编程助手，支持多种编程语言和IDE。",
+    "url": "https://github.com/features/copilot",
+    "price": "$10/月起",
+    "isFree": false,
+    "tags": ["编程", "代码生成", "GitHub", "开发工具"],
+    "category": "ai-coding",
+    "rating": 4.6,
+    "updatedAt": "2024-07-08",
+    "screenshots": [
+      "https://picsum.photos/seed/copilot1/800/500"
+    ],
+    "features": [
+      "实时代码补全",
+      "代码解释",
+      "Bug修复建议",
+      "测试生成",
+      "多语言支持",
+      "VS Code集成"
+    ],
+    "competitors": ["Cursor", "Codeium", "Tabnine"],
+    "useCases": ["快速编码", "学习新语言", "代码重构", "调试", "文档生成"],
+    "seoTitle": "GitHub Copilot - AI编程助手 | AI Navigator Pro",
+    "seoDescription": "GitHub Copilot是GitHub和OpenAI合作开发的AI编程助手，支持多种编程语言和IDE。",
+    "featured": true,
+    "views": 89000
+  },
+  {
+    "id": "runway",
+    "name": "Runway",
+    "logo": "https://api.dicebear.com/7.x/shapes/svg?seed=runway",
+    "description": "专业级AI视频生成和编辑平台，支持文本生成视频、图像生成视频等功能。",
+    "url": "https://runwayml.com",
+    "price": "免费 + $12/月",
+    "isFree": true,
+    "tags": ["视频生成", "AI视频", "视频编辑", "创作"],
+    "category": "ai-video",
+    "rating": 4.5,
+    "updatedAt": "2024-07-14",
+    "screenshots": [
+      "https://picsum.photos/seed/runway1/800/500"
+    ],
+    "features": [
+      "文本生成视频",
+      "图像生成视频",
+      "视频风格迁移",
+      "运动笔刷",
+      "绿幕移除",
+      "帧插值"
+    ],
+    "competitors": ["Pika Labs", "Sora", "Kling AI"],
+    "useCases": ["短视频创作", "广告制作", "电影特效", "教育内容", "社交媒体"],
+    "seoTitle": "Runway - 专业AI视频生成平台 | AI Navigator Pro",
+    "seoDescription": "Runway是专业级AI视频生成和编辑平台，支持文本生成视频、图像生成视频等功能。",
+    "featured": true,
+    "trending": true,
+    "views": 76000
+  },
+  {
+    "id": "perplexity",
+    "name": "Perplexity",
+    "logo": "https://api.dicebear.com/7.x/shapes/svg?seed=perplexity",
+    "description": "AI驱动的搜索引擎，提供实时、带引用的答案。",
+    "url": "https://perplexity.ai",
+    "price": "免费 + $20/月",
+    "isFree": true,
+    "tags": ["搜索", "AI搜索", "研究", "问答"],
+    "category": "ai-chat",
+    "rating": 4.6,
+    "updatedAt": "2024-07-11",
+    "screenshots": [
+      "https://picsum.photos/seed/perplexity1/800/500"
+    ],
+    "features": [
+      "实时搜索",
+      "来源引用",
+      "焦点模式",
+      "多模态搜索",
+      "Pro Search",
+      "页面分析"
+    ],
+    "competitors": ["ChatGPT", "Gemini", "You.com"],
+    "useCases": ["学术研究", "市场调研", "事实核查", "学习", "新闻追踪"],
+    "seoTitle": "Perplexity - AI智能搜索引擎 | AI Navigator Pro",
+    "seoDescription": "Perplexity是AI驱动的搜索引擎，提供实时、带引用的答案。",
+    "featured": true,
+    "views": 67000
+  },
+  {
+    "id": "cursor",
+    "name": "Cursor",
+    "logo": "https://api.dicebear.com/7.x/shapes/svg?seed=cursor",
+    "description": "AI原生代码编辑器，基于VS Code构建，深度集成AI功能。",
+    "url": "https://cursor.sh",
+    "price": "免费 + $20/月",
+    "isFree": true,
+    "tags": ["编程", "编辑器", "代码生成", "开发工具"],
+    "category": "ai-coding",
+    "rating": 4.7,
+    "updatedAt": "2024-07-09",
+    "screenshots": [
+      "https://picsum.photos/seed/cursor1/800/500"
+    ],
+    "features": [
+      "AI代码补全",
+      "代码库聊天",
+      "@文件引用",
+      "多光标编辑",
+      "终端集成",
+      "VS Code扩展兼容"
+    ],
+    "competitors": ["GitHub Copilot", "Windsurf", "Zed"],
+    "useCases": ["全栈开发", "代码审查", "学习新框架", "重构", "快速原型"],
+    "seoTitle": "Cursor - AI原生代码编辑器 | AI Navigator Pro",
+    "seoDescription": "Cursor是AI原生代码编辑器，基于VS Code构建，深度集成AI功能。",
+    "featured": true,
+    "trending": true,
+    "views": 82000
+  },
+  {
+    "id": "gemini",
+    "name": "Google Gemini",
+    "logo": "https://api.dicebear.com/7.x/shapes/svg?seed=gemini",
+    "description": "Google开发的多模态AI模型，支持文本、图像、视频、音频处理。",
+    "url": "https://gemini.google.com",
+    "price": "免费 + $19.99/月",
+    "isFree": true,
+    "tags": ["聊天机器人", "Google", "多模态", "Bard"],
+    "category": "ai-chat",
+    "rating": 4.5,
+    "updatedAt": "2024-07-13",
+    "screenshots": [
+      "https://picsum.photos/seed/gemini1/800/500"
+    ],
+    "features": [
+      "多模态理解",
+      "实时搜索集成",
+      "代码生成",
+      "图像分析",
+      "视频理解",
+      "Gmail集成"
+    ],
+    "competitors": ["ChatGPT", "Claude", "Perplexity"],
+    "useCases": ["日常问答", "创意写作", "图像分析", "编程辅助", "信息检索"],
+    "seoTitle": "Google Gemini - 多模态AI助手 | AI Navigator Pro",
+    "seoDescription": "Google Gemini是Google开发的多模态AI模型，支持文本、图像、视频、音频处理。",
+    "featured": true,
+    "views": 71000
+  }
+]

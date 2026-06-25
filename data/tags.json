@@ -1,0 +1,22 @@
+[
+  { "id": "1", "name": "GPT", "slug": "gpt", "count": 45 },
+  { "id": "2", "name": "聊天机器人", "slug": "chatbot", "count": 62 },
+  { "id": "3", "name": "图像生成", "slug": "image-generation", "count": 38 },
+  { "id": "4", "name": "视频生成", "slug": "video-generation", "count": 22 },
+  { "id": "5", "name": "编程助手", "slug": "coding-assistant", "count": 35 },
+  { "id": "6", "name": "内容创作", "slug": "content-creation", "count": 48 },
+  { "id": "7", "name": "OpenAI", "slug": "openai", "count": 28 },
+  { "id": "8", "name": "开源", "slug": "open-source", "count": 52 },
+  { "id": "9", "name": "免费", "slug": "free", "count": 68 },
+  { "id": "10", "name": "生产力", "slug": "productivity", "count": 41 },
+  { "id": "11", "name": "设计", "slug": "design", "count": 33 },
+  { "id": "12", "name": "多模态", "slug": "multimodal", "count": 19 },
+  { "id": "13", "name": "自动化", "slug": "automation", "count": 27 },
+  { "id": "14", "name": "数据分析", "slug": "data-analysis", "count": 24 },
+  { "id": "15", "name": "Agent", "slug": "agent", "count": 31 },
+  { "id": "16", "name": "Prompt", "slug": "prompt", "count": 43 },
+  { "id": "17", "name": "工作流", "slug": "workflow", "count": 18 },
+  { "id": "18", "name": "API", "slug": "api", "count": 36 },
+  { "id": "19", "name": "插件", "slug": "plugin", "count": 21 },
+  { "id": "20", "name": "教育", "slug": "education", "count": 29 }
+]

@@ -1,0 +1,143 @@
+[
+  {
+    "id": "github-mcp",
+    "name": "GitHub MCP",
+    "logo": "https://api.dicebear.com/7.x/shapes/svg?seed=github-mcp",
+    "description": "官方GitHub MCP服务器，提供仓库管理、Issue处理、PR操作等功能。",
+    "url": "https://github.com/marketplace/mcp",
+    "category": "developer-tools",
+    "tags": ["GitHub", "开发", "仓库管理", "官方"],
+    "rating": 4.8,
+    "updatedAt": "2024-07-15",
+    "features": [
+      "仓库浏览与搜索",
+      "Issue创建与管理",
+      "Pull Request操作",
+      "代码审查",
+      "Actions触发",
+      "文件读写"
+    ],
+    "seoTitle": "GitHub MCP - 官方GitHub集成 | AI Navigator Pro",
+    "seoDescription": "官方GitHub MCP服务器，提供仓库管理、Issue处理、PR操作等功能。",
+    "featured": true,
+    "trending": true,
+    "views": 78000
+  },
+  {
+    "id": "figma-mcp",
+    "name": "Figma MCP",
+    "logo": "https://api.dicebear.com/7.x/shapes/svg?seed=figma-mcp",
+    "description": "Figma MCP服务器，支持读取和操作Figma设计文件，提取设计资源。",
+    "url": "https://figma.com/developers",
+    "category": "design-tools",
+    "tags": ["Figma", "设计", "UI/UX", "设计系统"],
+    "rating": 4.7,
+    "updatedAt": "2024-07-12",
+    "features": [
+      "设计文件读取",
+      "组件提取",
+      "样式导出",
+      "设计规范检查",
+      "设计令牌",
+      "原型交互"
+    ],
+    "seoTitle": "Figma MCP - Figma设计集成 | AI Navigator Pro",
+    "seoDescription": "Figma MCP服务器，支持读取和操作Figma设计文件，提取设计资源。",
+    "featured": true,
+    "views": 62000
+  },
+  {
+    "id": "notion-mcp",
+    "name": "Notion MCP",
+    "logo": "https://api.dicebear.com/7.x/shapes/svg?seed=notion-mcp",
+    "description": "Notion MCP服务器，提供知识库查询、页面操作、数据库管理等功能。",
+    "url": "https://developers.notion.com",
+    "category": "productivity",
+    "tags": ["Notion", "笔记", "知识库", "生产力"],
+    "rating": 4.6,
+    "updatedAt": "2024-07-10",
+    "features": [
+      "页面读取与搜索",
+      "数据库查询",
+      "内容编辑",
+      "块操作",
+      "属性管理",
+      "评论操作"
+    ],
+    "seoTitle": "Notion MCP - Notion知识库集成 | AI Navigator Pro",
+    "seoDescription": "Notion MCP服务器，提供知识库查询、页面操作、数据库管理等功能。",
+    "featured": true,
+    "trending": true,
+    "views": 71000
+  },
+  {
+    "id": "slack-mcp",
+    "name": "Slack MCP",
+    "logo": "https://api.dicebear.com/7.x/shapes/svg?seed=slack-mcp",
+    "description": "Slack MCP服务器，支持消息发送、频道管理、用户查询等功能。",
+    "url": "https://api.slack.com",
+    "category": "communication",
+    "tags": ["Slack", "通讯", "团队协作", "消息"],
+    "rating": 4.5,
+    "updatedAt": "2024-07-08",
+    "features": [
+      "消息发送",
+      "频道管理",
+      "用户查询",
+      "回复线程",
+      "文件分享",
+      "反应操作"
+    ],
+    "seoTitle": "Slack MCP - Slack通讯集成 | AI Navigator Pro",
+    "seoDescription": "Slack MCP服务器，支持消息发送、频道管理、用户查询等功能。",
+    "featured": true,
+    "views": 54000
+  },
+  {
+    "id": "browser-mcp",
+    "name": "Browser MCP",
+    "logo": "https://api.dicebear.com/7.x/shapes/svg?seed=browser-mcp",
+    "description": "浏览器自动化MCP服务器，支持网页导航、截图、数据提取等功能。",
+    "url": "https://playwright.dev",
+    "category": "automation",
+    "tags": ["浏览器", "自动化", "测试", "爬虫"],
+    "rating": 4.7,
+    "updatedAt": "2024-07-14",
+    "features": [
+      "网页导航",
+      "页面截图",
+      "元素交互",
+      "数据提取",
+      "表单填写",
+      "性能分析"
+    ],
+    "seoTitle": "Browser MCP - 浏览器自动化集成 | AI Navigator Pro",
+    "seoDescription": "浏览器自动化MCP服务器，支持网页导航、截图、数据提取等功能。",
+    "featured": true,
+    "trending": true,
+    "views": 68000
+  },
+  {
+    "id": "postgres-mcp",
+    "name": "PostgreSQL MCP",
+    "logo": "https://api.dicebear.com/7.x/shapes/svg?seed=postgres-mcp",
+    "description": "PostgreSQL数据库MCP服务器，支持SQL查询、数据操作、Schema管理等。",
+    "url": "https://www.postgresql.org",
+    "category": "database",
+    "tags": ["数据库", "PostgreSQL", "SQL", "数据管理"],
+    "rating": 4.6,
+    "updatedAt": "2024-07-11",
+    "features": [
+      "SQL查询执行",
+      "数据读写",
+      "Schema管理",
+      "表结构查询",
+      "索引优化",
+      "备份恢复"
+    ],
+    "seoTitle": "PostgreSQL MCP - 数据库集成 | AI Navigator Pro",
+    "seoDescription": "PostgreSQL数据库MCP服务器，支持SQL查询、数据操作、Schema管理等。",
+    "featured": true,
+    "views": 49000
+  }
+]
