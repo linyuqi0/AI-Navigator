@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { Workflow as WorkflowIcon, Heart, Clock, Zap } from "lucide-react";
+import { Workflow as WorkflowIcon, Heart, Clock, Zap, ArrowRight } from "lucide-react";
 import { Badge } from "@/components/ui/badge";
 import { Card, CardContent, CardFooter } from "@/components/ui/card";
 import { cn, formatNumber, withBasePath } from "@/lib/utils";
@@ -57,6 +57,7 @@ export function WorkflowCard({ workflow, className }: WorkflowCardProps) {
           <button
             onClick={toggleFavorite}
             className="absolute top-3 right-3 p-1.5 rounded-full bg-black/30 backdrop-blur-sm opacity-0 group-hover:opacity-100 transition-opacity"
+            aria-label="收藏"
           >
             <Heart
               className={cn(
@@ -106,8 +107,9 @@ export function WorkflowCard({ workflow, className }: WorkflowCardProps) {
               {workflow.difficulty}
             </span>
           </div>
-          <span className="text-xs text-muted-foreground">
-            {formatNumber(workflow.views || 0)} 浏览
+          <span className="text-xs text-primary font-medium flex items-center gap-1 group-hover:gap-2 transition-all">
+            查看
+            <ArrowRight className="h-3 w-3" />
           </span>
         </CardFooter>
       </Card>

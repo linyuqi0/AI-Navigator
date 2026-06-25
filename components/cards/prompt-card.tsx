@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { MessageSquareText, Heart, Copy, Check } from "lucide-react";
+import { MessageSquareText, Heart, Copy, Check, ArrowRight } from "lucide-react";
 import { Badge } from "@/components/ui/badge";
 import { Card, CardContent, CardFooter } from "@/components/ui/card";
 import { cn, withBasePath } from "@/lib/utils";
@@ -72,6 +72,7 @@ export function PromptCard({ prompt, className }: PromptCardProps) {
                 onClick={copyPrompt}
                 className="p-1.5 rounded-md hover:bg-muted transition-colors"
                 title="复制"
+                aria-label="复制"
               >
                 {copied ? (
                   <Check className="h-4 w-4 text-morandi-sage" />
@@ -82,6 +83,7 @@ export function PromptCard({ prompt, className }: PromptCardProps) {
               <button
                 onClick={toggleFavorite}
                 className="p-1.5 rounded-md hover:bg-muted transition-colors"
+                aria-label="收藏"
               >
                 <Heart
                   className={cn(
@@ -121,8 +123,9 @@ export function PromptCard({ prompt, className }: PromptCardProps) {
           <span className="text-xs text-muted-foreground">
             {prompt.author}
           </span>
-          <span className="text-xs text-muted-foreground">
-            {new Date(prompt.createdAt).toLocaleDateString("zh-CN")}
+          <span className="text-xs text-primary font-medium flex items-center gap-1 group-hover:gap-2 transition-all">
+            查看
+            <ArrowRight className="h-3 w-3" />
           </span>
         </CardFooter>
       </Card>

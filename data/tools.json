@@ -7,7 +7,13 @@
     "url": "https://chat.openai.com",
     "price": "免费 + $20/月",
     "isFree": true,
-    "tags": ["聊天机器人", "GPT", "OpenAI", "内容创作", "编程"],
+    "tags": [
+      "聊天机器人",
+      "GPT",
+      "OpenAI",
+      "内容创作",
+      "编程"
+    ],
     "category": "ai-chat",
     "rating": 4.8,
     "updatedAt": "2024-07-15",
@@ -23,8 +29,18 @@
       "插件生态系统",
       "DALL-E图像生成"
     ],
-    "competitors": ["Claude", "Gemini", "Perplexity"],
-    "useCases": ["日常问答", "编程辅助", "内容创作", "学习助手", "数据分析"],
+    "competitors": [
+      "Claude",
+      "Gemini",
+      "Perplexity"
+    ],
+    "useCases": [
+      "日常问答",
+      "编程辅助",
+      "内容创作",
+      "学习助手",
+      "数据分析"
+    ],
     "seoTitle": "ChatGPT - 领先的AI对话助手 | AI Navigator Pro",
     "seoDescription": "ChatGPT是OpenAI开发的领先AI对话助手，支持自然语言交互、代码生成、内容创作等多种功能。",
     "featured": true,
@@ -39,7 +55,13 @@
     "url": "https://claude.ai",
     "price": "免费 + $20/月",
     "isFree": true,
-    "tags": ["聊天机器人", "Anthropic", "长文本", "安全", "写作"],
+    "tags": [
+      "聊天机器人",
+      "Anthropic",
+      "长文本",
+      "安全",
+      "写作"
+    ],
     "category": "ai-chat",
     "rating": 4.7,
     "updatedAt": "2024-07-10",
@@ -55,8 +77,18 @@
       "Artifacts功能",
       "多语言支持"
     ],
-    "competitors": ["ChatGPT", "Gemini", "Perplexity"],
-    "useCases": ["长文档分析", "学术研究", "创意写作", "代码开发", "法律文书"],
+    "competitors": [
+      "ChatGPT",
+      "Gemini",
+      "Perplexity"
+    ],
+    "useCases": [
+      "长文档分析",
+      "学术研究",
+      "创意写作",
+      "代码开发",
+      "法律文书"
+    ],
     "seoTitle": "Claude - 安全可靠的AI助手 | AI Navigator Pro",
     "seoDescription": "Claude是Anthropic开发的AI助手，以安全性和长文本处理能力著称，支持200K上下文窗口。",
     "featured": true,
@@ -71,7 +103,12 @@
     "url": "https://midjourney.com",
     "price": "$10/月起",
     "isFree": false,
-    "tags": ["图像生成", "AI绘画", "艺术创作", "设计"],
+    "tags": [
+      "图像生成",
+      "AI绘画",
+      "艺术创作",
+      "设计"
+    ],
     "category": "ai-image",
     "rating": 4.9,
     "updatedAt": "2024-07-12",
@@ -87,8 +124,18 @@
       "风格变换",
       "角色一致性"
     ],
-    "competitors": ["DALL-E", "Stable Diffusion", "Leonardo AI"],
-    "useCases": ["概念设计", "插画创作", "产品展示", "游戏美术", "营销素材"],
+    "competitors": [
+      "DALL-E",
+      "Stable Diffusion",
+      "Leonardo AI"
+    ],
+    "useCases": [
+      "概念设计",
+      "插画创作",
+      "产品展示",
+      "游戏美术",
+      "营销素材"
+    ],
     "seoTitle": "Midjourney - 领先的AI图像生成工具 | AI Navigator Pro",
     "seoDescription": "Midjourney是业界领先的AI图像生成工具，以艺术性和细节表现力著称。",
     "featured": true,
@@ -103,7 +150,12 @@
     "url": "https://github.com/features/copilot",
     "price": "$10/月起",
     "isFree": false,
-    "tags": ["编程", "代码生成", "GitHub", "开发工具"],
+    "tags": [
+      "编程",
+      "代码生成",
+      "GitHub",
+      "开发工具"
+    ],
     "category": "ai-coding",
     "rating": 4.6,
     "updatedAt": "2024-07-08",
@@ -118,8 +170,18 @@
       "多语言支持",
       "VS Code集成"
     ],
-    "competitors": ["Cursor", "Codeium", "Tabnine"],
-    "useCases": ["快速编码", "学习新语言", "代码重构", "调试", "文档生成"],
+    "competitors": [
+      "Cursor",
+      "Codeium",
+      "Tabnine"
+    ],
+    "useCases": [
+      "快速编码",
+      "学习新语言",
+      "代码重构",
+      "调试",
+      "文档生成"
+    ],
     "seoTitle": "GitHub Copilot - AI编程助手 | AI Navigator Pro",
     "seoDescription": "GitHub Copilot是GitHub和OpenAI合作开发的AI编程助手，支持多种编程语言和IDE。",
     "featured": true,
@@ -133,7 +195,12 @@
     "url": "https://runwayml.com",
     "price": "免费 + $12/月",
     "isFree": true,
-    "tags": ["视频生成", "AI视频", "视频编辑", "创作"],
+    "tags": [
+      "视频生成",
+      "AI视频",
+      "视频编辑",
+      "创作"
+    ],
     "category": "ai-video",
     "rating": 4.5,
     "updatedAt": "2024-07-14",
@@ -148,8 +215,18 @@
       "绿幕移除",
       "帧插值"
     ],
-    "competitors": ["Pika Labs", "Sora", "Kling AI"],
-    "useCases": ["短视频创作", "广告制作", "电影特效", "教育内容", "社交媒体"],
+    "competitors": [
+      "Pika Labs",
+      "Sora",
+      "Kling AI"
+    ],
+    "useCases": [
+      "短视频创作",
+      "广告制作",
+      "电影特效",
+      "教育内容",
+      "社交媒体"
+    ],
     "seoTitle": "Runway - 专业AI视频生成平台 | AI Navigator Pro",
     "seoDescription": "Runway是专业级AI视频生成和编辑平台，支持文本生成视频、图像生成视频等功能。",
     "featured": true,
@@ -164,7 +241,12 @@
     "url": "https://perplexity.ai",
     "price": "免费 + $20/月",
     "isFree": true,
-    "tags": ["搜索", "AI搜索", "研究", "问答"],
+    "tags": [
+      "搜索",
+      "AI搜索",
+      "研究",
+      "问答"
+    ],
     "category": "ai-chat",
     "rating": 4.6,
     "updatedAt": "2024-07-11",
@@ -179,8 +261,18 @@
       "Pro Search",
       "页面分析"
     ],
-    "competitors": ["ChatGPT", "Gemini", "You.com"],
-    "useCases": ["学术研究", "市场调研", "事实核查", "学习", "新闻追踪"],
+    "competitors": [
+      "ChatGPT",
+      "Gemini",
+      "You.com"
+    ],
+    "useCases": [
+      "学术研究",
+      "市场调研",
+      "事实核查",
+      "学习",
+      "新闻追踪"
+    ],
     "seoTitle": "Perplexity - AI智能搜索引擎 | AI Navigator Pro",
     "seoDescription": "Perplexity是AI驱动的搜索引擎，提供实时、带引用的答案。",
     "featured": true,
@@ -194,7 +286,12 @@
     "url": "https://cursor.sh",
     "price": "免费 + $20/月",
     "isFree": true,
-    "tags": ["编程", "编辑器", "代码生成", "开发工具"],
+    "tags": [
+      "编程",
+      "编辑器",
+      "代码生成",
+      "开发工具"
+    ],
     "category": "ai-coding",
     "rating": 4.7,
     "updatedAt": "2024-07-09",
@@ -209,8 +306,18 @@
       "终端集成",
       "VS Code扩展兼容"
     ],
-    "competitors": ["GitHub Copilot", "Windsurf", "Zed"],
-    "useCases": ["全栈开发", "代码审查", "学习新框架", "重构", "快速原型"],
+    "competitors": [
+      "GitHub Copilot",
+      "Windsurf",
+      "Zed"
+    ],
+    "useCases": [
+      "全栈开发",
+      "代码审查",
+      "学习新框架",
+      "重构",
+      "快速原型"
+    ],
     "seoTitle": "Cursor - AI原生代码编辑器 | AI Navigator Pro",
     "seoDescription": "Cursor是AI原生代码编辑器，基于VS Code构建，深度集成AI功能。",
     "featured": true,
@@ -225,7 +332,12 @@
     "url": "https://gemini.google.com",
     "price": "免费 + $19.99/月",
     "isFree": true,
-    "tags": ["聊天机器人", "Google", "多模态", "Bard"],
+    "tags": [
+      "聊天机器人",
+      "Google",
+      "多模态",
+      "Bard"
+    ],
     "category": "ai-chat",
     "rating": 4.5,
     "updatedAt": "2024-07-13",
@@ -240,11 +352,1551 @@
       "视频理解",
       "Gmail集成"
     ],
-    "competitors": ["ChatGPT", "Claude", "Perplexity"],
-    "useCases": ["日常问答", "创意写作", "图像分析", "编程辅助", "信息检索"],
+    "competitors": [
+      "ChatGPT",
+      "Claude",
+      "Perplexity"
+    ],
+    "useCases": [
+      "日常问答",
+      "创意写作",
+      "图像分析",
+      "编程辅助",
+      "信息检索"
+    ],
     "seoTitle": "Google Gemini - 多模态AI助手 | AI Navigator Pro",
     "seoDescription": "Google Gemini是Google开发的多模态AI模型，支持文本、图像、视频、音频处理。",
     "featured": true,
     "views": 71000
+  },
+  {
+    "id": "wenxin-yiyan",
+    "name": "文心一言",
+    "logo": "https://api.dicebear.com/7.x/shapes/svg?seed=wenxin",
+    "description": "百度推出的国产AI对话助手，深度理解中文语境，擅长中文创作、知识问答。",
+    "url": "https://yiyan.baidu.com",
+    "price": "免费",
+    "isFree": true,
+    "tags": [
+      "聊天机器人",
+      "百度",
+      "中文",
+      "国产AI"
+    ],
+    "category": "ai-chat",
+    "rating": 4.4,
+    "updatedAt": "2024-07-10",
+    "screenshots": [
+      "https://picsum.photos/seed/wenxin1/800/500"
+    ],
+    "features": [
+      "中文理解",
+      "知识问答",
+      "文本创作",
+      "代码生成",
+      "插件生态"
+    ],
+    "competitors": [
+      "ChatGPT",
+      "通义千问",
+      "Kimi"
+    ],
+    "useCases": [
+      "中文写作",
+      "知识查询",
+      "学习辅导",
+      "内容创作"
+    ],
+    "featured": true,
+    "views": 58000
+  },
+  {
+    "id": "tongyi-qianwen",
+    "name": "通义千问",
+    "logo": "https://api.dicebear.com/7.x/shapes/svg?seed=tongyi",
+    "description": "阿里云推出的大语言模型，擅长多轮对话、文档分析、多模态理解。",
+    "url": "https://tongyi.aliyun.com",
+    "price": "免费",
+    "isFree": true,
+    "tags": [
+      "聊天机器人",
+      "阿里",
+      "中文",
+      "国产AI"
+    ],
+    "category": "ai-chat",
+    "rating": 4.5,
+    "updatedAt": "2024-07-12",
+    "screenshots": [
+      "https://picsum.photos/seed/tongyi1/800/500"
+    ],
+    "features": [
+      "多轮对话",
+      "文档分析",
+      "PPT生成",
+      "代码助手",
+      "实时音视频交互"
+    ],
+    "competitors": [
+      "ChatGPT",
+      "文心一言",
+      "Kimi"
+    ],
+    "useCases": [
+      "办公文档",
+      "PPT制作",
+      "学习研究",
+      "编程开发"
+    ],
+    "featured": true,
+    "views": 62000
+  },
+  {
+    "id": "kimi",
+    "name": "Kimi",
+    "logo": "https://api.dicebear.com/7.x/shapes/svg?seed=kimi",
+    "description": "月之暗面推出的国产AI助手，超长上下文支持，深度文档分析能力。",
+    "url": "https://kimi.moonshot.cn",
+    "price": "免费",
+    "isFree": true,
+    "tags": [
+      "聊天机器人",
+      "长文本",
+      "国产AI",
+      "文档分析"
+    ],
+    "category": "ai-chat",
+    "rating": 4.6,
+    "updatedAt": "2024-07-13",
+    "screenshots": [
+      "https://picsum.photos/seed/kimi1/800/500"
+    ],
+    "features": [
+      "200万字上下文",
+      "文档分析",
+      "联网搜索",
+      "多语言支持",
+      "学术研究"
+    ],
+    "competitors": [
+      "ChatGPT",
+      "Claude",
+      "文心一言"
+    ],
+    "useCases": [
+      "长文档阅读",
+      "学术研究",
+      "法律分析",
+      "论文写作"
+    ],
+    "featured": true,
+    "trending": true,
+    "views": 75000
+  },
+  {
+    "id": "doubao",
+    "name": "豆包",
+    "logo": "https://api.dicebear.com/7.x/shapes/svg?seed=doubao",
+    "description": "字节跳动推出的免费AI助手，集成抖音生态，擅长多模态交互。",
+    "url": "https://www.doubao.com",
+    "price": "免费",
+    "isFree": true,
+    "tags": [
+      "聊天机器人",
+      "字节跳动",
+      "国产AI",
+      "多模态"
+    ],
+    "category": "ai-chat",
+    "rating": 4.4,
+    "updatedAt": "2024-07-11",
+    "screenshots": [
+      "https://picsum.photos/seed/doubao1/800/500"
+    ],
+    "features": [
+      "语音对话",
+      "图像生成",
+      "文档分析",
+      "智能体创建",
+      "多端同步"
+    ],
+    "competitors": [
+      "Kimi",
+      "文心一言",
+      "通义千问"
+    ],
+    "useCases": [
+      "日常聊天",
+      "学习辅导",
+      "内容创作",
+      "智能助手"
+    ],
+    "featured": true,
+    "views": 55000
+  },
+  {
+    "id": "deepseek",
+    "name": "DeepSeek",
+    "logo": "https://api.dicebear.com/7.x/shapes/svg?seed=deepseek",
+    "description": "深度求索推出的开源大语言模型，强大的推理和代码能力。",
+    "url": "https://www.deepseek.com",
+    "price": "免费",
+    "isFree": true,
+    "tags": [
+      "聊天机器人",
+      "开源",
+      "推理",
+      "国产AI"
+    ],
+    "category": "ai-chat",
+    "rating": 4.7,
+    "updatedAt": "2024-07-15",
+    "screenshots": [
+      "https://picsum.photos/seed/deepseek1/800/500"
+    ],
+    "features": [
+      "强推理能力",
+      "代码生成",
+      "开源模型",
+      "数学计算",
+      "逻辑分析"
+    ],
+    "competitors": [
+      "ChatGPT",
+      "Claude",
+      "通义千问"
+    ],
+    "useCases": [
+      "数学推理",
+      "代码开发",
+      "学术研究",
+      "逻辑分析"
+    ],
+    "featured": true,
+    "trending": true,
+    "views": 88000
+  },
+  {
+    "id": "dalle3",
+    "name": "DALL-E 3",
+    "logo": "https://api.dicebear.com/7.x/shapes/svg?seed=dalle",
+    "description": "OpenAI开发的图像生成模型，集成在ChatGPT中，支持自然语言描述生成图像。",
+    "url": "https://openai.com/dall-e-3",
+    "price": "ChatGPT Plus订阅",
+    "isFree": false,
+    "tags": [
+      "图像生成",
+      "OpenAI",
+      "AI绘画"
+    ],
+    "category": "ai-image",
+    "rating": 4.7,
+    "updatedAt": "2024-07-10",
+    "screenshots": [
+      "https://picsum.photos/seed/dalle1/800/500"
+    ],
+    "features": [
+      "高质量生成",
+      "自然语言理解",
+      "图像编辑",
+      "多风格支持",
+      "文字渲染"
+    ],
+    "competitors": [
+      "Midjourney",
+      "Stable Diffusion",
+      "Imagen"
+    ],
+    "useCases": [
+      "创意设计",
+      "营销素材",
+      "插画创作",
+      "概念可视化"
+    ],
+    "featured": true,
+    "views": 92000
+  },
+  {
+    "id": "stable-diffusion",
+    "name": "Stable Diffusion",
+    "logo": "https://api.dicebear.com/7.x/shapes/svg?seed=stablediffusion",
+    "description": "开源AI图像生成模型，支持本地部署和个性化定制。",
+    "url": "https://stability.ai",
+    "price": "开源免费",
+    "isFree": true,
+    "tags": [
+      "图像生成",
+      "开源",
+      "本地部署",
+      "Stable Diffusion"
+    ],
+    "category": "ai-image",
+    "rating": 4.6,
+    "updatedAt": "2024-07-08",
+    "screenshots": [
+      "https://picsum.photos/seed/sd1/800/500"
+    ],
+    "features": [
+      "开源免费",
+      "本地部署",
+      "ControlNet",
+      "LoRA训练",
+      "多种模型"
+    ],
+    "competitors": [
+      "Midjourney",
+      "DALL-E",
+      "ComfyUI"
+    ],
+    "useCases": [
+      "个性化创作",
+      "艺术设计",
+      "模型训练",
+      "本地开发"
+    ],
+    "featured": true,
+    "views": 78000
+  },
+  {
+    "id": "leonardo-ai",
+    "name": "Leonardo AI",
+    "logo": "https://api.dicebear.com/7.x/shapes/svg?seed=leonardo",
+    "description": "专业的AI图像生成平台，擅长游戏美术和角色设计。",
+    "url": "https://leonardo.ai",
+    "price": "免费 + 付费",
+    "isFree": true,
+    "tags": [
+      "图像生成",
+      "游戏美术",
+      "角色设计"
+    ],
+    "category": "ai-image",
+    "rating": 4.5,
+    "updatedAt": "2024-07-09",
+    "screenshots": [
+      "https://picsum.photos/seed/leonardo1/800/500"
+    ],
+    "features": [
+      "角色一致性",
+      "风格控制",
+      "模型训练",
+      "AI画布",
+      "3D纹理"
+    ],
+    "competitors": [
+      "Midjourney",
+      "Stable Diffusion",
+      "DALL-E"
+    ],
+    "useCases": [
+      "游戏美术",
+      "角色设计",
+      "概念艺术",
+      "3D贴图"
+    ],
+    "views": 45000
+  },
+  {
+    "id": "ideogram",
+    "name": "Ideogram",
+    "logo": "https://api.dicebear.com/7.x/shapes/svg?seed=ideogram",
+    "description": "AI图像生成工具，擅长文字渲染和海报设计。",
+    "url": "https://ideogram.ai",
+    "price": "免费 + 付费",
+    "isFree": true,
+    "tags": [
+      "图像生成",
+      "文字渲染",
+      "海报设计"
+    ],
+    "category": "ai-image",
+    "rating": 4.4,
+    "updatedAt": "2024-07-12",
+    "screenshots": [
+      "https://picsum.photos/seed/ideogram1/800/500"
+    ],
+    "features": [
+      "精准文字渲染",
+      "海报设计",
+      "多风格",
+      "高质量输出"
+    ],
+    "competitors": [
+      "Midjourney",
+      "DALL-E",
+      "Canva"
+    ],
+    "useCases": [
+      "海报设计",
+      "logo设计",
+      "社交媒体",
+      "营销素材"
+    ],
+    "views": 38000
+  },
+  {
+    "id": "sora",
+    "name": "Sora",
+    "logo": "https://api.dicebear.com/7.x/shapes/svg?seed=sora",
+    "description": "OpenAI发布的文本生成视频模型，支持60秒高质量视频生成。",
+    "url": "https://openai.com/sora",
+    "price": "ChatGPT Plus订阅",
+    "isFree": false,
+    "tags": [
+      "视频生成",
+      "OpenAI",
+      "Sora",
+      "AI视频"
+    ],
+    "category": "ai-video",
+    "rating": 4.9,
+    "updatedAt": "2024-07-15",
+    "screenshots": [
+      "https://picsum.photos/seed/sora1/800/500"
+    ],
+    "features": [
+      "60秒视频",
+      "高质量输出",
+      "物理模拟",
+      "多角色",
+      "复杂场景"
+    ],
+    "competitors": [
+      "Runway",
+      "Pika",
+      "Kling"
+    ],
+    "useCases": [
+      "电影制作",
+      "广告创意",
+      "短视频",
+      "概念可视化"
+    ],
+    "featured": true,
+    "trending": true,
+    "views": 145000
+  },
+  {
+    "id": "pika-labs",
+    "name": "Pika Labs",
+    "logo": "https://api.dicebear.com/7.x/shapes/svg?seed=pika",
+    "description": "创新的AI视频生成平台，支持文本/图像转视频，易用性强。",
+    "url": "https://pika.art",
+    "price": "免费 + 付费",
+    "isFree": true,
+    "tags": [
+      "视频生成",
+      "Pika",
+      "AI视频"
+    ],
+    "category": "ai-video",
+    "rating": 4.5,
+    "updatedAt": "2024-07-10",
+    "screenshots": [
+      "https://picsum.photos/seed/pika1/800/500"
+    ],
+    "features": [
+      "文本转视频",
+      "图像转视频",
+      "视频编辑",
+      "风格转换",
+      "镜头控制"
+    ],
+    "competitors": [
+      "Runway",
+      "Sora",
+      "Kling"
+    ],
+    "useCases": [
+      "短视频创作",
+      "社交媒体",
+      "广告制作",
+      "内容营销"
+    ],
+    "views": 52000
+  },
+  {
+    "id": "kling-ai",
+    "name": "Kling AI",
+    "logo": "https://api.dicebear.com/7.x/shapes/svg?seed=kling",
+    "description": "快手推出的AI视频生成工具，支持长视频和复杂动作。",
+    "url": "https://klingai.com",
+    "price": "免费 + 付费",
+    "isFree": true,
+    "tags": [
+      "视频生成",
+      "快手",
+      "国产AI",
+      "AI视频"
+    ],
+    "category": "ai-video",
+    "rating": 4.6,
+    "updatedAt": "2024-07-14",
+    "screenshots": [
+      "https://picsum.photos/seed/kling1/800/500"
+    ],
+    "features": [
+      "长视频生成",
+      "复杂动作",
+      "高帧率",
+      "物理模拟",
+      "多镜头"
+    ],
+    "competitors": [
+      "Runway",
+      "Sora",
+      "Pika"
+    ],
+    "useCases": [
+      "短视频",
+      "影视制作",
+      "动画创作",
+      "广告"
+    ],
+    "featured": true,
+    "trending": true,
+    "views": 68000
+  },
+  {
+    "id": "windsurf",
+    "name": "Windsurf",
+    "logo": "https://api.dicebear.com/7.x/shapes/svg?seed=windsurf",
+    "description": "Codeium推出的AI IDE，深度集成AI功能，智能代理式编程。",
+    "url": "https://codeium.com/windsurf",
+    "price": "免费 + 付费",
+    "isFree": true,
+    "tags": [
+      "编程",
+      "IDE",
+      "AI编辑器",
+      "代码生成"
+    ],
+    "category": "ai-coding",
+    "rating": 4.6,
+    "updatedAt": "2024-07-11",
+    "screenshots": [
+      "https://picsum.photos/seed/windsurf1/800/500"
+    ],
+    "features": [
+      "AI代理",
+      "深度集成",
+      "Flows工作流",
+      "Supercomplete",
+      "多语言支持"
+    ],
+    "competitors": [
+      "Cursor",
+      "GitHub Copilot",
+      "VS Code"
+    ],
+    "useCases": [
+      "全栈开发",
+      "代码生成",
+      "调试修复",
+      "重构"
+    ],
+    "views": 41000
+  },
+  {
+    "id": "codeium",
+    "name": "Codeium",
+    "logo": "https://api.dicebear.com/7.x/shapes/svg?seed=codeium",
+    "description": "免费的AI代码补全工具，支持70+种编程语言，兼容主流IDE。",
+    "url": "https://codeium.com",
+    "price": "免费",
+    "isFree": true,
+    "tags": [
+      "编程",
+      "代码补全",
+      "免费",
+      "AI编程"
+    ],
+    "category": "ai-coding",
+    "rating": 4.5,
+    "updatedAt": "2024-07-08",
+    "screenshots": [
+      "https://picsum.photos/seed/codeium1/800/500"
+    ],
+    "features": [
+      "免费使用",
+      "70+语言",
+      "IDE兼容",
+      "智能补全",
+      "代码搜索"
+    ],
+    "competitors": [
+      "GitHub Copilot",
+      "Tabnine",
+      "Cursor"
+    ],
+    "useCases": [
+      "日常编程",
+      "代码补全",
+      "学习编程",
+      "团队协作"
+    ],
+    "views": 48000
+  },
+  {
+    "id": "tabnine",
+    "name": "Tabnine",
+    "logo": "https://api.dicebear.com/7.x/shapes/svg?seed=tabnine",
+    "description": "企业级AI代码助手，注重代码隐私和本地化部署。",
+    "url": "https://www.tabnine.com",
+    "price": "免费 + 付费",
+    "isFree": true,
+    "tags": [
+      "编程",
+      "代码补全",
+      "企业级",
+      "隐私保护"
+    ],
+    "category": "ai-coding",
+    "rating": 4.4,
+    "updatedAt": "2024-07-07",
+    "screenshots": [
+      "https://picsum.photos/seed/tabnine1/800/500"
+    ],
+    "features": [
+      "本地部署",
+      "代码隐私",
+      "全行补全",
+      "多语言",
+      "企业级安全"
+    ],
+    "competitors": [
+      "GitHub Copilot",
+      "Codeium",
+      "Cursor"
+    ],
+    "useCases": [
+      "企业开发",
+      "隐私敏感项目",
+      "本地化部署",
+      "团队协作"
+    ],
+    "views": 32000
+  },
+  {
+    "id": "v0",
+    "name": "v0.dev",
+    "logo": "https://api.dicebear.com/7.x/shapes/svg?seed=v0",
+    "description": "Vercel推出的AI UI生成工具，从文本描述生成React组件代码。",
+    "url": "https://v0.dev",
+    "price": "免费 + 付费",
+    "isFree": true,
+    "tags": [
+      "编程",
+      "UI生成",
+      "React",
+      "Vercel"
+    ],
+    "category": "ai-coding",
+    "rating": 4.7,
+    "updatedAt": "2024-07-13",
+    "screenshots": [
+      "https://picsum.photos/seed/v0_1/800/500"
+    ],
+    "features": [
+      "UI生成",
+      "React代码",
+      "Tailwind CSS",
+      "shadcn/ui",
+      "即时预览"
+    ],
+    "competitors": [
+      "Bolt.new",
+      "Cursor",
+      "Lovable"
+    ],
+    "useCases": [
+      "快速原型",
+      "UI设计",
+      "前端开发",
+      "MVP构建"
+    ],
+    "featured": true,
+    "trending": true,
+    "views": 72000
+  },
+  {
+    "id": "bolt-new",
+    "name": "Bolt.new",
+    "logo": "https://api.dicebear.com/7.x/shapes/svg?seed=bolt",
+    "description": "StackBlitz推出的AI全栈开发平台，从提示词到部署的全流程。",
+    "url": "https://bolt.new",
+    "price": "免费 + 付费",
+    "isFree": true,
+    "tags": [
+      "编程",
+      "全栈开发",
+      "AI开发",
+      "StackBlitz"
+    ],
+    "category": "ai-coding",
+    "rating": 4.6,
+    "updatedAt": "2024-07-12",
+    "screenshots": [
+      "https://picsum.photos/seed/bolt1/800/500"
+    ],
+    "features": [
+      "全栈生成",
+      "即时部署",
+      "浏览器IDE",
+      "多框架",
+      "实时协作"
+    ],
+    "competitors": [
+      "v0.dev",
+      "Lovable",
+      "Replit"
+    ],
+    "useCases": [
+      "全栈开发",
+      "快速部署",
+      "MVP构建",
+      "原型设计"
+    ],
+    "trending": true,
+    "views": 55000
+  },
+  {
+    "id": "elevenlabs",
+    "name": "ElevenLabs",
+    "logo": "https://api.dicebear.com/7.x/shapes/svg?seed=eleven",
+    "description": "业界领先的AI语音合成平台，支持多语言声音克隆。",
+    "url": "https://elevenlabs.io",
+    "price": "免费 + 付费",
+    "isFree": true,
+    "tags": [
+      "音频",
+      "语音合成",
+      "TTS",
+      "配音"
+    ],
+    "category": "ai-audio",
+    "rating": 4.8,
+    "updatedAt": "2024-07-11",
+    "screenshots": [
+      "https://picsum.photos/seed/eleven1/800/500"
+    ],
+    "features": [
+      "声音克隆",
+      "多语言",
+      "情感控制",
+      "实时合成",
+      "API接入"
+    ],
+    "competitors": [
+      "Murf",
+      "Play.ht",
+      "Resemble AI"
+    ],
+    "useCases": [
+      "有声读物",
+      "视频配音",
+      "客服系统",
+      "游戏语音"
+    ],
+    "featured": true,
+    "views": 65000
+  },
+  {
+    "id": "suno",
+    "name": "Suno",
+    "logo": "https://api.dicebear.com/7.x/shapes/svg?seed=suno",
+    "description": "AI音乐生成平台，从文本描述生成完整歌曲。",
+    "url": "https://suno.ai",
+    "price": "免费 + 付费",
+    "isFree": true,
+    "tags": [
+      "音频",
+      "音乐生成",
+      "AI作曲"
+    ],
+    "category": "ai-audio",
+    "rating": 4.7,
+    "updatedAt": "2024-07-14",
+    "screenshots": [
+      "https://picsum.photos/seed/suno1/800/500"
+    ],
+    "features": [
+      "文本生成歌曲",
+      "完整编曲",
+      "人声合成",
+      "多风格",
+      "商业授权"
+    ],
+    "competitors": [
+      "Udio",
+      "AIVA",
+      "Mubert"
+    ],
+    "useCases": [
+      "音乐创作",
+      "视频配乐",
+      "广告音乐",
+      "游戏配乐"
+    ],
+    "featured": true,
+    "trending": true,
+    "views": 82000
+  },
+  {
+    "id": "udio",
+    "name": "Udio",
+    "logo": "https://api.dicebear.com/7.x/shapes/svg?seed=udio",
+    "description": "AI音乐生成工具，擅长多种音乐风格和高质量输出。",
+    "url": "https://udio.com",
+    "price": "免费 + 付费",
+    "isFree": true,
+    "tags": [
+      "音频",
+      "音乐生成",
+      "AI作曲"
+    ],
+    "category": "ai-audio",
+    "rating": 4.6,
+    "updatedAt": "2024-07-13",
+    "screenshots": [
+      "https://picsum.photos/seed/udio1/800/500"
+    ],
+    "features": [
+      "多风格",
+      "高质量输出",
+      "音频扩展",
+      "人声克隆"
+    ],
+    "competitors": [
+      "Suno",
+      "AIVA",
+      "Mubert"
+    ],
+    "useCases": [
+      "音乐创作",
+      "内容制作",
+      "游戏配乐",
+      "广播"
+    ],
+    "views": 45000
+  },
+  {
+    "id": "notion-ai",
+    "name": "Notion AI",
+    "logo": "https://api.dicebear.com/7.x/shapes/svg?seed=notion",
+    "description": "集成在Notion中的AI助手，提升文档和知识管理效率。",
+    "url": "https://notion.so",
+    "price": "$10/月起",
+    "isFree": false,
+    "tags": [
+      "写作",
+      "知识管理",
+      "Notion",
+      "办公"
+    ],
+    "category": "ai-writing",
+    "rating": 4.5,
+    "updatedAt": "2024-07-10",
+    "screenshots": [
+      "https://picsum.photos/seed/notion1/800/500"
+    ],
+    "features": [
+      "文档AI",
+      "智能总结",
+      "翻译",
+      "内容生成",
+      "问答"
+    ],
+    "competitors": [
+      "飞书",
+      "语雀",
+      "Obsidian"
+    ],
+    "useCases": [
+      "文档写作",
+      "会议纪要",
+      "知识库",
+      "团队协作"
+    ],
+    "views": 58000
+  },
+  {
+    "id": "jasper",
+    "name": "Jasper AI",
+    "logo": "https://api.dicebear.com/7.x/shapes/svg?seed=jasper",
+    "description": "企业级AI营销内容生成平台，专注于品牌内容和营销文案。",
+    "url": "https://jasper.ai",
+    "price": "$49/月起",
+    "isFree": false,
+    "tags": [
+      "写作",
+      "营销",
+      "AI文案",
+      "企业级"
+    ],
+    "category": "ai-writing",
+    "rating": 4.4,
+    "updatedAt": "2024-07-08",
+    "screenshots": [
+      "https://picsum.photos/seed/jasper1/800/500"
+    ],
+    "features": [
+      "品牌声音",
+      "营销模板",
+      "多语言",
+      "SEO优化",
+      "团队协作"
+    ],
+    "competitors": [
+      "Copy.ai",
+      "Writesonic",
+      "Rytr"
+    ],
+    "useCases": [
+      "营销文案",
+      "博客写作",
+      "邮件营销",
+      "社交媒体"
+    ],
+    "views": 38000
+  },
+  {
+    "id": "copy-ai",
+    "name": "Copy.ai",
+    "logo": "https://api.dicebear.com/7.x/shapes/svg?seed=copyai",
+    "description": "AI营销文案生成工具，擅长广告语、邮件、社交媒体内容。",
+    "url": "https://copy.ai",
+    "price": "免费 + 付费",
+    "isFree": true,
+    "tags": [
+      "写作",
+      "营销",
+      "AI文案"
+    ],
+    "category": "ai-writing",
+    "rating": 4.3,
+    "updatedAt": "2024-07-09",
+    "screenshots": [
+      "https://picsum.photos/seed/copyai1/800/500"
+    ],
+    "features": [
+      "营销文案",
+      "邮件生成",
+      "社交媒体",
+      "博客写作",
+      "翻译"
+    ],
+    "competitors": [
+      "Jasper",
+      "Writesonic",
+      "Rytr"
+    ],
+    "useCases": [
+      "广告文案",
+      "邮件营销",
+      "内容创作",
+      "社媒运营"
+    ],
+    "views": 28000
+  },
+  {
+    "id": "grammarly",
+    "name": "Grammarly",
+    "logo": "https://api.dicebear.com/7.x/shapes/svg?seed=grammarly",
+    "description": "AI英文写作助手，语法检查、风格优化、抄袭检测。",
+    "url": "https://grammarly.com",
+    "price": "免费 + $12/月",
+    "isFree": true,
+    "tags": [
+      "写作",
+      "英文",
+      "语法检查",
+      "AI写作"
+    ],
+    "category": "ai-writing",
+    "rating": 4.7,
+    "updatedAt": "2024-07-12",
+    "screenshots": [
+      "https://picsum.photos/seed/grammarly1/800/500"
+    ],
+    "features": [
+      "语法检查",
+      "风格优化",
+      "抄袭检测",
+      "语气调整",
+      "多平台"
+    ],
+    "competitors": [
+      "ProWritingAid",
+      "Hemingway",
+      "LanguageTool"
+    ],
+    "useCases": [
+      "英文写作",
+      "邮件润色",
+      "学术论文",
+      "商务沟通"
+    ],
+    "views": 95000
+  },
+  {
+    "id": "figma-ai",
+    "name": "Figma AI",
+    "logo": "https://api.dicebear.com/7.x/shapes/svg?seed=figma",
+    "description": "Figma集成的AI设计助手，自动生成设计、调整布局。",
+    "url": "https://figma.com",
+    "price": "免费 + 付费",
+    "isFree": true,
+    "tags": [
+      "设计",
+      "UI/UX",
+      "Figma",
+      "AI设计"
+    ],
+    "category": "ai-design",
+    "rating": 4.6,
+    "updatedAt": "2024-07-11",
+    "screenshots": [
+      "https://picsum.photos/seed/figma1/800/500"
+    ],
+    "features": [
+      "AI设计生成",
+      "自动布局",
+      "图层重命名",
+      "内容改写",
+      "图像生成"
+    ],
+    "competitors": [
+      "Sketch",
+      "Adobe XD",
+      "Framer"
+    ],
+    "useCases": [
+      "UI设计",
+      "原型设计",
+      "团队协作",
+      "设计系统"
+    ],
+    "views": 88000
+  },
+  {
+    "id": "canva-ai",
+    "name": "Canva AI",
+    "logo": "https://api.dicebear.com/7.x/shapes/svg?seed=canva",
+    "description": "Canva集成的AI设计工具，Magic Design让设计更简单。",
+    "url": "https://canva.com",
+    "price": "免费 + 付费",
+    "isFree": true,
+    "tags": [
+      "设计",
+      "平面设计",
+      "AI设计",
+      "Canva"
+    ],
+    "category": "ai-design",
+    "rating": 4.6,
+    "updatedAt": "2024-07-13",
+    "screenshots": [
+      "https://picsum.photos/seed/canva1/800/500"
+    ],
+    "features": [
+      "Magic Design",
+      "AI图像生成",
+      "智能抠图",
+      "文字转图像",
+      "模板推荐"
+    ],
+    "competitors": [
+      "Figma",
+      "Adobe Express",
+      "VistaCreate"
+    ],
+    "useCases": [
+      "海报设计",
+      "社交媒体",
+      "演示文稿",
+      "营销物料"
+    ],
+    "views": 92000
+  },
+  {
+    "id": "framer-ai",
+    "name": "Framer AI",
+    "logo": "https://api.dicebear.com/7.x/shapes/svg?seed=framer",
+    "description": "AI驱动的网站设计工具，从文本描述生成完整网站。",
+    "url": "https://framer.com",
+    "price": "免费 + 付费",
+    "isFree": true,
+    "tags": [
+      "设计",
+      "网站",
+      "AI建站",
+      "Framer"
+    ],
+    "category": "ai-design",
+    "rating": 4.5,
+    "updatedAt": "2024-07-10",
+    "screenshots": [
+      "https://picsum.photos/seed/framer1/800/500"
+    ],
+    "features": [
+      "AI网站生成",
+      "响应式设计",
+      "动画效果",
+      "CMS集成",
+      "发布托管"
+    ],
+    "competitors": [
+      "Webflow",
+      "Wix",
+      "Squarespace"
+    ],
+    "useCases": [
+      "网站设计",
+      "着陆页",
+      "个人博客",
+      "企业网站"
+    ],
+    "views": 42000
+  },
+  {
+    "id": "recraft",
+    "name": "Recraft",
+    "logo": "https://api.dicebear.com/7.x/shapes/svg?seed=recraft",
+    "description": "AI矢量图生成工具，专业的设计助手。",
+    "url": "https://recraft.ai",
+    "price": "免费 + 付费",
+    "isFree": true,
+    "tags": [
+      "设计",
+      "矢量图",
+      "AI设计",
+      "插画"
+    ],
+    "category": "ai-design",
+    "rating": 4.5,
+    "updatedAt": "2024-07-09",
+    "screenshots": [
+      "https://picsum.photos/seed/recraft1/800/500"
+    ],
+    "features": [
+      "矢量生成",
+      "品牌套件",
+      "风格控制",
+      "AI编辑",
+      "团队协作"
+    ],
+    "competitors": [
+      "Midjourney",
+      "Adobe Illustrator",
+      "Figma"
+    ],
+    "useCases": [
+      "品牌设计",
+      "图标设计",
+      "插画创作",
+      "营销素材"
+    ],
+    "views": 25000
+  },
+  {
+    "id": "notebooklm",
+    "name": "NotebookLM",
+    "logo": "https://api.dicebear.com/7.x/shapes/svg?seed=notebooklm",
+    "description": "Google推出的AI笔记本，上传资料后AI可进行总结、问答、生成播客。",
+    "url": "https://notebooklm.google.com",
+    "price": "免费",
+    "isFree": true,
+    "tags": [
+      "效率",
+      "学习",
+      "Google",
+      "AI笔记"
+    ],
+    "category": "ai-productivity",
+    "rating": 4.7,
+    "updatedAt": "2024-07-15",
+    "screenshots": [
+      "https://picsum.photos/seed/notebooklm1/800/500"
+    ],
+    "features": [
+      "文档上传",
+      "智能问答",
+      "总结生成",
+      "播客生成",
+      "引用来源"
+    ],
+    "competitors": [
+      "Notion AI",
+      "Obsidian",
+      "ChatPDF"
+    ],
+    "useCases": [
+      "学习研究",
+      "文档总结",
+      "内容创作",
+      "知识管理"
+    ],
+    "featured": true,
+    "trending": true,
+    "views": 78000
+  },
+  {
+    "id": "chatpdf",
+    "name": "ChatPDF",
+    "logo": "https://api.dicebear.com/7.x/shapes/svg?seed=chatpdf",
+    "description": "PDF文档AI对话工具，上传PDF后可以向其提问和总结。",
+    "url": "https://chatpdf.com",
+    "price": "免费 + 付费",
+    "isFree": true,
+    "tags": [
+      "效率",
+      "PDF",
+      "文档分析",
+      "学习"
+    ],
+    "category": "ai-productivity",
+    "rating": 4.4,
+    "updatedAt": "2024-07-08",
+    "screenshots": [
+      "https://picsum.photos/seed/chatpdf1/800/500"
+    ],
+    "features": [
+      "PDF对话",
+      "文档总结",
+      "多语言",
+      "引用定位",
+      "批量上传"
+    ],
+    "competitors": [
+      "Humata",
+      "PDF AI",
+      "AskYourPDF"
+    ],
+    "useCases": [
+      "学术研究",
+      "法律分析",
+      "商业报告",
+      "学习总结"
+    ],
+    "views": 38000
+  },
+  {
+    "id": "humata",
+    "name": "Humata",
+    "logo": "https://api.dicebear.com/7.x/shapes/svg?seed=humata",
+    "description": "AI文档分析平台，秒读长文档，提取关键信息。",
+    "url": "https://humata.ai",
+    "price": "免费 + 付费",
+    "isFree": true,
+    "tags": [
+      "效率",
+      "PDF",
+      "文档分析"
+    ],
+    "category": "ai-productivity",
+    "rating": 4.5,
+    "updatedAt": "2024-07-09",
+    "screenshots": [
+      "https://picsum.photos/seed/humata1/800/500"
+    ],
+    "features": [
+      "快速分析",
+      "长文档处理",
+      "智能问答",
+      "报告生成",
+      "团队协作"
+    ],
+    "competitors": [
+      "ChatPDF",
+      "PDF AI",
+      "NotebookLM"
+    ],
+    "useCases": [
+      "论文分析",
+      "合同审查",
+      "报告总结",
+      "学术研究"
+    ],
+    "views": 22000
+  },
+  {
+    "id": "zapier-ai",
+    "name": "Zapier AI",
+    "logo": "https://api.dicebear.com/7.x/shapes/svg?seed=zapier",
+    "description": "Zapier的AI功能，让自动化工作流更智能。",
+    "url": "https://zapier.com/ai",
+    "price": "免费 + 付费",
+    "isFree": true,
+    "tags": [
+      "效率",
+      "自动化",
+      "工作流",
+      "Zapier"
+    ],
+    "category": "ai-productivity",
+    "rating": 4.5,
+    "updatedAt": "2024-07-11",
+    "screenshots": [
+      "https://picsum.photos/seed/zapier1/800/500"
+    ],
+    "features": [
+      "AI工作流",
+      "智能自动化",
+      "6000+应用",
+      "自然语言编程",
+      "代码生成"
+    ],
+    "competitors": [
+      "Make",
+      "n8n",
+      "IFTTT"
+    ],
+    "useCases": [
+      "工作流自动化",
+      "数据同步",
+      "任务管理",
+      "营销自动化"
+    ],
+    "views": 52000
+  },
+  {
+    "id": "make",
+    "name": "Make",
+    "logo": "https://api.dicebear.com/7.x/shapes/svg?seed=make",
+    "description": "强大的可视化自动化平台，原Integromat。",
+    "url": "https://make.com",
+    "price": "免费 + 付费",
+    "isFree": true,
+    "tags": [
+      "效率",
+      "自动化",
+      "工作流",
+      "可视化"
+    ],
+    "category": "ai-productivity",
+    "rating": 4.6,
+    "updatedAt": "2024-07-10",
+    "screenshots": [
+      "https://picsum.photos/seed/make1/800/500"
+    ],
+    "features": [
+      "可视化编辑",
+      "复杂工作流",
+      "AI助手",
+      "1000+应用",
+      "高级逻辑"
+    ],
+    "competitors": [
+      "Zapier",
+      "n8n",
+      "Workato"
+    ],
+    "useCases": [
+      "数据集成",
+      "营销自动化",
+      "业务流程",
+      "数据处理"
+    ],
+    "views": 38000
+  },
+  {
+    "id": "manus",
+    "name": "Manus",
+    "logo": "https://api.dicebear.com/7.x/shapes/svg?seed=manus",
+    "description": "通用AI Agent，自主完成复杂任务。",
+    "url": "https://manus.im",
+    "price": "内测中",
+    "isFree": false,
+    "tags": [
+      "Agent",
+      "自主代理",
+      "国产AI"
+    ],
+    "category": "ai-agent",
+    "rating": 4.8,
+    "updatedAt": "2024-07-15",
+    "screenshots": [
+      "https://picsum.photos/seed/manus1/800/500"
+    ],
+    "features": [
+      "自主执行",
+      "多步骤任务",
+      "工具使用",
+      "记忆能力",
+      "规划推理"
+    ],
+    "competitors": [
+      "Devin",
+      "AutoGPT",
+      "GPT Researcher"
+    ],
+    "useCases": [
+      "研究分析",
+      "代码开发",
+      "数据处理",
+      "报告生成"
+    ],
+    "featured": true,
+    "trending": true,
+    "views": 65000
+  },
+  {
+    "id": "lovable",
+    "name": "Lovable",
+    "logo": "https://api.dicebear.com/7.x/shapes/svg?seed=lovable",
+    "description": "AI全栈工程师，从想法到上线应用只需几分钟。",
+    "url": "https://lovable.dev",
+    "price": "免费 + 付费",
+    "isFree": true,
+    "tags": [
+      "Agent",
+      "全栈开发",
+      "AI建站"
+    ],
+    "category": "ai-agent",
+    "rating": 4.7,
+    "updatedAt": "2024-07-14",
+    "screenshots": [
+      "https://picsum.photos/seed/lovable1/800/500"
+    ],
+    "features": [
+      "全栈生成",
+      "即时部署",
+      "代码编辑",
+      "组件复用",
+      "GitHub集成"
+    ],
+    "competitors": [
+      "v0.dev",
+      "Bolt.new",
+      "Replit"
+    ],
+    "useCases": [
+      "快速原型",
+      "MVP构建",
+      "全栈开发",
+      "产品迭代"
+    ],
+    "trending": true,
+    "views": 55000
+  },
+  {
+    "id": "replit-agent",
+    "name": "Replit Agent",
+    "logo": "https://api.dicebear.com/7.x/shapes/svg?seed=replit",
+    "description": "Replit推出的AI Agent，可以从自然语言构建完整应用。",
+    "url": "https://replit.com",
+    "price": "免费 + 付费",
+    "isFree": true,
+    "tags": [
+      "Agent",
+      "编程",
+      "Replit",
+      "开发平台"
+    ],
+    "category": "ai-agent",
+    "rating": 4.5,
+    "updatedAt": "2024-07-12",
+    "screenshots": [
+      "https://picsum.photos/seed/replit1/800/500"
+    ],
+    "features": [
+      "自然语言编程",
+      "云端IDE",
+      "即时部署",
+      "协作开发",
+      "数据库"
+    ],
+    "competitors": [
+      "Cursor",
+      "v0.dev",
+      "Lovable"
+    ],
+    "useCases": [
+      "学习编程",
+      "快速原型",
+      "应用部署",
+      "团队协作"
+    ],
+    "views": 42000
+  },
+  {
+    "id": "brave-search",
+    "name": "Brave Search",
+    "logo": "https://api.dicebear.com/7.x/shapes/svg?seed=brave",
+    "description": "注重隐私的AI搜索引擎，提供无追踪的搜索体验。",
+    "url": "https://search.brave.com",
+    "price": "免费",
+    "isFree": true,
+    "tags": [
+      "搜索",
+      "隐私",
+      "AI搜索"
+    ],
+    "category": "ai-search",
+    "rating": 4.5,
+    "updatedAt": "2024-07-10",
+    "screenshots": [
+      "https://picsum.photos/seed/brave1/800/500"
+    ],
+    "features": [
+      "无追踪",
+      "AI摘要",
+      "独立索引",
+      "隐私保护",
+      "广告少"
+    ],
+    "competitors": [
+      "Google",
+      "DuckDuckGo",
+      "Perplexity"
+    ],
+    "useCases": [
+      "隐私搜索",
+      "信息检索",
+      "学术研究",
+      "日常搜索"
+    ],
+    "views": 28000
+  },
+  {
+    "id": "you-com",
+    "name": "You.com",
+    "logo": "https://api.dicebear.com/7.x/shapes/svg?seed=youcom",
+    "description": "AI优先的搜索引擎，集成多种AI应用。",
+    "url": "https://you.com",
+    "price": "免费 + 付费",
+    "isFree": true,
+    "tags": [
+      "搜索",
+      "AI搜索",
+      "AI应用"
+    ],
+    "category": "ai-search",
+    "rating": 4.3,
+    "updatedAt": "2024-07-09",
+    "screenshots": [
+      "https://picsum.photos/seed/youcom1/800/500"
+    ],
+    "features": [
+      "AI应用",
+      "多模态搜索",
+      "代码生成",
+      "图像生成",
+      "个性化"
+    ],
+    "competitors": [
+      "Perplexity",
+      "ChatGPT",
+      "Brave"
+    ],
+    "useCases": [
+      "信息检索",
+      "内容创作",
+      "学习研究",
+      "AI应用"
+    ],
+    "views": 22000
   }
 ]

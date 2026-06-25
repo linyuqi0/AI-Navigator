@@ -16,6 +16,7 @@ import {
   Grid3X3,
   Star,
   Zap,
+  Heart,
 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
@@ -270,8 +271,10 @@ export default function HomePage() {
                     viewport={{ once: true }}
                     transition={{ delay: index * 0.1 }}
                   >
-                    <Link
-                      href={withBasePath(`/tools/${tool.id}`)}
+                    <a
+                      href={tool.url}
+                      target="_blank"
+                      rel="noopener noreferrer"
                       className="flex items-center gap-4 p-4 rounded-xl bg-card border border-border/50 hover:border-primary/50 hover:shadow-sm transition-all group"
                     >
                       <span className="text-xl font-bold text-muted-foreground/30 w-6">
@@ -296,7 +299,7 @@ export default function HomePage() {
                       >
                         {tool.rating}
                       </Badge>
-                    </Link>
+                    </a>
                   </motion.div>
                 ))}
               </div>
@@ -582,12 +585,17 @@ export default function HomePage() {
               收藏 AI Navigator Pro，随时掌握最新AI工具和行业动态，让AI成为你的最强助手。
             </p>
             <div className="flex flex-wrap justify-center gap-4">
-              <Button size="lg" className="rounded-full px-8">
-                开始探索
-                <ArrowRight className="ml-2 h-4 w-4" />
+              <Button size="lg" className="rounded-full px-8" asChild>
+                <Link href={withBasePath("/tools")}>
+                  开始探索
+                  <ArrowRight className="ml-2 h-4 w-4" />
+                </Link>
               </Button>
-              <Button size="lg" variant="outline" className="rounded-full px-8">
-                收藏网站
+              <Button size="lg" variant="outline" className="rounded-full px-8" asChild>
+                <Link href={withBasePath("/favorites")}>
+                  <Heart className="mr-2 h-4 w-4" />
+                  我的收藏
+                </Link>
               </Button>
             </div>
           </motion.div>

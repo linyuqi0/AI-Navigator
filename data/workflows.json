@@ -5,7 +5,13 @@
     "cover": "https://picsum.photos/seed/pm-workflow/800/400",
     "description": "从需求分析到产品上线的AI辅助产品经理完整工作流程，大幅提升产品迭代效率。",
     "category": "product",
-    "tags": ["产品经理", "需求分析", "产品设计", "PRD", "迭代"],
+    "tags": [
+      "产品经理",
+      "需求分析",
+      "产品设计",
+      "PRD",
+      "迭代"
+    ],
     "steps": [
       "市场调研与竞品分析：使用GPT Researcher进行行业研究和竞品功能分析",
       "用户访谈与需求收集：用AI辅助生成访谈提纲，自动整理访谈记录",
@@ -16,7 +22,13 @@
       "上线后数据分析：自动化数据报告和用户反馈分析",
       "迭代优化：基于数据洞察的持续产品优化"
     ],
-    "tools": ["ChatGPT", "GPT Researcher", "Notion", "Figma", "Cursor"],
+    "tools": [
+      "ChatGPT",
+      "GPT Researcher",
+      "Notion",
+      "Figma",
+      "Cursor"
+    ],
     "duration": "2-4周/迭代",
     "difficulty": "中等",
     "updatedAt": "2024-07-15",
@@ -31,7 +43,13 @@
     "cover": "https://picsum.photos/seed/op-workflow/800/400",
     "description": "内容运营、用户运营、活动运营全场景AI赋能工作流，提升运营效率和效果。",
     "category": "operation",
-    "tags": ["运营", "内容运营", "用户运营", "活动运营", "数据分析"],
+    "tags": [
+      "运营",
+      "内容运营",
+      "用户运营",
+      "活动运营",
+      "数据分析"
+    ],
     "steps": [
       "运营策略制定：AI分析行业趋势，生成运营策略建议",
       "内容生产流水线：AI辅助选题、写作、配图、排版全流程",
@@ -42,7 +60,13 @@
       "用户反馈处理：AI分类整理用户反馈，提取关键需求",
       "复盘与优化：周期复盘，AI辅助下阶段优化方案"
     ],
-    "tools": ["ChatGPT", "Midjourney", "Notion", "飞书", "Perplexity"],
+    "tools": [
+      "ChatGPT",
+      "Midjourney",
+      "Notion",
+      "飞书",
+      "Perplexity"
+    ],
     "duration": "持续进行",
     "difficulty": "简单",
     "updatedAt": "2024-07-12",
@@ -57,7 +81,13 @@
     "cover": "https://picsum.photos/seed/ad-workflow/800/400",
     "description": "从广告创意到投放优化的全链路AI广告工作流，提升ROI和投放效率。",
     "category": "advertising",
-    "tags": ["广告投放", "信息流", "ROI优化", "素材生产", "数据分析"],
+    "tags": [
+      "广告投放",
+      "信息流",
+      "ROI优化",
+      "素材生产",
+      "数据分析"
+    ],
     "steps": [
       "竞品广告分析：AI分析竞品广告策略和素材方向",
       "受众画像构建：基于产品特点构建精准受众画像",
@@ -68,7 +98,12 @@
       "数据归因分析：多渠道归因，优化分配预算",
       "迭代优化：基于数据反馈持续优化素材和定向"
     ],
-    "tools": ["ChatGPT", "Midjourney", "Runway", "Perplexity"],
+    "tools": [
+      "ChatGPT",
+      "Midjourney",
+      "Runway",
+      "Perplexity"
+    ],
     "duration": "持续优化",
     "difficulty": "中等",
     "updatedAt": "2024-07-10",
@@ -83,7 +118,13 @@
     "cover": "https://picsum.photos/seed/dev-workflow/800/400",
     "description": "全栈开发AI辅助工作流，从需求理解到代码部署，提升开发效率和代码质量。",
     "category": "development",
-    "tags": ["开发", "编程", "代码生成", "Code Review", "DevOps"],
+    "tags": [
+      "开发",
+      "编程",
+      "代码生成",
+      "Code Review",
+      "DevOps"
+    ],
     "steps": [
       "需求理解与技术方案：AI辅助需求分析和技术方案设计",
       "架构设计与数据库设计：AI生成架构图和数据模型",
@@ -95,7 +136,12 @@
       "文档生成：自动生成API文档和技术文档",
       "CI/CD与部署：AI优化部署流程和性能调优"
     ],
-    "tools": ["Cursor", "GitHub Copilot", "Devin", "Claude Code"],
+    "tools": [
+      "Cursor",
+      "GitHub Copilot",
+      "Devin",
+      "Claude Code"
+    ],
     "duration": "按项目周期",
     "difficulty": "困难",
     "updatedAt": "2024-07-14",
@@ -110,7 +156,13 @@
     "cover": "https://picsum.photos/seed/creator-workflow/800/400",
     "description": "内容创作者的AI全流程辅助工作流，从选题到发布一站式提升创作效率。",
     "category": "creator",
-    "tags": ["创作者", "内容创作", "短视频", "图文", "自媒体"],
+    "tags": [
+      "创作者",
+      "内容创作",
+      "短视频",
+      "图文",
+      "自媒体"
+    ],
     "steps": [
       "热点追踪与选题：AI分析平台热点，生成选题方向",
       "内容策划与脚本：AI生成视频脚本/文章大纲",
@@ -121,7 +173,12 @@
       "互动与回复：AI辅助回复评论和私信",
       "数据分析与复盘：AI分析数据，给出优化建议"
     ],
-    "tools": ["ChatGPT", "Midjourney", "Runway", "Notion"],
+    "tools": [
+      "ChatGPT",
+      "Midjourney",
+      "Runway",
+      "Notion"
+    ],
     "duration": "持续创作",
     "difficulty": "简单",
     "updatedAt": "2024-07-11",
@@ -129,5 +186,184 @@
     "seoDescription": "内容创作者的AI全流程辅助工作流，从选题到发布一站式提升创作效率。",
     "featured": true,
     "views": 25000
+  },
+  {
+    "id": "ai-design-workflow",
+    "name": "AI设计师工作流",
+    "cover": "https://picsum.photos/seed/design-workflow/800/400",
+    "description": "设计师的AI辅助工作流，从概念到成品的全流程智能化设计。",
+    "category": "design",
+    "tags": [
+      "设计",
+      "UI/UX",
+      "创意",
+      "AI设计"
+    ],
+    "steps": [
+      "需求分析与创意brief：AI辅助分析用户需求和市场趋势",
+      "灵感收集：AI生成参考素材和创意方向",
+      "概念设计：AI生成多版设计概念供选择",
+      "UI设计：AI辅助界面布局和组件设计",
+      "设计系统建设：AI辅助设计Token和组件库",
+      "设计评审：AI从多维度进行专业评审",
+      "设计交付：自动生成切图、标注、代码片段",
+      "设计迭代：基于用户反馈的AI辅助优化"
+    ],
+    "tools": [
+      "Figma",
+      "Midjourney",
+      "Recraft",
+      "v0.dev"
+    ],
+    "duration": "按项目周期",
+    "difficulty": "中等",
+    "updatedAt": "2024-07-13",
+    "seoTitle": "AI设计师工作流 - 智能设计全流程 | AI Navigator Pro",
+    "seoDescription": "设计师的AI辅助工作流，从概念到成品的全流程智能化设计。",
+    "featured": true,
+    "views": 18000
+  },
+  {
+    "id": "ai-marketing-workflow",
+    "name": "AI营销自动化工作流",
+    "cover": "https://picsum.photos/seed/marketing-workflow/800/400",
+    "description": "从内容生产到投放转化的全链路AI营销自动化工作流。",
+    "category": "marketing",
+    "tags": [
+      "营销",
+      "自动化",
+      "转化",
+      "私域"
+    ],
+    "steps": [
+      "用户画像构建：AI分析数据，构建精准用户画像",
+      "营销内容生成：AI批量生成多版本营销内容",
+      "渠道分发：自动化多渠道内容分发和排期",
+      "A/B测试：AI辅助A/B测试设计和结果分析",
+      "个性化推荐：基于用户行为的内容个性化",
+      "私域运营：AI辅助社群运营和客户跟进",
+      "转化漏斗优化：AI分析转化漏斗，提出优化建议",
+      "营销自动化：触发式自动化营销流程"
+    ],
+    "tools": [
+      "ChatGPT",
+      "Midjourney",
+      "Zapier",
+      "HubSpot"
+    ],
+    "duration": "持续运营",
+    "difficulty": "中等",
+    "updatedAt": "2024-07-12",
+    "seoTitle": "AI营销自动化工作流 - 全链路营销提效 | AI Navigator Pro",
+    "seoDescription": "从内容生产到投放转化的全链路AI营销自动化工作流。",
+    "views": 22000
+  },
+  {
+    "id": "ai-customer-service",
+    "name": "AI客服工作流",
+    "cover": "https://picsum.photos/seed/cs-workflow/800/400",
+    "description": "AI客服完整工作流，从智能问答到人工协同的全场景解决方案。",
+    "category": "customer-service",
+    "tags": [
+      "客服",
+      "智能问答",
+      "工单",
+      "客户体验"
+    ],
+    "steps": [
+      "知识库建设：AI辅助整理和优化客服知识库",
+      "智能问答：AI Agent 7x24小时自动回答用户问题",
+      "意图识别：AI识别用户意图，路由到合适的服务",
+      "人工协同：复杂问题无缝转接人工客服",
+      "工单管理：AI自动创建、分类、优先级排序工单",
+      "情绪识别：AI识别用户情绪，预警不满情绪",
+      "服务质检：AI分析客服对话，进行服务质量评估",
+      "数据洞察：客服数据分析，提取产品改进建议"
+    ],
+    "tools": [
+      "ChatGPT",
+      "Claude",
+      "Zapier",
+      "飞书"
+    ],
+    "duration": "持续运营",
+    "difficulty": "中等",
+    "updatedAt": "2024-07-09",
+    "seoTitle": "AI客服工作流 - 智能客服解决方案 | AI Navigator Pro",
+    "seoDescription": "AI客服完整工作流，从智能问答到人工协同的全场景解决方案。",
+    "views": 16000
+  },
+  {
+    "id": "ai-research-workflow",
+    "name": "AI科研工作流",
+    "cover": "https://picsum.photos/seed/research-workflow/800/400",
+    "description": "科研人员的AI辅助工作流，从文献调研到论文写作的全流程提效。",
+    "category": "research",
+    "tags": [
+      "科研",
+      "学术",
+      "文献",
+      "论文"
+    ],
+    "steps": [
+      "文献调研：AI搜索并总结相关学术文献",
+      "研究问题提炼：AI辅助分析研究空白和创新点",
+      "实验设计：AI辅助设计实验方案和变量控制",
+      "数据分析：AI辅助统计分析和可视化",
+      "论文结构：AI辅助生成论文大纲和结构",
+      "论文写作：AI辅助撰写各章节内容",
+      "图表生成：AI生成专业科研图表",
+      "同行评审模拟：AI模拟审稿意见，提升论文质量",
+      "投稿策略：AI分析目标期刊，提高录用率"
+    ],
+    "tools": [
+      "Perplexity",
+      "ChatGPT",
+      "Elicit",
+      "Scite"
+    ],
+    "duration": "按项目周期",
+    "difficulty": "困难",
+    "updatedAt": "2024-07-14",
+    "seoTitle": "AI科研工作流 - 学术研究提效 | AI Navigator Pro",
+    "seoDescription": "科研人员的AI辅助工作流，从文献调研到论文写作的全流程提效。",
+    "featured": true,
+    "views": 27000
+  },
+  {
+    "id": "ai-data-analyst",
+    "name": "AI数据分析师工作流",
+    "cover": "https://picsum.photos/seed/data-workflow/800/400",
+    "description": "数据分析师的AI辅助工作流，从数据处理到洞察报告的完整流程。",
+    "category": "data-analysis",
+    "tags": [
+      "数据分析",
+      "BI",
+      "数据可视化",
+      "报告"
+    ],
+    "steps": [
+      "业务理解：AI辅助理解业务背景和分析目标",
+      "数据收集：AI辅助SQL查询、API调用获取数据",
+      "数据清洗：AI辅助处理缺失值、异常值、重复值",
+      "探索性分析：AI自动发现数据特征和模式",
+      "深度分析：AI辅助归因分析、相关性分析、预测建模",
+      "可视化设计：AI生成清晰美观的可视化图表",
+      "洞察提炼：AI从数据中提炼关键洞察",
+      "报告撰写：AI生成专业的数据分析报告",
+      "决策建议：基于数据洞察的 actionable 建议"
+    ],
+    "tools": [
+      "ChatGPT",
+      "Cursor",
+      "NotebookLM",
+      "Hex"
+    ],
+    "duration": "按项目周期",
+    "difficulty": "中等",
+    "updatedAt": "2024-07-11",
+    "seoTitle": "AI数据分析师工作流 - 数据分析提效 | AI Navigator Pro",
+    "seoDescription": "数据分析师的AI辅助工作流，从数据处理到洞察报告的完整流程。",
+    "views": 24000
   }
 ]

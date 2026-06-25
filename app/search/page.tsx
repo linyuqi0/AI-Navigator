@@ -1,198 +1,212 @@
 "use client";
 
-import { useState, useEffect, Suspense } from "react";
-import { useSearchParams } from "next/navigation";
+import { useState, useMemo } from "react";
+import Link from "next/link";
 import { motion } from "framer-motion";
-import { Search, Wrench, Bot, Puzzle, MessageSquareText, Workflow, Sparkles } from "lucide-react";
+import { Search as SearchIcon, X } from "lucide-react";
 import { Input } from "@/components/ui/input";
-import {
-  Tabs,
-  TabsContent,
-  TabsList,
-  TabsTrigger,
-} from "@/components/ui/tabs";
+import { Tabs, TabsList, TabsTrigger, TabsContent } from "@/components/ui/tabs";
 import { ToolCard } from "@/components/cards/tool-card";
 import { AgentCard } from "@/components/cards/agent-card";
 import { MCPCard } from "@/components/cards/mcp-card";
-import { PromptCard } from "@/components/cards/prompt-card";
-import { WorkflowCard } from "@/components/cards/workflow-card";
-import { searchAll, searchTools, searchAgents, searchMCPs, searchPrompts, searchWorkflows, type SearchResult } from "@/lib/search";
+import { withBasePath } from "@/lib/utils";
+import { searchAll } from "@/lib/search";
+import { tools, agents, mcps, prompts, workflows } from "@/lib/data";
 
-function SearchContent() {
-  const searchParams = useSearchParams();
-  const [query, setQuery] = useState(searchParams.get("q") || "");
-  const [tools, setTools] = useState<any[]>([]);
-  const [agents, setAgents] = useState<any[]>([]);
-  const [mcps, setMcps] = useState<any[]>([]);
-  const [prompts, setPrompts] = useState<any[]>([]);
-  const [workflows, setWorkflows] = useState<any[]>([]);
-  const [allResults, setAllResults] = useState<SearchResult[]>([]);
+export default function SearchPage() {
+  const [query, setQuery] = useState("");
 
-  useEffect(() => {
-    if (query) {
-      setTools(searchTools(query));
-      setAgents(searchAgents(query));
-      setMcps(searchMCPs(query));
-      setPrompts(searchPrompts(query));
-      setWorkflows(searchWorkflows(query));
-      setAllResults(searchAll(query, 10));
-    } else {
-      setTools([]);
-      setAgents([]);
-      setMcps([]);
-      setPrompts([]);
-      setWorkflows([]);
-      setAllResults([]);
+  const results = useMemo(() => {
+    if (!query.trim()) {
+      return {
+        tools: tools.slice(0, 12),
+        agents: agents.slice(0, 12),
+        mcps: mcps.slice(0, 12),
+        prompts: prompts.slice(0, 12),
+        workflows: workflows.slice(0, 12),
+      };
     }
+    const r = searchAll(query);
+    return {
+      tools: r.filter((x) => x.type === "tool").map((x) => x.item) as unknown as typeof tools,
+      agents: r.filter((x) => x.type === "agent").map((x) => x.item) as unknown as typeof agents,
+      mcps: r.filter((x) => x.type === "mcp").map((x) => x.item) as unknown as typeof mcps,
+      prompts: prompts.filter((p) =>
+        [p.title, p.content, p.category, ...p.tags]
+          .join(" ")
+          .toLowerCase()
+          .includes(query.toLowerCase())
+      ),
+      workflows: workflows.filter((w) =>
+        [w.name, w.description, w.category, ...w.tags, ...w.tools]
+          .join(" ")
+          .toLowerCase()
+          .includes(query.toLowerCase())
+      ),
+    };
   }, [query]);
 
-  const totalCount = tools.length + agents.length + mcps.length + prompts.length + workflows.length;
+  const totalCount =
+    results.tools.length +
+    results.agents.length +
+    results.mcps.length +
+    results.prompts.length +
+    results.workflows.length;
 
   return (
     <div className="container py-8 md:py-12">
       <motion.div
-        className="mb-8 max-w-2xl mx-auto"
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.5 }}
+        className="max-w-3xl mx-auto"
       >
-        <div className="text-center mb-6">
-          <div className="flex items-center justify-center gap-3 mb-4">
-            <Search className="h-8 w-8 text-primary" />
-            <h1 className="text-3xl md:text-4xl font-bold">搜索</h1>
-          </div>
-        </div>
-        <div className="relative">
-          <Search className="absolute left-4 top-1/2 -translate-y-1/2 h-5 w-5 text-muted-foreground" />
+        <h1 className="text-3xl md:text-4xl font-bold mb-3 text-center">
+          全站搜索
+        </h1>
+        <p className="text-muted-foreground text-center mb-8">
+          搜索 AI 工具、Agent、MCP、Prompt 和工作流
+        </p>
+
+        <div className="relative mb-8">
+          <SearchIcon className="absolute left-4 top-1/2 -translate-y-1/2 h-5 w-5 text-muted-foreground" />
           <Input
-            placeholder="搜索 AI 工具、Agent、MCP、Prompt、工作流..."
+            type="text"
+            placeholder="输入关键词搜索..."
             value={query}
             onChange={(e) => setQuery(e.target.value)}
-            className="pl-12 h-12 text-base rounded-full"
+            className="pl-12 pr-12 h-14 text-lg"
+            autoFocus
           />
+          {query && (
+            <button
+              onClick={() => setQuery("")}
+              className="absolute right-4 top-1/2 -translate-y-1/2 text-muted-foreground hover:text-foreground"
+            >
+              <X className="h-5 w-5" />
+            </button>
+          )}
         </div>
+
         {query && (
-          <p className="text-sm text-muted-foreground mt-3 text-center">
-            找到 {totalCount} 个相关结果
+          <p className="text-sm text-muted-foreground text-center mb-6">
+            共找到 <span className="font-semibold text-foreground">{totalCount}</span> 条结果
           </p>
         )}
-      </motion.div>
 
-      {!query && (
-        <div className="text-center py-16">
-          <Sparkles className="h-12 w-12 mx-auto text-muted-foreground/30 mb-4" />
-          <p className="text-muted-foreground">输入关键词开始搜索</p>
-        </div>
-      )}
-
-      {query && (
-        <Tabs defaultValue="all">
-          <TabsList className="mb-6 flex flex-wrap h-auto">
-            <TabsTrigger value="all" className="flex items-center gap-1.5">
-              <Search className="h-4 w-4" />
-              全部
-            </TabsTrigger>
-            <TabsTrigger value="tools" className="flex items-center gap-1.5">
-              <Wrench className="h-4 w-4" />
-              工具 ({tools.length})
-            </TabsTrigger>
-            <TabsTrigger value="agents" className="flex items-center gap-1.5">
-              <Bot className="h-4 w-4" />
-              Agent ({agents.length})
-            </TabsTrigger>
-            <TabsTrigger value="mcps" className="flex items-center gap-1.5">
-              <Puzzle className="h-4 w-4" />
-              MCP ({mcps.length})
-            </TabsTrigger>
-            <TabsTrigger value="prompts" className="flex items-center gap-1.5">
-              <MessageSquareText className="h-4 w-4" />
-              Prompt ({prompts.length})
-            </TabsTrigger>
-            <TabsTrigger value="workflows" className="flex items-center gap-1.5">
-              <Workflow className="h-4 w-4" />
-              工作流 ({workflows.length})
-            </TabsTrigger>
+        <Tabs defaultValue="tools" className="w-full">
+          <TabsList className="grid grid-cols-5 w-full">
+            <TabsTrigger value="tools">工具 ({results.tools.length})</TabsTrigger>
+            <TabsTrigger value="agents">Agent ({results.agents.length})</TabsTrigger>
+            <TabsTrigger value="mcps">MCP ({results.mcps.length})</TabsTrigger>
+            <TabsTrigger value="prompts">Prompt ({results.prompts.length})</TabsTrigger>
+            <TabsTrigger value="workflows">工作流 ({results.workflows.length})</TabsTrigger>
           </TabsList>
 
-          <TabsContent value="all">
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
-              {allResults.slice(0, 9).map((result, idx) => {
-                if (result.type === "tool") {
-                  return <ToolCard key={`${result.type}-${idx}`} tool={result.item as any} />;
-                }
-                if (result.type === "agent") {
-                  return <AgentCard key={`${result.type}-${idx}`} agent={result.item as any} />;
-                }
-                if (result.type === "mcp") {
-                  return <MCPCard key={`${result.type}-${idx}`} mcp={result.item as any} />;
-                }
-                if (result.type === "prompt") {
-                  return <PromptCard key={`${result.type}-${idx}`} prompt={result.item as any} />;
-                }
-                if (result.type === "workflow") {
-                  return <WorkflowCard key={`${result.type}-${idx}`} workflow={result.item as any} />;
-                }
-                return null;
-              })}
-            </div>
+          <TabsContent value="tools" className="mt-6">
+            {results.tools.length > 0 ? (
+              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
+                {results.tools.map((tool, i) => (
+                  <ToolCard key={tool.id} tool={tool} rank={i + 1} />
+                ))}
+              </div>
+            ) : (
+              <EmptyState query={query} />
+            )}
           </TabsContent>
 
-          <TabsContent value="tools">
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
-              {tools.map((tool) => (
-                <ToolCard key={tool.id} tool={tool} />
-              ))}
-            </div>
+          <TabsContent value="agents" className="mt-6">
+            {results.agents.length > 0 ? (
+              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
+                {results.agents.map((agent, i) => (
+                  <AgentCard key={agent.id} agent={agent} rank={i + 1} />
+                ))}
+              </div>
+            ) : (
+              <EmptyState query={query} />
+            )}
           </TabsContent>
 
-          <TabsContent value="agents">
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
-              {agents.map((agent) => (
-                <AgentCard key={agent.id} agent={agent} />
-              ))}
-            </div>
+          <TabsContent value="mcps" className="mt-6">
+            {results.mcps.length > 0 ? (
+              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
+                {results.mcps.map((mcp) => (
+                  <MCPCard key={mcp.id} mcp={mcp} />
+                ))}
+              </div>
+            ) : (
+              <EmptyState query={query} />
+            )}
           </TabsContent>
 
-          <TabsContent value="mcps">
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
-              {mcps.map((mcp) => (
-                <MCPCard key={mcp.id} mcp={mcp} />
-              ))}
-            </div>
+          <TabsContent value="prompts" className="mt-6">
+            {results.prompts.length > 0 ? (
+              <div className="space-y-3">
+                {results.prompts.map((p) => (
+                  <Link
+                    key={p.id}
+                    href={withBasePath(`/prompts/${p.id}`)}
+                    className="block p-4 rounded-xl border border-border/50 bg-card hover:border-primary/50 transition-colors"
+                  >
+                    <h3 className="font-semibold mb-1">{p.title}</h3>
+                    <p className="text-sm text-muted-foreground line-clamp-2">
+                      {p.content}
+                    </p>
+                    <div className="flex gap-2 mt-2">
+                      {p.tags.slice(0, 3).map((t) => (
+                        <span
+                          key={t}
+                          className="text-xs px-2 py-0.5 rounded-full bg-muted text-muted-foreground"
+                        >
+                          {t}
+                        </span>
+                      ))}
+                    </div>
+                  </Link>
+                ))}
+              </div>
+            ) : (
+              <EmptyState query={query} />
+            )}
           </TabsContent>
 
-          <TabsContent value="prompts">
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
-              {prompts.map((prompt) => (
-                <PromptCard key={prompt.id} prompt={prompt} />
-              ))}
-            </div>
-          </TabsContent>
-
-          <TabsContent value="workflows">
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
-              {workflows.map((workflow) => (
-                <WorkflowCard key={workflow.id} workflow={workflow} />
-              ))}
-            </div>
+          <TabsContent value="workflows" className="mt-6">
+            {results.workflows.length > 0 ? (
+              <div className="space-y-3">
+                {results.workflows.map((w) => (
+                  <Link
+                    key={w.id}
+                    href={withBasePath(`/workflows/${w.id}`)}
+                    className="flex items-center gap-4 p-4 rounded-xl border border-border/50 bg-card hover:border-primary/50 transition-colors"
+                  >
+                    <img
+                      src={w.cover}
+                      alt={w.name}
+                      className="h-14 w-14 rounded-lg object-cover"
+                    />
+                    <div className="flex-1 min-w-0">
+                      <h3 className="font-semibold">{w.name}</h3>
+                      <p className="text-sm text-muted-foreground line-clamp-1">
+                        {w.description}
+                      </p>
+                    </div>
+                  </Link>
+                ))}
+              </div>
+            ) : (
+              <EmptyState query={query} />
+            )}
           </TabsContent>
         </Tabs>
-      )}
+      </motion.div>
     </div>
   );
 }
 
-export default function SearchPage() {
+function EmptyState({ query }: { query: string }) {
   return (
-    <Suspense fallback={
-      <div className="container py-8 md:py-12">
-        <div className="text-center py-16">
-          <Sparkles className="h-12 w-12 mx-auto text-muted-foreground/30 mb-4" />
-          <p className="text-muted-foreground">加载中...</p>
-        </div>
-      </div>
-    }>
-      <SearchContent />
-    </Suspense>
+    <div className="text-center py-16 text-muted-foreground">
+      <SearchIcon className="h-12 w-12 mx-auto mb-3 opacity-30" />
+      <p>未找到与 &quot;{query}&quot; 相关的结果</p>
+    </div>
   );
 }

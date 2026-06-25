@@ -2,141 +2,183 @@
 
 import Link from "next/link";
 import { useState } from "react";
+import { motion, AnimatePresence } from "framer-motion";
 import {
-  Menu,
-  X,
   Sparkles,
   Wrench,
   Bot,
   Puzzle,
   MessageSquareText,
-  Workflow,
+  Workflow as WorkflowIcon,
+  Search as SearchIcon,
+  Heart,
+  Sun,
+  Moon,
+  Monitor,
+  Menu,
+  X,
   Trophy,
   Newspaper,
-  Heart,
+  ChevronDown,
 } from "lucide-react";
-import { ThemeToggle } from "@/components/theme-toggle";
-import { SearchDialog } from "@/components/search-dialog";
-import { cn, withBasePath } from "@/lib/utils";
-import { usePathname } from "next/navigation";
+import { useTheme } from "@/components/theme-provider";
+import { withBasePath } from "@/lib/utils";
 
 const navItems = [
   { href: "/tools", label: "工具库", icon: Wrench },
   { href: "/agents", label: "Agent库", icon: Bot },
   { href: "/mcps", label: "MCP库", icon: Puzzle },
   { href: "/prompts", label: "Prompt库", icon: MessageSquareText },
-  { href: "/workflows", label: "工作流", icon: Workflow },
-  { href: "/rankings", label: "榜单", icon: Trophy },
-  { href: "/news", label: "资讯", icon: Newspaper },
+  { href: "/workflows", label: "工作流", icon: WorkflowIcon },
+];
+
+const moreItems = [
+  { href: "/rankings", label: "AI 榜单", icon: Trophy },
+  { href: "/news", label: "AI 资讯", icon: Newspaper },
+  { href: "/favorites", label: "我的收藏", icon: Heart },
+  { href: "/search", label: "全站搜索", icon: SearchIcon },
+  { href: "/about", label: "关于我们", icon: Sparkles },
 ];
 
 export function Header() {
-  const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
-  const pathname = usePathname();
+  const { theme, setTheme } = useTheme();
+  const [mobileOpen, setMobileOpen] = useState(false);
+  const [moreOpen, setMoreOpen] = useState(false);
 
-  const isActive = (href: string) => {
-    return pathname?.startsWith(withBasePath(href));
+  const cycleTheme = () => {
+    if (theme === "light") setTheme("dark");
+    else if (theme === "dark") setTheme("system");
+    else setTheme("light");
   };
 
-  return (
-    <header className="sticky top-0 z-40 w-full border-b border-border/50 backdrop-blur-md bg-background/80 supports-[backdrop-filter]:bg-background/60">
-      <div className="container flex h-16 items-center justify-between">
-        <div className="flex items-center gap-8">
-          <Link href={withBasePath("/")} className="flex items-center gap-2">
-            <div className="flex h-8 w-8 items-center justify-center rounded-lg gradient-morandi">
-              <Sparkles className="h-5 w-5 text-white" />
-            </div>
-            <span className="font-bold text-lg tracking-tight">
-              AI Navigator Pro
-            </span>
-          </Link>
+  const ThemeIcon = theme === "light" ? Sun : theme === "dark" ? Moon : Monitor;
 
-          <nav className="hidden md:flex items-center gap-1">
-            {navItems.slice(0, 5).map((item) => (
+  return (
+    <header className="sticky top-0 z-50 w-full border-b border-border/50 bg-background/80 backdrop-blur-md">
+      <div className="container flex h-16 items-center justify-between">
+        <Link
+          href={withBasePath("/")}
+          className="flex items-center gap-2 font-bold text-lg"
+        >
+          <div className="h-8 w-8 rounded-lg bg-gradient-to-br from-morandi-sand/40 via-morandi-rose/30 to-morandi-teal/30 flex items-center justify-center">
+            <Sparkles className="h-4 w-4 text-morandi-terracotta" />
+          </div>
+          <span className="hidden sm:inline">AI Navigator Pro</span>
+        </Link>
+
+        <nav className="hidden md:flex items-center gap-1">
+          {navItems.map((item) => {
+            const Icon = item.icon;
+            return (
               <Link
                 key={item.href}
                 href={withBasePath(item.href)}
-                className={cn(
-                  "flex items-center gap-1.5 px-3 py-2 rounded-md text-sm font-medium transition-colors hover:text-foreground",
-                  isActive(item.href)
-                    ? "text-foreground bg-accent"
-                    : "text-muted-foreground hover:bg-accent/50"
-                )}
+                className="flex items-center gap-1.5 px-3 py-2 text-sm font-medium text-muted-foreground hover:text-foreground hover:bg-muted/50 rounded-md transition-colors"
               >
-                <item.icon className="h-4 w-4" />
+                <Icon className="h-4 w-4" />
                 {item.label}
               </Link>
-            ))}
-          </nav>
-        </div>
-
-        <div className="flex items-center gap-3">
-          <div className="hidden sm:block">
-            <SearchDialog />
+            );
+          })}
+          <div
+            className="relative"
+            onMouseEnter={() => setMoreOpen(true)}
+            onMouseLeave={() => setMoreOpen(false)}
+          >
+            <button className="flex items-center gap-1.5 px-3 py-2 text-sm font-medium text-muted-foreground hover:text-foreground hover:bg-muted/50 rounded-md transition-colors">
+              更多
+              <ChevronDown className="h-3 w-3" />
+            </button>
+            <AnimatePresence>
+              {moreOpen && (
+                <motion.div
+                  initial={{ opacity: 0, y: -8 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  exit={{ opacity: 0, y: -8 }}
+                  transition={{ duration: 0.15 }}
+                  className="absolute right-0 top-full w-48 rounded-lg border border-border/50 bg-card shadow-lg p-1 z-50"
+                >
+                  {moreItems.map((item) => {
+                    const Icon = item.icon;
+                    return (
+                      <Link
+                        key={item.href}
+                        href={withBasePath(item.href)}
+                        className="flex items-center gap-2 px-3 py-2 text-sm hover:bg-muted rounded-md transition-colors"
+                      >
+                        <Icon className="h-4 w-4" />
+                        {item.label}
+                      </Link>
+                    );
+                  })}
+                </motion.div>
+              )}
+            </AnimatePresence>
           </div>
+        </nav>
 
+        <div className="flex items-center gap-1">
+          <Link
+            href={withBasePath("/search")}
+            className="hidden sm:flex items-center gap-2 px-3 py-1.5 text-sm text-muted-foreground bg-muted/50 hover:bg-muted rounded-md transition-colors min-w-[180px]"
+          >
+            <SearchIcon className="h-4 w-4" />
+            <span>搜索 AI 工具...</span>
+            <kbd className="ml-auto text-xs bg-background/60 px-1.5 py-0.5 rounded">
+              K
+            </kbd>
+          </Link>
           <Link
             href={withBasePath("/favorites")}
-            className="hidden md:inline-flex items-center justify-center h-9 w-9 rounded-md text-muted-foreground hover:text-foreground hover:bg-accent transition-colors"
+            className="p-2 rounded-md text-muted-foreground hover:text-foreground hover:bg-muted/50 transition-colors"
+            aria-label="我的收藏"
           >
             <Heart className="h-5 w-5" />
-            <span className="sr-only">收藏</span>
           </Link>
-
-          <ThemeToggle />
-
           <button
-            className="md:hidden inline-flex items-center justify-center h-9 w-9 rounded-md text-muted-foreground hover:text-foreground hover:bg-accent transition-colors"
-            onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
+            onClick={cycleTheme}
+            className="p-2 rounded-md text-muted-foreground hover:text-foreground hover:bg-muted/50 transition-colors"
+            aria-label="切换主题"
           >
-            {mobileMenuOpen ? (
-              <X className="h-5 w-5" />
-            ) : (
-              <Menu className="h-5 w-5" />
-            )}
-            <span className="sr-only">菜单</span>
+            <ThemeIcon className="h-5 w-5" />
+          </button>
+          <button
+            onClick={() => setMobileOpen(!mobileOpen)}
+            className="md:hidden p-2 rounded-md text-muted-foreground hover:text-foreground hover:bg-muted/50 transition-colors"
+            aria-label="菜单"
+          >
+            {mobileOpen ? <X className="h-5 w-5" /> : <Menu className="h-5 w-5" />}
           </button>
         </div>
       </div>
 
-      {mobileMenuOpen && (
-        <div className="md:hidden border-t border-border/50 bg-background">
-          <div className="container py-3 space-y-1">
-            <div className="sm:hidden mb-3">
-              <SearchDialog />
+      <AnimatePresence>
+        {mobileOpen && (
+          <motion.div
+            initial={{ height: 0, opacity: 0 }}
+            animate={{ height: "auto", opacity: 1 }}
+            exit={{ height: 0, opacity: 0 }}
+            className="md:hidden border-t border-border/50 overflow-hidden"
+          >
+            <div className="container py-4 space-y-1">
+              {[...navItems, ...moreItems].map((item) => {
+                const Icon = item.icon;
+                return (
+                  <Link
+                    key={item.href}
+                    href={withBasePath(item.href)}
+                    onClick={() => setMobileOpen(false)}
+                    className="flex items-center gap-2 px-3 py-2 text-sm font-medium rounded-md hover:bg-muted/50 transition-colors"
+                  >
+                    <Icon className="h-4 w-4" />
+                    {item.label}
+                  </Link>
+                );
+              })}
             </div>
-            {navItems.map((item) => (
-              <Link
-                key={item.href}
-                href={withBasePath(item.href)}
-                onClick={() => setMobileMenuOpen(false)}
-                className={cn(
-                  "flex items-center gap-3 px-3 py-2.5 rounded-md text-sm font-medium transition-colors",
-                  isActive(item.href)
-                    ? "text-foreground bg-accent"
-                    : "text-muted-foreground hover:bg-accent/50 hover:text-foreground"
-                )}
-              >
-                <item.icon className="h-4 w-4" />
-                {item.label}
-              </Link>
-            ))}
-            <Link
-              href={withBasePath("/favorites")}
-              onClick={() => setMobileMenuOpen(false)}
-              className={cn(
-                "flex items-center gap-3 px-3 py-2.5 rounded-md text-sm font-medium transition-colors",
-                isActive("/favorites")
-                  ? "text-foreground bg-accent"
-                  : "text-muted-foreground hover:bg-accent/50 hover:text-foreground"
-              )}
-            >
-              <Heart className="h-4 w-4" />
-              我的收藏
-            </Link>
-          </div>
-        </div>
-      )}
+          </motion.div>
+        )}
+      </AnimatePresence>
     </header>
   );
 }

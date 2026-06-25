@@ -7,6 +7,7 @@ export interface Favorite {
   name: string;
   description: string;
   image?: string;
+  url?: string;
   addedAt: Date;
 }
 

@@ -6,13 +6,19 @@
     "category": "ai-chat",
     "period": "2024年度",
     "items": [
-      { "rank": 1, "toolId": "chatgpt", "score": 95 },
-      { "rank": 2, "toolId": "claude", "score": 92 },
-      { "rank": 3, "toolId": "gemini", "score": 88 },
-      { "rank": 4, "toolId": "perplexity", "score": 85 }
+      { "toolId": "chatgpt", "rank": 1, "score": 9.6 },
+      { "toolId": "claude", "rank": 2, "score": 9.4 },
+      { "toolId": "gemini", "rank": 3, "score": 9.0 },
+      { "toolId": "kimi", "rank": 4, "score": 8.8 },
+      { "toolId": "tongyi-qianwen", "rank": 5, "score": 8.5 },
+      { "toolId": "wenxin-yiyan", "rank": 6, "score": 8.3 },
+      { "toolId": "deepseek", "rank": 7, "score": 8.7 },
+      { "toolId": "doubao", "rank": 8, "score": 8.2 }
     ],
-    "seoTitle": "2024最佳AI聊天机器人排行榜 - TOP 10 | AI Navigator Pro",
-    "seoDescription": "2024年最佳AI聊天机器人排行榜，综合评估功能、性能、价格等多维度，帮你选择最适合的AI对话工具。"
+    "updatedAt": "2024-12-15",
+    "seoTitle": "2024最佳AI聊天机器人榜单 | AI Navigator Pro",
+    "seoDescription": "2024年最优秀的AI对话工具排行榜，涵盖ChatGPT、Claude、Gemini等头部产品。",
+    "views": 32000
   },
   {
     "id": "best-ai-coding-2024",
@@ -21,24 +27,19 @@
     "category": "ai-coding",
     "period": "2024年度",
     "items": [
-      { "rank": 1, "toolId": "github-copilot", "score": 93 },
-      { "rank": 2, "toolId": "cursor", "score": 91 },
-      { "rank": 3, "toolId": "claude", "score": 87 }
+      { "toolId": "cursor", "rank": 1, "score": 9.5 },
+      { "toolId": "github-copilot", "rank": 2, "score": 9.3 },
+      { "toolId": "v0", "rank": 3, "score": 9.2 },
+      { "toolId": "windsurf", "rank": 4, "score": 9.0 },
+      { "toolId": "bolt-new", "rank": 5, "score": 8.9 },
+      { "toolId": "codeium", "rank": 6, "score": 8.6 },
+      { "toolId": "tabnine", "rank": 7, "score": 8.3 },
+      { "toolId": "replit-agent", "rank": 8, "score": 8.5 }
     ],
-    "seoTitle": "2024最佳AI编程工具排行榜 - TOP 10 | AI Navigator Pro",
-    "seoDescription": "2024年最佳AI编程工具排行榜，精选最优秀的AI编程助手，大幅提升开发效率。"
-  },
-  {
-    "id": "best-ai-video-2024",
-    "title": "2024最佳AI视频生成工具榜单",
-    "description": "盘点2024年最好用的AI视频生成工具，从文本到视频的创意无限可能。",
-    "category": "ai-video",
-    "period": "2024年度",
-    "items": [
-      { "rank": 1, "toolId": "runway", "score": 92 }
-    ],
-    "seoTitle": "2024最佳AI视频生成工具排行榜 | AI Navigator Pro",
-    "seoDescription": "2024年最佳AI视频生成工具排行榜，盘点最好用的文本生成视频工具。"
+    "updatedAt": "2024-12-15",
+    "seoTitle": "2024最佳AI编程工具榜单 | AI Navigator Pro",
+    "seoDescription": "2024年最优秀的AI编程工具排行榜，包括Cursor、GitHub Copilot等头部产品。",
+    "views": 28000
   },
   {
     "id": "best-ai-image-2024",
@@ -47,10 +48,35 @@
     "category": "ai-image",
     "period": "2024年度",
     "items": [
-      { "rank": 1, "toolId": "midjourney", "score": 96 }
+      { "toolId": "midjourney", "rank": 1, "score": 9.7 },
+      { "toolId": "dalle3", "rank": 2, "score": 9.3 },
+      { "toolId": "stable-diffusion", "rank": 3, "score": 9.2 },
+      { "toolId": "leonardo-ai", "rank": 4, "score": 8.8 },
+      { "toolId": "ideogram", "rank": 5, "score": 8.5 },
+      { "toolId": "recraft", "rank": 6, "score": 8.4 }
     ],
-    "seoTitle": "2024最佳AI图像生成工具排行榜 | AI Navigator Pro",
-    "seoDescription": "2024年最佳AI图像生成工具排行榜，精选最优秀的AI绘画工具。"
+    "updatedAt": "2024-12-15",
+    "seoTitle": "2024最佳AI图像生成工具榜单 | AI Navigator Pro",
+    "seoDescription": "2024年最优秀的AI图像生成工具排行榜，包括Midjourney、DALL-E 3等头部产品。",
+    "views": 25000
+  },
+  {
+    "id": "best-ai-video-2024",
+    "title": "2024最佳AI视频生成工具榜单",
+    "description": "盘点2024年最好用的AI视频生成工具，从文本到视频的创意无限可能。",
+    "category": "ai-video",
+    "period": "2024年度",
+    "items": [
+      { "toolId": "sora", "rank": 1, "score": 9.8 },
+      { "toolId": "runway", "rank": 2, "score": 9.3 },
+      { "toolId": "kling-ai", "rank": 3, "score": 9.0 },
+      { "toolId": "pika-labs", "rank": 4, "score": 8.6 },
+      { "toolId": "luma-ai", "rank": 5, "score": 8.4 }
+    ],
+    "updatedAt": "2024-12-15",
+    "seoTitle": "2024最佳AI视频生成工具榜单 | AI Navigator Pro",
+    "seoDescription": "2024年最优秀的AI视频生成工具排行榜，包括Sora、Runway等头部产品。",
+    "views": 22000
   },
   {
     "id": "best-ai-agent-2024",
@@ -59,45 +85,39 @@
     "category": "ai-agent",
     "period": "2024年度",
     "items": [
-      { "rank": 1, "toolId": "devin", "score": 94 },
-      { "rank": 2, "toolId": "gpt-researcher", "score": 90 },
-      { "rank": 3, "toolId": "autogpt", "score": 87 },
-      { "rank": 4, "toolId": "swe-agent", "score": 85 },
-      { "rank": 5, "toolId": "claude-code", "score": 88 }
+      { "toolId": "devin", "rank": 1, "score": 9.5 },
+      { "toolId": "manus", "rank": 2, "score": 9.3 },
+      { "toolId": "swe-agent", "rank": 3, "score": 9.0 },
+      { "toolId": "lovable", "rank": 4, "score": 8.8 },
+      { "toolId": "autogpt", "rank": 5, "score": 8.5 },
+      { "toolId": "gpt-researcher", "rank": 6, "score": 8.7 },
+      { "toolId": "metagpt", "rank": 7, "score": 8.6 },
+      { "toolId": "crewai", "rank": 8, "score": 8.4 }
     ],
-    "seoTitle": "2024最佳AI Agent排行榜 - TOP 10 | AI Navigator Pro",
-    "seoDescription": "2024年最佳AI Agent排行榜，自主智能体的未来已来，精选最值得关注的AI Agent工具。"
+    "updatedAt": "2024-12-15",
+    "seoTitle": "2024最佳AI Agent榜单 | AI Navigator Pro",
+    "seoDescription": "2024年最优秀的AI Agent工具排行榜，包括Devin、Manus、AutoGPT等头部产品。",
+    "views": 30000
   },
   {
     "id": "best-mcp-2024",
     "title": "2024最佳MCP服务器榜单",
     "description": "2024年最实用的MCP（Model Context Protocol）服务器推荐。",
-    "category": "mcp",
+    "category": "ai-mcp",
     "period": "2024年度",
     "items": [
-      { "rank": 1, "toolId": "github-mcp", "score": 95 },
-      { "rank": 2, "toolId": "notion-mcp", "score": 92 },
-      { "rank": 3, "toolId": "browser-mcp", "score": 90 },
-      { "rank": 4, "toolId": "figma-mcp", "score": 88 },
-      { "rank": 5, "toolId": "slack-mcp", "score": 85 }
+      { "toolId": "github-mcp", "rank": 1, "score": 9.4 },
+      { "toolId": "figma-mcp", "rank": 2, "score": 9.2 },
+      { "toolId": "notion-mcp", "rank": 3, "score": 9.0 },
+      { "toolId": "slack-mcp", "rank": 4, "score": 8.7 },
+      { "toolId": "playwright-mcp", "rank": 5, "score": 8.8 },
+      { "toolId": "filesystem-mcp", "rank": 6, "score": 8.5 },
+      { "toolId": "fetch-mcp", "rank": 7, "score": 8.3 },
+      { "toolId": "github-mcp-pro", "rank": 8, "score": 8.6 }
     ],
-    "seoTitle": "2024最佳MCP服务器排行榜 | AI Navigator Pro",
-    "seoDescription": "2024年最佳MCP服务器排行榜，精选最实用的Model Context Protocol服务器。"
-  },
-  {
-    "id": "monthly-july-2024",
-    "title": "2024年7月热门AI工具榜",
-    "description": "本月最受关注的AI工具，看看大家都在用什么。",
-    "category": "all",
-    "period": "2024年7月",
-    "items": [
-      { "rank": 1, "toolId": "claude", "score": 98 },
-      { "rank": 2, "toolId": "cursor", "score": 95 },
-      { "rank": 3, "toolId": "midjourney", "score": 93 },
-      { "rank": 4, "toolId": "chatgpt", "score": 92 },
-      { "rank": 5, "toolId": "runway", "score": 90 }
-    ],
-    "seoTitle": "2024年7月热门AI工具排行榜 | AI Navigator Pro",
-    "seoDescription": "2024年7月热门AI工具排行榜，看看本月最受关注的AI工具有哪些。"
+    "updatedAt": "2024-12-15",
+    "seoTitle": "2024最佳MCP服务器榜单 | AI Navigator Pro",
+    "seoDescription": "2024年最优秀的MCP服务器排行榜，包括GitHub、Figma、Notion等官方MCP。",
+    "views": 18000
   }
 ]

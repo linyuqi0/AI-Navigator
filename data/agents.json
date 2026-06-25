@@ -6,7 +6,12 @@
     "description": "首个全栈AI软件工程师，能够自主完成复杂的软件开发任务。",
     "url": "https://devin.ai",
     "category": "developer-agents",
-    "tags": ["编程", "全栈开发", "自主Agent", "Cognition"],
+    "tags": [
+      "编程",
+      "全栈开发",
+      "自主Agent",
+      "Cognition"
+    ],
     "rating": 4.8,
     "updatedAt": "2024-07-15",
     "features": [
@@ -17,7 +22,13 @@
       "浏览器自动化",
       "API集成"
     ],
-    "useCases": ["全栈应用开发", "代码审计", "自动化测试", "功能实现", "技术调研"],
+    "useCases": [
+      "全栈应用开发",
+      "代码审计",
+      "自动化测试",
+      "功能实现",
+      "技术调研"
+    ],
     "seoTitle": "Devin - 全栈AI软件工程师 | AI Navigator Pro",
     "seoDescription": "Devin是首个全栈AI软件工程师，能够自主完成复杂的软件开发任务。",
     "featured": true,
@@ -31,7 +42,12 @@
     "description": "开源的软件工程Agent，能够在真实仓库中修复Bug和实现功能。",
     "url": "https://swe-agent.com",
     "category": "developer-agents",
-    "tags": ["编程", "开源", "Bug修复", "Princeton"],
+    "tags": [
+      "编程",
+      "开源",
+      "Bug修复",
+      "Princeton"
+    ],
     "rating": 4.6,
     "updatedAt": "2024-07-10",
     "features": [
@@ -42,7 +58,13 @@
       "多模型支持",
       "开源可定制"
     ],
-    "useCases": ["Bug修复", "代码维护", "功能实现", "代码审查", "技术债务清理"],
+    "useCases": [
+      "Bug修复",
+      "代码维护",
+      "功能实现",
+      "代码审查",
+      "技术债务清理"
+    ],
     "seoTitle": "SWE-agent - 开源软件工程Agent | AI Navigator Pro",
     "seoDescription": "SWE-agent是开源的软件工程Agent，能够在真实仓库中修复Bug和实现功能。",
     "featured": true,
@@ -55,7 +77,12 @@
     "description": "自主研究Agent，能够进行深度网络研究并生成详细报告。",
     "url": "https://gptr.dev",
     "category": "research-agents",
-    "tags": ["研究", "信息收集", "报告生成", "开源"],
+    "tags": [
+      "研究",
+      "信息收集",
+      "报告生成",
+      "开源"
+    ],
     "rating": 4.7,
     "updatedAt": "2024-07-12",
     "features": [
@@ -66,7 +93,13 @@
       "引用追踪",
       "多格式输出"
     ],
-    "useCases": ["市场调研", "学术研究", "竞品分析", "技术选型", "行业报告"],
+    "useCases": [
+      "市场调研",
+      "学术研究",
+      "竞品分析",
+      "技术选型",
+      "行业报告"
+    ],
     "seoTitle": "GPT Researcher - 自主研究Agent | AI Navigator Pro",
     "seoDescription": "GPT Researcher是自主研究Agent，能够进行深度网络研究并生成详细报告。",
     "featured": true,
@@ -80,7 +113,12 @@
     "description": "开创性的自主AI Agent框架，能够自主设定和完成复杂目标。",
     "url": "https://agpt.co",
     "category": "general-agents",
-    "tags": ["自主Agent", "开源", "通用AI", "框架"],
+    "tags": [
+      "自主Agent",
+      "开源",
+      "通用AI",
+      "框架"
+    ],
     "rating": 4.5,
     "updatedAt": "2024-07-08",
     "features": [
@@ -91,7 +129,13 @@
       "文件管理",
       "插件生态"
     ],
-    "useCases": ["内容创作", "市场分析", "项目规划", "研究任务", "自动化工作流"],
+    "useCases": [
+      "内容创作",
+      "市场分析",
+      "项目规划",
+      "研究任务",
+      "自动化工作流"
+    ],
     "seoTitle": "AutoGPT - 自主AI Agent框架 | AI Navigator Pro",
     "seoDescription": "AutoGPT是开创性的自主AI Agent框架，能够自主设定和完成复杂目标。",
     "featured": true,
@@ -104,7 +148,12 @@
     "description": "Anthropic推出的命令行AI编程助手，深度集成Claude模型。",
     "url": "https://anthropic.com/claude-code",
     "category": "developer-agents",
-    "tags": ["编程", "CLI", "Anthropic", "代码生成"],
+    "tags": [
+      "编程",
+      "CLI",
+      "Anthropic",
+      "代码生成"
+    ],
     "rating": 4.7,
     "updatedAt": "2024-07-14",
     "features": [
@@ -115,7 +164,13 @@
       "调试辅助",
       "安全执行"
     ],
-    "useCases": ["快速开发", "代码重构", "Bug修复", "学习代码库", "脚本编写"],
+    "useCases": [
+      "快速开发",
+      "代码重构",
+      "Bug修复",
+      "学习代码库",
+      "脚本编写"
+    ],
     "seoTitle": "Claude Code - CLI AI编程助手 | AI Navigator Pro",
     "seoDescription": "Claude Code是Anthropic推出的命令行AI编程助手，深度集成Claude模型。",
     "featured": true,
@@ -129,7 +184,12 @@
     "description": "AI代码库搜索引擎，帮助开发者快速理解和导航大型代码库。",
     "url": "https://bloop.ai",
     "category": "developer-agents",
-    "tags": ["代码搜索", "代码理解", "开发工具", "开源"],
+    "tags": [
+      "代码搜索",
+      "代码理解",
+      "开发工具",
+      "开源"
+    ],
     "rating": 4.4,
     "updatedAt": "2024-07-05",
     "features": [
@@ -140,9 +200,254 @@
       "本地运行",
       "多语言支持"
     ],
-    "useCases": ["代码库探索", "技术债务分析", "代码审查", "学习新项目", "架构理解"],
+    "useCases": [
+      "代码库探索",
+      "技术债务分析",
+      "代码审查",
+      "学习新项目",
+      "架构理解"
+    ],
     "seoTitle": "Bloop - AI代码库搜索引擎 | AI Navigator Pro",
     "seoDescription": "Bloop是AI代码库搜索引擎，帮助开发者快速理解和导航大型代码库。",
     "views": 45000
+  },
+  {
+    "id": "metagpt",
+    "name": "MetaGPT",
+    "logo": "https://api.dicebear.com/7.x/shapes/svg?seed=metagpt",
+    "avatar": "https://api.dicebear.com/7.x/shapes/svg?seed=metagpt",
+    "description": "多Agent协作框架，模拟软件公司运作流程，自动化完成复杂开发任务。",
+    "url": "https://github.com/geekan/MetaGPT",
+    "category": "ai-agent",
+    "tags": [
+      "多Agent",
+      "软件开发",
+      "开源",
+      "协作"
+    ],
+    "features": [
+      "多Agent协作",
+      "SOP流程",
+      "代码生成",
+      "项目管理",
+      "角色分工"
+    ],
+    "useCases": [
+      "软件开发",
+      "项目管理",
+      "代码审查",
+      "团队协作"
+    ],
+    "rating": 4.6,
+    "views": 45000,
+    "featured": true,
+    "trending": true
+  },
+  {
+    "id": "crewai",
+    "name": "CrewAI",
+    "logo": "https://api.dicebear.com/7.x/shapes/svg?seed=crewai",
+    "avatar": "https://api.dicebear.com/7.x/shapes/svg?seed=crewai",
+    "description": "多Agent协作框架，专注于角色扮演和团队任务执行。",
+    "url": "https://crewai.com",
+    "category": "ai-agent",
+    "tags": [
+      "多Agent",
+      "角色协作",
+      "Python"
+    ],
+    "features": [
+      "角色定义",
+      "任务委托",
+      "工具集成",
+      "流程编排",
+      "多LLM支持"
+    ],
+    "useCases": [
+      "团队协作",
+      "任务自动化",
+      "内容创作",
+      "研究分析"
+    ],
+    "rating": 4.5,
+    "views": 38000,
+    "featured": true
+  },
+  {
+    "id": "langgraph",
+    "name": "LangGraph",
+    "logo": "https://api.dicebear.com/7.x/shapes/svg?seed=langgraph",
+    "avatar": "https://api.dicebear.com/7.x/shapes/svg?seed=langgraph",
+    "description": "LangChain推出的Agent编排框架，支持复杂的状态机和循环流程。",
+    "url": "https://langchain.com/langgraph",
+    "category": "ai-agent",
+    "tags": [
+      "LangChain",
+      "Agent编排",
+      "Python"
+    ],
+    "features": [
+      "状态图",
+      "循环流程",
+      "人机协作",
+      "可观测性",
+      "LangChain集成"
+    ],
+    "useCases": [
+      "复杂工作流",
+      "多步推理",
+      "状态管理",
+      "Agent开发"
+    ],
+    "rating": 4.5,
+    "views": 32000
+  },
+  {
+    "id": "autogen",
+    "name": "AutoGen",
+    "logo": "https://api.dicebear.com/7.x/shapes/svg?seed=autogen",
+    "avatar": "https://api.dicebear.com/7.x/shapes/svg?seed=autogen",
+    "description": "微软推出的多Agent对话框架，支持复杂的多Agent协作场景。",
+    "url": "https://microsoft.github.io/autogen",
+    "category": "ai-agent",
+    "tags": [
+      "微软",
+      "多Agent",
+      "对话框架",
+      "开源"
+    ],
+    "features": [
+      "多Agent对话",
+      "可定制角色",
+      "人类参与",
+      "代码执行",
+      "工具使用"
+    ],
+    "useCases": [
+      "复杂任务",
+      "代码生成",
+      "数据分析",
+      "自动化流程"
+    ],
+    "rating": 4.5,
+    "views": 41000
+  },
+  {
+    "id": "babyagi",
+    "name": "BabyAGI",
+    "logo": "https://api.dicebear.com/7.x/shapes/svg?seed=babyagi",
+    "avatar": "https://api.dicebear.com/7.x/shapes/svg?seed=babyagi",
+    "description": "早期流行的自主AI Agent框架，任务驱动的智能执行。",
+    "url": "https://github.com/yoheinakajima/babyagi",
+    "category": "ai-agent",
+    "tags": [
+      "自主Agent",
+      "任务驱动",
+      "开源",
+      "Python"
+    ],
+    "features": [
+      "任务创建",
+      "优先级排序",
+      "结果评估",
+      "循环执行",
+      "OpenAI集成"
+    ],
+    "useCases": [
+      "任务自动化",
+      "研究助手",
+      "项目管理",
+      "学习Agent"
+    ],
+    "rating": 4.2,
+    "views": 25000
+  },
+  {
+    "id": "smol-developer",
+    "name": "smol-developer",
+    "logo": "https://api.dicebear.com/7.x/shapes/svg?seed=smoldev",
+    "avatar": "https://api.dicebear.com/7.x/shapes/svg?seed=smoldev",
+    "description": "轻量级的AI软件开发Agent，从需求到代码库全流程自动化。",
+    "url": "https://github.com/smol-ai/developer",
+    "category": "ai-agent",
+    "tags": [
+      "开发Agent",
+      "开源",
+      "Python"
+    ],
+    "features": [
+      "代码生成",
+      "项目管理",
+      "需求分析",
+      "代码审查"
+    ],
+    "useCases": [
+      "快速原型",
+      "MVP开发",
+      "代码生成",
+      "项目脚手架"
+    ],
+    "rating": 4.3,
+    "views": 18000
+  },
+  {
+    "id": "open-interpreter",
+    "name": "Open Interpreter",
+    "logo": "https://api.dicebear.com/7.x/shapes/svg?seed=interpreter",
+    "avatar": "https://api.dicebear.com/7.x/shapes/svg?seed=interpreter",
+    "description": "让LLM在本地执行代码的Agent，开源版Code Interpreter。",
+    "url": "https://openinterpreter.com",
+    "category": "ai-agent",
+    "tags": [
+      "代码执行",
+      "本地运行",
+      "开源"
+    ],
+    "features": [
+      "本地执行",
+      "多语言支持",
+      "文件操作",
+      "安全控制",
+      "可视化"
+    ],
+    "useCases": [
+      "数据分析",
+      "自动化任务",
+      "代码原型",
+      "教育学习"
+    ],
+    "rating": 4.6,
+    "views": 35000,
+    "trending": true
+  },
+  {
+    "id": "aider",
+    "name": "Aider",
+    "logo": "https://api.dicebear.com/7.x/shapes/svg?seed=aider",
+    "avatar": "https://api.dicebear.com/7.x/shapes/svg?seed=aider",
+    "description": "终端中的AI结对编程助手，支持多语言和Git集成。",
+    "url": "https://aider.chat",
+    "category": "ai-agent",
+    "tags": [
+      "结对编程",
+      "终端",
+      "Git",
+      "开源"
+    ],
+    "features": [
+      "多语言",
+      "Git集成",
+      "代码编辑",
+      "语音输入",
+      "多LLM支持"
+    ],
+    "useCases": [
+      "结对编程",
+      "代码重构",
+      "Bug修复",
+      "功能开发"
+    ],
+    "rating": 4.5,
+    "views": 28000
   }
 ]
