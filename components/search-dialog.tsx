@@ -21,7 +21,7 @@ import {
 } from "lucide-react";
 import { searchAll, type SearchResult } from "@/lib/search";
 import { useRouter } from "next/navigation";
-import { withBasePath } from "@/lib/utils";
+
 
 export function SearchDialog() {
   const [open, setOpen] = React.useState(false);
@@ -57,7 +57,7 @@ export function SearchDialog() {
       prompt: `/prompts/${result.item.id}`,
       workflow: `/workflows/${result.item.id}`,
     };
-    router.push(withBasePath(paths[result.type]));
+    router.push(paths[result.type]);
   };
 
   const getIcon = (type: string) => {

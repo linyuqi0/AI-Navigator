@@ -28,7 +28,7 @@ import {
 } from "@/components/ui/tabs";
 import { getToolById, tools } from "@/lib/data";
 import { ToolCard } from "@/components/cards/tool-card";
-import { formatDate, formatNumber, withBasePath } from "@/lib/utils";
+import { formatDate, formatNumber } from "@/lib/utils";
 import Link from "next/link";
 import Image from "next/image";
 
@@ -100,7 +100,7 @@ export default function ToolDetailPage({ params }: ToolPageProps) {
       />
       <div className="container py-8 md:py-12">
         <Link
-          href={withBasePath("/tools")}
+          href="/tools"
           className="inline-flex items-center gap-1 text-sm text-muted-foreground hover:text-foreground mb-6"
         >
           <ChevronLeft className="h-4 w-4" />
@@ -189,7 +189,7 @@ export default function ToolDetailPage({ params }: ToolPageProps) {
                 <div>
                   <p className="text-sm text-muted-foreground mb-1">分类</p>
                   <Link
-                    href={withBasePath(`/tools?category=${tool.category}`)}
+                    href={`/tools?category=${tool.category}`}
                     className="font-medium hover:text-primary"
                   >
                     {tool.category}

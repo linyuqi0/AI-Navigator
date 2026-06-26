@@ -21,7 +21,7 @@ import {
   CardTitle,
 } from "@/components/ui/card";
 import { PromptCard } from "@/components/cards/prompt-card";
-import { formatDate, formatNumber, withBasePath } from "@/lib/utils";
+import { formatDate, formatNumber } from "@/lib/utils";
 import { isFavorite, addFavorite, removeFavorite, addHistory } from "@/lib/db";
 import Link from "next/link";
 import type { Prompt } from "@/lib/types";
@@ -73,7 +73,7 @@ export function PromptDetailClient({ prompt }: PromptDetailClientProps) {
   return (
     <div className="container py-8 md:py-12">
       <Link
-        href={withBasePath("/prompts")}
+        href="/prompts"
         className="inline-flex items-center gap-1 text-sm text-muted-foreground hover:text-foreground mb-6"
       >
         <ChevronLeft className="h-4 w-4" />

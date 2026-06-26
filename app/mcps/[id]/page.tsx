@@ -22,7 +22,7 @@ import {
 } from "@/components/ui/card";
 import { getMCPById, mcps } from "@/lib/data";
 import { MCPCard } from "@/components/cards/mcp-card";
-import { formatDate, formatNumber, withBasePath } from "@/lib/utils";
+import { formatDate, formatNumber } from "@/lib/utils";
 import Link from "next/link";
 
 interface MCPPageProps {
@@ -55,7 +55,7 @@ export default function MCPDetailPage({ params }: MCPPageProps) {
   return (
     <div className="container py-8 md:py-12">
       <Link
-        href={withBasePath("/mcps")}
+        href="/mcps"
         className="inline-flex items-center gap-1 text-sm text-muted-foreground hover:text-foreground mb-6"
       >
         <ChevronLeft className="h-4 w-4" />

@@ -1,6 +1,5 @@
 import { MetadataRoute } from "next";
 import { tools, agents, mcps, prompts, workflows, rankings, categories } from "@/lib/data";
-import { withBasePath } from "@/lib/utils";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://ainavigator.pro";

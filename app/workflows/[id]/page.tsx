@@ -20,7 +20,7 @@ import {
 } from "@/components/ui/card";
 import { getWorkflowById, workflows } from "@/lib/data";
 import { WorkflowCard } from "@/components/cards/workflow-card";
-import { formatDate, formatNumber, withBasePath } from "@/lib/utils";
+import { formatDate, formatNumber } from "@/lib/utils";
 import Link from "next/link";
 
 interface WorkflowPageProps {
@@ -53,7 +53,7 @@ export default function WorkflowDetailPage({ params }: WorkflowPageProps) {
   return (
     <div className="container py-8 md:py-12">
       <Link
-        href={withBasePath("/workflows")}
+        href="/workflows"
         className="inline-flex items-center gap-1 text-sm text-muted-foreground hover:text-foreground mb-6"
       >
         <ChevronLeft className="h-4 w-4" />

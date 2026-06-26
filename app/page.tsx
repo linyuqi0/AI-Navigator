@@ -39,7 +39,7 @@ import {
   getTrendingTools,
   getLatestNews,
 } from "@/lib/data";
-import { cn, withBasePath } from "@/lib/utils";
+import { cn } from "@/lib/utils";
 
 const fadeInUp = {
   initial: { opacity: 0, y: 20 },
@@ -121,7 +121,7 @@ export default function HomePage() {
                 <SearchDialog />
               </div>
               <div className="sm:hidden">
-                <Link href={withBasePath("/search")}>
+                <Link href={"/search"}>
                   <Button variant="outline" className="w-full h-12 rounded-full">
                     <Sparkles className="mr-2 h-4 w-4" />
                     搜索 AI 工具...
@@ -175,7 +175,7 @@ export default function HomePage() {
               return (
                 <motion.div key={category.id} variants={fadeInUp}>
                   <Link
-                    href={withBasePath(`/tools?category=${category.slug}`)}
+                    href={`/tools?category=${category.slug}`}
                     className="flex flex-col items-center justify-center p-5 rounded-xl bg-card border border-border/50 hover:border-primary/50 hover:shadow-md transition-all duration-300 group h-full"
                   >
                     <div className="h-12 w-12 rounded-xl bg-gradient-to-br from-morandi-rose/20 to-morandi-sage/20 flex items-center justify-center mb-3 group-hover:scale-110 transition-transform">
@@ -212,7 +212,7 @@ export default function HomePage() {
               </p>
             </div>
             <Link
-              href={withBasePath("/tools")}
+              href={"/tools"}
               className="flex items-center gap-1 text-sm text-primary hover:underline"
             >
               查看全部
@@ -253,7 +253,7 @@ export default function HomePage() {
                   </h2>
                 </div>
                 <Link
-                  href={withBasePath("/tools")}
+                  href={"/tools"}
                   className="flex items-center gap-1 text-sm text-primary hover:underline"
                 >
                   更多
@@ -271,7 +271,7 @@ export default function HomePage() {
                     transition={{ delay: index * 0.1 }}
                   >
                     <Link
-                      href={withBasePath(`/tools/${tool.id}`)}
+                      href={`/tools/${tool.id}`}
                       className="flex items-center gap-4 p-4 rounded-xl bg-card border border-border/50 hover:border-primary/50 hover:shadow-sm transition-all group"
                     >
                       <span className="text-xl font-bold text-muted-foreground/30 w-6">
@@ -315,7 +315,7 @@ export default function HomePage() {
                   </h2>
                 </div>
                 <Link
-                  href={withBasePath("/agents")}
+                  href={"/agents"}
                   className="flex items-center gap-1 text-sm text-primary hover:underline"
                 >
                   更多
@@ -358,7 +358,7 @@ export default function HomePage() {
               </p>
             </div>
             <Link
-              href={withBasePath("/mcps")}
+              href={"/mcps"}
               className="flex items-center gap-1 text-sm text-primary hover:underline"
             >
               查看全部
@@ -399,7 +399,7 @@ export default function HomePage() {
                   </h2>
                 </div>
                 <Link
-                  href={withBasePath("/prompts")}
+                  href={"/prompts"}
                   className="flex items-center gap-1 text-sm text-primary hover:underline"
                 >
                   更多
@@ -435,7 +435,7 @@ export default function HomePage() {
                   </h2>
                 </div>
                 <Link
-                  href={withBasePath("/workflows")}
+                  href={"/workflows"}
                   className="flex items-center gap-1 text-sm text-primary hover:underline"
                 >
                   更多
@@ -478,7 +478,7 @@ export default function HomePage() {
               </p>
             </div>
             <Link
-              href={withBasePath("/rankings")}
+              href={"/rankings"}
               className="flex items-center gap-1 text-sm text-primary hover:underline"
             >
               全部榜单
@@ -496,7 +496,7 @@ export default function HomePage() {
             {rankings.slice(0, 6).map((ranking) => (
               <motion.div key={ranking.id} variants={fadeInUp}>
                 <Link
-                  href={withBasePath(`/rankings/${ranking.id}`)}
+                  href={`/rankings/${ranking.id}`}
                   className="block p-6 rounded-xl bg-card border border-border/50 hover:border-primary/50 hover:shadow-lg transition-all duration-300 group h-full"
                 >
                   <div className="flex items-start justify-between mb-4">
@@ -541,7 +541,7 @@ export default function HomePage() {
               </p>
             </div>
             <Link
-              href={withBasePath("/news")}
+              href={"/news"}
               className="flex items-center gap-1 text-sm text-primary hover:underline"
             >
               更多资讯

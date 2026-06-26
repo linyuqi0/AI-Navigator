@@ -4,7 +4,6 @@ import { ThemeProvider } from "@/components/theme-provider";
 import { Header } from "@/components/header";
 import { Footer } from "@/components/footer";
 import { TooltipProvider } from "@/components/ui/tooltip";
-import { withBasePath } from "@/lib/utils";
 
 export const metadata: Metadata = {
   title: "AI Navigator Pro - 精选全球优质AI工具导航",
@@ -35,7 +34,7 @@ export const metadata: Metadata = {
       "精选全球最优质的AI工具、Agent、MCP和工作流，助你在AI时代事半功倍。",
   },
   icons: {
-    icon: withBasePath("/favicon.ico"),
+    icon: "/favicon.ico",
   },
 };
 

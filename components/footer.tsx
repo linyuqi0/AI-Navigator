@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { Sparkles, Github, Twitter, Rss } from "lucide-react";
-import { withBasePath } from "@/lib/utils";
+
 
 export function Footer() {
   return (
@@ -8,7 +8,7 @@ export function Footer() {
       <div className="container py-12">
         <div className="grid grid-cols-2 md:grid-cols-5 gap-8">
           <div className="col-span-2">
-            <Link href={withBasePath("/")} className="flex items-center gap-2 mb-4">
+            <Link href={"/"} className="flex items-center gap-2 mb-4">
               <div className="flex h-8 w-8 items-center justify-center rounded-lg gradient-morandi">
                 <Sparkles className="h-5 w-5 text-white" />
               </div>
@@ -37,7 +37,7 @@ export function Footer() {
                 <span className="sr-only">Twitter</span>
               </a>
               <Link
-                href={withBasePath("/rss.xml")}
+                href={"/rss.xml"}
                 className="text-muted-foreground hover:text-foreground transition-colors"
               >
                 <Rss className="h-5 w-5" />
@@ -50,27 +50,27 @@ export function Footer() {
             <h3 className="font-semibold mb-3">发现</h3>
             <ul className="space-y-2 text-sm text-muted-foreground">
               <li>
-                <Link href={withBasePath("/tools")} className="hover:text-foreground transition-colors">
+                <Link href={"/tools"} className="hover:text-foreground transition-colors">
                   AI工具
                 </Link>
               </li>
               <li>
-                <Link href={withBasePath("/agents")} className="hover:text-foreground transition-colors">
+                <Link href={"/agents"} className="hover:text-foreground transition-colors">
                   AI Agent
                 </Link>
               </li>
               <li>
-                <Link href={withBasePath("/mcps")} className="hover:text-foreground transition-colors">
+                <Link href={"/mcps"} className="hover:text-foreground transition-colors">
                   MCP服务器
                 </Link>
               </li>
               <li>
-                <Link href={withBasePath("/prompts")} className="hover:text-foreground transition-colors">
+                <Link href={"/prompts"} className="hover:text-foreground transition-colors">
                   Prompt库
                 </Link>
               </li>
               <li>
-                <Link href={withBasePath("/workflows")} className="hover:text-foreground transition-colors">
+                <Link href={"/workflows"} className="hover:text-foreground transition-colors">
                   工作流
                 </Link>
               </li>
@@ -81,27 +81,27 @@ export function Footer() {
             <h3 className="font-semibold mb-3">榜单</h3>
             <ul className="space-y-2 text-sm text-muted-foreground">
               <li>
-                <Link href={withBasePath("/rankings")} className="hover:text-foreground transition-colors">
+                <Link href={"/rankings"} className="hover:text-foreground transition-colors">
                   最佳AI聊天
                 </Link>
               </li>
               <li>
-                <Link href={withBasePath("/rankings")} className="hover:text-foreground transition-colors">
+                <Link href={"/rankings"} className="hover:text-foreground transition-colors">
                   最佳AI编程
                 </Link>
               </li>
               <li>
-                <Link href={withBasePath("/rankings")} className="hover:text-foreground transition-colors">
+                <Link href={"/rankings"} className="hover:text-foreground transition-colors">
                   最佳AI图像
                 </Link>
               </li>
               <li>
-                <Link href={withBasePath("/rankings")} className="hover:text-foreground transition-colors">
+                <Link href={"/rankings"} className="hover:text-foreground transition-colors">
                   最佳AI视频
                 </Link>
               </li>
               <li>
-                <Link href={withBasePath("/rankings")} className="hover:text-foreground transition-colors">
+                <Link href={"/rankings"} className="hover:text-foreground transition-colors">
                   年度榜单
                 </Link>
               </li>
@@ -112,27 +112,27 @@ export function Footer() {
             <h3 className="font-semibold mb-3">关于</h3>
             <ul className="space-y-2 text-sm text-muted-foreground">
               <li>
-                <Link href={withBasePath("/about")} className="hover:text-foreground transition-colors">
+                <Link href={"/about"} className="hover:text-foreground transition-colors">
                   关于我们
                 </Link>
               </li>
               <li>
-                <Link href={withBasePath("/news")} className="hover:text-foreground transition-colors">
+                <Link href={"/news"} className="hover:text-foreground transition-colors">
                   AI资讯
                 </Link>
               </li>
               <li>
-                <Link href={withBasePath("/sitemap.xml")} className="hover:text-foreground transition-colors">
+                <Link href={"/sitemap.xml"} className="hover:text-foreground transition-colors">
                   网站地图
                 </Link>
               </li>
               <li>
-                <Link href={withBasePath("/privacy")} className="hover:text-foreground transition-colors">
+                <Link href={"/privacy"} className="hover:text-foreground transition-colors">
                   隐私政策
                 </Link>
               </li>
               <li>
-                <Link href={withBasePath("/terms")} className="hover:text-foreground transition-colors">
+                <Link href={"/terms"} className="hover:text-foreground transition-colors">
                   使用条款
                 </Link>
               </li>

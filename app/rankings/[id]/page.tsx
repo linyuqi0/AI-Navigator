@@ -13,7 +13,7 @@ import {
 } from "@/components/ui/card";
 import { getRankingById, rankings, getToolById } from "@/lib/data";
 import { ToolCard } from "@/components/cards/tool-card";
-import { withBasePath } from "@/lib/utils";
+
 import Link from "next/link";
 
 interface RankingPageProps {
@@ -41,7 +41,7 @@ export default function RankingDetailPage({ params }: RankingPageProps) {
   return (
     <div className="container py-8 md:py-12">
       <Link
-        href={withBasePath("/rankings")}
+        href="/rankings"
         className="inline-flex items-center gap-1 text-sm text-muted-foreground hover:text-foreground mb-6"
       >
         <ChevronLeft className="h-4 w-4" />
@@ -74,7 +74,7 @@ export default function RankingDetailPage({ params }: RankingPageProps) {
             ];
 
             return (
-              <Link key={item.toolId} href={withBasePath(`/tools/${tool.id}`)}>
+              <Link key={item.toolId} href={`/tools/${tool.id}`}>
                 <Card className="overflow-hidden hover:shadow-md transition-all cursor-pointer group">
                   <CardContent className="p-4 md:p-5 flex items-center gap-4 md:gap-6">
                     <div
@@ -136,7 +136,7 @@ export default function RankingDetailPage({ params }: RankingPageProps) {
               .filter((r) => r.id !== ranking.id)
               .slice(0, 3)
               .map((r) => (
-                <Link key={r.id} href={withBasePath(`/rankings/${r.id}`)}>
+                <Link key={r.id} href={`/rankings/${r.id}`}>
                   <Card className="h-full hover:shadow-md transition-all cursor-pointer group">
                     <CardContent className="p-5">
                       <div className="flex items-center gap-2 mb-2">

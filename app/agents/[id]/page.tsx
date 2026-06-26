@@ -28,7 +28,7 @@ import {
 } from "@/components/ui/tabs";
 import { getAgentById, agents } from "@/lib/data";
 import { AgentCard } from "@/components/cards/agent-card";
-import { formatDate, formatNumber, withBasePath } from "@/lib/utils";
+import { formatDate, formatNumber } from "@/lib/utils";
 import Link from "next/link";
 
 interface AgentPageProps {
@@ -61,7 +61,7 @@ export default function AgentDetailPage({ params }: AgentPageProps) {
   return (
     <div className="container py-8 md:py-12">
       <Link
-        href={withBasePath("/agents")}
+        href="/agents"
         className="inline-flex items-center gap-1 text-sm text-muted-foreground hover:text-foreground mb-6"
       >
         <ChevronLeft className="h-4 w-4" />

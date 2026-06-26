@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { Newspaper, Calendar } from "lucide-react";
 import { Card, CardContent } from "@/components/ui/card";
-import { cn, withBasePath } from "@/lib/utils";
+import { cn } from "@/lib/utils";
 import type { NewsItem } from "@/lib/types";
 
 interface NewsCardProps {

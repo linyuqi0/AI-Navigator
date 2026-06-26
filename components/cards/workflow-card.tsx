@@ -4,7 +4,7 @@ import Link from "next/link";
 import { Workflow as WorkflowIcon, Heart, Clock, Zap } from "lucide-react";
 import { Badge } from "@/components/ui/badge";
 import { Card, CardContent, CardFooter } from "@/components/ui/card";
-import { cn, formatNumber, withBasePath } from "@/lib/utils";
+import { cn, formatNumber } from "@/lib/utils";
 import type { Workflow } from "@/lib/types";
 import { useState, useEffect } from "react";
 import { isFavorite, addFavorite, removeFavorite } from "@/lib/db";
@@ -40,7 +40,7 @@ export function WorkflowCard({ workflow, className }: WorkflowCardProps) {
   };
 
   return (
-    <Link href={withBasePath(`/workflows/${workflow.id}`)}>
+    <Link href={`/workflows/${workflow.id}`}>
       <Card
         className={cn(
           "group h-full overflow-hidden transition-all duration-300 hover:shadow-lg hover:-translate-y-1 cursor-pointer border-border/50 bg-card/50 backdrop-blur-sm",

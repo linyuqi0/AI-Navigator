@@ -31,7 +31,7 @@ import {
   type HistoryItem,
 } from "@/lib/db";
 import Link from "next/link";
-import { withBasePath } from "@/lib/utils";
+
 
 const typeLabels: Record<string, string> = {
   tool: "工具",
@@ -87,7 +87,7 @@ export default function FavoritesPage() {
     return (
       <Link
         key={`${item.itemType}-${item.itemId}`}
-        href={withBasePath(`${typePaths[item.itemType]}/${item.itemId}`)}
+        href={`${typePaths[item.itemType]}/${item.itemId}`}
       >
         <Card className="hover:shadow-md transition-all cursor-pointer group">
           <CardContent className="p-4 flex items-center gap-4">

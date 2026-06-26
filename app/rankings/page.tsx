@@ -5,7 +5,7 @@ import { Trophy, ArrowRight } from "lucide-react";
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { rankings, getToolById } from "@/lib/data";
-import { withBasePath } from "@/lib/utils";
+
 import Link from "next/link";
 
 export default function RankingsPage() {
@@ -34,7 +34,7 @@ export default function RankingsPage() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: idx * 0.1 }}
           >
-            <Link href={withBasePath(`/rankings/${ranking.id}`)}>
+            <Link href={`/rankings/${ranking.id}`}>
               <Card className="h-full overflow-hidden hover:shadow-lg transition-all duration-300 hover:-translate-y-1 cursor-pointer group">
                 <div className="h-32 bg-gradient-to-br from-morandi-sand/20 via-morandi-rose/20 to-morandi-sage/20 p-6 flex items-center">
                   <div className="h-14 w-14 rounded-xl bg-white/80 dark:bg-black/30 backdrop-blur-sm flex items-center justify-center">
