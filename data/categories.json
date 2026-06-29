@@ -5,7 +5,7 @@
     "slug": "ai-chat",
     "description": "AI对话助手和聊天机器人，涵盖通用对话、专业领域问答等。",
     "icon": "MessageSquare",
-    "count": 128
+    "count": 14
   },
   {
     "id": "ai-image",
@@ -13,7 +13,7 @@
     "slug": "ai-image",
     "description": "AI图像生成和编辑工具，包括绘画、设计、图像增强等。",
     "icon": "Image",
-    "count": 86
+    "count": 9
   },
   {
     "id": "ai-video",
@@ -21,7 +21,7 @@
     "slug": "ai-video",
     "description": "AI视频生成和编辑工具，文本生成视频、视频特效等。",
     "icon": "Video",
-    "count": 42
+    "count": 8
   },
   {
     "id": "ai-coding",
@@ -29,7 +29,7 @@
     "slug": "ai-coding",
     "description": "AI编程助手和开发工具，代码生成、调试、优化等。",
     "icon": "Code",
-    "count": 64
+    "count": 8
   },
   {
     "id": "ai-audio",
@@ -37,7 +37,7 @@
     "slug": "ai-audio",
     "description": "AI音频处理工具，语音合成、音乐生成、音频增强等。",
     "icon": "Music",
-    "count": 38
+    "count": 8
   },
   {
     "id": "ai-writing",
@@ -45,7 +45,7 @@
     "slug": "ai-writing",
     "description": "AI写作助手，文章撰写、内容创作、文案优化等。",
     "icon": "PenTool",
-    "count": 56
+    "count": 8
   },
   {
     "id": "ai-design",
@@ -53,7 +53,7 @@
     "slug": "ai-design",
     "description": "AI设计工具，UI设计、平面设计、设计系统等。",
     "icon": "Palette",
-    "count": 48
+    "count": 8
   },
   {
     "id": "ai-productivity",
@@ -61,7 +61,7 @@
     "slug": "ai-productivity",
     "description": "AI生产力工具，笔记、办公、自动化等。",
     "icon": "Zap",
-    "count": 72
+    "count": 8
   },
   {
     "id": "ai-marketing",
@@ -69,7 +69,7 @@
     "slug": "ai-marketing",
     "description": "AI营销工具，广告投放、用户增长、数据分析等。",
     "icon": "TrendingUp",
-    "count": 54
+    "count": 8
   },
   {
     "id": "ai-education",
@@ -77,7 +77,7 @@
     "slug": "ai-education",
     "description": "AI教育工具，学习辅助、语言学习、知识问答等。",
     "icon": "GraduationCap",
-    "count": 45
+    "count": 8
   },
   {
     "id": "ai-agent",
@@ -85,7 +85,7 @@
     "slug": "ai-agent",
     "description": "AI智能体，自主Agent框架和应用。",
     "icon": "Bot",
-    "count": 32
+    "count": 12
   },
   {
     "id": "mcp",
@@ -93,6 +93,6 @@
     "slug": "mcp",
     "description": "Model Context Protocol服务器，扩展AI模型能力。",
     "icon": "Puzzle",
-    "count": 24
+    "count": 12
   }
 ]
