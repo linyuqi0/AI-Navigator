@@ -86,22 +86,22 @@ export function Footer() {
             <h3 className="font-semibold text-sm mb-3">榜单</h3>
             <ul className="space-y-2 text-sm text-muted-foreground">
               <li>
-                <Link href={withBasePath("/rankings/best-ai-chat-2024")} className="hover:text-foreground transition-colors">
+                <Link href={withBasePath("/rankings/best-ai-chat-2026-mid")} className="hover:text-foreground transition-colors">
                   最佳AI聊天
                 </Link>
               </li>
               <li>
-                <Link href={withBasePath("/rankings/best-ai-coding-2024")} className="hover:text-foreground transition-colors">
+                <Link href={withBasePath("/rankings/best-ai-coding-2026-mid")} className="hover:text-foreground transition-colors">
                   最佳AI编程
                 </Link>
               </li>
               <li>
-                <Link href={withBasePath("/rankings/best-ai-image-2024")} className="hover:text-foreground transition-colors">
+                <Link href={withBasePath("/rankings/best-ai-image-2026-mid")} className="hover:text-foreground transition-colors">
                   最佳AI图像
                 </Link>
               </li>
               <li>
-                <Link href={withBasePath("/rankings/best-ai-video-2024")} className="hover:text-foreground transition-colors">
+                <Link href={withBasePath("/rankings/best-ai-video-2026-mid")} className="hover:text-foreground transition-colors">
                   最佳AI视频
                 </Link>
               </li>

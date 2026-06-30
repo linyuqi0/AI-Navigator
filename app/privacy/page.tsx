@@ -15,7 +15,7 @@ export default function PrivacyPage() {
 
           <div className="prose prose-lg max-w-none dark:prose-invert space-y-6">
             <p className="text-muted-foreground">
-              最后更新：2024年7月15日
+              最后更新：2026年6月15日
             </p>
 
             <div>
