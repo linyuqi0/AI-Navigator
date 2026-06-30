@@ -1,5 +1,79 @@
 [
   {
+    "id": "devin-2",
+    "name": "Devin 2.0",
+    "avatar": "https://api.dicebear.com/7.x/bottts/svg?seed=devin2",
+    "description": "Cognition Labs推出的第二代全栈AI软件工程师，支持多仓库协作、更复杂的系统架构设计和企业级部署。",
+    "url": "https://devin.ai",
+    "category": "developer-agents",
+    "tags": [
+      "编程",
+      "全栈开发",
+      "自主Agent",
+      "Cognition",
+      "企业级"
+    ],
+    "rating": 4.9,
+    "updatedAt": "2026-06-28",
+    "features": [
+      "自主代码编写",
+      "多仓库协作",
+      "系统架构设计",
+      "CI/CD集成",
+      "企业级部署",
+      "性能优化"
+    ],
+    "useCases": [
+      "企业级应用开发",
+      "微服务架构设计",
+      "遗留系统重构",
+      "自动化测试",
+      "DevOps自动化"
+    ],
+    "seoTitle": "Devin 2.0 - 企业级全栈AI软件工程师 | AI Navigator Pro",
+    "seoDescription": "Devin 2.0是Cognition Labs推出的第二代全栈AI软件工程师，支持多仓库协作和企业级部署。",
+    "featured": true,
+    "trending": true,
+    "views": 158000
+  },
+  {
+    "id": "manus",
+    "name": "Manus Pro",
+    "avatar": "https://api.dicebear.com/7.x/bottts/svg?seed=manus",
+    "description": "Anthropic推出的通用AI Agent，能够使用浏览器、终端和多种工具完成复杂任务。",
+    "url": "https://anthropic.com/manus",
+    "category": "general-agents",
+    "tags": [
+      "通用Agent",
+      "Anthropic",
+      "Claude",
+      "多工具",
+      "自主执行"
+    ],
+    "rating": 4.9,
+    "updatedAt": "2026-06-25",
+    "features": [
+      "浏览器自动化",
+      "终端执行",
+      "多工具编排",
+      "长时记忆",
+      "人机协作",
+      "安全沙箱"
+    ],
+    "useCases": [
+      "复杂任务自动化",
+      "数据分析",
+      "内容创作",
+      "研究分析",
+      "工作流自动化"
+    ],
+    "seoTitle": "Manus Pro - Anthropic通用AI Agent | AI Navigator Pro",
+    "seoDescription": "Manus Pro是Anthropic推出的通用AI Agent，能够使用浏览器、终端和多种工具完成复杂任务。",
+    "featured": true,
+    "trending": true,
+    "views": 142000
+  },
+  {
     "id": "devin",
     "name": "Devin",
     "avatar": "https://api.dicebear.com/7.x/bottts/svg?seed=devin",
@@ -13,7 +87,7 @@
       "Cognition"
     ],
     "rating": 4.8,
-    "updatedAt": "2024-07-15",
+    "updatedAt": "2026-06-15",
     "features": [
       "自主代码编写",
       "调试与修复Bug",
@@ -33,42 +107,116 @@
     "seoDescription": "Devin是首个全栈AI软件工程师，能够自主完成复杂的软件开发任务。",
     "featured": true,
     "trending": true,
-    "views": 95000
+    "views": 125000
   },
   {
-    "id": "swe-agent",
-    "name": "SWE-agent",
-    "avatar": "https://api.dicebear.com/7.x/bottts/svg?seed=swe",
-    "description": "开源的软件工程Agent，能够在真实仓库中修复Bug和实现功能。",
-    "url": "https://swe-agent.com",
+    "id": "cursor-agent",
+    "name": "Cursor Agent",
+    "avatar": "https://api.dicebear.com/7.x/bottts/svg?seed=cursor",
+    "description": "Cursor编辑器内置的AI编程Agent，支持全文件编辑、代码库理解和自主重构。",
+    "url": "https://cursor.sh",
     "category": "developer-agents",
     "tags": [
       "编程",
-      "开源",
-      "Bug修复",
-      "Princeton"
+      "编辑器",
+      "代码生成",
+      "Anysphere"
     ],
-    "rating": 4.6,
-    "updatedAt": "2024-07-10",
+    "rating": 4.8,
+    "updatedAt": "2026-06-20",
     "features": [
-      "Bug修复",
-      "代码浏览",
-      "文件编辑",
-      "命令执行",
+      "全文件编辑",
+      "代码库理解",
+      "自主重构",
       "多模型支持",
-      "开源可定制"
+      "实时协作",
+      "终端集成"
     ],
     "useCases": [
+      "快速功能开发",
+      "代码重构",
       "Bug修复",
-      "代码维护",
-      "功能实现",
       "代码审查",
+      "学习代码库"
+    ],
+    "seoTitle": "Cursor Agent - AI编程编辑器 | AI Navigator Pro",
+    "seoDescription": "Cursor Agent是Cursor编辑器内置的AI编程Agent，支持全文件编辑和自主重构。",
+    "featured": true,
+    "trending": true,
+    "views": 118000
+  },
+  {
+    "id": "claude-code-2",
+    "name": "Claude Code 2",
+    "avatar": "https://api.dicebear.com/7.x/bottts/svg?seed=claudecode2",
+    "description": "Anthropic推出的第二代命令行AI编程助手，深度集成Claude 3.7模型，支持更复杂的软件工程任务。",
+    "url": "https://anthropic.com/claude-code",
+    "category": "developer-agents",
+    "tags": [
+      "编程",
+      "CLI",
+      "Anthropic",
+      "代码生成",
+      "Claude 3.7"
+    ],
+    "rating": 4.8,
+    "updatedAt": "2026-06-22",
+    "features": [
+      "命令行交互",
+      "代码库理解",
+      "多文件编辑",
+      "Git集成",
+      "调试辅助",
+      "安全执行"
+    ],
+    "useCases": [
+      "快速开发",
+      "代码重构",
+      "Bug修复",
+      "学习代码库",
+      "脚本编写"
+    ],
+    "seoTitle": "Claude Code 2 - CLI AI编程助手 | AI Navigator Pro",
+    "seoDescription": "Claude Code 2是Anthropic推出的第二代命令行AI编程助手，深度集成Claude 3.7模型。",
+    "featured": true,
+    "trending": true,
+    "views": 95000
+  },
+  {
+    "id": "gemini-code-agent",
+    "name": "Gemini Code Agent",
+    "avatar": "https://api.dicebear.com/7.x/bottts/svg?seed=geminicode",
+    "description": "Google推出的AI编程Agent，基于Gemini 2.5 Pro模型，深度集成Google Cloud生态。",
+    "url": "https://cloud.google.com/products/gemini/code-agent",
+    "category": "developer-agents",
+    "tags": [
+      "编程",
+      "Google",
+      "Gemini",
+      "云原生"
+    ],
+    "rating": 4.7,
+    "updatedAt": "2026-06-18",
+    "features": [
+      "代码生成与编辑",
+      "GCP集成",
+      "云部署自动化",
+      "多语言支持",
+      "代码审查",
+      "性能优化"
+    ],
+    "useCases": [
+      "云原生应用开发",
+      "微服务开发",
+      "基础设施即代码",
+      "CI/CD优化",
       "技术债务清理"
     ],
-    "seoTitle": "SWE-agent - 开源软件工程Agent | AI Navigator Pro",
-    "seoDescription": "SWE-agent是开源的软件工程Agent，能够在真实仓库中修复Bug和实现功能。",
+    "seoTitle": "Gemini Code Agent - Google云原生AI编程Agent | AI Navigator Pro",
+    "seoDescription": "Gemini Code Agent是Google推出的AI编程Agent，深度集成Google Cloud生态。",
     "featured": true,
-    "views": 67000
+    "trending": true,
+    "views": 88000
   },
   {
     "id": "gpt-researcher",
@@ -84,7 +232,7 @@
       "开源"
     ],
     "rating": 4.7,
-    "updatedAt": "2024-07-12",
+    "updatedAt": "2026-06-10",
     "features": [
       "自主网络研究",
       "多源信息整合",
@@ -104,7 +252,43 @@
     "seoDescription": "GPT Researcher是自主研究Agent，能够进行深度网络研究并生成详细报告。",
     "featured": true,
     "trending": true,
-    "views": 82000
+    "views": 92000
+  },
+  {
+    "id": "perplexity-agent",
+    "name": "Perplexity Agent",
+    "avatar": "https://api.dicebear.com/7.x/bottts/svg?seed=perplexity",
+    "description": "Perplexity推出的深度研究Agent，支持多步骤研究、实时数据获取和专业报告生成。",
+    "url": "https://perplexity.ai/agent",
+    "category": "research-agents",
+    "tags": [
+      "研究",
+      "搜索",
+      "Perplexity",
+      "深度分析"
+    ],
+    "rating": 4.8,
+    "updatedAt": "2026-06-26",
+    "features": [
+      "深度网络研究",
+      "多步骤推理",
+      "实时数据获取",
+      "专业报告生成",
+      "引用溯源",
+      "多源交叉验证"
+    ],
+    "useCases": [
+      "深度市场调研",
+      "学术文献综述",
+      "投资研究",
+      "技术趋势分析",
+      "竞品深度分析"
+    ],
+    "seoTitle": "Perplexity Agent - 深度研究AI Agent | AI Navigator Pro",
+    "seoDescription": "Perplexity Agent是Perplexity推出的深度研究Agent，支持多步骤研究和专业报告生成。",
+    "featured": true,
+    "trending": true,
+    "views": 135000
   },
   {
     "id": "autogpt",
@@ -120,7 +304,7 @@
       "框架"
     ],
     "rating": 4.5,
-    "updatedAt": "2024-07-08",
+    "updatedAt": "2026-05-28",
     "features": [
       "自主目标设定",
       "任务分解",
@@ -139,43 +323,293 @@
     "seoTitle": "AutoGPT - 自主AI Agent框架 | AI Navigator Pro",
     "seoDescription": "AutoGPT是开创性的自主AI Agent框架，能够自主设定和完成复杂目标。",
     "featured": true,
-    "views": 120000
+    "views": 130000
   },
   {
-    "id": "claude-code",
-    "name": "Claude Code",
-    "avatar": "https://api.dicebear.com/7.x/bottts/svg?seed=claudecode",
-    "description": "Anthropic推出的命令行AI编程助手，深度集成Claude模型。",
-    "url": "https://anthropic.com/claude-code",
+    "id": "chatgpt-agent",
+    "name": "ChatGPT Agent Mode",
+    "avatar": "https://api.dicebear.com/7.x/bottts/svg?seed=chatgptagent",
+    "description": "OpenAI推出的ChatGPT Agent模式，基于GPT-5，支持自主任务规划和多工具使用。",
+    "url": "https://chat.openai.com",
+    "category": "general-agents",
+    "tags": [
+      "通用Agent",
+      "OpenAI",
+      "GPT-5",
+      "多工具"
+    ],
+    "rating": 4.8,
+    "updatedAt": "2026-06-24",
+    "features": [
+      "自主任务规划",
+      "多工具调用",
+      "浏览器使用",
+      "代码执行",
+      "文件操作",
+      "长时记忆"
+    ],
+    "useCases": [
+      "复杂任务自动化",
+      "研究分析",
+      "内容创作",
+      "数据处理",
+      "日常助手"
+    ],
+    "seoTitle": "ChatGPT Agent Mode - OpenAI自主AI Agent | AI Navigator Pro",
+    "seoDescription": "ChatGPT Agent Mode是OpenAI推出的自主AI Agent，基于GPT-5支持多工具使用。",
+    "featured": true,
+    "trending": true,
+    "views": 168000
+  },
+  {
+    "id": "claude-37-agent",
+    "name": "Claude 3.7 Sonnet Agent",
+    "avatar": "https://api.dicebear.com/7.x/bottts/svg?seed=claude37",
+    "description": "Anthropic Claude 3.7 Sonnet的Agent模式，支持扩展思考和复杂多步骤任务执行。",
+    "url": "https://anthropic.com/claude",
+    "category": "general-agents",
+    "tags": [
+      "通用Agent",
+      "Anthropic",
+      "Claude 3.7",
+      "扩展思考"
+    ],
+    "rating": 4.9,
+    "updatedAt": "2026-06-27",
+    "features": [
+      "扩展思考",
+      "多步骤推理",
+      "工具使用",
+      "长上下文理解",
+      "代码执行",
+      "安全可控"
+    ],
+    "useCases": [
+      "复杂问题求解",
+      "深度研究",
+      "代码开发",
+      "内容创作",
+      "数据分析"
+    ],
+    "seoTitle": "Claude 3.7 Sonnet Agent - Anthropic旗舰AI Agent | AI Navigator Pro",
+    "seoDescription": "Claude 3.7 Sonnet Agent支持扩展思考和复杂多步骤任务执行，是Anthropic的旗舰产品。",
+    "featured": true,
+    "trending": true,
+    "views": 152000
+  },
+  {
+    "id": "swe-agent",
+    "name": "SWE-agent",
+    "avatar": "https://api.dicebear.com/7.x/bottts/svg?seed=swe",
+    "description": "开源的软件工程Agent，能够在真实仓库中修复Bug和实现功能。",
+    "url": "https://swe-agent.com",
     "category": "developer-agents",
     "tags": [
       "编程",
-      "CLI",
-      "Anthropic",
-      "代码生成"
+      "开源",
+      "Bug修复",
+      "Princeton"
     ],
-    "rating": 4.7,
-    "updatedAt": "2024-07-14",
+    "rating": 4.6,
+    "updatedAt": "2026-05-20",
     "features": [
-      "命令行交互",
-      "代码库理解",
+      "Bug修复",
+      "代码浏览",
       "文件编辑",
-      "Git集成",
-      "调试辅助",
-      "安全执行"
+      "命令执行",
+      "多模型支持",
+      "开源可定制"
     ],
     "useCases": [
-      "快速开发",
+      "Bug修复",
+      "代码维护",
+      "功能实现",
+      "代码审查",
+      "技术债务清理"
+    ],
+    "seoTitle": "SWE-agent - 开源软件工程Agent | AI Navigator Pro",
+    "seoDescription": "SWE-agent是开源的软件工程Agent，能够在真实仓库中修复Bug和实现功能。",
+    "featured": true,
+    "views": 72000
+  },
+  {
+    "id": "windsurf-agent",
+    "name": "Windsurf Agent",
+    "avatar": "https://api.dicebear.com/7.x/bottts/svg?seed=windsurf",
+    "description": "Codeium推出的AI编程编辑器Agent，支持全项目理解和自主代码生成。",
+    "url": "https://windsurf.io",
+    "category": "developer-agents",
+    "tags": [
+      "编程",
+      "编辑器",
+      "Codeium",
+      "全项目理解"
+    ],
+    "rating": 4.7,
+    "updatedAt": "2026-06-12",
+    "features": [
+      "全项目理解",
+      "自主代码生成",
+      "多文件编辑",
+      "终端集成",
+      "实时预览",
+      "多模型支持"
+    ],
+    "useCases": [
+      "全栈应用开发",
+      "功能快速迭代",
       "代码重构",
       "Bug修复",
-      "学习代码库",
-      "脚本编写"
+      "原型开发"
     ],
-    "seoTitle": "Claude Code - CLI AI编程助手 | AI Navigator Pro",
-    "seoDescription": "Claude Code是Anthropic推出的命令行AI编程助手，深度集成Claude模型。",
+    "seoTitle": "Windsurf Agent - AI编程编辑器 | AI Navigator Pro",
+    "seoDescription": "Windsurf Agent是Codeium推出的AI编程编辑器Agent，支持全项目理解和自主代码生成。",
     "featured": true,
     "trending": true,
-    "views": 58000
+    "views": 82000
+  },
+  {
+    "id": "bolt-new",
+    "name": "Bolt.new",
+    "avatar": "https://api.dicebear.com/7.x/bottts/svg?seed=boltnew",
+    "description": "StackBlitz推出的AI全栈应用生成平台，从提示词到可部署应用一键生成。",
+    "url": "https://bolt.new",
+    "category": "developer-agents",
+    "tags": [
+      "编程",
+      "全栈生成",
+      "StackBlitz",
+      "低代码"
+    ],
+    "rating": 4.7,
+    "updatedAt": "2026-06-16",
+    "features": [
+      "提示词生成应用",
+      "全栈开发",
+      "实时预览",
+      "一键部署",
+      "模板市场",
+      "协作开发"
+    ],
+    "useCases": [
+      "快速原型开发",
+      "MVP构建",
+      "内部工具开发",
+      "学习编程",
+      "黑客松"
+    ],
+    "seoTitle": "Bolt.new - AI全栈应用生成平台 | AI Navigator Pro",
+    "seoDescription": "Bolt.new是StackBlitz推出的AI全栈应用生成平台，从提示词到可部署应用一键生成。",
+    "featured": true,
+    "trending": true,
+    "views": 105000
+  },
+  {
+    "id": "v0-vercel",
+    "name": "v0 Agent",
+    "avatar": "https://api.dicebear.com/7.x/bottts/svg?seed=v0vercel",
+    "description": "Vercel推出的AI UI生成Agent，支持React组件生成、完整页面设计和交互动效。",
+    "url": "https://v0.dev",
+    "category": "developer-agents",
+    "tags": [
+      "UI生成",
+      "React",
+      "Vercel",
+      "前端开发"
+    ],
+    "rating": 4.7,
+    "updatedAt": "2026-06-14",
+    "features": [
+      "React组件生成",
+      "完整页面设计",
+      "交互动效",
+      "响应式布局",
+      "shadcn/ui集成",
+      "一键部署"
+    ],
+    "useCases": [
+      "UI原型设计",
+      "组件库开发",
+      "落地页制作",
+      "Dashboard开发",
+      "设计系统构建"
+    ],
+    "seoTitle": "v0 Agent - Vercel AI UI生成工具 | AI Navigator Pro",
+    "seoDescription": "v0 Agent是Vercel推出的AI UI生成Agent，支持React组件生成和完整页面设计。",
+    "featured": true,
+    "trending": true,
+    "views": 98000
+  },
+  {
+    "id": "github-copilot-agent",
+    "name": "GitHub Copilot Agent",
+    "avatar": "https://api.dicebear.com/7.x/bottts/svg?seed=copilotagent",
+    "description": "GitHub推出的Copilot Agent模式，基于GPT-4o，支持自主代码编写和仓库管理。",
+    "url": "https://github.com/features/copilot",
+    "category": "developer-agents",
+    "tags": [
+      "编程",
+      "GitHub",
+      "Copilot",
+      "Microsoft"
+    ],
+    "rating": 4.7,
+    "updatedAt": "2026-06-08",
+    "features": [
+      "自主代码编写",
+      "仓库管理",
+      "PR自动生成",
+      "Issue处理",
+      "代码审查",
+      "CI/CD集成"
+    ],
+    "useCases": [
+      "功能开发",
+      "Bug修复",
+      "代码重构",
+      "文档生成",
+      "代码审查助手"
+    ],
+    "seoTitle": "GitHub Copilot Agent - AI编程助手 | AI Navigator Pro",
+    "seoDescription": "GitHub Copilot Agent是GitHub推出的自主编程Agent，支持自主代码编写和仓库管理。",
+    "featured": true,
+    "trending": true,
+    "views": 112000
+  },
+  {
+    "id": "replit-agent",
+    "name": "Replit Agent",
+    "avatar": "https://api.dicebear.com/7.x/bottts/svg?seed=replit",
+    "description": "Replit推出的AI软件开发Agent，从想法到部署全流程自动化。",
+    "url": "https://replit.com/agent",
+    "category": "developer-agents",
+    "tags": [
+      "编程",
+      "云端开发",
+      "Replit",
+      "全栈"
+    ],
+    "rating": 4.6,
+    "updatedAt": "2026-05-25",
+    "features": [
+      "全栈应用生成",
+      "云端部署",
+      "实时协作",
+      "包管理",
+      "数据库集成",
+      "域名配置"
+    ],
+    "useCases": [
+      "快速原型开发",
+      "全栈应用构建",
+      "教育学习",
+      "黑客松",
+      "内部工具开发"
+    ],
+    "seoTitle": "Replit Agent - 云端AI开发Agent | AI Navigator Pro",
+    "seoDescription": "Replit Agent是Replit推出的AI软件开发Agent，从想法到部署全流程自动化。",
+    "featured": true,
+    "views": 78000
   },
   {
     "id": "bloop",
@@ -191,7 +625,7 @@
       "开源"
     ],
     "rating": 4.4,
-    "updatedAt": "2024-07-05",
+    "updatedAt": "2026-03-15",
     "features": [
       "自然语言代码搜索",
       "代码解释",
@@ -209,12 +643,1662 @@
     ],
     "seoTitle": "Bloop - AI代码库搜索引擎 | AI Navigator Pro",
     "seoDescription": "Bloop是AI代码库搜索引擎，帮助开发者快速理解和导航大型代码库。",
+    "views": 52000
+  },
+  {
+    "id": "continue-dev",
+    "name": "Continue Dev",
+    "avatar": "https://api.dicebear.com/7.x/bottts/svg?seed=continue",
+    "description": "开源的VS Code/JetBrains AI编码助手，支持多模型和自定义工作流。",
+    "url": "https://continue.dev",
+    "category": "developer-agents",
+    "tags": [
+      "编程",
+      "开源",
+      "VS Code",
+      "多模型"
+    ],
+    "rating": 4.6,
+    "updatedAt": "2026-05-18",
+    "features": [
+      "代码补全",
+      "代码编辑",
+      "多模型支持",
+      "自定义流程",
+      "代码库索引",
+      "终端集成"
+    ],
+    "useCases": [
+      "代码生成",
+      "代码重构",
+      "Bug修复",
+      "代码审查",
+      "学习新技术"
+    ],
+    "seoTitle": "Continue Dev - 开源AI编码助手 | AI Navigator Pro",
+    "seoDescription": "Continue Dev是开源的VS Code/JetBrains AI编码助手，支持多模型和自定义工作流。",
+    "featured": true,
+    "views": 68000
+  },
+  {
+    "id": "cody-agent",
+    "name": "Cody Agent",
+    "avatar": "https://api.dicebear.com/7.x/bottts/svg?seed=cody",
+    "description": "Sourcegraph推出的Cody AI编程Agent，支持代码库深度理解和自主开发。",
+    "url": "https://sourcegraph.com/cody",
+    "category": "developer-agents",
+    "tags": [
+      "编程",
+      "Sourcegraph",
+      "代码搜索",
+      "企业级"
+    ],
+    "rating": 4.6,
+    "updatedAt": "2026-05-22",
+    "features": [
+      "代码库理解",
+      "代码生成",
+      "代码搜索",
+      "命令执行",
+      "单元测试生成",
+      "文档生成"
+    ],
+    "useCases": [
+      "企业级开发",
+      "代码重构",
+      "技术债务清理",
+      "代码审查",
+      "新员工上手"
+    ],
+    "seoTitle": "Cody Agent - Sourcegraph AI编程Agent | AI Navigator Pro",
+    "seoDescription": "Cody Agent是Sourcegraph推出的AI编程Agent，支持代码库深度理解和自主开发。",
+    "views": 58000
+  },
+  {
+    "id": "aider-2",
+    "name": "Aider 2",
+    "avatar": "https://api.dicebear.com/7.x/bottts/svg?seed=aider2",
+    "description": "第二代终端AI结对编程助手，支持更多模型和更智能的代码编辑。",
+    "url": "https://aider.chat",
+    "category": "developer-agents",
+    "tags": [
+      "结对编程",
+      "终端",
+      "Git",
+      "开源"
+    ],
+    "rating": 4.6,
+    "updatedAt": "2026-05-30",
+    "features": [
+      "多语言支持",
+      "Git深度集成",
+      "智能代码编辑",
+      "多模型支持",
+      "代码审查",
+      "测试生成"
+    ],
+    "useCases": [
+      "结对编程",
+      "代码重构",
+      "Bug修复",
+      "功能开发",
+      "代码审查"
+    ],
+    "seoTitle": "Aider 2 - 终端AI结对编程助手 | AI Navigator Pro",
+    "seoDescription": "Aider 2是第二代终端AI结对编程助手，支持更多模型和更智能的代码编辑。",
+    "featured": true,
+    "trending": true,
+    "views": 42000
+  },
+  {
+    "id": "zed-ai-agent",
+    "name": "Zed AI Agent",
+    "avatar": "https://api.dicebear.com/7.x/bottts/svg?seed=zed",
+    "description": "Zed编辑器内置的AI Agent，基于高性能编辑器架构，支持实时协作编程。",
+    "url": "https://zed.dev",
+    "category": "developer-agents",
+    "tags": [
+      "编程",
+      "编辑器",
+      "Zed",
+      "协作"
+    ],
+    "rating": 4.5,
+    "updatedAt": "2026-04-25",
+    "features": [
+      "高性能编辑",
+      "AI辅助编程",
+      "实时协作",
+      "多模型支持",
+      "代码补全",
+      "终端集成"
+    ],
+    "useCases": [
+      "结对编程",
+      "远程协作",
+      "代码开发",
+      "代码审查",
+      "快速原型"
+    ],
+    "seoTitle": "Zed AI Agent - 高性能AI编程编辑器 | AI Navigator Pro",
+    "seoDescription": "Zed AI Agent是Zed编辑器内置的AI Agent，支持实时协作编程。",
+    "views": 48000
+  },
+  {
+    "id": "jetbrains-ai-agent",
+    "name": "JetBrains AI Agent",
+    "avatar": "https://api.dicebear.com/7.x/bottts/svg?seed=jetbrains",
+    "description": "JetBrains全系列IDE集成的AI Agent，深度支持Java/Kotlin/Python等语言开发。",
+    "url": "https://jetbrains.com/ai",
+    "category": "developer-agents",
+    "tags": [
+      "编程",
+      "JetBrains",
+      "IDE",
+      "企业级"
+    ],
+    "rating": 4.6,
+    "updatedAt": "2026-05-15",
+    "features": [
+      "全IDE集成",
+      "代码生成",
+      "重构建议",
+      "文档生成",
+      "测试生成",
+      "代码审查"
+    ],
+    "useCases": [
+      "企业级Java开发",
+      "Kotlin开发",
+      "Python数据分析",
+      "代码重构",
+      "测试驱动开发"
+    ],
+    "seoTitle": "JetBrains AI Agent - IDE集成AI编程助手 | AI Navigator Pro",
+    "seoDescription": "JetBrains AI Agent是JetBrains全系列IDE集成的AI Agent，深度支持多种语言开发。",
+    "featured": true,
+    "views": 65000
+  },
+  {
+    "id": "deepseek-coder-agent",
+    "name": "DeepSeek Coder Agent",
+    "avatar": "https://api.dicebear.com/7.x/bottts/svg?seed=deepseekcoder",
+    "description": "深度求索推出的代码专用AI Agent，基于DeepSeek Coder V3模型，支持多种编程语言。",
+    "url": "https://deepseek.com/coder",
+    "category": "developer-agents",
+    "tags": [
+      "编程",
+      "DeepSeek",
+      "开源",
+      "代码生成"
+    ],
+    "rating": 4.5,
+    "updatedAt": "2026-05-10",
+    "features": [
+      "多语言代码生成",
+      "代码补全",
+      "Bug修复",
+      "代码审查",
+      "开源模型",
+      "本地部署"
+    ],
+    "useCases": [
+      "代码生成",
+      "代码补全",
+      "Bug修复",
+      "代码审查",
+      "教育学习"
+    ],
+    "seoTitle": "DeepSeek Coder Agent - 代码专用AI Agent | AI Navigator Pro",
+    "seoDescription": "DeepSeek Coder Agent基于DeepSeek Coder V3模型，支持多种编程语言。",
+    "views": 55000
+  },
+  {
+    "id": "qwen-coder-agent",
+    "name": "Qwen Coder Agent",
+    "avatar": "https://api.dicebear.com/7.x/bottts/svg?seed=qwencoder",
+    "description": "阿里云通义千问推出的代码Agent，基于Qwen 2.5 Coder模型，支持中文编程场景。",
+    "url": "https://tongyi.aliyun.com",
+    "category": "developer-agents",
+    "tags": [
+      "编程",
+      "阿里云",
+      "Qwen",
+      "中文支持"
+    ],
+    "rating": 4.4,
+    "updatedAt": "2026-04-20",
+    "features": [
+      "中文编程支持",
+      "多语言代码生成",
+      "代码解释",
+      "Bug修复",
+      "阿里云集成",
+      "企业级部署"
+    ],
+    "useCases": [
+      "中文编程场景",
+      "企业应用开发",
+      "代码重构",
+      "技术文档生成",
+      "编程学习"
+    ],
+    "seoTitle": "Qwen Coder Agent - 通义千问代码AI Agent | AI Navigator Pro",
+    "seoDescription": "Qwen Coder Agent是阿里云通义千问推出的代码Agent，支持中文编程场景。",
     "views": 45000
+  },
+  {
+    "id": "phind-agent",
+    "name": "Phind Agent",
+    "avatar": "https://api.dicebear.com/7.x/bottts/svg?seed=phind",
+    "description": "面向开发者的AI搜索引擎Agent，支持技术问题深度解答和代码生成。",
+    "url": "https://phind.com",
+    "category": "developer-agents",
+    "tags": [
+      "技术搜索",
+      "编程",
+      "代码生成",
+      "开发者工具"
+    ],
+    "rating": 4.5,
+    "updatedAt": "2026-04-30",
+    "features": [
+      "技术搜索",
+      "代码生成",
+      "多步骤推理",
+      "实时信息",
+      "代码执行",
+      "项目模式"
+    ],
+    "useCases": [
+      "技术问题解答",
+      "代码实现",
+      "技术调研",
+      "Bug排查",
+      "学习新技术"
+    ],
+    "seoTitle": "Phind Agent - 开发者AI搜索引擎 | AI Navigator Pro",
+    "seoDescription": "Phind Agent是面向开发者的AI搜索引擎，支持技术问题深度解答和代码生成。",
+    "views": 52000
+  },
+  {
+    "id": "blackbox-agent",
+    "name": "Blackbox AI Agent",
+    "avatar": "https://api.dicebear.com/7.x/bottts/svg?seed=blackbox",
+    "description": "AI代码生成和搜索Agent，支持从视频和图片中提取代码，自动生成注释。",
+    "url": "https://blackbox.io",
+    "category": "developer-agents",
+    "tags": [
+      "编程",
+      "代码生成",
+      "代码搜索",
+      "视觉理解"
+    ],
+    "rating": 4.3,
+    "updatedAt": "2026-03-20",
+    "features": [
+      "代码生成",
+      "图片代码提取",
+      "视频代码提取",
+      "自动注释",
+      "多语言支持",
+      "VS Code扩展"
+    ],
+    "useCases": [
+      "从教程学习",
+      "代码生成",
+      "代码注释",
+      "Bug修复",
+      "代码转换"
+    ],
+    "seoTitle": "Blackbox AI Agent - 视觉代码提取与生成 | AI Navigator Pro",
+    "seoDescription": "Blackbox AI Agent支持从视频和图片中提取代码，自动生成注释。",
+    "views": 38000
+  },
+  {
+    "id": "tabnine-agent",
+    "name": "Tabnine Agent",
+    "avatar": "https://api.dicebear.com/7.x/bottts/svg?seed=tabnine",
+    "description": "企业级AI代码补全Agent，支持本地部署和团队代码风格学习。",
+    "url": "https://tabnine.com",
+    "category": "developer-agents",
+    "tags": [
+      "编程",
+      "代码补全",
+      "企业级",
+      "本地部署"
+    ],
+    "rating": 4.4,
+    "updatedAt": "2026-04-10",
+    "features": [
+      "智能代码补全",
+      "企业级部署",
+      "本地/私有部署",
+      "团队风格学习",
+      "多IDE支持",
+      "安全合规"
+    ],
+    "useCases": [
+      "企业级开发",
+      "代码补全",
+      "代码标准化",
+      "新员工培训",
+      "安全开发"
+    ],
+    "seoTitle": "Tabnine Agent - 企业级AI代码补全 | AI Navigator Pro",
+    "seoDescription": "Tabnine Agent是企业级AI代码补全工具，支持本地部署和团队代码风格学习。",
+    "views": 42000
+  },
+  {
+    "id": "codeium-agent",
+    "name": "Codeium Agent",
+    "avatar": "https://api.dicebear.com/7.x/bottts/svg?seed=codeium",
+    "description": "免费的AI代码补全和聊天Agent，支持70+编程语言和50+IDE。",
+    "url": "https://codeium.com",
+    "category": "developer-agents",
+    "tags": [
+      "编程",
+      "代码补全",
+      "免费",
+      "多语言"
+    ],
+    "rating": 4.3,
+    "updatedAt": "2026-03-25",
+    "features": [
+      "代码补全",
+      "AI聊天",
+      "70+语言支持",
+      "50+IDE支持",
+      "免费使用",
+      "企业版"
+    ],
+    "useCases": [
+      "代码补全",
+      "代码生成",
+      "代码解释",
+      "Bug修复",
+      "学习编程"
+    ],
+    "seoTitle": "Codeium Agent - 免费AI代码补全工具 | AI Navigator Pro",
+    "seoDescription": "Codeium Agent是免费的AI代码补全和聊天Agent，支持70+编程语言和50+IDE。",
+    "views": 35000
+  },
+  {
+    "id": "starcoder-agent",
+    "name": "StarCoder 3 Agent",
+    "avatar": "https://api.dicebear.com/7.x/bottts/svg?seed=starcoder",
+    "description": "HuggingFace和ServiceNow联合推出的开源代码大模型Agent，支持多语言代码生成。",
+    "url": "https://huggingface.co/bigcode",
+    "category": "developer-agents",
+    "tags": [
+      "编程",
+      "开源",
+      "HuggingFace",
+      "多语言"
+    ],
+    "rating": 4.4,
+    "updatedAt": "2026-04-15",
+    "features": [
+      "开源模型",
+      "多语言支持",
+      "代码生成",
+      "代码补全",
+      "可微调",
+      "本地部署"
+    ],
+    "useCases": [
+      "代码生成",
+      "代码补全",
+      "研究实验",
+      "私有部署",
+      "定制化开发"
+    ],
+    "seoTitle": "StarCoder 3 Agent - 开源代码大模型 | AI Navigator Pro",
+    "seoDescription": "StarCoder 3 Agent是HuggingFace推出的开源代码大模型，支持多语言代码生成。",
+    "views": 32000
+  },
+  {
+    "id": "codellama-agent",
+    "name": "CodeLlama 3 Agent",
+    "avatar": "https://api.dicebear.com/7.x/bottts/svg?seed=codellama",
+    "description": "Meta推出的开源代码大模型Agent，基于Llama 3架构，支持代码生成和补全。",
+    "url": "https://ai.meta.com/tools/codellama",
+    "category": "developer-agents",
+    "tags": [
+      "编程",
+      "开源",
+      "Meta",
+      "Llama"
+    ],
+    "rating": 4.4,
+    "updatedAt": "2026-04-05",
+    "features": [
+      "开源模型",
+      "代码生成",
+      "代码补全",
+      "代码解释",
+      "可微调",
+      "多规格选择"
+    ],
+    "useCases": [
+      "代码生成",
+      "代码补全",
+      "研究实验",
+      "私有部署",
+      "定制AI助手"
+    ],
+    "seoTitle": "CodeLlama 3 Agent - Meta开源代码大模型 | AI Navigator Pro",
+    "seoDescription": "CodeLlama 3 Agent是Meta推出的开源代码大模型，基于Llama 3架构。",
+    "views": 38000
+  },
+  {
+    "id": "mintlify-agent",
+    "name": "Mintlify Agent",
+    "avatar": "https://api.dicebear.com/7.x/bottts/svg?seed=mintlify",
+    "description": "AI文档生成Agent，自动从代码库生成高质量技术文档。",
+    "url": "https://mintlify.com",
+    "category": "developer-agents",
+    "tags": [
+      "文档生成",
+      "开发工具",
+      "技术文档",
+      "自动化"
+    ],
+    "rating": 4.3,
+    "updatedAt": "2026-03-10",
+    "features": [
+      "自动文档生成",
+      "代码注释提取",
+      "API文档生成",
+      "版本同步",
+      "多格式输出",
+      "自定义主题"
+    ],
+    "useCases": [
+      "API文档",
+      "开发者文档",
+      "代码注释",
+      "知识库建设",
+      "文档维护"
+    ],
+    "seoTitle": "Mintlify Agent - AI文档生成工具 | AI Navigator Pro",
+    "seoDescription": "Mintlify Agent是AI文档生成Agent，自动从代码库生成高质量技术文档。",
+    "views": 28000
+  },
+  {
+    "id": "sourcegraph-cody-2",
+    "name": "Sourcegraph Cody 2",
+    "avatar": "https://api.dicebear.com/7.x/bottts/svg?seed=sourcegraph",
+    "description": "Sourcegraph推出的第二代AI编程助手，增强了代码搜索和代码库理解能力。",
+    "url": "https://sourcegraph.com/cody",
+    "category": "developer-agents",
+    "tags": [
+      "编程",
+      "代码搜索",
+      "Sourcegraph",
+      "企业级"
+    ],
+    "rating": 4.5,
+    "updatedAt": "2026-05-05",
+    "features": [
+      "代码搜索",
+      "代码理解",
+      "代码生成",
+      "跨仓库分析",
+      "企业级部署",
+      "安全合规"
+    ],
+    "useCases": [
+      "大型代码库导航",
+      "代码生成",
+      "代码审查",
+      "技术债务分析",
+      "架构理解"
+    ],
+    "seoTitle": "Sourcegraph Cody 2 - 企业级AI编程助手 | AI Navigator Pro",
+    "seoDescription": "Sourcegraph Cody 2增强了代码搜索和代码库理解能力，适合企业级开发团队。",
+    "views": 50000
+  },
+  {
+    "id": "elicit-3",
+    "name": "Elicit 3",
+    "avatar": "https://api.dicebear.com/7.x/bottts/svg?seed=elicit",
+    "description": "AI研究助手，帮助研究人员快速查找、理解和综合学术文献。",
+    "url": "https://elicit.com",
+    "category": "research-agents",
+    "tags": [
+      "学术研究",
+      "文献综述",
+      "AI研究",
+      "教育"
+    ],
+    "rating": 4.7,
+    "updatedAt": "2026-06-05",
+    "features": [
+      "文献搜索",
+      "摘要生成",
+      "文献对比",
+      "方法学提取",
+      "引用分析",
+      "文献管理"
+    ],
+    "useCases": [
+      "文献综述",
+      "学术研究",
+      "论文写作",
+      "研究选题",
+      "领域跟踪"
+    ],
+    "seoTitle": "Elicit 3 - AI学术研究助手 | AI Navigator Pro",
+    "seoDescription": "Elicit 3是AI研究助手，帮助研究人员快速查找、理解和综合学术文献。",
+    "featured": true,
+    "trending": true,
+    "views": 72000
+  },
+  {
+    "id": "consensus-agent",
+    "name": "Consensus Agent",
+    "avatar": "https://api.dicebear.com/7.x/bottts/svg?seed=consensus",
+    "description": "基于科学文献的AI搜索引擎Agent，提供基于证据的科学问题答案。",
+    "url": "https://consensus.app",
+    "category": "research-agents",
+    "tags": [
+      "科学研究",
+      "文献搜索",
+      "证据分析",
+      "学术"
+    ],
+    "rating": 4.6,
+    "updatedAt": "2026-05-28",
+    "features": [
+      "科学文献搜索",
+      "证据分析",
+      "共识总结",
+      "论文引用",
+      "方法学评估",
+      "专家观点"
+    ],
+    "useCases": [
+      "科学问题解答",
+      "循证决策",
+      "学术研究",
+      "政策制定",
+      "医疗咨询"
+    ],
+    "seoTitle": "Consensus Agent - 科学文献AI搜索引擎 | AI Navigator Pro",
+    "seoDescription": "Consensus Agent基于科学文献提供基于证据的科学问题答案。",
+    "featured": true,
+    "views": 65000
+  },
+  {
+    "id": "scite-ai-agent",
+    "name": "Scite AI Agent",
+    "avatar": "https://api.dicebear.com/7.x/bottts/svg?seed=scite",
+    "description": "智能引文分析Agent，帮助研究人员分析论文被引用的上下文和支持/反驳情况。",
+    "url": "https://scite.ai",
+    "category": "research-agents",
+    "tags": [
+      "引文分析",
+      "学术研究",
+      "文献评估",
+      "科研工具"
+    ],
+    "rating": 4.5,
+    "updatedAt": "2026-04-28",
+    "features": [
+      "智能引文分析",
+      "支持/反驳分类",
+      "引用上下文",
+      "论文发现",
+      "引用网络",
+      "期刊评估"
+    ],
+    "useCases": [
+      "文献评估",
+      "研究选题",
+      "论文投稿",
+      "期刊选择",
+      "学术评价"
+    ],
+    "seoTitle": "Scite AI Agent - 智能引文分析工具 | AI Navigator Pro",
+    "seoDescription": "Scite AI Agent帮助研究人员分析论文被引用的上下文和支持/反驳情况。",
+    "views": 42000
+  },
+  {
+    "id": "research-rabbit",
+    "name": "ResearchRabbit",
+    "avatar": "https://api.dicebear.com/7.x/bottts/svg?seed=researchrabbit",
+    "description": "文献发现与研究网络可视化Agent，帮助研究人员发现相关论文和研究趋势。",
+    "url": "https://researchrabbit.com",
+    "category": "research-agents",
+    "tags": [
+      "文献发现",
+      "研究网络",
+      "可视化",
+      "学术研究"
+    ],
+    "rating": 4.4,
+    "updatedAt": "2026-03-30",
+    "features": [
+      "文献推荐",
+      "引用网络可视化",
+      "研究趋势分析",
+      "作者网络",
+      "文献收藏",
+      "合作推荐"
+    ],
+    "useCases": [
+      "文献综述",
+      "研究选题",
+      "领域探索",
+      "寻找合作者",
+      "研究规划"
+    ],
+    "seoTitle": "ResearchRabbit - 文献发现与研究网络可视化 | AI Navigator Pro",
+    "seoDescription": "ResearchRabbit帮助研究人员发现相关论文和研究趋势，可视化研究网络。",
+    "views": 38000
+  },
+  {
+    "id": "connected-papers-agent",
+    "name": "Connected Papers Agent",
+    "avatar": "https://api.dicebear.com/7.x/bottts/svg?seed=connectedpapers",
+    "description": "学术论文关系可视化Agent，帮助研究人员理解论文之间的引用关系和研究脉络。",
+    "url": "https://connectedpapers.com",
+    "category": "research-agents",
+    "tags": [
+      "论文可视化",
+      "引用分析",
+      "学术研究",
+      "知识图谱"
+    ],
+    "rating": 4.4,
+    "updatedAt": "2026-04-05",
+    "features": [
+      "论文关系图",
+      "引用网络",
+      "研究脉络",
+      "先导论文发现",
+      "最新研究跟踪",
+      "领域概览"
+    ],
+    "useCases": [
+      "新领域探索",
+      "文献综述",
+      "研究选题",
+      "论文写作",
+      "研究规划"
+    ],
+    "seoTitle": "Connected Papers Agent - 学术论文关系可视化 | AI Navigator Pro",
+    "seoDescription": "Connected Papers Agent帮助研究人员理解论文之间的引用关系和研究脉络。",
+    "views": 35000
+  },
+  {
+    "id": "semantic-scholar-agent",
+    "name": "Semantic Scholar Agent",
+    "avatar": "https://api.dicebear.com/7.x/bottts/svg?seed=semantic",
+    "description": "AI增强的学术搜索引擎Agent，由Allen AI研究院开发，支持语义搜索和论文分析。",
+    "url": "https://semanticscholar.org",
+    "category": "research-agents",
+    "tags": [
+      "学术搜索",
+      "Allen AI",
+      "语义搜索",
+      "论文分析"
+    ],
+    "rating": 4.6,
+    "updatedAt": "2026-05-12",
+    "features": [
+      "语义搜索",
+      "论文摘要",
+      "引用分析",
+      "研究趋势",
+      "作者档案",
+      "论文推荐"
+    ],
+    "useCases": [
+      "学术搜索",
+      "文献综述",
+      "研究选题",
+      "作者跟踪",
+      "领域研究"
+    ],
+    "seoTitle": "Semantic Scholar Agent - AI学术搜索引擎 | AI Navigator Pro",
+    "seoDescription": "Semantic Scholar Agent是Allen AI开发的AI增强学术搜索引擎，支持语义搜索。",
+    "featured": true,
+    "views": 58000
+  },
+  {
+    "id": "arxiv-gpt",
+    "name": "arXiv GPT",
+    "avatar": "https://api.dicebear.com/7.x/bottts/svg?seed=arxivgpt",
+    "description": "专门针对arXiv论文的AI研究Agent，支持论文问答、总结和相关论文推荐。",
+    "url": "https://arxivgpt.com",
+    "category": "research-agents",
+    "tags": [
+      "arXiv",
+      "论文问答",
+      "学术研究",
+      "AI研究"
+    ],
+    "rating": 4.3,
+    "updatedAt": "2026-03-20",
+    "features": [
+      "论文问答",
+      "论文总结",
+      "相关论文推荐",
+      "公式解释",
+      "代码搜索",
+      "引用追踪"
+    ],
+    "useCases": [
+      "论文阅读",
+      "AI研究跟踪",
+      "技术学习",
+      "论文复现",
+      "研究选题"
+    ],
+    "seoTitle": "arXiv GPT - arXiv论文AI研究助手 | AI Navigator Pro",
+    "seoDescription": "arXiv GPT是专门针对arXiv论文的AI研究Agent，支持论文问答和总结。",
+    "views": 32000
+  },
+  {
+    "id": "paperpal-agent",
+    "name": "Paperpal Agent",
+    "avatar": "https://api.dicebear.com/7.x/bottts/svg?seed=paperpal",
+    "description": "AI学术写作助手Agent，帮助研究人员润色论文、检查语法和学术规范。",
+    "url": "https://paperpal.com",
+    "category": "research-agents",
+    "tags": [
+      "学术写作",
+      "论文润色",
+      "语法检查",
+      "教育"
+    ],
+    "rating": 4.4,
+    "updatedAt": "2026-04-18",
+    "features": [
+      "论文润色",
+      "语法检查",
+      "学术用语",
+      "格式调整",
+      "期刊适配",
+      "抄袭检测"
+    ],
+    "useCases": [
+      "论文写作",
+      "投稿准备",
+      "语言润色",
+      "格式调整",
+      "学术英语提升"
+    ],
+    "seoTitle": "Paperpal Agent - AI学术写作助手 | AI Navigator Pro",
+    "seoDescription": "Paperpal Agent帮助研究人员润色论文、检查语法和学术规范。",
+    "views": 28000
+  },
+  {
+    "id": "scispace-agent",
+    "name": "SciSpace Agent",
+    "avatar": "https://api.dicebear.com/7.x/bottts/svg?seed=scispace",
+    "description": "AI研究论文助手，支持论文问答、公式解释、表格分析和文献综述。",
+    "url": "https://scispace.com",
+    "category": "research-agents",
+    "tags": [
+      "论文阅读",
+      "公式解释",
+      "学术研究",
+      "文献综述"
+    ],
+    "rating": 4.5,
+    "updatedAt": "2026-05-08",
+    "features": [
+      "论文问答",
+      "公式解释",
+      "表格分析",
+      "文献综述",
+      "PDF标注",
+      "引用管理"
+    ],
+    "useCases": [
+      "论文阅读",
+      "文献综述",
+      "研究学习",
+      "论文写作",
+      "公式理解"
+    ],
+    "seoTitle": "SciSpace Agent - AI研究论文助手 | AI Navigator Pro",
+    "seoDescription": "SciSpace Agent支持论文问答、公式解释、表格分析和文献综述。",
+    "featured": true,
+    "views": 48000
+  },
+  {
+    "id": "typeset-io-agent",
+    "name": "Typeset.io Agent",
+    "avatar": "https://api.dicebear.com/7.x/bottts/svg?seed=typeset",
+    "description": "AI学术出版平台Agent，提供论文格式化、投稿建议和期刊选择服务。",
+    "url": "https://typeset.io",
+    "category": "research-agents",
+    "tags": [
+      "学术出版",
+      "论文格式化",
+      "期刊选择",
+      "投稿"
+    ],
+    "rating": 4.2,
+    "updatedAt": "2026-03-05",
+    "features": [
+      "论文格式化",
+      "期刊推荐",
+      "投稿指南",
+      "参考文献格式化",
+      "模板库",
+      "协作编辑"
+    ],
+    "useCases": [
+      "论文投稿",
+      "格式调整",
+      "期刊选择",
+      "参考文献管理",
+      "论文写作"
+    ],
+    "seoTitle": "Typeset.io Agent - AI学术出版平台 | AI Navigator Pro",
+    "seoDescription": "Typeset.io Agent提供论文格式化、投稿建议和期刊选择服务。",
+    "views": 22000
+  },
+  {
+    "id": "trinka-ai-agent",
+    "name": "Trinka AI Agent",
+    "avatar": "https://api.dicebear.com/7.x/bottts/svg?seed=trinka",
+    "description": "AI英语语法检查和学术写作Agent，专为非英语母语研究人员设计。",
+    "url": "https://trinka.ai",
+    "category": "research-agents",
+    "tags": [
+      "语法检查",
+      "学术写作",
+      "英语学习",
+      "论文润色"
+    ],
+    "rating": 4.3,
+    "updatedAt": "2026-03-28",
+    "features": [
+      "语法检查",
+      "学术用语建议",
+      "技术写作优化",
+      " plagiarism检测",
+      "期刊格式适配",
+      "翻译润色"
+    ],
+    "useCases": [
+      "论文润色",
+      "学术写作",
+      "英语提升",
+      "投稿准备",
+      "技术文档"
+    ],
+    "seoTitle": "Trinka AI Agent - 学术英语语法检查 | AI Navigator Pro",
+    "seoDescription": "Trinka AI Agent是专为非英语母语研究人员设计的AI语法检查和学术写作工具。",
+    "views": 25000
+  },
+  {
+    "id": "notion-ai-research",
+    "name": "Notion AI Research",
+    "avatar": "https://api.dicebear.com/7.x/bottts/svg?seed=notionresearch",
+    "description": "Notion内置的AI研究助手，支持文献管理、笔记整理和研究项目管理。",
+    "url": "https://notion.so/product/ai",
+    "category": "research-agents",
+    "tags": [
+      "研究管理",
+      "Notion",
+      "笔记",
+      "项目管理"
+    ],
+    "rating": 4.5,
+    "updatedAt": "2026-05-20",
+    "features": [
+      "文献管理",
+      "AI总结",
+      "笔记整理",
+      "研究数据库",
+      "项目管理",
+      "协作共享"
+    ],
+    "useCases": [
+      "研究项目管理",
+      "文献笔记",
+      "论文写作",
+      "团队研究协作",
+      "知识管理"
+    ],
+    "seoTitle": "Notion AI Research - AI研究助手 | AI Navigator Pro",
+    "seoDescription": "Notion AI Research是Notion内置的AI研究助手，支持文献管理和研究项目管理。",
+    "views": 52000
+  },
+  {
+    "id": "obsidian-research-agent",
+    "name": "Obsidian Research Agent",
+    "avatar": "https://api.dicebear.com/7.x/bottts/svg?seed=obsidianresearch",
+    "description": "Obsidian笔记软件的AI研究插件，支持文献链接、知识图谱和研究笔记生成。",
+    "url": "https://obsidian.md",
+    "category": "research-agents",
+    "tags": [
+      "笔记",
+      "Obsidian",
+      "知识管理",
+      "研究工具"
+    ],
+    "rating": 4.4,
+    "updatedAt": "2026-04-22",
+    "features": [
+      "双向链接",
+      "知识图谱",
+      "文献笔记",
+      "AI摘要",
+      "标签管理",
+      "本地存储"
+    ],
+    "useCases": [
+      "研究笔记",
+      "知识管理",
+      "文献综述",
+      "论文写作",
+      "个人知识库"
+    ],
+    "seoTitle": "Obsidian Research Agent - 研究笔记与知识管理 | AI Navigator Pro",
+    "seoDescription": "Obsidian Research Agent支持文献链接、知识图谱和研究笔记生成。",
+    "views": 40000
+  },
+  {
+    "id": "zotero-ai-agent",
+    "name": "Zotero AI Agent",
+    "avatar": "https://api.dicebear.com/7.x/bottts/svg?seed=zotero",
+    "description": "Zotero文献管理工具的AI增强插件，支持自动分类、摘要生成和文献推荐。",
+    "url": "https://zotero.org",
+    "category": "research-agents",
+    "tags": [
+      "文献管理",
+      "Zotero",
+      "开源",
+      "学术研究"
+    ],
+    "rating": 4.3,
+    "updatedAt": "2026-04-10",
+    "features": [
+      "文献管理",
+      "AI摘要",
+      "自动分类",
+      "文献推荐",
+      "引用生成",
+      "PDF标注"
+    ],
+    "useCases": [
+      "文献管理",
+      "论文写作",
+      "文献综述",
+      "研究整理",
+      "学术写作"
+    ],
+    "seoTitle": "Zotero AI Agent - AI增强文献管理 | AI Navigator Pro",
+    "seoDescription": "Zotero AI Agent支持自动分类、摘要生成和文献推荐的文献管理工具。",
+    "views": 35000
+  },
+  {
+    "id": "litmaps-agent",
+    "name": "Litmaps Agent",
+    "avatar": "https://api.dicebear.com/7.x/bottts/svg?seed=litmaps",
+    "description": "文献图谱可视化Agent，帮助研究人员发现和理解科学文献的引用网络。",
+    "url": "https://litmaps.com",
+    "category": "research-agents",
+    "tags": [
+      "文献图谱",
+      "可视化",
+      "引用网络",
+      "学术研究"
+    ],
+    "rating": 4.2,
+    "updatedAt": "2026-03-15",
+    "features": [
+      "文献图谱",
+      "引用网络",
+      "时间线视图",
+      "文献发现",
+      "收藏管理",
+      "分享导出"
+    ],
+    "useCases": [
+      "文献发现",
+      "研究脉络梳理",
+      "文献综述",
+      "新领域探索",
+      "研究规划"
+    ],
+    "seoTitle": "Litmaps Agent - 文献图谱可视化工具 | AI Navigator Pro",
+    "seoDescription": "Litmaps Agent帮助研究人员发现和理解科学文献的引用网络。",
+    "views": 20000
+  },
+  {
+    "id": "mendeley-ai-agent",
+    "name": "Mendeley AI Agent",
+    "avatar": "https://api.dicebear.com/7.x/bottts/svg?seed=mendeley",
+    "description": "Elsevier推出的Mendeley AI增强版文献管理工具，支持AI推荐和论文分析。",
+    "url": "https://mendeley.com",
+    "category": "research-agents",
+    "tags": [
+      "文献管理",
+      "Elsevier",
+      "学术研究",
+      "论文分析"
+    ],
+    "rating": 4.3,
+    "updatedAt": "2026-04-02",
+    "features": [
+      "文献管理",
+      "AI论文推荐",
+      "PDF标注",
+      "引用生成",
+      "协作共享",
+      "论文分析"
+    ],
+    "useCases": [
+      "文献管理",
+      "学术研究",
+      "论文写作",
+      "协作研究",
+      "文献发现"
+    ],
+    "seoTitle": "Mendeley AI Agent - AI增强文献管理 | AI Navigator Pro",
+    "seoDescription": "Mendeley AI Agent是Elsevier推出的AI增强版文献管理工具。",
+    "views": 28000
+  },
+  {
+    "id": "paperpile-agent",
+    "name": "Paperpile Agent",
+    "avatar": "https://api.dicebear.com/7.x/bottts/svg?seed=paperpile",
+    "description": "面向Google Workspace的AI文献管理Agent，深度集成Google Docs和Drive。",
+    "url": "https://paperpile.com",
+    "category": "research-agents",
+    "tags": [
+      "文献管理",
+      "Google",
+      "学术写作",
+      "云服务"
+    ],
+    "rating": 4.2,
+    "updatedAt": "2026-03-22",
+    "features": [
+      "文献管理",
+      "Google Docs集成",
+      "引用插入",
+      "PDF管理",
+      "AI搜索",
+      "团队共享"
+    ],
+    "useCases": [
+      "论文写作",
+      "文献管理",
+      "学术协作",
+      "Google生态",
+      "研究整理"
+    ],
+    "seoTitle": "Paperpile Agent - Google生态文献管理 | AI Navigator Pro",
+    "seoDescription": "Paperpile Agent是面向Google Workspace的AI文献管理工具。",
+    "views": 18000
+  },
+  {
+    "id": "readcube-agent",
+    "name": "ReadCube Agent",
+    "avatar": "https://api.dicebear.com/7.x/bottts/svg?seed=readcube",
+    "description": "AI增强的论文阅读和文献管理Agent，提供智能推荐和论文追踪功能。",
+    "url": "https://readcube.com",
+    "category": "research-agents",
+    "tags": [
+      "论文阅读",
+      "文献管理",
+      "AI推荐",
+      "学术研究"
+    ],
+    "rating": 4.1,
+    "updatedAt": "2026-02-28",
+    "features": [
+      "论文阅读",
+      "智能推荐",
+      "文献管理",
+      "引用追踪",
+      "PDF标注",
+      "期刊订阅"
+    ],
+    "useCases": [
+      "论文阅读",
+      "文献管理",
+      "研究跟踪",
+      "学术写作",
+      "知识更新"
+    ],
+    "seoTitle": "ReadCube Agent - AI增强论文阅读工具 | AI Navigator Pro",
+    "seoDescription": "ReadCube Agent提供智能推荐和论文追踪功能的AI增强阅读工具。",
+    "views": 15000
+  },
+  {
+    "id": "overleaf-ai-agent",
+    "name": "Overleaf AI Agent",
+    "avatar": "https://api.dicebear.com/7.x/bottts/svg?seed=overleaf",
+    "description": "Overleaf在线LaTeX编辑器的AI写作助手，支持公式生成、文本润色和模板推荐。",
+    "url": "https://overleaf.com",
+    "category": "research-agents",
+    "tags": [
+      "LaTeX",
+      "学术写作",
+      "论文排版",
+      "在线协作"
+    ],
+    "rating": 4.4,
+    "updatedAt": "2026-05-02",
+    "features": [
+      "LaTeX编辑",
+      "AI写作辅助",
+      "公式生成",
+      "模板推荐",
+      "实时协作",
+      "版本管理"
+    ],
+    "useCases": [
+      "论文写作",
+      "学术出版",
+      "报告编写",
+      "书籍排版",
+      "幻灯片制作"
+    ],
+    "seoTitle": "Overleaf AI Agent - AI增强LaTeX编辑器 | AI Navigator Pro",
+    "seoDescription": "Overleaf AI Agent支持公式生成、文本润色和模板推荐的在线LaTeX编辑器。",
+    "views": 45000
+  },
+  {
+    "id": "gemini-advanced-agent",
+    "name": "Gemini Advanced Agent",
+    "avatar": "https://api.dicebear.com/7.x/bottts/svg?seed=geminiadvanced",
+    "description": "Google Gemini 2.5 Ultra的Agent模式，支持多模态理解和复杂任务执行。",
+    "url": "https://gemini.google.com/advanced",
+    "category": "general-agents",
+    "tags": [
+      "通用Agent",
+      "Google",
+      "Gemini",
+      "多模态"
+    ],
+    "rating": 4.7,
+    "updatedAt": "2026-06-15",
+    "features": [
+      "多模态理解",
+      "复杂推理",
+      "工具使用",
+      "代码执行",
+      "长上下文",
+      "Google服务集成"
+    ],
+    "useCases": [
+      "复杂任务处理",
+      "多模态分析",
+      "研究分析",
+      "创意工作",
+      "日常助手"
+    ],
+    "seoTitle": "Gemini Advanced Agent - Google旗舰AI Agent | AI Navigator Pro",
+    "seoDescription": "Gemini Advanced Agent基于Gemini 2.5 Ultra，支持多模态理解和复杂任务执行。",
+    "featured": true,
+    "trending": true,
+    "views": 128000
+  },
+  {
+    "id": "grok-3-agent",
+    "name": "Grok 3 Agent",
+    "avatar": "https://api.dicebear.com/7.x/bottts/svg?seed=grok3",
+    "description": "xAI推出的Grok 3 AI Agent，实时接入X平台，支持实时信息和深度推理。",
+    "url": "https://x.ai",
+    "category": "general-agents",
+    "tags": [
+      "通用Agent",
+      "xAI",
+      "Grok",
+      "实时信息"
+    ],
+    "rating": 4.6,
+    "updatedAt": "2026-06-10",
+    "features": [
+      "实时信息",
+      "X平台集成",
+      "深度推理",
+      "多模态",
+      "代码生成",
+      "幽默风格"
+    ],
+    "useCases": [
+      "实时新闻分析",
+      "市场动态跟踪",
+      "研究分析",
+      "内容创作",
+      "日常助手"
+    ],
+    "seoTitle": "Grok 3 Agent - xAI实时AI助手 | AI Navigator Pro",
+    "seoDescription": "Grok 3 Agent是xAI推出的AI Agent，实时接入X平台，支持实时信息和深度推理。",
+    "featured": true,
+    "trending": true,
+    "views": 98000
+  },
+  {
+    "id": "pi-agent",
+    "name": "Pi Agent",
+    "avatar": "https://api.dicebear.com/7.x/bottts/svg?seed=pi",
+    "description": "Inflection AI推出的个人智能Agent，专注于情感支持和个性化对话。",
+    "url": "https://pi.ai",
+    "category": "general-agents",
+    "tags": [
+      "个人助手",
+      "Inflection AI",
+      "情感支持",
+      "对话"
+    ],
+    "rating": 4.4,
+    "updatedAt": "2026-04-25",
+    "features": [
+      "个性化对话",
+      "情感支持",
+      "语音交互",
+      "记忆功能",
+      "多平台支持",
+      "日常提醒"
+    ],
+    "useCases": [
+      "情感陪伴",
+      "日常倾诉",
+      "心理咨询",
+      "学习伙伴",
+      "生活建议"
+    ],
+    "seoTitle": "Pi Agent - 个人智能助手 | AI Navigator Pro",
+    "seoDescription": "Pi Agent是Inflection AI推出的个人智能Agent，专注于情感支持和个性化对话。",
+    "views": 55000
+  },
+  {
+    "id": "character-ai-agent",
+    "name": "Character.AI Agent",
+    "avatar": "https://api.dicebear.com/7.x/bottts/svg?seed=characterai",
+    "description": "角色AI平台，用户可以创建和与各种AI角色对话，支持角色扮演和故事创作。",
+    "url": "https://character.ai",
+    "category": "general-agents",
+    "tags": [
+      "角色AI",
+      "角色扮演",
+      "创意",
+      "娱乐"
+    ],
+    "rating": 4.3,
+    "updatedAt": "2026-04-15",
+    "features": [
+      "角色创建",
+      "角色扮演",
+      "故事创作",
+      "多人聊天",
+      "语音对话",
+      "图像生成"
+    ],
+    "useCases": [
+      "角色扮演",
+      "创意写作",
+      "语言学习",
+      "娱乐休闲",
+      "教育互动"
+    ],
+    "seoTitle": "Character.AI Agent - 角色AI平台 | AI Navigator Pro",
+    "seoDescription": "Character.AI Agent是角色AI平台，支持角色扮演和故事创作。",
+    "views": 72000
+  },
+  {
+    "id": "poe-agent",
+    "name": "Poe Agent",
+    "avatar": "https://api.dicebear.com/7.x/bottts/svg?seed=poe",
+    "description": "Quora推出的多AI平台，聚合多种AI模型和定制Bot，支持创建自定义Agent。",
+    "url": "https://poe.com",
+    "category": "general-agents",
+    "tags": [
+      "多模型",
+      "Quora",
+      "定制Bot",
+      "平台"
+    ],
+    "rating": 4.5,
+    "updatedAt": "2026-05-18",
+    "features": [
+      "多模型聚合",
+      "自定义Bot",
+      "Agent创建",
+      "API访问",
+      "文件分析",
+      "图片生成"
+    ],
+    "useCases": [
+      "多模型对比",
+      "定制助手",
+      "内容创作",
+      "学习辅助",
+      "Agent开发"
+    ],
+    "seoTitle": "Poe Agent - 多AI平台与Agent创建 | AI Navigator Pro",
+    "seoDescription": "Poe Agent是Quora推出的多AI平台，支持创建自定义Agent和Bot。",
+    "featured": true,
+    "views": 85000
+  },
+  {
+    "id": "llama-4-agent",
+    "name": "Llama 4 Agent",
+    "avatar": "https://api.dicebear.com/7.x/bottts/svg?seed=llama4",
+    "description": "Meta推出的开源旗舰大模型Agent，基于Llama 4，支持本地部署和自定义微调。",
+    "url": "https://ai.meta.com/llama",
+    "category": "general-agents",
+    "tags": [
+      "开源",
+      "Meta",
+      "Llama",
+      "本地部署"
+    ],
+    "rating": 4.6,
+    "updatedAt": "2026-06-02",
+    "features": [
+      "开源模型",
+      "多规格选择",
+      "工具调用",
+      "代码生成",
+      "可微调",
+      "本地部署"
+    ],
+    "useCases": [
+      "研究实验",
+      "私有部署",
+      "定制AI助手",
+      "企业应用",
+      "Agent开发"
+    ],
+    "seoTitle": "Llama 4 Agent - Meta开源旗舰大模型 | AI Navigator Pro",
+    "seoDescription": "Llama 4 Agent是Meta推出的开源旗舰大模型，支持本地部署和自定义微调。",
+    "featured": true,
+    "trending": true,
+    "views": 92000
+  },
+  {
+    "id": "qwen-3-agent",
+    "name": "Qwen 3 Agent",
+    "avatar": "https://api.dicebear.com/7.x/bottts/svg?seed=qwen3",
+    "description": "阿里云通义千问3代大模型Agent，支持中文理解、多模态和工具调用。",
+    "url": "https://tongyi.aliyun.com",
+    "category": "general-agents",
+    "tags": [
+      "阿里云",
+      "Qwen",
+      "中文优化",
+      "多模态"
+    ],
+    "rating": 4.5,
+    "updatedAt": "2026-05-25",
+    "features": [
+      "中文优化",
+      "多模态理解",
+      "工具调用",
+      "代码生成",
+      "长上下文",
+      "企业级部署"
+    ],
+    "useCases": [
+      "中文智能助手",
+      "企业应用",
+      "内容创作",
+      "客户服务",
+      "数据分析"
+    ],
+    "seoTitle": "Qwen 3 Agent - 通义千问3代大模型 | AI Navigator Pro",
+    "seoDescription": "Qwen 3 Agent是阿里云通义千问3代大模型，支持中文理解和多模态。",
+    "featured": true,
+    "views": 78000
+  },
+  {
+    "id": "deepseek-v3-agent",
+    "name": "DeepSeek V3 Agent",
+    "avatar": "https://api.dicebear.com/7.x/bottts/svg?seed=deepseekv3",
+    "description": "深度求索推出的DeepSeek V3通用大模型Agent，支持推理优化和代码生成。",
+    "url": "https://deepseek.com",
+    "category": "general-agents",
+    "tags": [
+      "DeepSeek",
+      "通用大模型",
+      "推理优化",
+      "开源"
+    ],
+    "rating": 4.5,
+    "updatedAt": "2026-05-20",
+    "features": [
+      "推理优化",
+      "代码生成",
+      "数学推理",
+      "工具调用",
+      "开源模型",
+      "长上下文"
+    ],
+    "useCases": [
+      "通用助手",
+      "代码开发",
+      "数学计算",
+      "研究分析",
+      "内容创作"
+    ],
+    "seoTitle": "DeepSeek V3 Agent - 通用大模型Agent | AI Navigator Pro",
+    "seoDescription": "DeepSeek V3 Agent支持推理优化和代码生成的通用大模型。",
+    "featured": true,
+    "views": 68000
+  },
+  {
+    "id": "mistral-large-3-agent",
+    "name": "Mistral Large 3 Agent",
+    "avatar": "https://api.dicebear.com/7.x/bottts/svg?seed=mistral3",
+    "description": "Mistral AI推出的旗舰大模型Agent，支持多语言、推理和Agent能力。",
+    "url": "https://mistral.ai",
+    "category": "general-agents",
+    "tags": [
+      "Mistral",
+      "欧洲AI",
+      "多语言",
+      "推理"
+    ],
+    "rating": 4.5,
+    "updatedAt": "2026-05-15",
+    "features": [
+      "多语言支持",
+      "高级推理",
+      "工具调用",
+      "代码生成",
+      "快速响应",
+      "企业级"
+    ],
+    "useCases": [
+      "企业AI助手",
+      "多语言服务",
+      "内容创作",
+      "数据分析",
+      "客户支持"
+    ],
+    "seoTitle": "Mistral Large 3 Agent - 欧洲旗舰大模型 | AI Navigator Pro",
+    "seoDescription": "Mistral Large 3 Agent是Mistral AI推出的旗舰大模型，支持多语言和推理能力。",
+    "views": 52000
+  },
+  {
+    "id": "doubao-agent",
+    "name": "豆包Agent",
+    "avatar": "https://api.dicebear.com/7.x/bottts/svg?seed=doubao",
+    "description": "字节跳动推出的豆包AI助手Agent版本，支持多模态交互和丰富的工具生态。",
+    "url": "https://doubao.com",
+    "category": "general-agents",
+    "tags": [
+      "字节跳动",
+      "豆包",
+      "中文助手",
+      "多模态"
+    ],
+    "rating": 4.4,
+    "updatedAt": "2026-05-10",
+    "features": [
+      "多模态交互",
+      "中文优化",
+      "工具生态",
+      "语音对话",
+      "图像生成",
+      "生活服务"
+    ],
+    "useCases": [
+      "日常助手",
+      "学习辅导",
+      "生活服务",
+      "内容创作",
+      "娱乐休闲"
+    ],
+    "seoTitle": "豆包Agent - 字节跳动AI助手 | AI Navigator Pro",
+    "seoDescription": "豆包Agent是字节跳动推出的AI助手，支持多模态交互和丰富的工具生态。",
+    "views": 88000
+  },
+  {
+    "id": "kimi-agent",
+    "name": "Kimi Agent",
+    "avatar": "https://api.dicebear.com/7.x/bottts/svg?seed=kimi",
+    "description": "月之暗面推出的Kimi AI Agent，以超长上下文和文件处理能力著称。",
+    "url": "https://kimi.moonshot.cn",
+    "category": "general-agents",
+    "tags": [
+      "月之暗面",
+      "Kimi",
+      "长上下文",
+      "文件处理"
+    ],
+    "rating": 4.5,
+    "updatedAt": "2026-05-22",
+    "features": [
+      "超长上下文",
+      "文件处理",
+      "网页阅读",
+      "多文档分析",
+      "中文优化",
+      "API服务"
+    ],
+    "useCases": [
+      "长文档分析",
+      "研究报告",
+      "合同审查",
+      "论文阅读",
+      "资料整理"
+    ],
+    "seoTitle": "Kimi Agent - 超长上下文AI助手 | AI Navigator Pro",
+    "seoDescription": "Kimi Agent是月之暗面推出的AI助手，以超长上下文和文件处理能力著称。",
+    "featured": true,
+    "views": 75000
+  },
+  {
+    "id": "wenxin-agent",
+    "name": "文心一言Agent",
+    "avatar": "https://api.dicebear.com/7.x/bottts/svg?seed=wenxin",
+    "description": "百度推出的文心一言4.0 Agent版本，深度集成百度搜索和生态服务。",
+    "url": "https://yiyan.baidu.com",
+    "category": "general-agents",
+    "tags": [
+      "百度",
+      "文心一言",
+      "中文助手",
+      "搜索增强"
+    ],
+    "rating": 4.3,
+    "updatedAt": "2026-04-30",
+    "features": [
+      "搜索增强",
+      "多模态",
+      "百度生态",
+      "知识问答",
+      "内容创作",
+      "企业级"
+    ],
+    "useCases": [
+      "知识问答",
+      "内容创作",
+      "搜索服务",
+      "企业应用",
+      "学习助手"
+    ],
+    "seoTitle": "文心一言Agent - 百度AI助手 | AI Navigator Pro",
+    "seoDescription": "文心一言Agent是百度推出的AI助手，深度集成百度搜索和生态服务。",
+    "views": 65000
+  },
+  {
+    "id": "tongyi-qianwen-agent",
+    "name": "通义千问Agent",
+    "avatar": "https://api.dicebear.com/7.x/bottts/svg?seed=tongyi",
+    "description": "阿里云通义千问AI助手Agent，支持企业级应用和丰富的工具调用。",
+    "url": "https://tongyi.aliyun.com",
+    "category": "general-agents",
+    "tags": [
+      "阿里云",
+      "通义千问",
+      "企业级",
+      "中文优化"
+    ],
+    "rating": 4.4,
+    "updatedAt": "2026-05-05",
+    "features": [
+      "企业级部署",
+      "工具调用",
+      "多模态",
+      "阿里云集成",
+      "API服务",
+      "定制化"
+    ],
+    "useCases": [
+      "企业智能助手",
+      "客服机器人",
+      "内容生成",
+      "数据分析",
+      "办公自动化"
+    ],
+    "seoTitle": "通义千问Agent - 阿里云AI助手 | AI Navigator Pro",
+    "seoDescription": "通义千问Agent是阿里云推出的AI助手，支持企业级应用和丰富的工具调用。",
+    "views": 58000
+  },
+  {
+    "id": "jan-ai-agent",
+    "name": "Jan AI Agent",
+    "avatar": "https://api.dicebear.com/7.x/bottts/svg?seed=janai",
+    "description": "开源的本地运行AI助手，支持多种模型、离线使用和隐私保护。",
+    "url": "https://jan.ai",
+    "category": "general-agents",
+    "tags": [
+      "开源",
+      "本地运行",
+      "隐私保护",
+      "多模型"
+    ],
+    "rating": 4.3,
+    "updatedAt": "2026-04-12",
+    "features": [
+      "本地运行",
+      "多模型支持",
+      "离线使用",
+      "隐私保护",
+      "插件扩展",
+      "跨平台"
+    ],
+    "useCases": [
+      "隐私敏感场景",
+      "离线使用",
+      "本地AI助手",
+      "定制化开发",
+      "研究实验"
+    ],
+    "seoTitle": "Jan AI Agent - 开源本地AI助手 | AI Navigator Pro",
+    "seoDescription": "Jan AI Agent是开源的本地运行AI助手，支持多种模型和隐私保护。",
+    "views": 38000
   },
   {
     "id": "metagpt",
     "name": "MetaGPT",
-    "logo": "https://api.dicebear.com/7.x/shapes/svg?seed=metagpt",
     "avatar": "https://api.dicebear.com/7.x/shapes/svg?seed=metagpt",
     "description": "多Agent协作框架，模拟软件公司运作流程，自动化完成复杂开发任务。",
     "url": "https://github.com/geekan/MetaGPT",
@@ -239,14 +2323,52 @@
       "团队协作"
     ],
     "rating": 4.6,
-    "views": 45000,
+    "updatedAt": "2026-05-15",
+    "seoTitle": "MetaGPT - 多Agent协作框架 | AI Navigator Pro",
+    "seoDescription": "MetaGPT是多Agent协作框架，模拟软件公司运作流程，自动化完成复杂开发任务。",
     "featured": true,
-    "trending": true
+    "trending": true,
+    "views": 62000
+  },
+  {
+    "id": "crewai-3",
+    "name": "CrewAI 3",
+    "avatar": "https://api.dicebear.com/7.x/shapes/svg?seed=crewai3",
+    "description": "第三代多Agent协作框架，专注于角色扮演、团队任务执行和企业级工作流。",
+    "url": "https://crewai.com",
+    "category": "ai-agent",
+    "tags": [
+      "多Agent",
+      "角色协作",
+      "Python",
+      "企业级"
+    ],
+    "features": [
+      "角色定义",
+      "任务委托",
+      "工具集成",
+      "流程编排",
+      "多LLM支持",
+      "企业级部署"
+    ],
+    "useCases": [
+      "团队协作",
+      "任务自动化",
+      "内容创作",
+      "研究分析",
+      "企业工作流"
+    ],
+    "rating": 4.7,
+    "updatedAt": "2026-06-20",
+    "seoTitle": "CrewAI 3 - 企业级多Agent协作框架 | AI Navigator Pro",
+    "seoDescription": "CrewAI 3是第三代多Agent协作框架，专注于角色扮演和企业级工作流。",
+    "featured": true,
+    "trending": true,
+    "views": 85000
   },
   {
     "id": "crewai",
     "name": "CrewAI",
-    "logo": "https://api.dicebear.com/7.x/shapes/svg?seed=crewai",
     "avatar": "https://api.dicebear.com/7.x/shapes/svg?seed=crewai",
     "description": "多Agent协作框架，专注于角色扮演和团队任务执行。",
     "url": "https://crewai.com",
@@ -270,13 +2392,15 @@
       "研究分析"
     ],
     "rating": 4.5,
-    "views": 38000,
-    "featured": true
+    "updatedAt": "2026-05-05",
+    "seoTitle": "CrewAI - 多Agent协作框架 | AI Navigator Pro",
+    "seoDescription": "CrewAI是多Agent协作框架，专注于角色扮演和团队任务执行。",
+    "featured": true,
+    "views": 52000
   },
   {
     "id": "langgraph",
     "name": "LangGraph",
-    "logo": "https://api.dicebear.com/7.x/shapes/svg?seed=langgraph",
     "avatar": "https://api.dicebear.com/7.x/shapes/svg?seed=langgraph",
     "description": "LangChain推出的Agent编排框架，支持复杂的状态机和循环流程。",
     "url": "https://langchain.com/langgraph",
@@ -300,12 +2424,50 @@
       "Agent开发"
     ],
     "rating": 4.5,
-    "views": 32000
+    "updatedAt": "2026-05-08",
+    "seoTitle": "LangGraph - Agent编排框架 | AI Navigator Pro",
+    "seoDescription": "LangGraph是LangChain推出的Agent编排框架，支持复杂的状态机和循环流程。",
+    "views": 42000
+  },
+  {
+    "id": "langgraph-2",
+    "name": "LangGraph 2",
+    "avatar": "https://api.dicebear.com/7.x/shapes/svg?seed=langgraph2",
+    "description": "第二代LangGraph Agent编排框架，增强了多Agent协作、持久化和生产级部署能力。",
+    "url": "https://langchain.com/langgraph",
+    "category": "ai-agent",
+    "tags": [
+      "LangChain",
+      "Agent编排",
+      "多Agent",
+      "生产级"
+    ],
+    "features": [
+      "状态图编排",
+      "多Agent协作",
+      "持久化存储",
+      "生产部署",
+      "可观测性",
+      "人机协作"
+    ],
+    "useCases": [
+      "企业级Agent",
+      "复杂工作流",
+      "多Agent系统",
+      "生产部署",
+      "状态管理"
+    ],
+    "rating": 4.7,
+    "updatedAt": "2026-06-18",
+    "seoTitle": "LangGraph 2 - 生产级Agent编排框架 | AI Navigator Pro",
+    "seoDescription": "LangGraph 2增强了多Agent协作、持久化和生产级部署能力。",
+    "featured": true,
+    "trending": true,
+    "views": 78000
   },
   {
     "id": "autogen",
     "name": "AutoGen",
-    "logo": "https://api.dicebear.com/7.x/shapes/svg?seed=autogen",
     "avatar": "https://api.dicebear.com/7.x/shapes/svg?seed=autogen",
     "description": "微软推出的多Agent对话框架，支持复杂的多Agent协作场景。",
     "url": "https://microsoft.github.io/autogen",
@@ -330,12 +2492,49 @@
       "自动化流程"
     ],
     "rating": 4.5,
-    "views": 41000
+    "updatedAt": "2026-05-10",
+    "seoTitle": "AutoGen - 多Agent对话框架 | AI Navigator Pro",
+    "seoDescription": "AutoGen是微软推出的多Agent对话框架，支持复杂的多Agent协作场景。",
+    "views": 48000
+  },
+  {
+    "id": "autogen-2",
+    "name": "AutoGen 2",
+    "avatar": "https://api.dicebear.com/7.x/shapes/svg?seed=autogen2",
+    "description": "微软和麻省理工联合推出的第二代多Agent框架，增强了Agent能力和企业级支持。",
+    "url": "https://microsoft.github.io/autogen",
+    "category": "ai-agent",
+    "tags": [
+      "微软",
+      "多Agent",
+      "对话框架",
+      "企业级"
+    ],
+    "features": [
+      "多Agent协作",
+      "增强对话能力",
+      "工具调用",
+      "代码执行",
+      "企业级支持",
+      "可观测性"
+    ],
+    "useCases": [
+      "企业应用",
+      "复杂任务自动化",
+      "研究实验",
+      "多Agent系统",
+      "人机协作"
+    ],
+    "rating": 4.6,
+    "updatedAt": "2026-06-05",
+    "seoTitle": "AutoGen 2 - 企业级多Agent框架 | AI Navigator Pro",
+    "seoDescription": "AutoGen 2是微软推出的第二代多Agent框架，增强了Agent能力和企业级支持。",
+    "featured": true,
+    "views": 62000
   },
   {
     "id": "babyagi",
     "name": "BabyAGI",
-    "logo": "https://api.dicebear.com/7.x/shapes/svg?seed=babyagi",
     "avatar": "https://api.dicebear.com/7.x/shapes/svg?seed=babyagi",
     "description": "早期流行的自主AI Agent框架，任务驱动的智能执行。",
     "url": "https://github.com/yoheinakajima/babyagi",
@@ -360,12 +2559,14 @@
       "学习Agent"
     ],
     "rating": 4.2,
-    "views": 25000
+    "updatedAt": "2026-03-15",
+    "seoTitle": "BabyAGI - 自主AI Agent框架 | AI Navigator Pro",
+    "seoDescription": "BabyAGI是早期流行的自主AI Agent框架，支持任务驱动的智能执行。",
+    "views": 28000
   },
   {
     "id": "smol-developer",
     "name": "smol-developer",
-    "logo": "https://api.dicebear.com/7.x/shapes/svg?seed=smoldev",
     "avatar": "https://api.dicebear.com/7.x/shapes/svg?seed=smoldev",
     "description": "轻量级的AI软件开发Agent，从需求到代码库全流程自动化。",
     "url": "https://github.com/smol-ai/developer",
@@ -388,12 +2589,14 @@
       "项目脚手架"
     ],
     "rating": 4.3,
-    "views": 18000
+    "updatedAt": "2026-03-25",
+    "seoTitle": "smol-developer - 轻量级AI开发Agent | AI Navigator Pro",
+    "seoDescription": "smol-developer是轻量级的AI软件开发Agent，从需求到代码库全流程自动化。",
+    "views": 22000
   },
   {
     "id": "open-interpreter",
     "name": "Open Interpreter",
-    "logo": "https://api.dicebear.com/7.x/shapes/svg?seed=interpreter",
     "avatar": "https://api.dicebear.com/7.x/shapes/svg?seed=interpreter",
     "description": "让LLM在本地执行代码的Agent，开源版Code Interpreter。",
     "url": "https://openinterpreter.com",
@@ -417,13 +2620,51 @@
       "教育学习"
     ],
     "rating": 4.6,
-    "views": 35000,
-    "trending": true
+    "updatedAt": "2026-05-20",
+    "seoTitle": "Open Interpreter - 本地代码执行Agent | AI Navigator Pro",
+    "seoDescription": "Open Interpreter是让LLM在本地执行代码的Agent，开源版Code Interpreter。",
+    "trending": true,
+    "views": 42000
+  },
+  {
+    "id": "open-interpreter-2",
+    "name": "Open Interpreter 2",
+    "avatar": "https://api.dicebear.com/7.x/shapes/svg?seed=interpreter2",
+    "description": "第二代开源本地代码执行Agent，支持更多语言、更好的安全性和GUI自动化能力。",
+    "url": "https://openinterpreter.com",
+    "category": "ai-agent",
+    "tags": [
+      "代码执行",
+      "本地运行",
+      "开源",
+      "GUI自动化"
+    ],
+    "features": [
+      "本地代码执行",
+      "多语言支持",
+      "GUI自动化",
+      "安全沙箱",
+      "文件操作",
+      "数据可视化"
+    ],
+    "useCases": [
+      "数据分析",
+      "自动化任务",
+      "代码原型",
+      "GUI测试",
+      "教育学习"
+    ],
+    "rating": 4.7,
+    "updatedAt": "2026-06-12",
+    "seoTitle": "Open Interpreter 2 - 开源本地代码执行Agent | AI Navigator Pro",
+    "seoDescription": "Open Interpreter 2支持更多语言、更好的安全性和GUI自动化能力。",
+    "featured": true,
+    "trending": true,
+    "views": 58000
   },
   {
     "id": "aider",
     "name": "Aider",
-    "logo": "https://api.dicebear.com/7.x/shapes/svg?seed=aider",
     "avatar": "https://api.dicebear.com/7.x/shapes/svg?seed=aider",
     "description": "终端中的AI结对编程助手，支持多语言和Git集成。",
     "url": "https://aider.chat",
@@ -448,6 +2689,772 @@
       "功能开发"
     ],
     "rating": 4.5,
+    "updatedAt": "2026-04-28",
+    "seoTitle": "Aider - 终端AI结对编程助手 | AI Navigator Pro",
+    "seoDescription": "Aider是终端中的AI结对编程助手，支持多语言和Git集成。",
+    "views": 32000
+  },
+  {
+    "id": "phidata",
+    "name": "Phidata",
+    "avatar": "https://api.dicebear.com/7.x/shapes/svg?seed=phidata",
+    "description": "用于构建生产级AI Agent的Python框架，支持工具调用、记忆和知识检索。",
+    "url": "https://phidata.com",
+    "category": "ai-agent",
+    "tags": [
+      "Agent框架",
+      "Python",
+      "生产级",
+      "开源"
+    ],
+    "features": [
+      "工具调用",
+      "记忆系统",
+      "知识检索",
+      "工作流编排",
+      "多模型支持",
+      "生产部署"
+    ],
+    "useCases": [
+      "生产级Agent",
+      "知识库助手",
+      "数据分析Agent",
+      "客服机器人",
+      "内部工具"
+    ],
+    "rating": 4.5,
+    "updatedAt": "2026-05-25",
+    "seoTitle": "Phidata - 生产级AI Agent框架 | AI Navigator Pro",
+    "seoDescription": "Phidata是用于构建生产级AI Agent的Python框架，支持工具调用和知识检索。",
+    "featured": true,
+    "views": 45000
+  },
+  {
+    "id": "dspy",
+    "name": "DSPy",
+    "avatar": "https://api.dicebear.com/7.x/shapes/svg?seed=dspy",
+    "description": "Stanford NLP推出的声明式编程框架，用于算法化优化LM提示和权重。",
+    "url": "https://dspy-lang.org",
+    "category": "ai-agent",
+    "tags": [
+      "Stanford",
+      "提示优化",
+      "LM编程",
+      "开源"
+    ],
+    "features": [
+      "声明式编程",
+      "自动提示优化",
+      "模块组合",
+      "评估系统",
+      "编译优化",
+      "多模型支持"
+    ],
+    "useCases": [
+      "复杂管道构建",
+      "提示工程优化",
+      "研究实验",
+      "质量优化",
+      "多步推理"
+    ],
+    "rating": 4.6,
+    "updatedAt": "2026-06-08",
+    "seoTitle": "DSPy - LM编程框架 | AI Navigator Pro",
+    "seoDescription": "DSPy是Stanford NLP推出的声明式编程框架，用于算法化优化LM提示和权重。",
+    "featured": true,
+    "trending": true,
+    "views": 52000
+  },
+  {
+    "id": "camara",
+    "name": "Camara",
+    "avatar": "https://api.dicebear.com/7.x/shapes/svg?seed=camara",
+    "description": "Anthropic推出的计算机使用Agent框架，让AI能够像人类一样使用计算机界面。",
+    "url": "https://anthropic.com/engineering/computer-use",
+    "category": "ai-agent",
+    "tags": [
+      "Anthropic",
+      "计算机使用",
+      "GUI自动化",
+      "Claude"
+    ],
+    "features": [
+      "屏幕理解",
+      "鼠标键盘控制",
+      "多步操作",
+      "安全沙箱",
+      "Claude集成",
+      "可定制工具"
+    ],
+    "useCases": [
+      "GUI自动化测试",
+      "软件操作自动化",
+      "RPA替代",
+      "可访问性工具",
+      "演示录制"
+    ],
+    "rating": 4.6,
+    "updatedAt": "2026-06-15",
+    "seoTitle": "Camara - Anthropic计算机使用Agent框架 | AI Navigator Pro",
+    "seoDescription": "Camara是Anthropic推出的计算机使用Agent框架，让AI能够像人类一样使用计算机界面。",
+    "featured": true,
+    "trending": true,
+    "views": 72000
+  },
+  {
+    "id": "agentql",
+    "name": "AgentQL",
+    "avatar": "https://api.dicebear.com/7.x/shapes/svg?seed=agentql",
+    "description": "面向AI Agent的网页查询语言，让Agent能够可靠地从网页提取数据和交互。",
+    "url": "https://agentql.com",
+    "category": "ai-agent",
+    "tags": [
+      "网页交互",
+      "数据提取",
+      "Agent工具",
+      "浏览器自动化"
+    ],
+    "features": [
+      "智能网页查询",
+      "数据提取",
+      "表单填写",
+      "点击交互",
+      "抗页面变化",
+      "API集成"
+    ],
+    "useCases": [
+      "网页数据采集",
+      "电商价格监控",
+      "内容聚合",
+      "自动化测试",
+      "工作流自动化"
+    ],
+    "rating": 4.4,
+    "updatedAt": "2026-04-30",
+    "seoTitle": "AgentQL - AI Agent网页查询语言 | AI Navigator Pro",
+    "seoDescription": "AgentQL是面向AI Agent的网页查询语言，让Agent能够可靠地从网页提取数据和交互。",
+    "views": 35000
+  },
+  {
+    "id": "superagi-2",
+    "name": "SuperAGI 2",
+    "avatar": "https://api.dicebear.com/7.x/shapes/svg?seed=superagi",
+    "description": "第二代开源AGI开发框架，支持构建、管理和运行有用的自主AI Agent。",
+    "url": "https://superagi.com",
+    "category": "ai-agent",
+    "tags": [
+      "自主Agent",
+      "开源",
+      "AGI框架",
+      "多Agent"
+    ],
+    "features": [
+      "自主Agent",
+      "多Agent管理",
+      "工具市场",
+      "记忆系统",
+      "性能监控",
+      "资源管理"
+    ],
+    "useCases": [
+      "Agent开发",
+      "任务自动化",
+      "研究实验",
+      "多Agent系统",
+      "生产部署"
+    ],
+    "rating": 4.3,
+    "updatedAt": "2026-04-15",
+    "seoTitle": "SuperAGI 2 - 开源AGI开发框架 | AI Navigator Pro",
+    "seoDescription": "SuperAGI 2是第二代开源AGI开发框架，支持构建和运行自主AI Agent。",
+    "views": 30000
+  },
+  {
+    "id": "agent-gpt-3",
+    "name": "AgentGPT 3",
+    "avatar": "https://api.dicebear.com/7.x/shapes/svg?seed=agentgpt",
+    "description": "第三代浏览器端自主AI Agent平台，无需代码即可配置和部署AI Agent。",
+    "url": "https://agentgpt.reworkd.ai",
+    "category": "ai-agent",
+    "tags": [
+      "自主Agent",
+      "浏览器端",
+      "低代码",
+      "无代码"
+    ],
+    "features": [
+      "浏览器运行",
+      "无需代码",
+      "自主目标设定",
+      "任务分解",
+      "多工具支持",
+      "导出部署"
+    ],
+    "useCases": [
+      "快速原型",
+      "任务自动化",
+      "研究助手",
+      "内容创作",
+      "教育学习"
+    ],
+    "rating": 4.2,
+    "updatedAt": "2026-03-30",
+    "seoTitle": "AgentGPT 3 - 浏览器端自主AI Agent平台 | AI Navigator Pro",
+    "seoDescription": "AgentGPT 3是第三代浏览器端自主AI Agent平台，无需代码即可配置和部署。",
     "views": 28000
+  },
+  {
+    "id": "agixt",
+    "name": "AGiXT",
+    "avatar": "https://api.dicebear.com/7.x/shapes/svg?seed=agixt",
+    "description": "开源的AI Agent自动化平台，支持多种LLM提供商和丰富的插件生态。",
+    "url": "https://agixt.com",
+    "category": "ai-agent",
+    "tags": [
+      "Agent平台",
+      "开源",
+      "插件生态",
+      "多模型"
+    ],
+    "features": [
+      "多LLM支持",
+      "插件系统",
+      "自动化任务",
+      "内存管理",
+      "API服务",
+      "链集成"
+    ],
+    "useCases": [
+      "自动化工作流",
+      "客户服务",
+      "内容创作",
+      "研究助手",
+      "教育工具"
+    ],
+    "rating": 4.2,
+    "updatedAt": "2026-03-20",
+    "seoTitle": "AGiXT - AI Agent自动化平台 | AI Navigator Pro",
+    "seoDescription": "AGiXT是开源的AI Agent自动化平台，支持多种LLM提供商和丰富的插件生态。",
+    "views": 20000
+  },
+  {
+    "id": "nexusgpt",
+    "name": "NexusGPT",
+    "avatar": "https://api.dicebear.com/7.x/shapes/svg?seed=nexusgpt",
+    "description": "企业级AI Agent平台，专注于业务流程自动化和企业系统集成。",
+    "url": "https://nexusgpt.ai",
+    "category": "ai-agent",
+    "tags": [
+      "企业级",
+      "业务流程",
+      "系统集成",
+      "RPA"
+    ],
+    "features": [
+      "企业集成",
+      "工作流自动化",
+      "ERP/CRM连接",
+      "安全合规",
+      "审计日志",
+      "角色权限"
+    ],
+    "useCases": [
+      "企业流程自动化",
+      "客户服务",
+      "财务处理",
+      "HR自动化",
+      "运营优化"
+    ],
+    "rating": 4.3,
+    "updatedAt": "2026-04-10",
+    "seoTitle": "NexusGPT - 企业级AI Agent平台 | AI Navigator Pro",
+    "seoDescription": "NexusGPT是企业级AI Agent平台，专注于业务流程自动化和企业系统集成。",
+    "views": 25000
+  },
+  {
+    "id": "agentzero",
+    "name": "AgentZero",
+    "avatar": "https://api.dicebear.com/7.x/shapes/svg?seed=agentzero",
+    "description": "极简主义AI Agent框架，专注于让Agent从零开始学习和使用工具。",
+    "url": "https://github.com/frdel/agent-zero",
+    "category": "ai-agent",
+    "tags": [
+      "Agent框架",
+      "极简主义",
+      "开源",
+      "工具学习"
+    ],
+    "features": [
+      "自主工具学习",
+      "极简设计",
+      "插件系统",
+      "Python实现",
+      "可扩展",
+      "研究友好"
+    ],
+    "useCases": [
+      "研究实验",
+      "工具使用研究",
+      "Agent学习",
+      "原型开发",
+      "教育演示"
+    ],
+    "rating": 4.1,
+    "updatedAt": "2026-02-28",
+    "seoTitle": "AgentZero - 极简主义AI Agent框架 | AI Navigator Pro",
+    "seoDescription": "AgentZero是极简主义AI Agent框架，专注于让Agent从零开始学习和使用工具。",
+    "views": 18000
+  },
+  {
+    "id": "forge-langchain",
+    "name": "LangChain Forge",
+    "avatar": "https://api.dicebear.com/7.x/shapes/svg?seed=langchainforge",
+    "description": "LangChain推出的Agent开发工具包，提供快速构建、评估和部署AI Agent的完整工具链。",
+    "url": "https://langchain.com/forge",
+    "category": "ai-agent",
+    "tags": [
+      "LangChain",
+      "Agent开发",
+      "工具包",
+      "生产级"
+    ],
+    "features": [
+      "Agent模板",
+      "快速原型",
+      "评估工具",
+      "部署集成",
+      "监控可观测",
+      "最佳实践"
+    ],
+    "useCases": [
+      "Agent快速开发",
+      "原型验证",
+      "生产部署",
+      "性能评估",
+      "团队协作"
+    ],
+    "rating": 4.4,
+    "updatedAt": "2026-05-05",
+    "seoTitle": "LangChain Forge - Agent开发工具包 | AI Navigator Pro",
+    "seoDescription": "LangChain Forge是LangChain推出的Agent开发工具包，提供完整的构建、评估和部署工具链。",
+    "views": 38000
+  },
+  {
+    "id": "metagpt-2",
+    "name": "MetaGPT 2",
+    "avatar": "https://api.dicebear.com/7.x/shapes/svg?seed=metagpt2",
+    "description": "第二代多Agent协作框架，增强了企业级支持、更多角色和更复杂的工作流编排。",
+    "url": "https://deepwisdom.ai",
+    "category": "ai-agent",
+    "tags": [
+      "多Agent",
+      "软件开发",
+      "企业级",
+      "深氧"
+    ],
+    "features": [
+      "多Agent协作",
+      "企业级支持",
+      "更多角色",
+      "工作流编排",
+      "代码生成",
+      "项目管理"
+    ],
+    "useCases": [
+      "企业软件开发",
+      "复杂项目管理",
+      "团队协作",
+      "自动化开发",
+      "快速原型"
+    ],
+    "rating": 4.6,
+    "updatedAt": "2026-06-02",
+    "seoTitle": "MetaGPT 2 - 企业级多Agent协作框架 | AI Navigator Pro",
+    "seoDescription": "MetaGPT 2增强了企业级支持、更多角色和更复杂的工作流编排。",
+    "featured": true,
+    "trending": true,
+    "views": 68000
+  },
+  {
+    "id": "babyagi-2",
+    "name": "BabyAGI 2",
+    "avatar": "https://api.dicebear.com/7.x/shapes/svg?seed=babyagi2",
+    "description": "第二代任务驱动自主AI Agent框架，增强了记忆系统和工具集成能力。",
+    "url": "https://github.com/yoheinakajima/babyagi",
+    "category": "ai-agent",
+    "tags": [
+      "自主Agent",
+      "任务驱动",
+      "开源",
+      "记忆系统"
+    ],
+    "features": [
+      "任务创建",
+      "优先级排序",
+      "增强记忆",
+      "工具集成",
+      "循环执行",
+      "多模型支持"
+    ],
+    "useCases": [
+      "任务自动化",
+      "研究助手",
+      "项目管理",
+      "学习Agent",
+      "内容创作"
+    ],
+    "rating": 4.3,
+    "updatedAt": "2026-04-05",
+    "seoTitle": "BabyAGI 2 - 任务驱动自主AI Agent | AI Navigator Pro",
+    "seoDescription": "BabyAGI 2增强了记忆系统和工具集成能力的第二代自主Agent框架。",
+    "views": 32000
+  },
+  {
+    "id": "smol-developer-2",
+    "name": "smol-developer 2",
+    "avatar": "https://api.dicebear.com/7.x/shapes/svg?seed=smoldev2",
+    "description": "第二代轻量级AI软件开发Agent，增强了多文件编辑和测试生成能力。",
+    "url": "https://github.com/smol-ai/developer",
+    "category": "ai-agent",
+    "tags": [
+      "开发Agent",
+      "开源",
+      "轻量级",
+      "Python"
+    ],
+    "features": [
+      "代码生成",
+      "多文件编辑",
+      "测试生成",
+      "需求分析",
+      "代码审查",
+      "快速原型"
+    ],
+    "useCases": [
+      "快速原型",
+      "MVP开发",
+      "代码生成",
+      "项目脚手架",
+      "学习编程"
+    ],
+    "rating": 4.4,
+    "updatedAt": "2026-04-22",
+    "seoTitle": "smol-developer 2 - 轻量级AI开发Agent | AI Navigator Pro",
+    "seoDescription": "smol-developer 2增强了多文件编辑和测试生成能力的轻量级软件开发Agent。",
+    "views": 28000
+  },
+  {
+    "id": "autogpt-3",
+    "name": "AutoGPT 3",
+    "avatar": "https://api.dicebear.com/7.x/bottts/svg?seed=autogpt3",
+    "description": "第三代自主AI Agent框架，Significant Gravitas推出，增强了企业级支持和多Agent协作。",
+    "url": "https://agpt.co",
+    "category": "ai-agent",
+    "tags": [
+      "自主Agent",
+      "开源",
+      "企业级",
+      "多Agent"
+    ],
+    "rating": 4.6,
+    "updatedAt": "2026-06-08",
+    "features": [
+      "自主目标设定",
+      "多Agent协作",
+      "企业级支持",
+      "网络搜索",
+      "代码执行",
+      "插件市场"
+    ],
+    "useCases": [
+      "企业自动化",
+      "市场分析",
+      "项目规划",
+      "研究任务",
+      "复杂工作流"
+    ],
+    "seoTitle": "AutoGPT 3 - 企业级自主AI Agent框架 | AI Navigator Pro",
+    "seoDescription": "AutoGPT 3是第三代自主AI Agent框架，增强了企业级支持和多Agent协作。",
+    "featured": true,
+    "trending": true,
+    "views": 95000
+  },
+  {
+    "id": "langchain-agents-2",
+    "name": "LangChain Agents 2",
+    "avatar": "https://api.dicebear.com/7.x/shapes/svg?seed=langchainagents2",
+    "description": "LangChain第二代Agent库，提供更强大的Agent构建模块和工具集成能力。",
+    "url": "https://langchain.com",
+    "category": "ai-agent",
+    "tags": [
+      "LangChain",
+      "Agent库",
+      "Python",
+      "JavaScript"
+    ],
+    "features": [
+      "Agent构建模块",
+      "工具集成",
+      "多模型支持",
+      "记忆系统",
+      "输出解析",
+      "回调系统"
+    ],
+    "useCases": [
+      "Agent开发",
+      "聊天机器人",
+      "问答系统",
+      "数据助理",
+      "研究助手"
+    ],
+    "rating": 4.5,
+    "updatedAt": "2026-05-12",
+    "seoTitle": "LangChain Agents 2 - Agent构建库 | AI Navigator Pro",
+    "seoDescription": "LangChain Agents 2提供更强大的Agent构建模块和工具集成能力。",
+    "views": 55000
+  },
+  {
+    "id": "claude-code",
+    "name": "Claude Code",
+    "avatar": "https://api.dicebear.com/7.x/bottts/svg?seed=claudecode",
+    "description": "Anthropic推出的命令行AI编程助手，深度集成Claude模型。",
+    "url": "https://anthropic.com/claude-code",
+    "category": "developer-agents",
+    "tags": [
+      "编程",
+      "CLI",
+      "Anthropic",
+      "代码生成"
+    ],
+    "rating": 4.7,
+    "updatedAt": "2026-05-30",
+    "features": [
+      "命令行交互",
+      "代码库理解",
+      "文件编辑",
+      "Git集成",
+      "调试辅助",
+      "安全执行"
+    ],
+    "useCases": [
+      "快速开发",
+      "代码重构",
+      "Bug修复",
+      "学习代码库",
+      "脚本编写"
+    ],
+    "seoTitle": "Claude Code - CLI AI编程助手 | AI Navigator Pro",
+    "seoDescription": "Claude Code是Anthropic推出的命令行AI编程助手，深度集成Claude模型。",
+    "featured": true,
+    "trending": true,
+    "views": 72000
+  },
+  {
+    "id": "tabby-agent",
+    "name": "Tabby Agent",
+    "avatar": "https://api.dicebear.com/7.x/bottts/svg?seed=tabby",
+    "description": "开源的自托管AI代码补全Agent，支持本地部署和多模型集成，注重隐私保护。",
+    "url": "https://tabby.tabbyml.com",
+    "category": "developer-agents",
+    "tags": [
+      "代码补全",
+      "开源",
+      "自托管",
+      "隐私保护"
+    ],
+    "rating": 4.4,
+    "updatedAt": "2026-04-20",
+    "features": [
+      "自托管部署",
+      "代码补全",
+      "多模型支持",
+      "IDE集成",
+      "隐私保护",
+      "团队协作"
+    ],
+    "useCases": [
+      "企业私有部署",
+      "代码补全",
+      "敏感代码开发",
+      "离线开发",
+      "合规要求"
+    ],
+    "seoTitle": "Tabby Agent - 开源自托管AI代码补全 | AI Navigator Pro",
+    "seoDescription": "Tabby Agent是开源的自托管AI代码补全工具，支持本地部署和多模型集成。",
+    "views": 32000
+  },
+  {
+    "id": "mutable-ai-agent",
+    "name": "Mutable AI Agent",
+    "avatar": "https://api.dicebear.com/7.x/bottts/svg?seed=mutable",
+    "description": "AI驱动的代码重构和质量提升Agent，帮助团队快速改进代码质量和架构。",
+    "url": "https://mutable.ai",
+    "category": "developer-agents",
+    "tags": [
+      "代码重构",
+      "代码质量",
+      "AI辅助",
+      "企业级"
+    ],
+    "rating": 4.3,
+    "updatedAt": "2026-03-25",
+    "features": [
+      "代码重构",
+      "质量评估",
+      "架构建议",
+      "测试生成",
+      "文档生成",
+      "多语言支持"
+    ],
+    "useCases": [
+      "遗留系统重构",
+      "代码质量提升",
+      "技术债务清理",
+      "架构优化",
+      "代码标准化"
+    ],
+    "seoTitle": "Mutable AI Agent - AI代码重构工具 | AI Navigator Pro",
+    "seoDescription": "Mutable AI Agent是AI驱动的代码重构和质量提升Agent，帮助团队快速改进代码质量。",
+    "views": 25000
+  },
+  {
+    "id": "gemma-3-agent",
+    "name": "Gemma 3 Agent",
+    "avatar": "https://api.dicebear.com/7.x/bottts/svg?seed=gemma3",
+    "description": "Google推出的开源轻量级大模型Agent，基于Gemma 3，适合本地部署和快速迭代。",
+    "url": "https://ai.google.dev/gemma",
+    "category": "general-agents",
+    "tags": [
+      "开源",
+      "Google",
+      "Gemma",
+      "轻量级"
+    ],
+    "rating": 4.4,
+    "updatedAt": "2026-05-08",
+    "features": [
+      "开源模型",
+      "轻量级",
+      "快速部署",
+      "多规格选择",
+      "可微调",
+      "本地运行"
+    ],
+    "useCases": [
+      "本地AI助手",
+      "快速原型",
+      "研究实验",
+      "教育学习",
+      "嵌入式AI"
+    ],
+    "seoTitle": "Gemma 3 Agent - Google开源轻量级大模型 | AI Navigator Pro",
+    "seoDescription": "Gemma 3 Agent是Google推出的开源轻量级大模型，适合本地部署和快速迭代。",
+    "views": 45000
+  },
+  {
+    "id": "chatdoc-agent",
+    "name": "ChatDOC Agent",
+    "avatar": "https://api.dicebear.com/7.x/bottts/svg?seed=chatdoc",
+    "description": "AI文档阅读助手Agent，专注于PDF和文档的智能问答、表格提取和深度分析。",
+    "url": "https://chatdoc.com",
+    "category": "research-agents",
+    "tags": [
+      "文档问答",
+      "PDF处理",
+      "表格提取",
+      "研究工具"
+    ],
+    "rating": 4.5,
+    "updatedAt": "2026-05-12",
+    "features": [
+      "PDF智能问答",
+      "表格提取",
+      "多文档分析",
+      "引用溯源",
+      "批量处理",
+      "OCR识别"
+    ],
+    "useCases": [
+      "论文阅读",
+      "报告分析",
+      "合同审查",
+      "财务分析",
+      "资料整理"
+    ],
+    "seoTitle": "ChatDOC Agent - AI文档阅读助手 | AI Navigator Pro",
+    "seoDescription": "ChatDOC Agent专注于PDF和文档的智能问答、表格提取和深度分析。",
+    "featured": true,
+    "views": 52000
+  },
+  {
+    "id": "haystack-agent",
+    "name": "Haystack Agent",
+    "avatar": "https://api.dicebear.com/7.x/shapes/svg?seed=haystack",
+    "description": "开源的LLM应用开发框架，提供构建生产级搜索、问答和Agent应用的完整工具链。",
+    "url": "https://haystack.deepset.ai",
+    "category": "ai-agent",
+    "tags": [
+      "LLM框架",
+      "开源",
+      "deepset",
+      "搜索问答"
+    ],
+    "rating": 4.5,
+    "updatedAt": "2026-05-18",
+    "features": [
+      "LLM应用框架",
+      "搜索问答",
+      "RAG系统",
+      "Agent构建",
+      "管道编排",
+      "生产部署"
+    ],
+    "useCases": [
+      "企业搜索",
+      "知识问答",
+      "RAG应用",
+      "文档分析",
+      "Agent开发"
+    ],
+    "seoTitle": "Haystack Agent - LLM应用开发框架 | AI Navigator Pro",
+    "seoDescription": "Haystack是开源的LLM应用开发框架，提供构建生产级搜索、问答和Agent的工具链。",
+    "featured": true,
+    "views": 42000
+  },
+  {
+    "id": "llamaindex-agent",
+    "name": "LlamaIndex Agent",
+    "avatar": "https://api.dicebear.com/7.x/shapes/svg?seed=llamaindex",
+    "description": "数据框架，用于将私有数据连接到LLM，提供RAG、Agent和知识工作流构建能力。",
+    "url": "https://llamaindex.ai",
+    "category": "ai-agent",
+    "tags": [
+      "数据框架",
+      "RAG",
+      "开源",
+      "知识管理"
+    ],
+    "rating": 4.6,
+    "updatedAt": "2026-06-05",
+    "features": [
+      "数据连接",
+      "RAG系统",
+      "Agent构建",
+      "知识工作流",
+      "多数据源",
+      "生产部署"
+    ],
+    "useCases": [
+      "企业知识库",
+      "智能客服",
+      "文档问答",
+      "数据分析",
+      "研究助手"
+    ],
+    "seoTitle": "LlamaIndex Agent - 数据框架与RAG系统 | AI Navigator Pro",
+    "seoDescription": "LlamaIndex是数据框架，用于将私有数据连接到LLM，提供RAG和Agent构建能力。",
+    "featured": true,
+    "trending": true,
+    "views": 65000
   }
 ]

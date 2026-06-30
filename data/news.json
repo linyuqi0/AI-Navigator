@@ -1,43 +1,953 @@
 [
   {
+    "id": "news-76",
+    "title": "MCP生态爆发，服务器数量突破1000个",
+    "summary": "Model Context Protocol生态持续爆发，官方和社区贡献的MCP服务器突破1000个，覆盖几乎所有应用场景。",
+    "url": "https://modelcontextprotocol.io",
+    "source": "MCP官方",
+    "publishedAt": "2026-06-29",
+    "image": "https://picsum.photos/seed/news76/600/400",
+    "category": "生态"
+  },
+  {
+    "id": "news-42",
+    "title": "OpenAI Sora 2正式发布，视频生成质量媲美电影",
+    "summary": "OpenAI推出Sora 2视频生成模型，支持5分钟4K视频生成，画质和连贯性达到电影级水平。",
+    "url": "https://openai.com/sora-2",
+    "source": "OpenAI官方",
+    "publishedAt": "2026-06-28",
+    "image": "https://picsum.photos/seed/news42/600/400",
+    "category": "AI视频"
+  },
+  {
+    "id": "news-51",
+    "title": "Midjourney v7发布，图像生成质量达到新巅峰",
+    "summary": "Midjourney推出v7版本，图像质量、细节丰富度和文字渲染能力全面提升，达到专业摄影级水平。",
+    "url": "https://www.midjourney.com",
+    "source": "Midjourney官方",
+    "publishedAt": "2026-06-26",
+    "image": "https://picsum.photos/seed/news51/600/400",
+    "category": "AI图像"
+  },
+  {
+    "id": "news-25",
+    "title": "OpenAI Operator正式商用，AI Agent进入企业级市场",
+    "summary": "OpenAI推出Operator企业版AI Agent，可自主完成复杂的多步骤工作流，首批企业客户已开始部署。",
+    "url": "https://openai.com/operator",
+    "source": "OpenAI官方",
+    "publishedAt": "2026-06-25",
+    "image": "https://picsum.photos/seed/news25/600/400",
+    "category": "AI Agent"
+  },
+  {
+    "id": "news-34",
+    "title": "Claude Code正式发布，AI编程助手新王者诞生",
+    "summary": "Anthropic推出Claude Code编程助手，深度集成Claude 4模型，在代码理解和生成方面超越现有竞品。",
+    "url": "https://www.anthropic.com/news/claude-code",
+    "source": "Anthropic官方",
+    "publishedAt": "2026-06-22",
+    "image": "https://picsum.photos/seed/news34/600/400",
+    "category": "AI编程"
+  },
+  {
+    "id": "news-92",
+    "title": "OpenAI估值突破3000亿美元，AI公司估值持续攀升",
+    "summary": "OpenAI完成新一轮融资，估值突破3000亿美元，再创AI初创公司估值新高。",
+    "url": "https://openai.com",
+    "source": "OpenAI官方",
+    "publishedAt": "2026-06-22",
+    "image": "https://picsum.photos/seed/news92/600/400",
+    "category": "融资/商业"
+  },
+  {
+    "id": "news-60",
+    "title": "ElevenLabs发布新一代语音合成模型，真假难辨",
+    "summary": "ElevenLabs推出最新语音合成模型，自然度和情感表现力达到人类水平，支持多语言和声音克隆。",
+    "url": "https://elevenlabs.io",
+    "source": "ElevenLabs官方",
+    "publishedAt": "2026-06-20",
+    "image": "https://picsum.photos/seed/news60/600/400",
+    "category": "AI音频"
+  },
+  {
+    "id": "news-30",
+    "title": "飞书智能伙伴升级，多Agent协同办公成现实",
+    "summary": "飞书发布智能伙伴2.0，支持多个AI Agent协同工作，可自动处理复杂的跨部门工作流。",
+    "url": "https://www.feishu.cn",
+    "source": "飞书官方",
+    "publishedAt": "2026-06-18",
+    "image": "https://picsum.photos/seed/news30/600/400",
+    "category": "AI Agent"
+  },
+  {
+    "id": "news-68",
+    "title": "Vercel AI SDK 5.0发布，全栈AI应用开发更简单",
+    "summary": "Vercel推出AI SDK 5.0，新增更多模型集成和Agent开发工具，全栈AI应用开发体验大幅提升。",
+    "url": "https://vercel.com/blog/ai-sdk-5",
+    "source": "Vercel Blog",
+    "publishedAt": "2026-06-16",
+    "image": "https://picsum.photos/seed/news68/600/400",
+    "category": "开发工具"
+  },
+  {
+    "id": "news-56",
+    "title": "Adobe Firefly 3发布，专业级AI图像创作工具成熟",
+    "summary": "Adobe推出Firefly 3生成式AI模型，深度集成Photoshop等创意套件，满足专业设计师需求。",
+    "url": "https://firefly.adobe.com",
+    "source": "Adobe官方",
+    "publishedAt": "2026-06-15",
+    "image": "https://picsum.photos/seed/news56/600/400",
+    "category": "AI图像"
+  },
+  {
+    "id": "news-47",
+    "title": "Google Veo 2发布，视频生成技术持续突破",
+    "summary": "Google推出Veo 2视频生成模型，支持更长时长和更高分辨率，深度集成YouTube生态。",
+    "url": "https://deepmind.google/technologies/veo/",
+    "source": "Google DeepMind",
+    "publishedAt": "2026-06-12",
+    "image": "https://picsum.photos/seed/news47/600/400",
+    "category": "AI视频"
+  },
+  {
+    "id": "news-17",
+    "title": "Anthropic Claude 4 Opus发布，Agent能力革命性提升",
+    "summary": "Anthropic发布Claude 4系列，其中Opus版本在复杂任务规划和工具使用方面达到新高度，支持更长时间的自主运行。",
+    "url": "https://www.anthropic.com/news/claude-4",
+    "source": "Anthropic官方",
+    "publishedAt": "2026-06-10",
+    "image": "https://picsum.photos/seed/news17/600/400",
+    "category": "大模型"
+  },
+  {
+    "id": "news-91",
+    "title": "数据要素市场化配置改革深化，AI训练数据合规化推进",
+    "summary": "中国深化数据要素市场化配置改革，AI训练数据合规使用机制逐步建立完善。",
+    "url": "https://www.ndrc.gov.cn",
+    "source": "发改委",
+    "publishedAt": "2026-06-10",
+    "image": "https://picsum.photos/seed/news91/600/400",
+    "category": "政策"
+  },
+  {
+    "id": "news-39",
+    "title": "Devin 2.0发布，AI软件工程师能力再进化",
+    "summary": "Cognition AI发布Devin 2.0，AI软件工程师可独立完成更复杂的项目开发，错误率大幅降低。",
+    "url": "https://www.cognition.ai/devin",
+    "source": "Cognition AI官方",
+    "publishedAt": "2026-06-08",
+    "image": "https://picsum.photos/seed/news39/600/400",
+    "category": "AI编程"
+  },
+  {
+    "id": "news-22",
+    "title": "Meta Llama 4开源发布，社区生态再壮大",
+    "summary": "Meta发布Llama 4系列开源模型，包括70B到400B参数多个版本，性能直逼闭源模型，推动开源生态发展。",
+    "url": "https://llama.meta.com/llama4",
+    "source": "Meta官方",
+    "publishedAt": "2026-06-05",
+    "image": "https://picsum.photos/seed/news22/600/400",
+    "category": "大模型"
+  },
+  {
+    "id": "news-99",
+    "title": "AI编程工具Cursor母公司Anysphere估值达300亿美元",
+    "summary": "Cursor母公司Anysphere完成新一轮融资，估值达到300亿美元，AI开发工具市场空间巨大。",
+    "url": "https://cursor.com",
+    "source": "Cursor官方",
+    "publishedAt": "2026-06-05",
+    "image": "https://picsum.photos/seed/news99/600/400",
+    "category": "融资/商业"
+  },
+  {
+    "id": "news-61",
+    "title": "Suno v5发布，AI音乐创作进入黄金时代",
+    "summary": "Suno推出v5音乐生成模型，支持完整歌曲创作，包括歌词、旋律、编曲和演唱，质量比肩专业制作。",
+    "url": "https://suno.com",
+    "source": "Suno官方",
+    "publishedAt": "2026-05-30",
+    "image": "https://picsum.photos/seed/news61/600/400",
+    "category": "AI音频"
+  },
+  {
+    "id": "news-29",
+    "title": "钉钉AI助理全面升级，企业级Agent应用爆发",
+    "summary": "钉钉推出新一代AI助理，支持深度定制企业专属Agent，覆盖办公、客服、人事等多个场景。",
+    "url": "https://www.dingtalk.com",
+    "source": "钉钉官方",
+    "publishedAt": "2026-05-28",
+    "image": "https://picsum.photos/seed/news29/600/400",
+    "category": "AI Agent"
+  },
+  {
+    "id": "news-43",
+    "title": "快手可灵3.0发布，国产AI视频生成技术领先全球",
+    "summary": "快手推出可灵3.0视频生成大模型，支持4K分辨率和复杂镜头运动，在多项指标上超越国际竞品。",
+    "url": "https://klingai.com",
+    "source": "快手可灵官方",
+    "publishedAt": "2026-05-25",
+    "image": "https://picsum.photos/seed/news43/600/400",
+    "category": "AI视频"
+  },
+  {
+    "id": "news-79",
+    "title": "AI Agent平台生态形成，多家厂商推出Agent市场",
+    "summary": "AI Agent平台生态逐渐形成，OpenAI、Anthropic、Google等纷纷推出Agent市场和开发者计划。",
+    "url": "https://openai.com/agents",
+    "source": "行业综合报道",
+    "publishedAt": "2026-05-25",
+    "image": "https://picsum.photos/seed/news79/600/400",
+    "category": "生态"
+  },
+  {
+    "id": "news-89",
+    "title": "G7就AI治理达成新共识，跨国协调机制建立",
+    "summary": "G7数字部长会议就AI治理达成新共识，建立跨国AI安全评估协调机制。",
+    "url": "https://www.g7germany.de",
+    "source": "G7官方",
+    "publishedAt": "2026-05-25",
+    "image": "https://picsum.photos/seed/news89/600/400",
+    "category": "政策"
+  },
+  {
+    "id": "news-52",
+    "title": "DALL·E 4发布，OpenAI图像生成技术再突破",
+    "summary": "OpenAI推出DALL·E 4图像生成模型，支持更精准的文字描述和更高分辨率输出。",
+    "url": "https://openai.com/dall-e-4",
+    "source": "OpenAI官方",
+    "publishedAt": "2026-05-22",
+    "image": "https://picsum.photos/seed/news52/600/400",
+    "category": "AI图像"
+  },
+  {
+    "id": "news-16",
+    "title": "OpenAI正式发布GPT-5，多模态能力全面跃升",
+    "summary": "OpenAI推出GPT-5大模型，在推理、多模态理解和生成方面实现重大突破，支持视频理解和更长上下文窗口。",
+    "url": "https://openai.com/gpt-5",
+    "source": "OpenAI官方",
+    "publishedAt": "2026-05-20",
+    "image": "https://picsum.photos/seed/news16/600/400",
+    "category": "大模型"
+  },
+  {
+    "id": "news-72",
+    "title": "Hugging Face Transformers新生态，AI模型库持续增长",
+    "summary": "Hugging Face平台模型数量突破50万，成为全球最大的AI模型和数据集社区。",
+    "url": "https://huggingface.co",
+    "source": "Hugging Face官方",
+    "publishedAt": "2026-05-20",
+    "image": "https://picsum.photos/seed/news72/600/400",
+    "category": "开发工具"
+  },
+  {
+    "id": "news-46",
+    "title": "字节跳动即梦AI视频生成工具全面升级",
+    "summary": "字节跳动旗下即梦AI视频工具推出重大更新，支持剧情生成、角色一致性和多镜头剪辑功能。",
+    "url": "https://jimeng.jianying.com",
+    "source": "字节跳动官方",
+    "publishedAt": "2026-05-18",
+    "image": "https://picsum.photos/seed/news46/600/400",
+    "category": "AI视频"
+  },
+  {
+    "id": "news-93",
+    "title": "Anthropic估值达1000亿美元，AI大模型赛道火热",
+    "summary": "Anthropic完成最新一轮融资，估值达到1000亿美元，成为全球估值第二高的AI初创公司。",
+    "url": "https://www.anthropic.com",
+    "source": "Anthropic官方",
+    "publishedAt": "2026-05-18",
+    "image": "https://picsum.photos/seed/news93/600/400",
+    "category": "融资/商业"
+  },
+  {
+    "id": "news-26",
+    "title": "Anthropic Claude Agent SDK 2.0发布，构建智能体更简单",
+    "summary": "Anthropic推出新版Claude Agent SDK，大幅简化AI Agent开发流程，支持记忆系统、工具调用和多Agent协作。",
+    "url": "https://www.anthropic.com/news/agent-sdk-2",
+    "source": "Anthropic官方",
+    "publishedAt": "2026-05-15",
+    "image": "https://picsum.photos/seed/news26/600/400",
+    "category": "AI Agent"
+  },
+  {
+    "id": "news-77",
+    "title": "OpenAI GPT Store应用突破10万，AI应用生态繁荣",
+    "summary": "OpenAI GPT Store中的定制GPT应用突破10万个，涵盖教育、办公、娱乐等各个领域。",
+    "url": "https://openai.com/gpt-store",
+    "source": "OpenAI官方",
+    "publishedAt": "2026-05-15",
+    "image": "https://picsum.photos/seed/news77/600/400",
+    "category": "生态"
+  },
+  {
+    "id": "news-64",
+    "title": "字节跳动豆包AI歌声合成技术突破",
+    "summary": "字节跳动豆包推出全新AI歌声合成功能，支持多种唱法和风格，音乐创作门槛进一步降低。",
+    "url": "https://www.doubao.com",
+    "source": "字节跳动官方",
+    "publishedAt": "2026-05-12",
+    "image": "https://picsum.photos/seed/news64/600/400",
+    "category": "AI音频"
+  },
+  {
+    "id": "news-35",
+    "title": "GitHub Copilot X进化为Copilot Agent，全流程自动化编程",
+    "summary": "GitHub将Copilot升级为全功能Agent，可从需求分析到代码实现、测试部署全流程自主完成。",
+    "url": "https://github.com/features/copilot",
+    "source": "GitHub官方",
+    "publishedAt": "2026-05-10",
+    "image": "https://picsum.photos/seed/news35/600/400",
+    "category": "AI编程"
+  },
+  {
+    "id": "news-88",
+    "title": "中国支持AI产业发展政策落地，多地出台扶持措施",
+    "summary": "中国多地出台AI产业扶持政策，从算力、人才、应用等多方面支持AI产业发展。",
+    "url": "https://www.miit.gov.cn",
+    "source": "工信部",
+    "publishedAt": "2026-05-10",
+    "image": "https://picsum.photos/seed/news88/600/400",
+    "category": "政策"
+  },
+  {
+    "id": "news-20",
+    "title": "月之暗面Kimi 2.0发布，长文本能力突破天际",
+    "summary": "月之暗面发布Kimi 2.0大模型，支持1000万token超长上下文，可直接处理整座图书馆的文献资料。",
+    "url": "https://kimi.moonshot.cn",
+    "source": "月之暗面官方",
+    "publishedAt": "2026-05-08",
+    "image": "https://picsum.photos/seed/news20/600/400",
+    "category": "大模型"
+  },
+  {
+    "id": "news-69",
+    "title": "LangChain 0.3发布，AI应用开发框架走向成熟",
+    "summary": "LangChain推出0.3版本，API更加稳定，性能大幅优化，成为企业级AI应用开发首选框架。",
+    "url": "https://langchain.com",
+    "source": "LangChain官方",
+    "publishedAt": "2026-05-08",
+    "image": "https://picsum.photos/seed/news69/600/400",
+    "category": "开发工具"
+  },
+  {
+    "id": "news-96",
+    "title": "月之暗面完成新一轮融资，估值持续提升",
+    "summary": "月之暗面完成新一轮融资，估值大幅提升，长文本大模型技术路线获得资本青睐。",
+    "url": "https://kimi.moonshot.cn",
+    "source": "月之暗面官方",
+    "publishedAt": "2026-05-08",
+    "image": "https://picsum.photos/seed/news96/600/400",
+    "category": "融资/商业"
+  },
+  {
+    "id": "news-38",
+    "title": "Amazon Q Developer推出企业版，云开发效率翻倍",
+    "summary": "AWS推出Amazon Q Developer企业版，深度集成AWS云服务，为云原生开发提供全链路AI支持。",
+    "url": "https://aws.amazon.com/q/developer",
+    "source": "AWS官方",
+    "publishedAt": "2026-05-05",
+    "image": "https://picsum.photos/seed/news38/600/400",
+    "category": "AI编程"
+  },
+  {
+    "id": "news-55",
+    "title": "可画Canva AI图像生成功能全面升级",
+    "summary": "Canva推出全新AI图像生成套件，集成最新模型，为设计师提供更强大的创意工具。",
+    "url": "https://www.canva.com",
+    "source": "Canva官方",
+    "publishedAt": "2026-05-05",
+    "image": "https://picsum.photos/seed/news55/600/400",
+    "category": "AI图像"
+  },
+  {
+    "id": "news-65",
+    "title": "NotebookLM音频功能升级，AI播客更自然",
+    "summary": "Google NotebookLM升级音频概览功能，支持更多语音风格和对话模式，AI播客体验大幅提升。",
+    "url": "https://notebooklm.google.com",
+    "source": "Google官方",
+    "publishedAt": "2026-04-28",
+    "image": "https://picsum.photos/seed/news65/600/400",
+    "category": "AI音频"
+  },
+  {
+    "id": "news-57",
+    "title": "FLUX.2开源发布，黑马模型继续进化",
+    "summary": "Black Forest Labs推出FLUX.2开源图像生成模型，凭借出色的图像质量继续扩大市场份额。",
+    "url": "https://blackforestlabs.ai",
+    "source": "Black Forest Labs",
+    "publishedAt": "2026-04-25",
+    "image": "https://picsum.photos/seed/news57/600/400",
+    "category": "AI图像"
+  },
+  {
+    "id": "news-81",
+    "title": "国内AI大模型生态百花齐放，应用场景不断丰富",
+    "summary": "国内AI大模型生态蓬勃发展，百度文心一言、阿里通义千问、腾讯混元等生态持续完善。",
+    "url": "https://yiyan.baidu.com",
+    "source": "行业综合报道",
+    "publishedAt": "2026-04-25",
+    "image": "https://picsum.photos/seed/news81/600/400",
+    "category": "生态"
+  },
+  {
+    "id": "news-97",
+    "title": "微软AI收入突破500亿美元，云+AI战略见效",
+    "summary": "微软财报显示AI相关收入突破500亿美元，Azure云服务和Copilot产品增长强劲。",
+    "url": "https://www.microsoft.com",
+    "source": "微软财报",
+    "publishedAt": "2026-04-25",
+    "image": "https://picsum.photos/seed/news97/600/400",
+    "category": "融资/商业"
+  },
+  {
+    "id": "news-21",
+    "title": "智谱AI发布GLM-5，多模态能力全面升级",
+    "summary": "智谱AI推出GLM-5系列大模型，在文本、图像、音频、视频多模态理解与生成方面实现跨越式发展。",
+    "url": "https://chatglm.cn",
+    "source": "智谱AI官方",
+    "publishedAt": "2026-04-22",
+    "image": "https://picsum.photos/seed/news21/600/400",
+    "category": "大模型"
+  },
+  {
+    "id": "news-90",
+    "title": "AI生成内容版权新规出台，创作者权益受保护",
+    "summary": "国家版权局出台AI生成内容版权新规，明确AI生成内容的版权归属和使用规则。",
+    "url": "https://www.ncac.gov.cn",
+    "source": "国家版权局",
+    "publishedAt": "2026-04-22",
+    "image": "https://picsum.photos/seed/news90/600/400",
+    "category": "政策"
+  },
+  {
+    "id": "news-44",
+    "title": "Runway Gen-4发布，AI视频编辑进入新纪元",
+    "summary": "Runway推出Gen-4视频生成模型，同时发布全新AI视频编辑套件，创作者工作流全面革新。",
+    "url": "https://runwayml.com/research/gen-4",
+    "source": "Runway官方",
+    "publishedAt": "2026-04-20",
+    "image": "https://picsum.photos/seed/news44/600/400",
+    "category": "AI视频"
+  },
+  {
+    "id": "news-36",
+    "title": "Trae IDE发布1.0版本，AI原生开发工具成熟",
+    "summary": "Trae IDE正式发布1.0版本，作为AI原生开发环境，深度融合多模型能力和Agent编程范式。",
+    "url": "https://trae.ai",
+    "source": "Trae官方",
+    "publishedAt": "2026-04-18",
+    "image": "https://picsum.photos/seed/news36/600/400",
+    "category": "AI编程"
+  },
+  {
+    "id": "news-74",
+    "title": "Postgres AI扩展发布，数据库内置向量检索能力",
+    "summary": "PostgreSQL推出官方AI扩展，内置向量检索和RAG能力，数据库原生支持AI应用开发。",
+    "url": "https://www.postgresql.org",
+    "source": "PostgreSQL官方",
+    "publishedAt": "2026-04-18",
+    "image": "https://picsum.photos/seed/news74/600/400",
+    "category": "开发工具"
+  },
+  {
+    "id": "news-87",
+    "title": "英国AI安全研究所扩容，全球AI治理合作加强",
+    "summary": "英国AI安全研究所（AISI）宣布扩容，加强国际合作，共同应对AI安全挑战。",
+    "url": "https://www.aisi.gov.uk",
+    "source": "英国政府",
+    "publishedAt": "2026-04-18",
+    "image": "https://picsum.photos/seed/news87/600/400",
+    "category": "政策"
+  },
+  {
+    "id": "news-18",
+    "title": "Google Gemini 2.5 Pro支持500万token上下文",
+    "summary": "Google发布Gemini 2.5系列，将上下文窗口扩展至500万token，可一次性处理整部百科全书或大型代码库。",
+    "url": "https://blog.google/technology/ai/gemini-2-5-pro/",
+    "source": "Google Blog",
+    "publishedAt": "2026-04-15",
+    "image": "https://picsum.photos/seed/news18/600/400",
+    "category": "大模型"
+  },
+  {
+    "id": "news-62",
+    "title": "Udio 2.0发布，AI音乐生成赛道竞争激烈",
+    "summary": "Udio推出2.0版本AI音乐生成工具，在音乐风格多样性和音质方面持续创新。",
+    "url": "https://www.udio.com",
+    "source": "Udio官方",
+    "publishedAt": "2026-04-15",
+    "image": "https://picsum.photos/seed/news62/600/400",
+    "category": "AI音频"
+  },
+  {
+    "id": "news-53",
+    "title": "Stable Diffusion 4开源发布，图像生成社区持续繁荣",
+    "summary": "Stability AI发布Stable Diffusion 4，图像质量和生成速度大幅提升，开源生态继续壮大。",
+    "url": "https://stability.ai/news/stable-diffusion-4",
+    "source": "Stability AI官方",
+    "publishedAt": "2026-04-12",
+    "image": "https://picsum.photos/seed/news53/600/400",
+    "category": "AI图像"
+  },
+  {
+    "id": "news-94",
+    "title": "DeepSeek完成新一轮融资，国产大模型商业价值凸显",
+    "summary": "深度求索完成大额融资，估值突破百亿人民币，国产大模型的商业价值获得资本市场认可。",
+    "url": "https://www.deepseek.com",
+    "source": "DeepSeek官方",
+    "publishedAt": "2026-04-12",
+    "image": "https://picsum.photos/seed/news94/600/400",
+    "category": "融资/商业"
+  },
+  {
+    "id": "news-27",
+    "title": "Cursor Agent模式全面开放，AI编程进入新阶段",
+    "summary": "Cursor编辑器全面开放Agent模式，AI可以自主规划和执行复杂编程任务，开发者只需描述需求即可。",
+    "url": "https://cursor.com/agent",
+    "source": "Cursor官方",
+    "publishedAt": "2026-04-10",
+    "image": "https://picsum.photos/seed/news27/600/400",
+    "category": "AI Agent"
+  },
+  {
+    "id": "news-78",
+    "title": "Claude扩展生态快速增长，企业集成案例增多",
+    "summary": "Anthropic Claude扩展生态持续增长，第三方集成应用突破5000个，企业级采用率大幅提升。",
+    "url": "https://www.anthropic.com/extensions",
+    "source": "Anthropic官方",
+    "publishedAt": "2026-04-10",
+    "image": "https://picsum.photos/seed/news78/600/400",
+    "category": "生态"
+  },
+  {
+    "id": "news-48",
+    "title": "Luma Dream Machine 2.0发布，3D视频生成新突破",
+    "summary": "Luma AI推出Dream Machine 2.0，在3D视频生成和视角控制方面取得重大进展。",
+    "url": "https://lumalabs.ai/dream-machine",
+    "source": "Luma AI官方",
+    "publishedAt": "2026-04-08",
+    "image": "https://picsum.photos/seed/news48/600/400",
+    "category": "AI视频"
+  },
+  {
+    "id": "news-31",
+    "title": "LangGraph 1.0发布，Agent编排框架走向成熟",
+    "summary": "LangChain团队推出LangGraph 1.0，为构建状态化、多角色AI Agent应用提供稳定可靠的框架支持。",
+    "url": "https://langchain.com/langgraph",
+    "source": "LangChain官方",
+    "publishedAt": "2026-04-05",
+    "image": "https://picsum.photos/seed/news31/600/400",
+    "category": "AI Agent"
+  },
+  {
+    "id": "news-70",
+    "title": "Haystack 2.0正式发布，检索增强生成框架升级",
+    "summary": "deepset推出Haystack 2.0，为构建RAG和Agent应用提供更灵活、可扩展的框架。",
+    "url": "https://haystack.deepset.ai",
+    "source": "deepset官方",
+    "publishedAt": "2026-04-02",
+    "image": "https://picsum.photos/seed/news70/600/400",
+    "category": "开发工具"
+  },
+  {
+    "id": "news-41",
+    "title": "Zed AI功能全面升级，高性能编辑器拥抱AI",
+    "summary": "Zed编辑器推出全新AI功能集，凭借高性能和协作优势，在AI编程工具市场占据一席之地。",
+    "url": "https://zed.dev",
+    "source": "Zed官方",
+    "publishedAt": "2026-03-30",
+    "image": "https://picsum.photos/seed/news41/600/400",
+    "category": "AI编程"
+  },
+  {
+    "id": "news-58",
+    "title": "Ideogram 2.0发布，文字渲染能力独步天下",
+    "summary": "Ideogram推出2.0版本，在图像中的文字生成方面保持领先优势，支持多种语言和字体。",
+    "url": "https://ideogram.ai",
+    "source": "Ideogram官方",
+    "publishedAt": "2026-03-28",
+    "image": "https://picsum.photos/seed/news58/600/400",
+    "category": "AI图像"
+  },
+  {
+    "id": "news-100",
+    "title": "智谱AI完成融资，国产大模型第一梯队稳固",
+    "summary": "智谱AI完成新一轮融资，持续稳固国产大模型第一梯队位置，商业化进程加速。",
+    "url": "https://chatglm.cn",
+    "source": "智谱AI官方",
+    "publishedAt": "2026-03-28",
+    "image": "https://picsum.photos/seed/news100/600/400",
+    "category": "融资/商业"
+  },
+  {
+    "id": "news-32",
+    "title": "Salesforce推出Agentforce 2.0，CRM智能体全面升级",
+    "summary": "Salesforce发布Agentforce 2.0，为客户关系管理带来更智能的AI Agent，大幅提升销售和客服效率。",
+    "url": "https://www.salesforce.com/agentforce",
+    "source": "Salesforce官方",
+    "publishedAt": "2026-03-25",
+    "image": "https://picsum.photos/seed/news32/600/400",
+    "category": "AI Agent"
+  },
+  {
+    "id": "news-50",
+    "title": "Stable Video 2.0开源发布，视频生成生态再壮大",
+    "summary": "Stability AI发布Stable Video 2.0开源视频生成模型，社区可自由定制和部署。",
+    "url": "https://stability.ai/news/stable-video-2",
+    "source": "Stability AI官方",
+    "publishedAt": "2026-03-22",
+    "image": "https://picsum.photos/seed/news50/600/400",
+    "category": "AI视频"
+  },
+  {
+    "id": "news-19",
+    "title": "DeepSeek V4发布，国产大模型性能再创新高",
+    "summary": "深度求索推出DeepSeek V4，采用全新架构设计，在多项基准测试中超越GPT-4o，持续领跑国产大模型阵营。",
+    "url": "https://www.deepseek.com/v4",
+    "source": "DeepSeek官方",
+    "publishedAt": "2026-03-20",
+    "image": "https://picsum.photos/seed/news19/600/400",
+    "category": "大模型"
+  },
+  {
+    "id": "news-67",
+    "title": "Descript AI音频编辑工具全面升级",
+    "summary": "Descript推出全新AI音频编辑功能，包括文字改语音、自动去除填充词等，播客制作效率翻倍。",
+    "url": "https://www.descript.com",
+    "source": "Descript官方",
+    "publishedAt": "2026-03-20",
+    "image": "https://picsum.photos/seed/news67/600/400",
+    "category": "AI音频"
+  },
+  {
+    "id": "news-80",
+    "title": "开源大模型生态持续繁荣，Hugging Face模型数创新高",
+    "summary": "开源AI模型生态持续繁荣，Hugging Face平台模型数量突破50万，开源模型性能直逼闭源。",
+    "url": "https://huggingface.co/blog",
+    "source": "Hugging Face官方",
+    "publishedAt": "2026-03-20",
+    "image": "https://picsum.photos/seed/news80/600/400",
+    "category": "生态"
+  },
+  {
+    "id": "news-95",
+    "title": "AI芯片公司Groq IPO上市，首日暴涨",
+    "summary": "AI芯片初创公司Groq成功登陆纳斯达克，上市首日股价大涨，AI硬件投资热度不减。",
+    "url": "https://groq.com",
+    "source": "Groq官方",
+    "publishedAt": "2026-03-20",
+    "image": "https://picsum.photos/seed/news95/600/400",
+    "category": "融资/商业"
+  },
+  {
+    "id": "news-28",
+    "title": "AutoGPT 2.0发布，自主智能体能力大幅提升",
+    "summary": "AutoGPT推出2.0版本，在任务规划、错误恢复和长期记忆方面取得重大进展，可完成更复杂的自主任务。",
+    "url": "https://agpt.co",
+    "source": "AutoGPT官方",
+    "publishedAt": "2026-03-18",
+    "image": "https://picsum.photos/seed/news28/600/400",
+    "category": "AI Agent"
+  },
+  {
+    "id": "news-45",
+    "title": "Pika 3.0发布，文生视频质量再上新台阶",
+    "summary": "Pika Labs推出Pika 3.0视频生成模型，支持更精准的角色控制和场景描述，创意自由度大幅提升。",
+    "url": "https://pika.art",
+    "source": "Pika Labs官方",
+    "publishedAt": "2026-03-15",
+    "image": "https://picsum.photos/seed/news45/600/400",
+    "category": "AI视频"
+  },
+  {
+    "id": "news-71",
+    "title": "Ollama发布1.0版本，本地大模型部署工具成熟",
+    "summary": "Ollama推出1.0正式版，本地运行大模型更加简单稳定，支持数百种开源模型一键部署。",
+    "url": "https://ollama.com",
+    "source": "Ollama官方",
+    "publishedAt": "2026-03-15",
+    "image": "https://picsum.photos/seed/news71/600/400",
+    "category": "开发工具"
+  },
+  {
+    "id": "news-85",
+    "title": "中国生成式AI服务管理办法更新，监管框架完善",
+    "summary": "中国发布更新版生成式AI服务管理办法，进一步明确监管要求，促进AI行业健康发展。",
+    "url": "https://www.cac.gov.cn",
+    "source": "国家网信办",
+    "publishedAt": "2026-03-15",
+    "image": "https://picsum.photos/seed/news85/600/400",
+    "category": "政策"
+  },
+  {
+    "id": "news-37",
+    "title": "JetBrains AI Assistant全面升级，全产品线AI赋能",
+    "summary": "JetBrains为旗下所有IDE升级AI助手功能，支持更智能的代码补全、重构建议和自然语言编程。",
+    "url": "https://www.jetbrains.com/ai",
+    "source": "JetBrains官方",
+    "publishedAt": "2026-03-12",
+    "image": "https://picsum.photos/seed/news37/600/400",
+    "category": "AI编程"
+  },
+  {
+    "id": "news-83",
+    "title": "RAG技术生态成熟，企业知识库应用爆发",
+    "summary": "检索增强生成（RAG）技术生态逐渐成熟，各类工具和框架不断涌现，企业知识库应用迎来爆发期。",
+    "url": "https://www.pinecone.io/rag",
+    "source": "行业综合报道",
+    "publishedAt": "2026-03-12",
+    "image": "https://picsum.photos/seed/news83/600/400",
+    "category": "生态"
+  },
+  {
+    "id": "news-23",
+    "title": "xAI发布Grok 3，实时数据处理能力大增",
+    "summary": "马斯克旗下xAI推出Grok 3大模型，深度集成X平台实时数据，在时事分析和趋势预测方面表现突出。",
+    "url": "https://x.ai/grok3",
+    "source": "xAI官方",
+    "publishedAt": "2026-03-10",
+    "image": "https://picsum.photos/seed/news23/600/400",
+    "category": "大模型"
+  },
+  {
+    "id": "news-63",
+    "title": "OpenAI Whisper v4发布，语音识别能力再进化",
+    "summary": "OpenAI推出Whisper v4语音识别模型，支持更多语言和方言，识别准确率大幅提升。",
+    "url": "https://openai.com/whisper",
+    "source": "OpenAI官方",
+    "publishedAt": "2026-03-10",
+    "image": "https://picsum.photos/seed/news63/600/400",
+    "category": "AI音频"
+  },
+  {
+    "id": "news-54",
+    "title": "Google Imagen 3发布，文本到图像质量飞跃",
+    "summary": "Google DeepMind推出Imagen 3图像生成模型，在图像质量、提示词遵循度和安全性方面达到新高度。",
+    "url": "https://deepmind.google/technologies/imagen-3/",
+    "source": "Google DeepMind",
+    "publishedAt": "2026-03-08",
+    "image": "https://picsum.photos/seed/news54/600/400",
+    "category": "AI图像"
+  },
+  {
+    "id": "news-75",
+    "title": "Pinecone Serverless v2发布，向量数据库进入无服务器时代",
+    "summary": "Pinecone推出Serverless v2向量数据库，按用量计费，扩展性和成本效益大幅提升。",
+    "url": "https://www.pinecone.io",
+    "source": "Pinecone官方",
+    "publishedAt": "2026-03-05",
+    "image": "https://picsum.photos/seed/news75/600/400",
+    "category": "开发工具"
+  },
+  {
+    "id": "news-24",
+    "title": "通义千问3.0发布，阿里云大模型全面升级",
+    "summary": "阿里云发布通义千问3.0系列，覆盖从轻量到超大规模多个版本，企业级应用能力显著增强。",
+    "url": "https://tongyi.aliyun.com",
+    "source": "阿里云官方",
+    "publishedAt": "2026-02-28",
+    "image": "https://picsum.photos/seed/news24/600/400",
+    "category": "大模型"
+  },
+  {
+    "id": "news-66",
+    "title": "讯飞星火音频大模型升级，全链路语音能力增强",
+    "summary": "科大讯飞推出星火音频大模型升级版，在语音识别、合成、翻译等方面全面提升。",
+    "url": "https://www.xfyun.cn",
+    "source": "科大讯飞官方",
+    "publishedAt": "2026-02-28",
+    "image": "https://picsum.photos/seed/news66/600/400",
+    "category": "AI音频"
+  },
+  {
+    "id": "news-82",
+    "title": "AI芯片生态竞争加剧，NVIDIA继续领跑",
+    "summary": "AI芯片市场持续火热，NVIDIA Blackwell架构GPU全面供货，AMD、Intel等厂商加速追赶。",
+    "url": "https://www.nvidia.com",
+    "source": "行业综合报道",
+    "publishedAt": "2026-02-28",
+    "image": "https://picsum.photos/seed/news82/600/400",
+    "category": "生态"
+  },
+  {
+    "id": "news-98",
+    "title": "百度智能云AI收入增长超100%，AI商业化加速",
+    "summary": "百度发布财报，智能云AI相关收入同比增长超100%，AI大模型商业化取得显著进展。",
+    "url": "https://cloud.baidu.com",
+    "source": "百度财报",
+    "publishedAt": "2026-02-28",
+    "image": "https://picsum.photos/seed/news98/600/400",
+    "category": "融资/商业"
+  },
+  {
+    "id": "news-12",
+    "title": "DeepSeek V3发布，国产开源模型性能对标GPT-4o",
+    "summary": "深度求索发布DeepSeek V3，671B参数的MoE模型在多项基准测试中比肩GPT-4o，但训练成本显著降低。",
+    "url": "https://www.deepseek.com",
+    "source": "DeepSeek官方",
+    "publishedAt": "2026-02-26",
+    "image": "https://picsum.photos/seed/news12/600/400",
+    "category": "大模型"
+  },
+  {
+    "id": "news-15",
+    "title": "Meta推出Llama 3.2，多模态开源模型新标杆",
+    "summary": "Meta发布Llama 3.2系列开源模型，包括支持视觉的多模态版本和轻量级端侧模型，再次引领开源生态。",
+    "url": "https://llama.meta.com",
+    "source": "Meta官方",
+    "publishedAt": "2026-02-25",
+    "image": "https://picsum.photos/seed/news15/600/400",
+    "category": "大模型"
+  },
+  {
+    "id": "news-49",
+    "title": "剪映AI视频创作工具全面升级，人人都是导演",
+    "summary": "剪映推出全新AI视频创作工具箱，从脚本到成片全流程AI辅助，大幅降低视频创作门槛。",
+    "url": "https://www.capcut.cn",
+    "source": "剪映官方",
+    "publishedAt": "2026-02-25",
+    "image": "https://picsum.photos/seed/news49/600/400",
+    "category": "AI视频"
+  },
+  {
+    "id": "news-73",
+    "title": "Weights & Biases AI开发平台全面升级",
+    "summary": "Weights & Biases推出全新AI开发工具链，覆盖模型训练、评估、部署全流程。",
+    "url": "https://wandb.ai",
+    "source": "Weights & Biases官方",
+    "publishedAt": "2026-02-25",
+    "image": "https://picsum.photos/seed/news73/600/400",
+    "category": "开发工具"
+  },
+  {
+    "id": "news-14",
+    "title": "NotebookLM新增音频概览功能，AI播客成新趋势",
+    "summary": "Google NotebookLM推出AI音频概览功能，可将任意文档转化为生动的AI双人播客，引发内容创作新潮流。",
+    "url": "https://notebooklm.google.com",
+    "source": "Google官方",
+    "publishedAt": "2026-02-22",
+    "image": "https://picsum.photos/seed/news14/600/400",
+    "category": "AI音频"
+  },
+  {
+    "id": "news-33",
+    "title": "微软Copilot Studio升级，低代码构建企业Agent",
+    "summary": "微软更新Copilot Studio，提供更强大的低代码AI Agent构建能力，企业无需深厚技术积累即可部署智能体。",
+    "url": "https://www.microsoft.com/copilot-studio",
+    "source": "微软官方",
+    "publishedAt": "2026-02-20",
+    "image": "https://picsum.photos/seed/news33/600/400",
+    "category": "AI Agent"
+  },
+  {
+    "id": "news-59",
+    "title": "国内AI图像生成模型百花齐放，技术水平快速追赶",
+    "summary": "国内多家厂商推出新一代AI图像生成模型，包括文心一格、通义万相等，技术水平快速追赶国际前沿。",
+    "url": "https://yige.baidu.com",
+    "source": "多家厂商综合",
+    "publishedAt": "2026-02-20",
+    "image": "https://picsum.photos/seed/news59/600/400",
+    "category": "AI图像"
+  },
+  {
+    "id": "news-13",
+    "title": "GitHub Universe 2024：Copilot全面升级，多模型支持",
+    "summary": "GitHub在Universe大会上宣布Copilot支持多模型选择、Agent模式升级，并推出Copilot Workspace协作功能。",
+    "url": "https://github.blog/news-insights/product-news/github-universe-2024/",
+    "source": "GitHub官方",
+    "publishedAt": "2026-02-19",
+    "image": "https://picsum.photos/seed/news13/600/400",
+    "category": "AI编程"
+  },
+  {
+    "id": "news-9",
+    "title": "Cursor成为最快达到1亿美元ARR的SaaS产品",
+    "summary": "AI代码编辑器Cursor在不到一年的时间里突破1亿美元年化经常性收入，刷新SaaS产品增速记录。",
+    "url": "https://cursor.com",
+    "source": "Cursor官方",
+    "publishedAt": "2026-02-15",
+    "image": "https://picsum.photos/seed/news9/600/400",
+    "category": "AI编程"
+  },
+  {
+    "id": "news-40",
+    "title": "Windsurf编辑器获大额融资，AI编程工具赛道火热",
+    "summary": "Windsurf AI编程编辑器完成新一轮融资，估值突破20亿美元，AI开发工具市场持续升温。",
+    "url": "https://windsurf.com",
+    "source": "Windsurf官方",
+    "publishedAt": "2026-02-15",
+    "image": "https://picsum.photos/seed/news40/600/400",
+    "category": "AI编程"
+  },
+  {
+    "id": "news-84",
+    "title": "欧盟AI法案正式实施，全球AI监管进入新阶段",
+    "summary": "欧盟AI法案正式生效实施，成为全球首部综合性AI监管法规，对全球AI发展产生深远影响。",
+    "url": "https://digital-strategy.ec.europa.eu/en/policies/ai-act",
+    "source": "欧盟委员会",
+    "publishedAt": "2026-02-10",
+    "image": "https://picsum.photos/seed/news84/600/400",
+    "category": "政策"
+  },
+  {
+    "id": "news-10",
+    "title": "Sora正式发布，文生视频时代来临",
+    "summary": "OpenAI Sora视频生成模型正式向ChatGPT Plus和Pro用户开放，支持60秒高质量视频生成。",
+    "url": "https://openai.com/sora",
+    "source": "OpenAI官方",
+    "publishedAt": "2026-02-09",
+    "image": "https://picsum.photos/seed/news10/600/400",
+    "category": "AI视频"
+  },
+  {
+    "id": "news-7",
+    "title": "OpenAI o1推理模型正式发布，性能超越GPT-4o",
+    "summary": "OpenAI o1系列推理模型正式发布，在数学竞赛、编程竞赛、博士级科学问题等复杂推理任务上超越人类专家。",
+    "url": "https://openai.com/o1/",
+    "source": "OpenAI官方",
+    "publishedAt": "2026-02-08",
+    "image": "https://picsum.photos/seed/news7/600/400",
+    "category": "大模型"
+  },
+  {
+    "id": "news-86",
+    "title": "美国发布AI安全行政令，监管力度加强",
+    "summary": "美国政府发布新版AI安全行政令，加强对前沿AI模型的安全评估和监管要求。",
+    "url": "https://www.whitehouse.gov/ai",
+    "source": "白宫官方",
+    "publishedAt": "2026-01-28",
+    "image": "https://picsum.photos/seed/news86/600/400",
+    "category": "政策"
+  },
+  {
+    "id": "news-8",
+    "title": "Anthropic推出Computer Use，让AI直接操控电脑",
+    "summary": "Anthropic发布Claude的Computer Use能力，AI可以像人一样直接操作电脑界面，完成复杂任务。",
+    "url": "https://www.anthropic.com/news/3-5-models-and-computer-use",
+    "source": "Anthropic官方",
+    "publishedAt": "2026-01-22",
+    "image": "https://picsum.photos/seed/news8/600/400",
+    "category": "AI Agent"
+  },
+  {
+    "id": "news-11",
+    "title": "马斯克xAI发布Grok 2，开源大模型竞争加剧",
+    "summary": "马斯克的xAI公司发布Grok 2大模型，在多个基准测试中表现优异，AI大模型竞争进一步升级。",
+    "url": "https://x.ai",
+    "source": "xAI官方",
+    "publishedAt": "2026-01-20",
+    "image": "https://picsum.photos/seed/news11/600/400",
+    "category": "大模型"
+  },
+  {
     "id": "news-1",
     "title": "OpenAI发布GPT-4o mini，性能大幅提升价格仅为原来的60%",
     "summary": "OpenAI最新发布的GPT-4o mini模型在多项基准测试中表现出色，同时价格大幅降低，为开发者提供更经济的选择。",
     "url": "https://openai.com/index/gpt-4o-mini-advancing-cost-efficient-intelligence/",
     "source": "OpenAI官方博客",
-    "publishedAt": "2024-07-15",
+    "publishedAt": "2026-01-15",
     "image": "https://picsum.photos/seed/news1/600/400",
     "category": "大模型"
-  },
-  {
-    "id": "news-2",
-    "title": "Anthropic Claude 3.5 Sonnet发布，编程能力显著增强",
-    "summary": "Anthropic推出Claude 3.5 Sonnet模型，在编程、数学和推理方面取得重大突破，同时保持了有竞争力的定价。",
-    "url": "https://www.anthropic.com/news/claude-3-5-sonnet",
-    "source": "Anthropic官方",
-    "publishedAt": "2024-07-12",
-    "image": "https://picsum.photos/seed/news2/600/400",
-    "category": "大模型"
-  },
-  {
-    "id": "news-3",
-    "title": "Google Gemini 1.5 Pro支持200万token上下文窗口",
-    "summary": "Google扩展Gemini 1.5 Pro的上下文能力，支持最多200万token，可处理更长的文档和代码库。",
-    "url": "https://blog.google/technology/ai/gemini-15-pro-2m/",
-    "source": "Google Blog",
-    "publishedAt": "2024-07-10",
-    "image": "https://picsum.photos/seed/news3/600/400",
-    "category": "大模型"
-  },
-  {
-    "id": "news-4",
-    "title": "Vercel推出AI SDK 4.0，统一多模型开发体验",
-    "summary": "Vercel AI SDK 4.0版本发布，提供更统一的API接口，支持更多主流AI模型和流式响应。",
-    "url": "https://vercel.com/blog/ai-sdk-4",
-    "source": "Vercel Blog",
-    "publishedAt": "2024-07-08",
-    "image": "https://picsum.photos/seed/news4/600/400",
-    "category": "开发工具"
   },
   {
     "id": "news-5",
@@ -45,7 +955,7 @@
     "summary": "Runway最新的Gen-3 Alpha模型在视频生成质量和一致性方面有显著提升，支持更长的视频输出。",
     "url": "https://runwayml.com/research/gen-3-alpha",
     "source": "Runway",
-    "publishedAt": "2024-07-14",
+    "publishedAt": "2026-01-14",
     "image": "https://picsum.photos/seed/news5/600/400",
     "category": "AI视频"
   },
@@ -55,98 +965,38 @@
     "summary": "Model Context Protocol生态持续繁荣，开发者社区贡献了大量MCP服务器，覆盖各种应用场景。",
     "url": "https://modelcontextprotocol.io",
     "source": "MCP官方",
-    "publishedAt": "2024-07-13",
+    "publishedAt": "2026-01-13",
     "image": "https://picsum.photos/seed/news6/600/400",
     "category": "生态"
   },
   {
-    "id": "news-7",
-    "title": "OpenAI o1推理模型正式发布，性能超越GPT-4o",
-    "summary": "OpenAI o1系列推理模型正式发布，在数学竞赛、编程竞赛、博士级科学问题等复杂推理任务上超越人类专家。",
-    "url": "https://openai.com/o1/",
-    "source": "OpenAI官方",
-    "publishedAt": "2024-12-08",
-    "image": "https://picsum.photos/seed/news7/600/400",
-    "category": "大模型"
-  },
-  {
-    "id": "news-8",
-    "title": "Anthropic推出Computer Use，让AI直接操控电脑",
-    "summary": "Anthropic发布Claude的Computer Use能力，AI可以像人一样直接操作电脑界面，完成复杂任务。",
-    "url": "https://www.anthropic.com/news/3-5-models-and-computer-use",
+    "id": "news-2",
+    "title": "Anthropic Claude 3.5 Sonnet发布，编程能力显著增强",
+    "summary": "Anthropic推出Claude 3.5 Sonnet模型，在编程、数学和推理方面取得重大突破，同时保持了有竞争力的定价。",
+    "url": "https://www.anthropic.com/news/claude-3-5-sonnet",
     "source": "Anthropic官方",
-    "publishedAt": "2024-10-22",
-    "image": "https://picsum.photos/seed/news8/600/400",
-    "category": "AI Agent"
-  },
-  {
-    "id": "news-9",
-    "title": "Cursor成为最快达到1亿美元ARR的SaaS产品",
-    "summary": "AI代码编辑器Cursor在不到一年的时间里突破1亿美元年化经常性收入，刷新SaaS产品增速记录。",
-    "url": "https://cursor.com",
-    "source": "Cursor官方",
-    "publishedAt": "2024-11-15",
-    "image": "https://picsum.photos/seed/news9/600/400",
-    "category": "AI编程"
-  },
-  {
-    "id": "news-10",
-    "title": "Sora正式发布，文生视频时代来临",
-    "summary": "OpenAI Sora视频生成模型正式向ChatGPT Plus和Pro用户开放，支持60秒高质量视频生成。",
-    "url": "https://openai.com/sora",
-    "source": "OpenAI官方",
-    "publishedAt": "2024-12-09",
-    "image": "https://picsum.photos/seed/news10/600/400",
-    "category": "AI视频"
-  },
-  {
-    "id": "news-11",
-    "title": "马斯克xAI发布Grok 2，开源大模型竞争加剧",
-    "summary": "马斯克的xAI公司发布Grok 2大模型，在多个基准测试中表现优异，AI大模型竞争进一步升级。",
-    "url": "https://x.ai",
-    "source": "xAI官方",
-    "publishedAt": "2024-08-15",
-    "image": "https://picsum.photos/seed/news11/600/400",
+    "publishedAt": "2026-01-12",
+    "image": "https://picsum.photos/seed/news2/600/400",
     "category": "大模型"
   },
   {
-    "id": "news-12",
-    "title": "DeepSeek V3发布，国产开源模型性能对标GPT-4o",
-    "summary": "深度求索发布DeepSeek V3，671B参数的MoE模型在多项基准测试中比肩GPT-4o，但训练成本显著降低。",
-    "url": "https://www.deepseek.com",
-    "source": "DeepSeek官方",
-    "publishedAt": "2024-12-26",
-    "image": "https://picsum.photos/seed/news12/600/400",
+    "id": "news-3",
+    "title": "Google Gemini 1.5 Pro支持200万token上下文窗口",
+    "summary": "Google扩展Gemini 1.5 Pro的上下文能力，支持最多200万token，可处理更长的文档和代码库。",
+    "url": "https://blog.google/technology/ai/gemini-15-pro-2m/",
+    "source": "Google Blog",
+    "publishedAt": "2026-01-10",
+    "image": "https://picsum.photos/seed/news3/600/400",
     "category": "大模型"
   },
   {
-    "id": "news-13",
-    "title": "GitHub Universe 2024：Copilot全面升级，多模型支持",
-    "summary": "GitHub在Universe大会上宣布Copilot支持多模型选择、Agent模式升级，并推出Copilot Workspace协作功能。",
-    "url": "https://github.blog/news-insights/product-news/github-universe-2024/",
-    "source": "GitHub官方",
-    "publishedAt": "2024-11-19",
-    "image": "https://picsum.photos/seed/news13/600/400",
-    "category": "AI编程"
-  },
-  {
-    "id": "news-14",
-    "title": "NotebookLM新增音频概览功能，AI播客成新趋势",
-    "summary": "Google NotebookLM推出AI音频概览功能，可将任意文档转化为生动的AI双人播客，引发内容创作新潮流。",
-    "url": "https://notebooklm.google.com",
-    "source": "Google官方",
-    "publishedAt": "2024-09-22",
-    "image": "https://picsum.photos/seed/news14/600/400",
-    "category": "AI音频"
-  },
-  {
-    "id": "news-15",
-    "title": "Meta推出Llama 3.2，多模态开源模型新标杆",
-    "summary": "Meta发布Llama 3.2系列开源模型，包括支持视觉的多模态版本和轻量级端侧模型，再次引领开源生态。",
-    "url": "https://llama.meta.com",
-    "source": "Meta官方",
-    "publishedAt": "2024-09-25",
-    "image": "https://picsum.photos/seed/news15/600/400",
-    "category": "大模型"
+    "id": "news-4",
+    "title": "Vercel推出AI SDK 4.0，统一多模型开发体验",
+    "summary": "Vercel AI SDK 4.0版本发布，提供更统一的API接口，支持更多主流AI模型和流式响应。",
+    "url": "https://vercel.com/blog/ai-sdk-4",
+    "source": "Vercel Blog",
+    "publishedAt": "2026-01-08",
+    "image": "https://picsum.photos/seed/news4/600/400",
+    "category": "开发工具"
   }
 ]

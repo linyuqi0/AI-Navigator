@@ -1,1739 +1,1200 @@
-[
+import json
+import random
+
+existing_prompts = [
   {
     "id": "pm-prd",
     "title": "产品经理PRD写作大师",
     "content": "你是一位经验丰富的高级产品经理，精通互联网产品设计和需求文档撰写。请根据以下信息，帮我撰写一份专业的产品需求文档（PRD）：\n\n产品名称：{产品名称}\n目标用户：{目标用户}\n核心功能：{核心功能描述}\n\n请包含以下部分：\n1. 产品背景与目标\n2. 用户画像与使用场景\n3. 功能需求清单（含优先级）\n4. 交互设计说明\n5. 非功能需求\n6. 数据埋点需求\n7. 上线计划\n\n要求：逻辑清晰，细节到位，符合大厂PRD规范。",
     "category": "product-manager",
-    "tags": [
-      "PRD",
-      "产品文档",
-      "需求分析",
-      "产品设计"
-    ],
+    "tags": ["PRD", "产品文档", "需求分析", "产品设计"],
     "author": "AI Navigator",
     "seoTitle": "产品经理PRD写作大师 Prompt | AI Navigator Pro",
     "seoDescription": "专业的产品经理PRD写作提示词，帮助快速生成符合大厂规范的产品需求文档。",
-    "featured": true,
-    "views": 12500,
-    "createdAt": "2026-01-05"
+    "featured": True,
+    "views": 12500
   },
   {
     "id": "pm-user-research",
     "title": "用户研究访谈提纲生成器",
     "content": "你是一位资深的用户研究专家。我需要进行一次用户访谈，请帮我生成一份完整的访谈提纲。\n\n产品类型：{产品类型}\n访谈目标：{访谈目标}\n目标用户群体：{目标用户群体}\n\n请生成包含以下部分的访谈提纲：\n1. 开场与破冰问题\n2. 用户背景了解\n3. 使用习惯与行为\n4. 痛点与需求挖掘\n5. 竞品使用情况\n6. 概念测试（如适用）\n7. 总结与收尾\n\n要求：问题层层递进，避免引导性，每个问题附带访谈目的说明。",
     "category": "product-manager",
-    "tags": [
-      "用户研究",
-      "访谈",
-      "用研",
-      "需求挖掘"
-    ],
+    "tags": ["用户研究", "访谈", "用研", "需求挖掘"],
     "author": "AI Navigator",
     "seoTitle": "用户研究访谈提纲生成器 Prompt | AI Navigator Pro",
     "seoDescription": "专业的用户研究访谈提纲生成提示词，帮助产品经理进行深度用户访谈。",
-    "featured": true,
-    "views": 8900,
-    "createdAt": "2026-01-05"
+    "featured": True,
+    "views": 8900
   },
   {
     "id": "operation-copywriting",
     "title": "爆款文案写作助手",
     "content": "你是一位顶级的新媒体运营专家，擅长撰写各种爆款文案。请根据以下要求，帮我撰写一篇高质量的文案：\n\n文案类型：{文案类型，如公众号文章/小红书/微博/抖音脚本}\n产品/主题：{产品或主题名称}\n目标受众：{目标受众}\n核心卖点：{核心卖点}\n\n要求：\n1. 标题要有吸引力，包含钩子\n2. 开头3秒抓住注意力\n3. 正文结构清晰，有节奏感\n4. 结尾有明确的行动号召\n5. 适当使用emoji增强可读性\n6. 字数控制在{字数}左右",
     "category": "operation",
-    "tags": [
-      "文案",
-      "新媒体",
-      "内容运营",
-      "爆款"
-    ],
+    "tags": ["文案", "新媒体", "内容运营", "爆款"],
     "author": "AI Navigator",
     "seoTitle": "爆款文案写作助手 Prompt | AI Navigator Pro",
     "seoDescription": "专业的爆款文案写作提示词，支持公众号、小红书、微博、抖音等多种平台。",
-    "featured": true,
-    "views": 15600,
-    "createdAt": "2026-01-05"
+    "featured": True,
+    "views": 15600
   },
   {
     "id": "operation-data-analysis",
     "title": "运营数据分析报告生成器",
     "content": "你是一位专业的数据运营分析师。请根据以下数据，帮我生成一份专业的运营数据分析报告：\n\n数据周期：{数据周期}\n核心指标：{列出核心指标及数据}\n\n报告结构：\n1. 数据概览（核心指标摘要）\n2. 趋势分析（环比/同比变化）\n3. 维度拆解（按用户/渠道/功能等维度）\n4. 异常点分析\n5. 洞察发现\n6.  actionable建议\n7. 下一步行动计划\n\n要求：数据驱动，逻辑严谨，结论明确，建议可落地。",
     "category": "operation",
-    "tags": [
-      "数据分析",
-      "运营报告",
-      "数据洞察",
-      "BI"
-    ],
+    "tags": ["数据分析", "运营报告", "数据洞察", "BI"],
     "author": "AI Navigator",
     "seoTitle": "运营数据分析报告生成器 Prompt | AI Navigator Pro",
     "seoDescription": "专业的运营数据分析报告生成提示词，帮助快速产出高质量分析报告。",
-    "views": 9800,
-    "createdAt": "2026-01-05"
+    "views": 9800
   },
   {
     "id": "design-ui-critique",
     "title": "UI设计评审专家",
     "content": "你是一位资深的UI/UX设计专家，精通设计系统和交互设计。请对以下设计进行专业评审：\n\n设计描述：{描述设计内容或上传设计稿}\n产品类型：{产品类型}\n目标用户：{目标用户}\n\n请从以下维度进行评审：\n1. 视觉设计（配色、排版、层次感）\n2. 交互体验（易用性、流畅度、反馈）\n3. 信息架构（层级、导航、可发现性）\n4. 一致性（设计系统、组件复用）\n5. 可访问性（无障碍设计）\n6. 创新性与差异化\n\n每个维度给出评分（1-10分）和具体改进建议，最后给出总体评价和优先级排序。",
     "category": "designer",
-    "tags": [
-      "UI设计",
-      "设计评审",
-      "UX",
-      "设计系统"
-    ],
+    "tags": ["UI设计", "设计评审", "UX", "设计系统"],
     "author": "AI Navigator",
     "seoTitle": "UI设计评审专家 Prompt | AI Navigator Pro",
     "seoDescription": "专业的UI设计评审提示词，从视觉、交互、信息架构等多维度进行专业评审。",
-    "featured": true,
-    "views": 11200,
-    "createdAt": "2026-01-05"
+    "featured": True,
+    "views": 11200
   },
   {
     "id": "design-system",
     "title": "设计系统搭建顾问",
     "content": "你是一位设计系统架构专家。请帮我规划和搭建一套完整的设计系统。\n\n产品类型：{产品类型}\n品牌调性：{品牌调性描述}\n技术栈：{前端技术栈}\n\n请输出：\n1. 设计原则与理念\n2. 色彩系统（主色、辅助色、中性色、语义色）\n3. 字体系统（字体、字号、字重、行高）\n4. 间距系统（8px网格）\n5. 圆角、阴影、动效规范\n6. 基础组件清单及规范\n7. 组件设计Token建议\n8. 设计与开发协作流程",
     "category": "designer",
-    "tags": [
-      "设计系统",
-      "Design System",
-      "组件库",
-      "规范化"
-    ],
+    "tags": ["设计系统", "Design System", "组件库", "规范化"],
     "author": "AI Navigator",
     "seoTitle": "设计系统搭建顾问 Prompt | AI Navigator Pro",
     "seoDescription": "专业的设计系统搭建咨询提示词，帮助团队建立完整的设计规范和组件系统。",
-    "views": 7600,
-    "createdAt": "2026-01-12"
+    "views": 7600
   },
   {
     "id": "dev-code-review",
     "title": "代码审查专家",
     "content": "你是一位资深的高级软件工程师，精通代码质量和最佳实践。请对以下代码进行专业的Code Review：\n\n代码语言：{编程语言}\n代码片段：\n```{代码}\n```\n\n请从以下维度进行审查：\n1. 代码正确性与逻辑错误\n2. 性能优化点\n3. 安全漏洞与风险\n4. 代码风格与可读性\n5. 最佳实践遵循情况\n6. 可维护性与可扩展性\n7. 测试覆盖建议\n\n每个问题标注严重程度（高/中/低），并给出具体的改进代码示例。",
     "category": "developer",
-    "tags": [
-      "Code Review",
-      "代码质量",
-      "最佳实践",
-      "性能优化"
-    ],
+    "tags": ["Code Review", "代码质量", "最佳实践", "性能优化"],
     "author": "AI Navigator",
     "seoTitle": "代码审查专家 Prompt | AI Navigator Pro",
     "seoDescription": "专业的代码审查提示词，从正确性、性能、安全、可读性等多维度进行审查。",
-    "featured": true,
-    "views": 14300,
-    "createdAt": "2026-01-12"
+    "featured": True,
+    "views": 14300
   },
   {
     "id": "dev-architecture",
     "title": "系统架构设计顾问",
     "content": "你是一位资深的系统架构师，精通分布式系统和高并发设计。请帮我设计以下系统的架构：\n\n业务需求：{描述业务需求和产品定位}\n预估规模：{用户量、QPS、数据量等预估}\n技术偏好：{偏好的技术栈，如有的话}\n\n请输出：\n1. 整体架构图（文字描述Mermaid格式）\n2. 技术选型与理由\n3. 数据库设计思路\n4. 缓存策略\n5. 消息队列使用场景\n6. 微服务划分（如适用）\n7. 高可用与容灾方案\n8. 扩展性设计\n9. 监控与运维方案\n10. 技术风险与应对",
     "category": "developer",
-    "tags": [
-      "系统架构",
-      "架构设计",
-      "分布式",
-      "高并发"
-    ],
+    "tags": ["系统架构", "架构设计", "分布式", "高并发"],
     "author": "AI Navigator",
     "seoTitle": "系统架构设计顾问 Prompt | AI Navigator Pro",
     "seoDescription": "专业的系统架构设计咨询提示词，帮助设计高可用、可扩展的系统架构。",
-    "views": 10500,
-    "createdAt": "2026-01-12"
+    "views": 10500
   },
   {
     "id": "ads-facebook",
     "title": "Facebook广告优化大师",
     "content": "你是一位资深的Facebook/Instagram广告优化专家。请帮我优化以下广告活动：\n\n产品/服务：{产品或服务描述}\n目标受众：{目标受众描述}\n广告目标：{如：转化/流量/品牌认知}\n预算：{每日/总预算}\n当前表现：{当前数据，如CTR、CPC、ROAS等}\n\n请提供：\n1. 广告账户结构优化建议\n2. 受众定向策略（详细兴趣、行为、人口统计）\n3. 广告创意建议（3-5个素材方向）\n4. 广告文案撰写（3个版本）\n5. 落地页优化建议\n6. 出价与预算策略\n7. A/B测试方案\n8. 优化节奏与监控指标",
     "category": "advertising",
-    "tags": [
-      "Facebook广告",
-      "信息流广告",
-      "投放优化",
-      "ROAS"
-    ],
+    "tags": ["Facebook广告", "信息流广告", "投放优化", "ROAS"],
     "author": "AI Navigator",
     "seoTitle": "Facebook广告优化大师 Prompt | AI Navigator Pro",
     "seoDescription": "专业的Facebook广告优化提示词，从受众、创意、出价等全方位优化广告效果。",
-    "featured": true,
-    "views": 8700,
-    "createdAt": "2026-01-12"
+    "featured": True,
+    "views": 8700
   },
   {
     "id": "self-media-ip",
     "title": "自媒体IP打造指南",
     "content": "你是一位自媒体IP孵化专家，成功打造过多个百万粉丝账号。请帮我规划我的自媒体IP：\n\n领域/赛道：{你的领域或赛道}\n个人优势：{你的特长或独特优势}\n目标平台：{如抖音/小红书/B站/公众号}\n目标粉丝量：{短期目标}\n\n请输出：\n1. 赛道分析与机会点\n2. IP定位与人设打造\n3. 内容方向规划（10个选题方向）\n4. 内容形式与结构模板\n5. 更新频率与发布时间建议\n6. 涨粉策略（冷启动期/成长期/成熟期）\n7. 变现路径规划\n8. 竞品对标分析\n9. 30天行动计划",
     "category": "self-media",
-    "tags": [
-      "自媒体",
-      "IP打造",
-      "内容创业",
-      "涨粉"
-    ],
+    "tags": ["自媒体", "IP打造", "内容创业", "涨粉"],
     "author": "AI Navigator",
     "seoTitle": "自媒体IP打造指南 Prompt | AI Navigator Pro",
     "seoDescription": "专业的自媒体IP打造指南，从定位、内容到变现全流程规划。",
-    "featured": true,
-    "views": 13400,
-    "createdAt": "2026-01-18"
+    "featured": True,
+    "views": 13400
   },
   {
     "id": "dev-bug-fix",
     "title": "Bug定位与修复专家",
     "content": "你是一位资深的软件调试工程师。请帮我定位并修复以下Bug：\n\nBug描述：{详细描述Bug现象}\n报错信息：{报错日志或堆栈}\n相关代码：\n```{代码}\n```\n运行环境：{操作系统/语言版本/框架版本}\n\n请按以下步骤输出：\n1. Bug根因分析（最可能的3个原因）\n2. 验证假设的步骤\n3. 修复方案（含具体代码）\n4. 修复后的验证方法\n5. 类似Bug的预防建议\n6. 添加的单元测试建议",
     "category": "developer",
-    "tags": [
-      "Bug修复",
-      "调试",
-      "代码质量",
-      "测试"
-    ],
+    "tags": ["Bug修复", "调试", "代码质量", "测试"],
     "author": "AI Navigator",
     "seoTitle": "Bug定位与修复专家 Prompt | AI Navigator Pro",
     "seoDescription": "专业的Bug定位与修复提示词，帮助快速定位并解决代码问题。",
-    "views": 7800,
-    "createdAt": "2026-01-18"
+    "views": 7800
   },
   {
     "id": "dev-api-doc",
     "title": "API文档生成器",
     "content": "你是一位技术文档专家。请帮我生成专业的API接口文档：\n\nAPI信息：\n- 端点URL：{URL}\n- 请求方法：{GET/POST/PUT/DELETE}\n- 业务功能：{描述该API的功能}\n- 请求参数：{列出所有参数}\n- 响应格式：{JSON示例}\n\n请输出标准的OpenAPI/Swagger格式文档：\n1. 接口概述\n2. 请求参数说明（字段、类型、必填、说明、示例）\n3. 响应参数说明（成功/失败）\n4. 错误码定义\n5. 调用示例（curl/JavaScript/Python/Java）\n6. 注意事项与限制\n7. 兼容性说明",
     "category": "developer",
-    "tags": [
-      "API文档",
-      "技术文档",
-      "OpenAPI",
-      "Swagger"
-    ],
+    "tags": ["API文档", "技术文档", "OpenAPI", "Swagger"],
     "author": "AI Navigator",
     "seoTitle": "API文档生成器 Prompt | AI Navigator Pro",
     "seoDescription": "专业的API文档自动生成提示词，输出标准OpenAPI/Swagger格式文档。",
-    "views": 6400,
-    "createdAt": "2026-01-18"
+    "views": 6400
   },
   {
     "id": "dev-unit-test",
     "title": "单元测试生成器",
     "content": "你是一位测试工程师，擅长编写高质量的单元测试。请为以下代码编写完整的单元测试：\n\n测试框架：{如Jest/Vitest/pytest/JUnit}\n代码：\n```{代码}\n```\n\n请输出：\n1. 完整的测试用例代码\n2. 覆盖以下场景：\n   - 正常情况（多个输入）\n   - 边界条件（空值、最大最小值）\n   - 异常情况（错误输入、异常抛出）\n   - 边界值（0、负数、空字符串等）\n3. Mock和Stub的使用\n4. 测试覆盖率建议目标\n5. 测试运行说明",
     "category": "developer",
-    "tags": [
-      "单元测试",
-      "测试驱动开发",
-      "TDD",
-      "质量保障"
-    ],
+    "tags": ["单元测试", "测试驱动开发", "TDD", "质量保障"],
     "author": "AI Navigator",
     "seoTitle": "单元测试生成器 Prompt | AI Navigator Pro",
     "seoDescription": "专业的单元测试生成提示词，覆盖正常、边界、异常等多种测试场景。",
-    "views": 5900,
-    "createdAt": "2026-01-18"
+    "views": 5900
   },
   {
     "id": "pm-prototype",
     "title": "产品原型设计助手",
     "content": "你是一位产品原型设计专家。请帮我设计一个低保真到中保真的产品原型方案：\n\n产品名称：{产品名称}\n产品定位：{产品定位和目标用户}\n核心场景：{描述最核心的用户使用场景}\n\n请输出：\n1. 整体信息架构（页面层级树）\n2. 核心页面清单\n3. 每个核心页面的：\n   - 页面布局说明（区块、内容、交互）\n   - 关键元素详细描述\n   - 用户操作流程\n4. 页面流转关系\n5. 异常状态设计（空、加载、错误）\n6. 关键交互细节说明\n\n使用文字+ASCII/Mermaid图描述，便于产品经理理解。",
     "category": "product-manager",
-    "tags": [
-      "原型设计",
-      "信息架构",
-      "产品设计",
-      "UX"
-    ],
+    "tags": ["原型设计", "信息架构", "产品设计", "UX"],
     "author": "AI Navigator",
     "seoTitle": "产品原型设计助手 Prompt | AI Navigator Pro",
     "seoDescription": "专业的产品原型设计提示词，从信息架构到核心页面设计的完整方案。",
-    "views": 8200,
-    "createdAt": "2026-01-18"
+    "views": 8200
   },
   {
     "id": "operation-growth",
     "title": "用户增长策略师",
     "content": "你是一位资深的用户增长专家，熟悉AARRR漏斗模型。请帮我设计用户增长策略：\n\n产品类型：{产品类型}\n当前阶段：{如：冷启动/早期/成长期/成熟期}\n当前数据：{DAU/MAU/留存率/转化率等关键指标}\n预算范围：{增长预算}\n\n请按AARRR模型输出：\n1. 获客（Acquisition）：渠道策略、获客成本控制\n2. 激活（Activation）：新用户体验优化、Aha时刻\n3. 留存（Retention）：留存模型、召回策略\n4. 变现（Revenue）：付费转化、LTV提升\n5. 推荐（Referral）：裂变机制、病毒系数\n\n每个环节给出3-5个具体可执行的策略。",
     "category": "operation",
-    "tags": [
-      "用户增长",
-      "AARRR",
-      "增长黑客",
-      "运营策略"
-    ],
+    "tags": ["用户增长", "AARRR", "增长黑客", "运营策略"],
     "author": "AI Navigator",
     "seoTitle": "用户增长策略师 Prompt | AI Navigator Pro",
     "seoDescription": "专业的用户增长策略提示词，基于AARRR模型设计完整的增长方案。",
-    "featured": true,
-    "views": 9100,
-    "createdAt": "2026-01-18"
+    "featured": True,
+    "views": 9100
   },
   {
     "id": "design-logo",
     "title": "Logo设计创意顾问",
     "content": "你是一位资深的品牌设计专家，擅长Logo设计。请帮我构思Logo设计方案：\n\n品牌名称：{品牌名称}\n品牌定位：{品牌定位和核心价值}\n目标受众：{目标用户群体}\n品牌调性：{如：科技/温暖/高端/年轻}\n\n请输出3-5个Logo方案，每个方案包括：\n1. 创意理念（2-3句话说明）\n2. 视觉元素（图形、字体、颜色）\n3. 适用场景（线上、线下、印刷）\n4. 配色方案（HEX值）\n5. 字体推荐\n6. 应用规范（最小尺寸、安全距离）\n7. 黑白/单色版本建议",
     "category": "designer",
-    "tags": [
-      "Logo设计",
-      "品牌设计",
-      "VI",
-      "创意"
-    ],
+    "tags": ["Logo设计", "品牌设计", "VI", "创意"],
     "author": "AI Navigator",
     "seoTitle": "Logo设计创意顾问 Prompt | AI Navigator Pro",
     "seoDescription": "专业的Logo设计创意咨询提示词，输出多套完整的Logo设计方案。",
-    "views": 5800,
-    "createdAt": "2026-01-25"
+    "views": 5800
   },
   {
     "id": "ads-google",
     "title": "Google Ads优化专家",
     "content": "你是一位资深的Google Ads优化专家。请帮我优化Google Ads广告活动：\n\n产品/服务：{产品或服务描述}\n目标受众：{目标用户地区和特征}\n广告目标：{销售/线索/品牌/应用下载}\n月度预算：{预算范围}\n当前表现：{展示次数、点击率、转化率、CPA等}\n\n请提供：\n1. 账户结构重组建议\n2. 关键词策略（核心词、长尾词、否定关键词）\n3. 匹配类型优化\n4. 广告创意撰写（响应式搜索广告）\n5. 着陆页优化建议\n6. 智能出价策略\n7. 转化追踪设置\n8. 优化时间表与KPI",
     "category": "advertising",
-    "tags": [
-      "Google Ads",
-      "SEM",
-      "搜索广告",
-      "投放优化"
-    ],
+    "tags": ["Google Ads", "SEM", "搜索广告", "投放优化"],
     "author": "AI Navigator",
     "seoTitle": "Google Ads优化专家 Prompt | AI Navigator Pro",
     "seoDescription": "专业的Google Ads广告优化提示词，从关键词到出价策略全方位优化。",
-    "views": 6200,
-    "createdAt": "2026-02-03"
+    "views": 6200
   },
   {
     "id": "self-media-tiktok",
     "title": "抖音爆款脚本创作",
     "content": "你是一位顶级的抖音短视频脚本创作专家。请帮我创作抖音爆款短视频脚本：\n\n账号定位：{账号人设和领域}\n选题方向：{本期视频主题}\n目标时长：{如30秒/60秒/90秒}\n\n请提供：\n1. 3个备选标题（含钩子）\n2. 开场3秒设计（黄金开头）\n3. 完整脚本（含分镜、台词、画面、字幕）\n4. 节奏设计与BGM建议\n5. 互动设计（评论引导、点赞引导）\n6. 结尾引导（关注、转发）\n7. 话题标签建议\n8. 发布时间建议\n9. 封面设计建议",
     "category": "self-media",
-    "tags": [
-      "抖音",
-      "短视频",
-      "脚本创作",
-      "爆款"
-    ],
+    "tags": ["抖音", "短视频", "脚本创作", "爆款"],
     "author": "AI Navigator",
     "seoTitle": "抖音爆款脚本创作 Prompt | AI Navigator Pro",
     "seoDescription": "专业的抖音爆款短视频脚本创作提示词，输出完整的拍摄脚本。",
-    "featured": true,
-    "views": 11200,
-    "createdAt": "2026-02-03"
+    "featured": True,
+    "views": 11200
   },
   {
     "id": "translator-multilang",
     "title": "多语言翻译专家",
     "content": "你是一位精通多国语言的专业翻译。请帮我翻译以下内容，并保持原文的风格和语气：\n\n源语言：{源语言}\n目标语言：{目标语言}\n内容类型：{如商务邮件/技术文档/营销文案/法律合同/学术论文}\n\n待翻译内容：\n{内容}\n\n请输出：\n1. 完整翻译（保持原意、风格、语气）\n2. 关键术语对照表\n3. 文化适配说明（必要的本地化调整）\n4. 翻译备注（如有歧义或多义词）\n5. 备选译法（如适用）",
     "category": "translator",
-    "tags": [
-      "翻译",
-      "多语言",
-      "本地化",
-      "跨文化"
-    ],
+    "tags": ["翻译", "多语言", "本地化", "跨文化"],
     "author": "AI Navigator",
     "seoTitle": "多语言翻译专家 Prompt | AI Navigator Pro",
     "seoDescription": "专业的多语言翻译提示词，支持商务、技术、营销等多种内容类型。",
-    "views": 9500,
-    "createdAt": "2026-02-03"
+    "views": 9500
   },
   {
     "id": "hr-resume",
     "title": "简历优化与面试准备",
     "content": "你是一位资深HR和职业规划顾问，擅长简历优化和面试辅导。请帮我优化我的简历和准备面试：\n\n目标岗位：{目标岗位}\n工作年限：{年限}\n核心技能：{列出3-5个核心技能}\n项目经历：{描述2-3个关键项目}\n\n请输出：\n1. 简历优化建议（结构、内容、亮点突出）\n2. 简历改写示例（针对某个项目）\n3. STAR法则项目描述模板\n4. 自我介绍设计（1分钟/3分钟两版本）\n5. 常见面试问题预测与回答建议（10个高频问题）\n6. 行为面试问题准备（STAR结构回答）\n7. 反向提问环节建议\n8. 薪资谈判策略\n9. 面试后跟进策略",
     "category": "career",
-    "tags": [
-      "简历优化",
-      "面试准备",
-      "职业规划",
-      "求职"
-    ],
+    "tags": ["简历优化", "面试准备", "职业规划", "求职"],
     "author": "AI Navigator",
     "seoTitle": "简历优化与面试准备 Prompt | AI Navigator Pro",
     "seoDescription": "专业的简历优化和面试准备提示词，从简历改写到面试应对全流程。",
-    "featured": true,
-    "views": 16800,
-    "createdAt": "2026-02-10"
-  },
+    "featured": True,
+    "views": 16800
+  }
+]
+
+new_prompts = [
+  # ========== product-manager (新增6条，共8条) ==========
   {
     "id": "pm-ai-product-strategy",
     "title": "AI产品战略规划师",
     "content": "你是一位AI产品战略专家，精通大模型应用和AI产品商业化。请帮我规划AI产品的发展战略：\n\n产品名称：{产品名称}\n当前阶段：{MVP/成长期/成熟期}\n核心AI能力：{如大模型对话/图像生成/智能推荐}\n目标市场：{目标用户和行业}\n\n请输出：\n1. AI产品市场格局与趋势分析\n2. 差异化定位与核心竞争力\n3. 产品路线图（短期/中期/长期）\n4. AI能力矩阵与技术选型建议\n5. 数据飞轮设计\n6. 商业化路径与定价策略\n7. 合规与安全风险评估\n8. 关键里程碑与成功指标",
     "category": "product-manager",
-    "tags": [
-      "AI产品",
-      "战略规划",
-      "大模型",
-      "产品路线图"
-    ],
+    "tags": ["AI产品", "战略规划", "大模型", "产品路线图"],
     "author": "AI Navigator",
     "seoTitle": "AI产品战略规划师 Prompt | AI Navigator Pro",
     "seoDescription": "专业的AI产品战略规划提示词，帮助产品经理制定AI时代的产品发展战略。",
-    "featured": true,
-    "views": 14200,
-    "createdAt": "2026-02-10"
+    "featured": True,
+    "views": 14200
   },
   {
     "id": "pm-competitive-analysis",
     "title": "竞品分析专业框架",
     "content": "你是一位资深的产品战略分析师。请帮我进行专业的竞品分析：\n\n我们的产品：{产品名称和定位}\n主要竞品：{列出3-5个竞品}\n分析维度：{如功能/价格/用户体验/市场份额}\n\n请输出：\n1. 竞品概览表（基础信息对比）\n2. 功能矩阵对比（详细功能清单）\n3. 用户体验对比（可用性、交互、视觉）\n4. 商业模式对比（定价、收入、成本结构）\n5. 市场表现分析（用户量、增长率、口碑）\n6. SWOT分析（每个竞品的优劣势机会威胁）\n7. 差异化机会点识别\n8. 产品迭代建议与优先级排序",
     "category": "product-manager",
-    "tags": [
-      "竞品分析",
-      "市场分析",
-      "SWOT",
-      "产品战略"
-    ],
+    "tags": ["竞品分析", "市场分析", "SWOT", "产品战略"],
     "author": "AI Navigator",
     "seoTitle": "竞品分析专业框架 Prompt | AI Navigator Pro",
     "seoDescription": "专业的竞品分析框架提示词，从功能、体验、商业模式等多维度进行深度分析。",
-    "views": 8600,
-    "createdAt": "2026-02-10"
+    "views": 8600
   },
   {
     "id": "pm-agile-backlog",
     "title": "敏捷需求与Backlog管理",
     "content": "你是一位敏捷开发专家和产品负责人。请帮我进行敏捷需求管理和Backlog梳理：\n\n产品愿景：{产品愿景}\n当前迭代：{当前Sprint信息}\n待办需求：{列出待办需求清单}\n团队规模：{团队人数和角色构成}\n\n请输出：\n1. 用户故事地图（User Story Mapping）\n2. 需求优先级排序（RICE/WSJF方法）\n3. Epic和User Story拆分建议\n4. 验收标准（AC）编写模板\n5. Sprint Backlog规划建议\n6. 燃尽图和速率预测\n7. 需求变更管理流程\n8. 迭代回顾会议议程模板",
     "category": "product-manager",
-    "tags": [
-      "敏捷开发",
-      "Backlog",
-      "Scrum",
-      "需求管理"
-    ],
+    "tags": ["敏捷开发", "Backlog", "Scrum", "需求管理"],
     "author": "AI Navigator",
     "seoTitle": "敏捷需求与Backlog管理 Prompt | AI Navigator Pro",
     "seoDescription": "专业的敏捷需求管理提示词，帮助产品负责人高效管理产品Backlog。",
-    "views": 7300,
-    "createdAt": "2026-02-10"
+    "views": 7300
   },
   {
     "id": "pm-data-metrics",
     "title": "产品数据指标体系搭建",
     "content": "你是一位数据驱动的产品专家。请帮我搭建产品数据指标体系：\n\n产品类型：{产品类型}\n业务目标：{当前核心业务目标}\n用户旅程：{描述主要用户旅程}\n\n请输出：\n1. 北极星指标定义与拆解\n2. AARRR海盗指标体系\n3. 用户分层与行为指标\n4. 核心业务流程漏斗指标\n5. 产品健康度监控指标\n6. 数据埋点方案与事件设计\n7. 数据看板规划（按角色）\n8. 指标告警与异常检测建议",
     "category": "product-manager",
-    "tags": [
-      "数据指标",
-      "数据驱动",
-      "埋点",
-      "北极星指标"
-    ],
+    "tags": ["数据指标", "数据驱动", "埋点", "北极星指标"],
     "author": "AI Navigator",
     "seoTitle": "产品数据指标体系搭建 Prompt | AI Navigator Pro",
     "seoDescription": "专业的产品数据指标体系搭建提示词，帮助建立数据驱动的产品决策机制。",
-    "views": 8100,
-    "createdAt": "2026-02-10"
+    "views": 8100
   },
   {
     "id": "pm-pricing-strategy",
     "title": "产品定价策略顾问",
     "content": "你是一位定价策略专家。请帮我制定产品的定价策略：\n\n产品类型：{SaaS/硬件/服务/内容等}\n目标用户：{目标用户画像}\n成本结构：{固定成本/可变成本}\n竞品价格：{竞品价格范围}\n\n请输出：\n1. 定价目标与策略选择\n2. 价值定价法分析（客户感知价值）\n3. 价格敏感度测试建议\n4. 定价模型对比（订阅/按量/免费增值等）\n5. 价格层级设计（入门/专业/企业版）\n6. 促销与折扣策略\n7. A/B测试方案\n8. 定价调整与优化节奏",
     "category": "product-manager",
-    "tags": [
-      "定价策略",
-      "商业化",
-      "SaaS定价",
-      "商业模式"
-    ],
+    "tags": ["定价策略", "商业化", "SaaS定价", "商业模式"],
     "author": "AI Navigator",
     "seoTitle": "产品定价策略顾问 Prompt | AI Navigator Pro",
     "seoDescription": "专业的产品定价策略咨询提示词，帮助制定最优的产品定价方案。",
-    "views": 6900,
-    "createdAt": "2026-02-10"
+    "views": 6900
   },
   {
     "id": "pm-roadmap-planner",
     "title": "产品路线图规划专家",
     "content": "你是一位资深产品总监。请帮我规划产品路线图：\n\n产品愿景：{3-5年产品愿景}\n当前阶段：{产品所处阶段}\n资源约束：{团队规模/预算/时间}\n战略目标：{年度/季度战略目标}\n\n请输出：\n1. 产品愿景与战略主题\n2. 时间轴路线图（Now/Next/Later）\n3. 季度里程碑规划\n4. 主题/Epic优先级排序\n5. 资源分配建议\n6. 依赖关系识别\n7. 风险评估与应对预案\n8. 路线图沟通与对齐方案",
     "category": "product-manager",
-    "tags": [
-      "产品路线图",
-      "Roadmap",
-      "战略规划",
-      "产品管理"
-    ],
+    "tags": ["产品路线图", "Roadmap", "战略规划", "产品管理"],
     "author": "AI Navigator",
     "seoTitle": "产品路线图规划专家 Prompt | AI Navigator Pro",
     "seoDescription": "专业的产品路线图规划提示词，帮助产品经理制定清晰的产品发展蓝图。",
-    "featured": true,
-    "views": 9400,
-    "createdAt": "2026-02-10"
+    "featured": True,
+    "views": 9400
   },
+
+  # ========== operation (新增5条，共8条) ==========
   {
     "id": "operation-community",
     "title": "社群运营体系搭建",
     "content": "你是一位社群运营专家。请帮我搭建完整的社群运营体系：\n\n产品/品牌：{产品或品牌名称}\n目标用户：{社群目标用户}\n社群定位：{社群的核心价值定位}\n\n请输出：\n1. 社群架构设计（群类型/层级/规模）\n2. 社群SOP手册（入群/日常/活动/转化）\n3. 内容规划（每日/每周/每月内容日历）\n4. 活跃机制设计（积分/等级/任务）\n5. 用户分层运营策略\n6. 转化路径设计\n7. 社群裂变方案\n8. 数据指标与监控体系",
     "category": "operation",
-    "tags": [
-      "社群运营",
-      "用户运营",
-      "私域流量",
-      "SOP"
-    ],
+    "tags": ["社群运营", "用户运营", "私域流量", "SOP"],
     "author": "AI Navigator",
     "seoTitle": "社群运营体系搭建 Prompt | AI Navigator Pro",
     "seoDescription": "专业的社群运营体系搭建提示词，从零开始搭建高活跃高转化的社群。",
-    "featured": true,
-    "views": 12800,
-    "createdAt": "2026-02-10"
+    "featured": True,
+    "views": 12800
   },
   {
     "id": "operation-activity",
     "title": "活动策划全案生成器",
     "content": "你是一位顶级活动运营专家。请帮我策划一场完整的运营活动：\n\n活动类型：{如拉新/促活/转化/品牌活动}\n活动主题：{活动主题或方向}\n目标用户：{目标受众}\n活动预算：{预算范围}\n活动周期：{持续时间}\n\n请输出：\n1. 活动目标与KPI拆解\n2. 活动创意与核心玩法\n3. 活动流程设计（时间轴）\n4. 用户参与路径设计\n5. 活动页面/文案需求清单\n6. 推广渠道与节奏规划\n7. 风险预案与应对措施\n8. 活动复盘模板与数据指标",
     "category": "operation",
-    "tags": [
-      "活动策划",
-      "运营活动",
-      "活动运营",
-      "营销活动"
-    ],
+    "tags": ["活动策划", "运营活动", "活动运营", "营销活动"],
     "author": "AI Navigator",
     "seoTitle": "活动策划全案生成器 Prompt | AI Navigator Pro",
     "seoDescription": "专业的活动策划全案生成提示词，从创意到执行的完整活动方案。",
-    "views": 10200,
-    "createdAt": "2026-02-10"
+    "views": 10200
   },
   {
     "id": "operation-private-domain",
     "title": "私域流量运营专家",
     "content": "你是一位私域流量运营专家。请帮我搭建私域流量运营体系：\n\n行业类型：{所属行业}\n产品类型：{产品或服务类型}\n客单价：{客单价范围}\n现有流量：{现有公域/线下流量情况}\n\n请输出：\n1. 私域流量池架构设计\n2. 引流路径设计（公域转私域）\n3. 企微个人号人设打造\n4. 朋友圈内容运营规划\n5. 私聊SOP与转化话术\n6. 用户生命周期运营策略\n7. 复购与裂变机制设计\n8. 私域数据指标体系",
     "category": "operation",
-    "tags": [
-      "私域流量",
-      "私域运营",
-      "企微运营",
-      "用户生命周期"
-    ],
+    "tags": ["私域流量", "私域运营", "企微运营", "用户生命周期"],
     "author": "AI Navigator",
     "seoTitle": "私域流量运营专家 Prompt | AI Navigator Pro",
     "seoDescription": "专业的私域流量运营提示词，帮助搭建从引流到转化的完整私域运营体系。",
-    "featured": true,
-    "views": 15800,
-    "createdAt": "2026-02-17"
+    "featured": True,
+    "views": 15800
   },
   {
     "id": "operation-content-calendar",
     "title": "内容日历与选题规划",
     "content": "你是一位内容运营专家。请帮我规划一个月的内容日历：\n\n平台：{如公众号/小红书/抖音/B站}\n领域：{内容领域或行业}\n账号定位：{账号定位和人设}\n目标：{本月内容目标}\n\n请输出：\n1. 月度内容主题规划（4个周主题）\n2. 30天内容日历（具体到每天）\n3. 内容类型配比（干货/互动/产品/品牌）\n4. 爆款选题库（20个以上选题）\n5. 内容结构模板\n6. 发布时间优化建议\n7. 互动设计方案\n8. 效果追踪与优化机制",
     "category": "operation",
-    "tags": [
-      "内容运营",
-      "内容日历",
-      "选题策划",
-      "内容规划"
-    ],
+    "tags": ["内容运营", "内容日历", "选题策划", "内容规划"],
     "author": "AI Navigator",
     "seoTitle": "内容日历与选题规划 Prompt | AI Navigator Pro",
     "seoDescription": "专业的内容日历规划提示词，帮助内容运营高效规划月度内容。",
-    "views": 8400,
-    "createdAt": "2026-02-17"
+    "views": 8400
   },
   {
     "id": "operation-user-lifecycle",
     "title": "用户生命周期运营策略",
     "content": "你是一位用户运营专家。请帮我设计用户全生命周期运营策略：\n\n产品类型：{产品类型}\n用户特征：{用户画像}\n当前数据：{各阶段用户数据}\n\n请按用户生命周期输出：\n1. 新手期：Onboarding体验优化、新手引导设计\n2. 成长期：核心功能引导、习惯养成机制\n3. 成熟期：深度使用、付费转化、会员体系\n4. 衰退期：流失预警、召回策略、复活机制\n5. 流失期：召回文案、回归礼包、调研问卷\n\n每个阶段给出：\n- 关键指标\n- 运营动作\n- 触达策略（push/短信/邮件/社群）\n- 自动化流程设计",
     "category": "operation",
-    "tags": [
-      "用户生命周期",
-      "用户运营",
-      "留存",
-      "流失召回"
-    ],
+    "tags": ["用户生命周期", "用户运营", "留存", "流失召回"],
     "author": "AI Navigator",
     "seoTitle": "用户生命周期运营策略 Prompt | AI Navigator Pro",
     "seoDescription": "专业的用户生命周期运营提示词，覆盖从新用户到流失用户的全周期运营策略。",
-    "views": 9600,
-    "createdAt": "2026-02-17"
+    "views": 9600
   },
+
+  # ========== designer (新增5条，共8条) ==========
   {
     "id": "design-ux-research",
     "title": "UX用户体验研究方案",
     "content": "你是一位资深UX研究员。请帮我设计用户体验研究方案：\n\n研究目标：{本次研究要解决的问题}\n产品阶段：{MVP/迭代/成熟产品}\n目标用户：{目标用户群体}\n时间预算：{可用时间}\n\n请输出：\n1. 研究目标与研究问题\n2. 研究方法选择与理由\n3. 可用性测试方案\n   - 测试任务设计\n   - 招募标准\n   - 测试脚本\n4. 问卷调查设计\n5. 用户访谈提纲\n6. 数据分析框架\n7. 研究报告结构模板\n8. 研究成果落地建议",
     "category": "designer",
-    "tags": [
-      "UX研究",
-      "用户研究",
-      "可用性测试",
-      "体验设计"
-    ],
+    "tags": ["UX研究", "用户研究", "可用性测试", "体验设计"],
     "author": "AI Navigator",
     "seoTitle": "UX用户体验研究方案 Prompt | AI Navigator Pro",
     "seoDescription": "专业的UX用户体验研究方案提示词，帮助设计师科学开展用户研究。",
-    "views": 7100,
-    "createdAt": "2026-02-17"
+    "views": 7100
   },
   {
     "id": "design-illustration",
     "title": "插画创意与风格指导",
     "content": "你是一位资深插画设计师。请帮我设计插画创意方案：\n\n使用场景：{如官网/APP/运营活动/社交媒体}\n主题：{插画主题}\n品牌调性：{品牌调性描述}\n目标受众：{目标用户}\n\n请输出：\n1. 3个创意方向（各有特色）\n2. 每个方向的详细描述：\n   - 画面构图\n   - 元素清单\n   - 色彩方案（HEX色值）\n   - 风格参考（艺术风格描述）\n3. 风格统一规范\n4. 尺寸适配建议\n5. AI生成提示词（适用于Midjourney/DALL-E）\n6. 迭代优化建议",
     "category": "designer",
-    "tags": [
-      "插画设计",
-      "创意指导",
-      "视觉设计",
-      "AI绘画"
-    ],
+    "tags": ["插画设计", "创意指导", "视觉设计", "AI绘画"],
     "author": "AI Navigator",
     "seoTitle": "插画创意与风格指导 Prompt | AI Navigator Pro",
     "seoDescription": "专业的插画创意与风格指导提示词，输出完整的插画设计方案。",
-    "views": 8300,
-    "createdAt": "2026-02-17"
+    "views": 8300
   },
   {
     "id": "design-motion",
     "title": "动效设计规范指南",
     "content": "你是一位动效设计专家。请帮我建立产品动效设计规范：\n\n产品类型：{产品类型}\n设计系统：{是否有现有设计系统}\n平台：{Web/iOS/Android}\n\n请输出：\n1. 动效设计原则\n2. 动效时长与缓动函数规范\n3. 基础动效类型：\n   - 转场动效\n   - 反馈动效\n   - 加载动效\n   - 引导动效\n4. 动效性能规范\n5. 组件动效规范（按钮/卡片/弹窗/导航等）\n6. 动效Token设计\n7. 实现交付规范（给开发的参数）\n8. 动效检查清单",
     "category": "designer",
-    "tags": [
-      "动效设计",
-      "Motion Design",
-      "交互动效",
-      "设计规范"
-    ],
+    "tags": ["动效设计", "Motion Design", "交互动效", "设计规范"],
     "author": "AI Navigator",
     "seoTitle": "动效设计规范指南 Prompt | AI Navigator Pro",
     "seoDescription": "专业的动效设计规范提示词，帮助建立完整的产品动效设计体系。",
-    "views": 6500,
-    "createdAt": "2026-02-17"
+    "views": 6500
   },
   {
     "id": "design-banner",
     "title": "Banner/海报设计创意",
     "content": "你是一位资深视觉设计师。请帮我构思Banner/海报设计方案：\n\n使用场景：{如电商首页/活动页/社交媒体/线下}\n主题：{活动或产品主题}\n核心信息：{需要传达的关键信息}\n品牌调性：{品牌风格}\n\n请输出3-5个设计方案，每个方案包含：\n1. 创意概念（一句话概括）\n2. 视觉风格描述\n3. 构图布局建议\n4. 配色方案（主色/辅助色/背景色）\n5. 字体搭配建议\n6. 主要视觉元素\n7. 设计要点与注意事项\n8. AI绘图提示词（如适用）",
     "category": "designer",
-    "tags": [
-      "Banner设计",
-      "海报设计",
-      "视觉设计",
-      "创意"
-    ],
+    "tags": ["Banner设计", "海报设计", "视觉设计", "创意"],
     "author": "AI Navigator",
     "seoTitle": "Banner/海报设计创意 Prompt | AI Navigator Pro",
     "seoDescription": "专业的Banner和海报设计创意提示词，提供多套高质量设计方案。",
-    "featured": true,
-    "views": 9900,
-    "createdAt": "2026-02-17"
+    "featured": True,
+    "views": 9900
   },
   {
     "id": "design-accessibility",
     "title": "无障碍设计合规审计",
     "content": "你是一位无障碍设计专家，精通WCAG标准。请帮我进行无障碍设计审计：\n\n产品类型：{网站/APP/软件}\n设计稿/描述：{描述产品界面或上传设计稿}\n合规目标：{WCAG 2.1 A/AA/AAA}\n\n请从以下维度进行审计：\n1. 可感知性（文字对比度、图片替代文本、音频字幕）\n2. 可操作性（键盘导航、焦点指示、超时控制）\n3. 可理解性（一致的导航、错误提示、可读语言）\n4. 健壮性（语义化标签、兼容性）\n\n输出：\n- 问题清单（严重程度/位置/描述）\n- 具体改进建议\n- 整改优先级排序\n- 无障碍设计Checklist",
     "category": "designer",
-    "tags": [
-      "无障碍设计",
-      "WCAG",
-      "包容性设计",
-      "可访问性"
-    ],
+    "tags": ["无障碍设计", "WCAG", "包容性设计", "可访问性"],
     "author": "AI Navigator",
     "seoTitle": "无障碍设计合规审计 Prompt | AI Navigator Pro",
     "seoDescription": "专业的无障碍设计审计提示词，帮助产品达到WCAG无障碍标准。",
-    "views": 5400,
-    "createdAt": "2026-02-24"
+    "views": 5400
   },
+
+  # ========== developer (新增3条，共8条) ==========
   {
     "id": "dev-ai-coding",
     "title": "AI辅助编程架构师",
     "content": "你是一位AI辅助编程专家，精通各种AI编程工具和最佳实践。请帮我规划AI辅助编程方案：\n\n项目类型：{项目类型和技术栈}\n团队规模：{团队人数}\n当前痛点：{当前开发效率痛点}\n\n请输出：\n1. AI编程工具选型与对比（Copilot/Cursor/Codeium等）\n2. AI编程工作流设计\n3. Prompt Engineering最佳实践（代码生成专用）\n4. 代码审查AI辅助流程\n5. 测试代码自动生成方案\n6. 文档自动生成方案\n7. AI编程规范与安全指南\n8. 效率提升度量指标\n9. 常见陷阱与规避方法",
     "category": "developer",
-    "tags": [
-      "AI编程",
-      "Copilot",
-      "代码生成",
-      "效率提升"
-    ],
+    "tags": ["AI编程", "Copilot", "代码生成", "效率提升"],
     "author": "AI Navigator",
     "seoTitle": "AI辅助编程架构师 Prompt | AI Navigator Pro",
     "seoDescription": "专业的AI辅助编程方案规划提示词，帮助团队最大化AI编程效率。",
-    "featured": true,
-    "views": 16200,
-    "createdAt": "2026-02-24"
+    "featured": True,
+    "views": 16200
   },
   {
     "id": "dev-devops-pipeline",
     "title": "DevOps流水线设计专家",
     "content": "你是一位DevOps架构师。请帮我设计CI/CD流水线：\n\n项目类型：{项目类型和语言}\n部署环境：{部署目标环境}\n团队规模：{开发团队规模}\n\n请输出：\n1. CI/CD工具选型（GitHub Actions/GitLab CI/Jenkins等）\n2. 流水线架构设计图\n3. 流水线阶段设计：\n   - 代码提交阶段（lint/type check）\n   - 构建阶段\n   - 测试阶段（单元/集成/E2E）\n   - 安全扫描阶段\n   - 部署阶段（各环境）\n4. 分支策略与Git Flow设计\n5. 环境管理方案\n6. 回滚机制设计\n7. 监控与告警配置\n8. 最佳实践与安全建议",
     "category": "developer",
-    "tags": [
-      "DevOps",
-      "CI/CD",
-      "自动化部署",
-      "流水线"
-    ],
+    "tags": ["DevOps", "CI/CD", "自动化部署", "流水线"],
     "author": "AI Navigator",
     "seoTitle": "DevOps流水线设计专家 Prompt | AI Navigator Pro",
     "seoDescription": "专业的DevOps流水线设计提示词，帮助搭建高效可靠的CI/CD流程。",
-    "views": 8800,
-    "createdAt": "2026-02-24"
+    "views": 8800
   },
   {
     "id": "dev-refactoring",
     "title": "代码重构与技术债治理",
     "content": "你是一位代码重构专家。请帮我制定代码重构和技术债治理方案：\n\n项目情况：{项目背景和技术栈}\n当前问题：{主要技术债或代码问题}\n重构目标：{重构目标和范围}\n\n请输出：\n1. 代码质量评估维度与评分\n2. 技术债清单与优先级排序\n3. 重构策略（渐进式vs大爆炸）\n4. 常见重构模式与适用场景\n5. 重构安全保障（测试/特性开关）\n6. 具体重构建议（模块化/设计模式/性能优化）\n7. 重构计划与里程碑\n8. 代码规范与长期维护机制",
     "category": "developer",
-    "tags": [
-      "代码重构",
-      "技术债",
-      "代码质量",
-      "架构优化"
-    ],
+    "tags": ["代码重构", "技术债", "代码质量", "架构优化"],
     "author": "AI Navigator",
     "seoTitle": "代码重构与技术债治理 Prompt | AI Navigator Pro",
     "seoDescription": "专业的代码重构与技术债治理提示词，帮助团队系统性改善代码质量。",
-    "views": 7700,
-    "createdAt": "2026-03-04"
+    "views": 7700
   },
+
+  # ========== advertising (新增6条，共8条) ==========
   {
     "id": "ads-tiktok",
     "title": "TikTok广告投放优化",
     "content": "你是一位TikTok For Business广告优化专家。请帮我优化TikTok广告：\n\n产品/服务：{产品或服务描述}\n目标市场：{目标国家/地区}\n广告目标：{如安装/购买/线索/品牌认知}\n日预算：{每日预算}\n当前数据：{消耗/展示/点击/转化等数据}\n\n请提供：\n1. 广告账户结构优化\n2. 受众定向策略（兴趣/行为/人口统计/Lookalike）\n3. 广告素材策略（3-5个创意方向）\n4. 广告文案撰写（多个版本）\n5. 落地页优化建议\n6. 出价策略选择\n7. 像素事件配置建议\n8. 优化节奏与测试计划",
     "category": "advertising",
-    "tags": [
-      "TikTok广告",
-      "短视频广告",
-      "投放优化",
-      "海外投放"
-    ],
+    "tags": ["TikTok广告", "短视频广告", "投放优化", "海外投放"],
     "author": "AI Navigator",
     "seoTitle": "TikTok广告投放优化 Prompt | AI Navigator Pro",
     "seoDescription": "专业的TikTok广告投放优化提示词，帮助提升海外短视频广告ROI。",
-    "featured": true,
-    "views": 10800,
-    "createdAt": "2026-03-04"
+    "featured": True,
+    "views": 10800
   },
   {
     "id": "ads-douyin",
     "title": "抖音巨量引擎投放专家",
     "content": "你是一位抖音巨量引擎广告投放专家。请帮我规划和优化抖音广告：\n\n产品/服务：{产品或服务描述}\n行业：{所属行业}\n广告目标：{如表单收集/应用下载/商品购买/直播引流}\n预算：{预算范围}\n\n请提供：\n1. 账户搭建策略（计划/单元/创意结构）\n2. 定向策略（基础定向/行为兴趣/达人定向/人群包）\n3. 创意策略（素材方向/文案脚本/音乐选择）\n4. 落地页/抖音小店优化建议\n5. 出价方式选择（OCPM/OCPC/CPA）\n6. 起量与冷启动策略\n7. 放量与控成本技巧\n8. 数据监控与优化SOP\n9. 常见问题排查指南",
     "category": "advertising",
-    "tags": [
-      "抖音广告",
-      "巨量引擎",
-      "信息流广告",
-      "投放优化"
-    ],
+    "tags": ["抖音广告", "巨量引擎", "信息流广告", "投放优化"],
     "author": "AI Navigator",
     "seoTitle": "抖音巨量引擎投放专家 Prompt | AI Navigator Pro",
     "seoDescription": "专业的抖音巨量引擎投放提示词，从账户搭建到优化的全流程指导。",
-    "views": 11500,
-    "createdAt": "2026-03-11"
+    "views": 11500
   },
   {
     "id": "ads-wechat",
     "title": "微信广告投放优化",
     "content": "你是一位微信广告（朋友圈/公众号/小程序）投放专家。请帮我优化微信广告：\n\n推广目标：{如品牌活动/收集线索/应用推广/商品推广}\n产品/服务：{产品描述}\n目标人群：{目标受众画像}\n预算：{预算范围}\n\n请提供：\n1. 广告位选择策略（朋友圈/公众号/小程序/视频号）\n2. 人群定向策略（基础定向/行为兴趣/再营销/Lookalike）\n3. 创意素材建议（图片/视频/卡片形式）\n4. 广告文案撰写（3个版本）\n5. 落地页优化建议\n6. 出价与预算分配策略\n7. 账户搭建结构\n8. 优化方法与数据指标\n9. A/B测试方案",
     "category": "advertising",
-    "tags": [
-      "微信广告",
-      "朋友圈广告",
-      "腾讯广告",
-      "社交流量"
-    ],
+    "tags": ["微信广告", "朋友圈广告", "腾讯广告", "社交流量"],
     "author": "AI Navigator",
     "seoTitle": "微信广告投放优化 Prompt | AI Navigator Pro",
     "seoDescription": "专业的微信广告投放优化提示词，覆盖朋友圈、公众号、小程序等全场景。",
-    "views": 8200,
-    "createdAt": "2026-03-11"
+    "views": 8200
   },
   {
     "id": "ads-seo",
     "title": "SEO搜索引擎优化顾问",
     "content": "你是一位资深SEO优化专家。请帮我进行网站SEO诊断和优化：\n\n网站类型：{网站类型和行业}\n网站URL：{网站地址}\n目标关键词：{目标关键词列表}\n当前排名：{当前排名情况（如有）}\n\n请输出：\n1. SEO现状诊断报告\n   - 技术SEO诊断\n   - 内容SEO诊断\n   - 外链分析\n   - 竞品对比\n2. 关键词策略（核心词/长尾词/品牌词）\n3. 技术SEO优化方案\n4. 内容优化策略与内容规划\n5. 外链建设策略\n6. 本地SEO方案（如适用）\n7. SEO工具推荐\n8. 优化时间表与预期效果",
     "category": "advertising",
-    "tags": [
-      "SEO",
-      "搜索引擎优化",
-      "关键词优化",
-      "流量增长"
-    ],
+    "tags": ["SEO", "搜索引擎优化", "关键词优化", "流量增长"],
     "author": "AI Navigator",
     "seoTitle": "SEO搜索引擎优化顾问 Prompt | AI Navigator Pro",
     "seoDescription": "专业的SEO优化咨询提示词，从技术、内容、外链全方位提升搜索排名。",
-    "featured": true,
-    "views": 13600,
-    "createdAt": "2026-03-11"
+    "featured": True,
+    "views": 13600
   },
   {
     "id": "ads-native",
     "title": "信息流广告创意工厂",
     "content": "你是一位信息流广告创意专家。请帮我生成信息流广告创意：\n\n产品/服务：{产品或服务描述}\n目标人群：{目标受众}\n投放平台：{如抖音/快手/微信/百度/今日头条}\n广告目标：{转化/点击/曝光}\n\n请输出10个创意方案，每个方案包含：\n1. 创意概念（一句话Hook）\n2. 素材形式（图片/视频/文案）\n3. 广告标题（3个备选）\n4. 广告正文\n5. 画面/脚本描述\n6. 目标人群心理洞察\n7. 预计CTR区间",
     "category": "advertising",
-    "tags": [
-      "信息流广告",
-      "广告创意",
-      "素材设计",
-      "点击率优化"
-    ],
+    "tags": ["信息流广告", "广告创意", "素材设计", "点击率优化"],
     "author": "AI Navigator",
     "seoTitle": "信息流广告创意工厂 Prompt | AI Navigator Pro",
     "seoDescription": "专业的信息流广告创意生成提示词，批量产出高质量广告创意。",
-    "views": 9400,
-    "createdAt": "2026-03-11"
+    "views": 9400
   },
   {
     "id": "ads-attribution",
     "title": "广告归因与ROI分析专家",
     "content": "你是一位广告归因和数据分析专家。请帮我建立广告归因体系：\n\n业务模式：{电商/游戏/SaaS/服务等}\n投放渠道：{当前投放的渠道列表}\n转化路径：{用户典型转化路径}\n数据情况：{当前数据追踪情况}\n\n请输出：\n1. 归因模型选型与对比（首次/末次/线性/时间衰减/U型）\n2. 多触点归因方案设计\n3. 数据追踪方案（UTM/像素/SDK）\n4. ROI和ROAS计算框架\n5. LTV和CAC分析方法\n6. 渠道效果评估体系\n7. 预算分配优化模型\n8. 归因分析报表模板\n9. 常用工具推荐",
     "category": "advertising",
-    "tags": [
-      "广告归因",
-      "ROI分析",
-      "数据分析",
-      "效果评估"
-    ],
+    "tags": ["广告归因", "ROI分析", "数据分析", "效果评估"],
     "author": "AI Navigator",
     "seoTitle": "广告归因与ROI分析专家 Prompt | AI Navigator Pro",
     "seoDescription": "专业的广告归因与ROI分析提示词，帮助科学评估广告效果、优化预算分配。",
-    "views": 7100,
-    "createdAt": "2026-03-11"
+    "views": 7100
   },
+
+  # ========== self-media (新增6条，共8条) ==========
   {
     "id": "self-media-xiaohongshu",
     "title": "小红书爆款笔记创作",
     "content": "你是一位小红书爆款笔记创作专家。请帮我创作小红书爆款笔记：\n\n账号定位：{账号领域和人设}\n笔记主题：{本期笔记主题}\n笔记类型：{种草/教程/测评/干货/日常}\n\n请输出：\n1. 5个爆款标题备选（含关键词和情绪价值）\n2. 封面设计建议（构图/文字/配色）\n3. 完整笔记正文（开头钩子+正文结构+结尾互动）\n4. 段落排版与emoji使用建议\n5. 话题标签选择（5-10个精准标签）\n6. 发布时间建议\n7. 评论区互动话术\n8. 爆款笔记数据分析模板",
     "category": "self-media",
-    "tags": [
-      "小红书",
-      "种草笔记",
-      "爆款内容",
-      "内容创作"
-    ],
+    "tags": ["小红书", "种草笔记", "爆款内容", "内容创作"],
     "author": "AI Navigator",
     "seoTitle": "小红书爆款笔记创作 Prompt | AI Navigator Pro",
     "seoDescription": "专业的小红书爆款笔记创作提示词，从标题到封面的完整爆款方案。",
-    "featured": true,
-    "views": 14800,
-    "createdAt": "2026-03-11"
+    "featured": True,
+    "views": 14800
   },
   {
     "id": "self-media-bilibili",
     "title": "B站UP主内容策划",
     "content": "你是一位B站资深内容策划。请帮我策划B站视频内容：\n\n账号定位：{UP主人设和领域}\n视频类型：{知识/娱乐/游戏/生活/科技}\n本期主题：{视频主题}\n目标时长：{视频时长}\n\n请输出：\n1. 3个视频选题备选（附热度分析）\n2. 爆款标题公式与3个标题备选\n3. 封面设计建议（B站封面特点）\n4. 完整视频脚本（分镜/台词/BGM）\n5. 视频结构设计（黄金开头/节奏点/结尾引导）\n6. 互动设计（弹幕/评论/三连引导）\n7. 标签选择与分区建议\n8. 发布时间与推广策略\n9. 数据复盘要点",
     "category": "self-media",
-    "tags": [
-      "B站",
-      "UP主",
-      "视频策划",
-      "内容创作"
-    ],
+    "tags": ["B站", "UP主", "视频策划", "内容创作"],
     "author": "AI Navigator",
     "seoTitle": "B站UP主内容策划 Prompt | AI Navigator Pro",
     "seoDescription": "专业的B站内容策划提示词，帮助UP主打造高质量视频内容。",
-    "views": 9700,
-    "createdAt": "2026-03-11"
+    "views": 9700
   },
   {
     "id": "self-media-wechat-official",
     "title": "公众号10W+爆文写作",
     "content": "你是一位公众号10W+爆文写作专家。请帮我创作公众号爆款文章：\n\n账号定位：{公众号定位和目标读者}\n文章主题：{本期文章主题}\n文章类型：{观点/干货/情感/故事/资讯}\n\n请输出：\n1. 5个爆款标题备选（不同角度）\n2. 文章选题角度与核心观点\n3. 完整文章大纲（结构设计）\n4. 开头3段写作（吸引读者）\n5. 正文写作要点与案例建议\n6. 结尾设计（互动/共鸣/行动号召）\n7. 封面图与配图建议\n8. 摘要与在看引导话术\n9. 发布与推广建议",
     "category": "self-media",
-    "tags": [
-      "公众号",
-      "爆文写作",
-      "内容创作",
-      "10W+"
-    ],
+    "tags": ["公众号", "爆文写作", "内容创作", "10W+"],
     "author": "AI Navigator",
     "seoTitle": "公众号10W+爆文写作 Prompt | AI Navigator Pro",
     "seoDescription": "专业的公众号爆文写作提示词，从标题到结尾的完整10W+写作方案。",
-    "views": 11200,
-    "createdAt": "2026-03-18"
+    "views": 11200
   },
   {
     "id": "self-media-monetization",
     "title": "自媒体变现路径规划",
     "content": "你是一位自媒体变现专家。请帮我规划自媒体变现路径：\n\n领域：{自媒体领域}\n粉丝量：{当前粉丝量}\n平台：{主要运营平台}\n粉丝画像：{粉丝特征}\n\n请输出：\n1. 变现方式评估与适配性分析\n   - 广告变现（平台广告/商单/植入）\n   - 内容付费（专栏/课程/会员）\n   - 电商变现（带货/自有品牌）\n   - 服务变现（咨询/社群/训练营）\n   - IP衍生（出书/线下/授权）\n2. 适合你的3种核心变现方式\n3. 变现路径与阶段规划\n4. 变现产品设计建议\n5. 粉丝分层与转化策略\n6. 定价策略\n7. 变现效率提升建议\n8. 避坑指南与风险提示",
     "category": "self-media",
-    "tags": [
-      "自媒体变现",
-      "商业化",
-      "内容创业",
-      "盈利模式"
-    ],
+    "tags": ["自媒体变现", "商业化", "内容创业", "盈利模式"],
     "author": "AI Navigator",
     "seoTitle": "自媒体变现路径规划 Prompt | AI Navigator Pro",
     "seoDescription": "专业的自媒体变现规划提示词，帮助找到最适合的变现方式和路径。",
-    "featured": true,
-    "views": 15300,
-    "createdAt": "2026-03-18"
+    "featured": True,
+    "views": 15300
   },
   {
     "id": "self-data-analysis",
     "title": "自媒体数据复盘与增长",
     "content": "你是一位自媒体数据运营专家。请帮我进行自媒体数据复盘和增长规划：\n\n平台：{主要平台}\n周期数据：{提供一段时间的数据}\n当前问题：{遇到的增长瓶颈或问题}\n\n请输出：\n1. 数据整体表现评估\n2. 爆款内容分析（共性特征提取）\n3. 低表现内容原因诊断\n4. 用户画像与偏好分析\n5. 发布时间优化建议\n6. 内容选题方向调整建议\n7. 互动率提升策略\n8. 下阶段增长目标与行动计划\n9. 数据监控指标体系",
     "category": "self-media",
-    "tags": [
-      "数据复盘",
-      "自媒体运营",
-      "数据分析",
-      "增长策略"
-    ],
+    "tags": ["数据复盘", "自媒体运营", "数据分析", "增长策略"],
     "author": "AI Navigator",
     "seoTitle": "自媒体数据复盘与增长 Prompt | AI Navigator Pro",
     "seoDescription": "专业的自媒体数据复盘提示词，用数据驱动内容优化和粉丝增长。",
-    "views": 7900,
-    "createdAt": "2026-03-25"
+    "views": 7900
   },
   {
     "id": "self-media-matrix",
     "title": "自媒体矩阵运营策略",
     "content": "你是一位自媒体矩阵运营专家。请帮我规划自媒体矩阵运营方案：\n\n领域：{内容领域}\n目标：{矩阵运营目标}\n资源：{可用人力和预算}\n已有账号：{现有账号情况}\n\n请输出：\n1. 平台矩阵选型（各平台定位与分工）\n2. 账号矩阵架构（主号/子号/垂直号）\n3. 内容差异化策略（各平台内容适配）\n4. 内容生产效率提升方案\n5. 跨平台联动策略\n6. 人员分工与SOP\n7. 风险分散与账号安全\n8. 矩阵协同效应最大化方法\n9. 阶段性目标与里程碑",
     "category": "self-media",
-    "tags": [
-      "自媒体矩阵",
-      "多平台运营",
-      "内容矩阵",
-      "IP矩阵"
-    ],
+    "tags": ["自媒体矩阵", "多平台运营", "内容矩阵", "IP矩阵"],
     "author": "AI Navigator",
     "seoTitle": "自媒体矩阵运营策略 Prompt | AI Navigator Pro",
     "seoDescription": "专业的自媒体矩阵运营规划提示词，帮助打造多平台联动的内容矩阵。",
-    "views": 8600,
-    "createdAt": "2026-04-02"
+    "views": 8600
   },
+
+  # ========== translator (新增7条，共8条) ==========
   {
     "id": "translator-business",
     "title": "商务英语翻译专家",
     "content": "你是一位资深商务英语翻译。请帮我翻译商务文件，并保持专业正式的语气：\n\n文件类型：{如商务邮件/合同/报价单/会议纪要}\n行业领域：{所属行业}\n翻译方向：{中译英/英译中}\n\n待翻译内容：\n{内容}\n\n请输出：\n1. 专业翻译（符合商务规范和行业用语）\n2. 关键商务术语对照表\n3. 语气和礼貌程度说明\n4. 文化差异注意事项\n5. 商务写作建议（如适用）",
     "category": "translator",
-    "tags": [
-      "商务英语",
-      "商务翻译",
-      "外贸",
-      "商务邮件"
-    ],
+    "tags": ["商务英语", "商务翻译", "外贸", "商务邮件"],
     "author": "AI Navigator",
     "seoTitle": "商务英语翻译专家 Prompt | AI Navigator Pro",
     "seoDescription": "专业的商务英语翻译提示词，适用于商务邮件、合同、报价等各种商务场景。",
-    "views": 8900,
-    "createdAt": "2026-04-02"
+    "views": 8900
   },
   {
     "id": "translator-tech",
     "title": "技术文档翻译专家",
     "content": "你是一位技术文档翻译专家，精通IT/互联网/工程领域术语。请帮我翻译技术文档：\n\n文档类型：{如API文档/产品手册/技术白皮书/代码注释}\n技术领域：{如前端/后端/AI/硬件}\n翻译方向：{英译中/中译英}\n\n待翻译内容：\n{内容}\n\n请输出：\n1. 准确的技术翻译（术语统一）\n2. 关键技术术语对照表（中英对照）\n3. 翻译说明（如有特殊处理或歧义）\n4. 术语一致性检查报告\n5. 相关技术背景补充（必要时）",
     "category": "translator",
-    "tags": [
-      "技术翻译",
-      "技术文档",
-      "IT翻译",
-      "术语"
-    ],
+    "tags": ["技术翻译", "技术文档", "IT翻译", "术语"],
     "author": "AI Navigator",
     "seoTitle": "技术文档翻译专家 Prompt | AI Navigator Pro",
     "seoDescription": "专业的技术文档翻译提示词，确保术语准确、表达专业。",
-    "views": 7600,
-    "createdAt": "2026-04-09"
+    "views": 7600
   },
   {
     "id": "translator-localization",
     "title": "产品本地化翻译顾问",
     "content": "你是一位产品本地化专家。请帮我进行产品本地化翻译：\n\n产品类型：{APP/网站/游戏/软件}\n目标市场：{目标国家/地区}\n内容类型：{UI文案/营销文案/帮助文档}\n源语言内容：\n{内容}\n\n请输出：\n1. 本地化翻译（符合当地语言习惯和文化）\n2. 文化适配说明（调整的内容和原因）\n3. UI/UX适配建议（长度/格式/显示问题）\n4. 本地化Checklist\n5. 当地市场注意事项\n6. 术语表（可复用）",
     "category": "translator",
-    "tags": [
-      "本地化",
-      "Localization",
-      "产品翻译",
-      "文化适配"
-    ],
+    "tags": ["本地化", "Localization", "产品翻译", "文化适配"],
     "author": "AI Navigator",
     "seoTitle": "产品本地化翻译顾问 Prompt | AI Navigator Pro",
     "seoDescription": "专业的产品本地化翻译提示词，不仅翻译语言，更适配当地文化和用户习惯。",
-    "views": 6800,
-    "createdAt": "2026-04-09"
+    "views": 6800
   },
   {
     "id": "translator-legal",
     "title": "法律合同翻译专家",
     "content": "你是一位法律翻译专家，精通中英文法律术语。请帮我翻译法律文件：\n\n文件类型：{如合同/协议/法律意见书/诉讼文件}\n法律体系：{如中国大陆/香港/英美法}\n翻译方向：{中译英/英译中}\n\n待翻译内容：\n{内容}\n\n请输出：\n1. 严谨的法律翻译（术语准确、表述严谨）\n2. 关键法律术语对照表\n3. 翻译说明（重要条款的翻译考量）\n4. 法律用语规范说明\n5. 注意事项与免责声明",
     "category": "translator",
-    "tags": [
-      "法律翻译",
-      "合同翻译",
-      "法律术语",
-      "合规"
-    ],
+    "tags": ["法律翻译", "合同翻译", "法律术语", "合规"],
     "author": "AI Navigator",
     "seoTitle": "法律合同翻译专家 Prompt | AI Navigator Pro",
     "seoDescription": "专业的法律合同翻译提示词，确保法律文书翻译的准确性和严谨性。",
-    "views": 6200,
-    "createdAt": "2026-04-09"
+    "views": 6200
   },
   {
     "id": "translator-marketing",
     "title": "营销文案翻译与本地化",
     "content": "你是一位营销文案翻译专家，擅长创意翻译和本地化改编。请帮我翻译营销文案：\n\n文案类型：{如广告 slogan/品牌文案/产品描述/社交媒体文案}\n品牌调性：{品牌风格}\n目标市场：{目标国家/地区}\n原文：\n{内容}\n\n请输出：\n1. 创意翻译版本（保留营销效果，非字面翻译）\n2. 直译版本（供参考）\n3. 翻译创意说明（为什么这么译）\n4. 本地化适配建议\n5. 3个备选翻译方案\n6. A/B测试建议",
     "category": "translator",
-    "tags": [
-      "营销翻译",
-      "文案翻译",
-      "创意翻译",
-      "品牌翻译"
-    ],
+    "tags": ["营销翻译", "文案翻译", "创意翻译", "品牌翻译"],
     "author": "AI Navigator",
     "seoTitle": "营销文案翻译与本地化 Prompt | AI Navigator Pro",
     "seoDescription": "专业的营销文案翻译提示词，在翻译的同时保留文案的营销力和感染力。",
-    "views": 7300,
-    "createdAt": "2026-04-09"
+    "views": 7300
   },
   {
     "id": "translator-subtitle",
     "title": "视频字幕翻译与制作",
     "content": "你是一位专业字幕翻译。请帮我翻译和制作视频字幕：\n\n视频类型：{如电影/纪录片/教学视频/Vlog}\n语言对：{源语言 -> 目标语言}\n字幕风格：{如正式/口语/网感}\n\n原文台词：\n{台词内容}\n\n请输出：\n1. 翻译后的字幕文本\n2. 时间轴分段建议（每屏字数和时长）\n3. 口语化/本地化调整说明\n4. 文化梗/俚语解释\n5. 字幕格式（SRT格式输出）\n6. 字幕样式建议（字体/颜色/位置）",
     "category": "translator",
-    "tags": [
-      "字幕翻译",
-      "视频字幕",
-      "听译",
-      "SRT"
-    ],
+    "tags": ["字幕翻译", "视频字幕", "听译", "SRT"],
     "author": "AI Navigator",
     "seoTitle": "视频字幕翻译与制作 Prompt | AI Navigator Pro",
     "seoDescription": "专业的视频字幕翻译提示词，输出标准SRT格式字幕。",
-    "views": 8100,
-    "createdAt": "2026-04-09"
+    "views": 8100
   },
   {
     "id": "translator-essay",
     "title": "留学文书润色与翻译",
     "content": "你是一位留学文书专家，擅长PS/CV/推荐信的润色和翻译。请帮我润色留学文书：\n\n文书类型：{Personal Statement/ CV/ Recommendation Letter/ Essay}\n申请方向：{申请专业和学校层次}\n学生背景：{简要背景}\n\n文书内容：\n{内容}\n\n请输出：\n1. 润色后的英文版本（地道、有亮点）\n2. 中文翻译（便于理解）\n3. 润色说明（修改了什么、为什么）\n4. 内容优化建议（逻辑/故事/亮点）\n5. 招生官视角评价\n6. 进一步提升建议",
     "category": "translator",
-    "tags": [
-      "留学文书",
-      "文书润色",
-      "PS写作",
-      "留学申请"
-    ],
+    "tags": ["留学文书", "文书润色", "PS写作", "留学申请"],
     "author": "AI Navigator",
     "seoTitle": "留学文书润色与翻译 Prompt | AI Navigator Pro",
     "seoDescription": "专业的留学文书润色和翻译提示词，帮助申请者打造高质量申请文书。",
-    "featured": true,
-    "views": 10400,
-    "createdAt": "2026-04-16"
+    "featured": True,
+    "views": 10400
   },
+
+  # ========== career (新增7条，共8条) ==========
   {
     "id": "career-planning",
     "title": "职业发展规划顾问",
     "content": "你是一位资深职业规划顾问。请帮我制定职业发展规划：\n\n当前职位：{当前岗位和级别}\n工作年限：{工作年限}\n行业：{所在行业}\n核心技能：{主要技能}\n职业困惑：{当前的困惑或问题}\n目标方向：{期望的发展方向（如不确定可分析）}\n\n请输出：\n1. 职业现状评估（优势/劣势/机会/威胁）\n2. 职业方向分析（适合你的3个方向）\n3. 5年职业发展路线图\n4. 技能提升路径图（硬技能+软技能）\n5. 证书/学习建议\n6. 人脉拓展建议\n7. 跳槽/转型时机判断\n8. 下一年行动计划\n9. 风险提示与应对",
     "category": "career",
-    "tags": [
-      "职业规划",
-      "职业发展",
-      "人生规划",
-      "成长"
-    ],
+    "tags": ["职业规划", "职业发展", "人生规划", "成长"],
     "author": "AI Navigator",
     "seoTitle": "职业发展规划顾问 Prompt | AI Navigator Pro",
     "seoDescription": "专业的职业发展规划咨询提示词，帮助理清职业方向、制定发展路线。",
-    "featured": true,
-    "views": 17200,
-    "createdAt": "2026-04-16"
+    "featured": True,
+    "views": 17200
   },
   {
     "id": "career-job-change",
     "title": "跳槽与转行决策助手",
     "content": "你是一位职业转型专家。请帮我分析跳槽或转行决策：\n\n当前情况：{当前工作状态和行业岗位}\n考虑的选项：{列出你在考虑的选项}\n主要考量因素：{如薪资/成长/兴趣/稳定/平衡}\n困惑点：{主要的犹豫和困惑}\n\n请输出：\n1. 每个选项的详细分析：\n   - 发展前景\n   - 薪资趋势\n   - 能力要求与你的匹配度\n   - 风险与挑战\n   - 入门路径\n2. 决策矩阵（按你的优先级评分）\n3. 最适合你的推荐排序\n4. 转型行动计划（分阶段）\n5. 风险最小化策略\n6. 试错与验证建议\n7. 备选方案",
     "category": "career",
-    "tags": [
-      "跳槽",
-      "转行",
-      "职业转型",
-      "职业决策"
-    ],
+    "tags": ["跳槽", "转行", "职业转型", "职业决策"],
     "author": "AI Navigator",
     "seoTitle": "跳槽与转行决策助手 Prompt | AI Navigator Pro",
     "seoDescription": "专业的跳槽转行决策辅助提示词，帮助做出理性的职业选择。",
-    "views": 12600,
-    "createdAt": "2026-04-16"
+    "views": 12600
   },
   {
     "id": "career-salary-negotiation",
     "title": "薪资谈判策略专家",
     "content": "你是一位薪资谈判专家。请帮我准备薪资谈判：\n\n当前情况：{当前薪资或Offer情况}\n目标岗位：{岗位名称和级别}\n公司情况：{公司规模和行业}\n你的筹码：{你的优势和筹码}\n期望薪资：{你的期望范围}\n\n请输出：\n1. 市场薪资范围调研（该岗位该级别）\n2. 薪资结构分析（基本工资/奖金/股票/福利）\n3. 你的谈判筹码评估\n4. 谈判策略与话术：\n   - 开场话术\n   - 报价策略\n   - 应对压价的话术\n   - 争取更多的话术\n5. 非现金福利谈判建议\n6. 谈判节奏与时机把握\n7. 常见陷阱与避坑指南\n8. 谈成后的确认要点",
     "category": "career",
-    "tags": [
-      "薪资谈判",
-      "谈薪",
-      "薪资",
-      "Offer"
-    ],
+    "tags": ["薪资谈判", "谈薪", "薪资", "Offer"],
     "author": "AI Navigator",
     "seoTitle": "薪资谈判策略专家 Prompt | AI Navigator Pro",
     "seoDescription": "专业的薪资谈判策略提示词，帮助你拿到满意的薪资待遇。",
-    "views": 11800,
-    "createdAt": "2026-04-16"
+    "views": 11800
   },
   {
     "id": "career-promotion",
     "title": "晋升与加薪策略指南",
     "content": "你是一位职场晋升专家。请帮我制定晋升和加薪策略：\n\n当前职位：{当前岗位}\n当前级别：{当前职级}\n入职时间：{在当前公司的时间}\n最近绩效：{最近绩效表现}\n目标：{晋升目标/加薪幅度}\n\n请输出：\n1. 晋升评估：你距离下一级别的差距分析\n2. 晋升标准拆解（能力/业绩/影响力）\n3. 能力提升计划\n4. 业绩亮点打造策略\n5. 向上管理方案（如何让老板看到你的价值）\n6. 晋升沟通时机与话术\n7. 加薪申请话术与策略\n8. 90天晋升行动计划\n9. 如果不成功怎么办（Plan B）",
     "category": "career",
-    "tags": [
-      "晋升",
-      "加薪",
-      "职场晋升",
-      "向上管理"
-    ],
+    "tags": ["晋升", "加薪", "职场晋升", "向上管理"],
     "author": "AI Navigator",
     "seoTitle": "晋升与加薪策略指南 Prompt | AI Navigator Pro",
     "seoDescription": "专业的晋升加薪策略提示词，系统性提升职场竞争力和影响力。",
-    "featured": true,
-    "views": 13900,
-    "createdAt": "2026-04-23"
+    "featured": True,
+    "views": 13900
   },
   {
     "id": "career-side-hustle",
     "title": "副业规划与启动指南",
     "content": "你是一位副业规划专家。请帮我规划适合的副业：\n\n主业情况：{主业岗位和工作时间}\n技能特长：{你的技能和特长}\n兴趣爱好：{兴趣爱好}\n可用时间：{每周可投入的时间}\n目标收入：{副业收入目标}\n\n请输出：\n1. 适合你的5个副业方向（按匹配度排序）\n2. 每个方向的详细分析：\n   - 启动门槛\n   - 收入潜力\n   - 时间投入\n   - 风险评估\n   - 入门路径\n3. 最推荐的1-2个方向及理由\n4. 副业启动步骤（0到1详细计划）\n5. 时间管理方案（不影响主业）\n6. 冷启动获客方法\n7. 避坑指南\n8. 从副业到主业的路径（如适用）",
     "category": "career",
-    "tags": [
-      "副业",
-      "斜杠青年",
-      "第二收入",
-      "创业"
-    ],
+    "tags": ["副业", "斜杠青年", "第二收入", "创业"],
     "author": "AI Navigator",
     "seoTitle": "副业规划与启动指南 Prompt | AI Navigator Pro",
     "seoDescription": "专业的副业规划提示词，帮你找到适合的副业方向并顺利启动。",
-    "views": 15600,
-    "createdAt": "2026-04-23"
+    "views": 15600
   },
   {
     "id": "career-workplace-communication",
     "title": "职场高情商沟通教练",
     "content": "你是一位职场沟通专家。请帮我处理职场沟通难题：\n\n场景描述：{具体的职场沟通场景}\n对方角色：{如领导/同事/下属/客户}\n你的目标：{你想达成的目标}\n当前问题：{当前的沟通困境}\n\n请输出：\n1. 形势分析（对方立场/利益点/可能的顾虑）\n2. 沟通策略与原则\n3. 具体沟通话术（3个版本）\n4. 开场白设计\n5. 应对不同反应的预案\n6. 非语言沟通建议\n7. 邮件/IM文字沟通版本\n8. 后续跟进建议\n9. 长期关系维护建议",
     "category": "career",
-    "tags": [
-      "职场沟通",
-      "高情商",
-      "向上管理",
-      "沟通技巧"
-    ],
+    "tags": ["职场沟通", "高情商", "向上管理", "沟通技巧"],
     "author": "AI Navigator",
     "seoTitle": "职场高情商沟通教练 Prompt | AI Navigator Pro",
     "seoDescription": "专业的职场沟通教练提示词，帮助处理各种职场沟通难题。",
-    "featured": true,
-    "views": 14500,
-    "createdAt": "2026-04-23"
+    "featured": True,
+    "views": 14500
   },
   {
     "id": "career-freelance",
     "title": "自由职业转型指南",
     "content": "你是一位自由职业顾问。请帮我规划自由职业转型：\n\n专业技能：{你的核心技能}\n行业经验：{行业和工作年限}\n当前状态：{在职/待业}\n目标：{自由职业目标}\n\n请输出：\n1. 自由职业可行性评估\n2. 适合你的自由职业方向\n3. 技能准备与作品集建议\n4. 冷启动获客策略\n   - 接单平台选择\n   - 个人品牌打造\n   - 客户转介绍机制\n5. 报价策略与定价方法\n6. 合同与收款注意事项\n7. 时间管理与自律方案\n8. 风险与保障（社保/财务/波动应对）\n9. 转型路线图（6个月计划）",
     "category": "career",
-    "tags": [
-      "自由职业",
-      "数字游民",
-      "接单",
-      "个人品牌"
-    ],
+    "tags": ["自由职业", "数字游民", "接单", "个人品牌"],
     "author": "AI Navigator",
     "seoTitle": "自由职业转型指南 Prompt | AI Navigator Pro",
     "seoDescription": "专业的自由职业转型指南提示词，从技能准备到获客接单的完整规划。",
-    "views": 9800,
-    "createdAt": "2026-04-23"
+    "views": 9800
   },
+
+  # ========== marketing (新增8条) ==========
   {
     "id": "marketing-brand-strategy",
     "title": "品牌战略规划专家",
     "content": "你是一位品牌战略专家。请帮我制定品牌战略规划：\n\n品牌名称：{品牌名称}\n业务领域：{行业和产品}\n发展阶段：{初创/成长/成熟/转型}\n目标用户：{目标用户画像}\n竞品：{主要竞品}\n\n请输出：\n1. 品牌现状诊断\n2. 品牌核心价值定位\n3. 品牌主张与Slogan（3-5个备选）\n4. 品牌人格与调性\n5. 品牌视觉方向建议\n6. 品牌传播策略\n7. 品牌架构建议（多品牌/子品牌）\n8. 品牌建设里程碑（1年/3年/5年）\n9. 品牌资产追踪指标",
     "category": "marketing",
-    "tags": [
-      "品牌战略",
-      "品牌定位",
-      "品牌建设",
-      "市场营销"
-    ],
+    "tags": ["品牌战略", "品牌定位", "品牌建设", "市场营销"],
     "author": "AI Navigator",
     "seoTitle": "品牌战略规划专家 Prompt | AI Navigator Pro",
     "seoDescription": "专业的品牌战略规划提示词，从定位到传播的完整品牌建设方案。",
-    "featured": true,
-    "views": 12400,
-    "createdAt": "2026-04-23"
+    "featured": True,
+    "views": 12400
   },
   {
     "id": "marketing-content-marketing",
     "title": "内容营销策略顾问",
     "content": "你是一位内容营销专家。请帮我制定内容营销策略：\n\n业务类型：{B2B/B2C/B2B2C}\n行业：{所属行业}\n产品/服务：{核心产品或服务}\n目标用户：{目标受众}\n营销目标：{如品牌认知/获客转化/客户留存}\n\n请输出：\n1. 内容营销目标与KPI\n2. 用户画像与内容需求分析\n3. 内容策略支柱（3-5个核心主题）\n4. 内容形式矩阵（图文/视频/音频/直播等）\n5. 内容渠道策略（各平台定位与内容适配）\n6. 内容日历规划框架\n7. 内容生产流程与团队配置\n8. 内容效果评估体系\n9. 内容SEO优化策略\n10. 预算与资源规划",
     "category": "marketing",
-    "tags": [
-      "内容营销",
-      "内容策略",
-      "品牌内容",
-      " inbound marketing"
-    ],
+    "tags": ["内容营销", "内容策略", "品牌内容", " inbound marketing"],
     "author": "AI Navigator",
     "seoTitle": "内容营销策略顾问 Prompt | AI Navigator Pro",
     "seoDescription": "专业的内容营销策略咨询提示词，帮助建立系统化的内容营销体系。",
-    "views": 9300,
-    "createdAt": "2026-04-23"
+    "views": 9300
   },
   {
     "id": "marketing-social-media",
     "title": "社交媒体营销策略师",
     "content": "你是一位社交媒体营销专家。请帮我制定社媒营销策略：\n\n品牌：{品牌名称和行业}\n目标受众：{目标用户}\n社媒目标：{如品牌曝光/用户互动/线索获取/销售转化}\n预算范围：{营销预算}\n\n请输出：\n1. 平台选择与定位（抖音/小红书/微信/微博/B站等）\n2. 各平台内容策略与人设\n3. 内容主题与形式规划\n4. 社区运营与互动策略\n5. KOL/KOC合作策略\n6. 付费推广策略\n7. 活动营销规划\n8. 数据指标与效果评估\n9. 团队分工与SOP\n10. 危机公关预案",
     "category": "marketing",
-    "tags": [
-      "社交媒体",
-      "社媒营销",
-      "品牌营销",
-      "数字营销"
-    ],
+    "tags": ["社交媒体", "社媒营销", "品牌营销", "数字营销"],
     "author": "AI Navigator",
     "seoTitle": "社交媒体营销策略师 Prompt | AI Navigator Pro",
     "seoDescription": "专业的社交媒体营销策略提示词，帮助品牌打造有影响力的社媒矩阵。",
-    "views": 8700,
-    "createdAt": "2026-04-23"
+    "views": 8700
   },
   {
     "id": "marketing-event-marketing",
     "title": "事件营销与话题策划",
     "content": "你是一位事件营销专家。请帮我策划事件营销或话题活动：\n\n品牌：{品牌名称和产品}\n营销目标：{如品牌曝光/话题讨论/用户增长/销售转化}\n目标受众：{目标人群}\n时间节点：{营销时间窗口}\n预算：{预算范围}\n\n请输出：\n1. 3个事件营销创意方案（不同方向）\n2. 每个方案包含：\n   - 创意概念\n   - 话题钩子设计\n   - 传播路径规划\n   - 关键节点与节奏\n   - 资源需求\n   - 风险评估\n3. 话题矩阵设计（主话题+子话题+互动话题）\n4. KOL/媒体合作策略\n5. 物料与内容需求清单\n6. 热度维持与二次传播\n7. 效果衡量指标\n8. 危机预案",
     "category": "marketing",
-    "tags": [
-      "事件营销",
-      "话题营销",
-      "病毒营销",
-      "品牌传播"
-    ],
+    "tags": ["事件营销", "话题营销", "病毒营销", "品牌传播"],
     "author": "AI Navigator",
     "seoTitle": "事件营销与话题策划 Prompt | AI Navigator Pro",
     "seoDescription": "专业的事件营销策划提示词，帮助品牌打造有传播力的营销事件。",
-    "featured": true,
-    "views": 10800,
-    "createdAt": "2026-04-30"
+    "featured": True,
+    "views": 10800
   },
   {
     "id": "marketing-email-marketing",
     "title": "邮件营销自动化专家",
     "content": "你是一位邮件营销专家。请帮我设计邮件营销自动化序列：\n\n业务类型：{电商/SaaS/教育/服务等}\n目标用户：{订阅用户画像}\n营销目标：{如新用户转化/沉睡唤醒/复购提升/客户留存}\n\n请输出：\n1. 用户旅程邮件序列设计\n   - 欢迎邮件序列\n   - 培育邮件序列\n   - 转化邮件序列\n   - 复购邮件序列\n   - 召回邮件序列\n2. 每封邮件的：\n   - 邮件主题（3个备选，含AB测试建议）\n   - 正文内容结构\n   - CTA设计\n   - 发送时机\n3. 邮件列表分层策略\n4. 个性化与动态内容建议\n5. A/B测试规划\n6. 效果指标与优化方法\n7. 合规与退订机制\n8. 工具选型建议",
     "category": "marketing",
-    "tags": [
-      "邮件营销",
-      "EDM",
-      "营销自动化",
-      "用户旅程"
-    ],
+    "tags": ["邮件营销", "EDM", "营销自动化", "用户旅程"],
     "author": "AI Navigator",
     "seoTitle": "邮件营销自动化专家 Prompt | AI Navigator Pro",
     "seoDescription": "专业的邮件营销自动化设计提示词，提升邮件打开率、点击率和转化率。",
-    "views": 7200,
-    "createdAt": "2026-04-30"
+    "views": 7200
   },
   {
     "id": "marketing-influencer",
     "title": "KOL营销与达人合作策略",
     "content": "你是一位KOL营销专家。请帮我规划达人合作策略：\n\n品牌/产品：{品牌或产品描述}\n营销目标：{如新品上市/品牌曝光/带货转化}\n目标人群：{目标受众}\n预算范围：{KOL营销预算}\n\n请输出：\n1. KOL选择策略（平台/层级/类型配比）\n2. 达人筛选标准与方法\n3. 合作形式设计（种草/测评/直播/共创等）\n4. 内容创意方向（3-5个方向）\n5. Brief撰写模板\n6. 合作流程与时间规划\n7. 费用与报价参考\n8. 效果评估指标与方法\n9. 风险控制与危机预案\n10. 长期达人池建设建议",
     "category": "marketing",
-    "tags": [
-      "KOL营销",
-      "达人合作",
-      "种草营销",
-      " influencer"
-    ],
+    "tags": ["KOL营销", "达人合作", "种草营销", " influencer"],
     "author": "AI Navigator",
     "seoTitle": "KOL营销与达人合作策略 Prompt | AI Navigator Pro",
     "seoDescription": "专业的KOL营销规划提示词，帮助品牌高效开展达人合作营销。",
-    "views": 9500,
-    "createdAt": "2026-04-30"
+    "views": 9500
   },
   {
     "id": "marketing-growth-hacking",
     "title": "增长黑客方法论与实践",
     "content": "你是一位增长黑客专家。请帮我设计增长黑客策略：\n\n产品类型：{产品类型}\n当前阶段：{产品阶段和数据}\n增长目标：{增长目标}\n团队资源：{团队配置}\n\n请输出：\n1. 增长模型搭建（AARRR/RARRA等）\n2. 核心指标拆解与北极星指标\n3. 用户漏斗分析与优化机会\n4. 增长实验设计（10个以上实验idea）\n5. 实验优先级排序（ICE评分）\n6. 快速实验流程\n7. 用户获取渠道矩阵\n8. 病毒增长机制设计\n9. 增长团队架构与流程\n10. 增长文化建设",
     "category": "marketing",
-    "tags": [
-      "增长黑客",
-      "Growth Hacking",
-      "用户增长",
-      "增长实验"
-    ],
+    "tags": ["增长黑客", "Growth Hacking", "用户增长", "增长实验"],
     "author": "AI Navigator",
     "seoTitle": "增长黑客方法论与实践 Prompt | AI Navigator Pro",
     "seoDescription": "专业的增长黑客策略提示词，用数据驱动和快速实验实现爆发式增长。",
-    "featured": true,
-    "views": 13200,
-    "createdAt": "2026-04-30"
+    "featured": True,
+    "views": 13200
   },
   {
     "id": "marketing-crm",
     "title": "CRM客户关系管理策略",
     "content": "你是一位CRM专家。请帮我搭建客户关系管理体系：\n\n业务模式：{B2B/B2C}\n客户类型：{客户画像}\n客户生命周期：{描述客户旅程}\n当前痛点：{客户管理中的问题}\n\n请输出：\n1. CRM系统选型建议\n2. 客户分层模型（RFM/价值分层等）\n3. 客户标签体系设计\n4. 用户生命周期运营策略\n5. 会员体系设计（等级/权益/成长值）\n6. 客户忠诚度计划\n7. 客户流失预警与挽回策略\n8. 客户满意度与NPS提升方案\n9. 销售与营销协同流程\n10. 数据指标体系",
     "category": "marketing",
-    "tags": [
-      "CRM",
-      "客户关系",
-      "会员体系",
-      "客户运营"
-    ],
+    "tags": ["CRM", "客户关系", "会员体系", "客户运营"],
     "author": "AI Navigator",
     "seoTitle": "CRM客户关系管理策略 Prompt | AI Navigator Pro",
     "seoDescription": "专业的CRM客户关系管理策略提示词，帮助建立完善的客户管理和运营体系。",
-    "views": 7800,
-    "createdAt": "2026-05-07"
+    "views": 7800
   },
+
+  # ========== data-analysis (新增8条) ==========
   {
     "id": "data-bi-dashboard",
     "title": "BI数据看板设计专家",
     "content": "你是一位BI数据可视化专家。请帮我设计数据看板：\n\n业务领域：{业务领域}\n使用对象：{看板使用者（高管/运营/产品/销售）}\n核心业务：{核心业务流程}\n关键指标：{已知的重要指标}\n\n请输出：\n1. 看板整体架构与页面规划\n2. 指标体系设计（一级/二级/三级指标）\n3. 每个看板页面的：\n   - 页面主题与目标\n   - 指标清单与定义\n   - 图表类型选择\n   - 布局设计\n   - 交互与筛选设计\n4. 数据更新频率与权限设计\n5. 异常告警设计\n6. 工具选型推荐\n7. 设计规范与最佳实践",
     "category": "data-analysis",
-    "tags": [
-      "BI看板",
-      "数据可视化",
-      "数据报表",
-      "Dashboard"
-    ],
+    "tags": ["BI看板", "数据可视化", "数据报表", "Dashboard"],
     "author": "AI Navigator",
     "seoTitle": "BI数据看板设计专家 Prompt | AI Navigator Pro",
     "seoDescription": "专业的BI数据看板设计提示词，从指标体系到可视化呈现的完整方案。",
-    "featured": true,
-    "views": 11600,
-    "createdAt": "2026-05-07"
+    "featured": True,
+    "views": 11600
   },
   {
     "id": "data-sql-assistant",
     "title": "SQL查询优化与编写助手",
     "content": "你是一位SQL专家。请帮我编写或优化SQL查询：\n\n数据库类型：{MySQL/PostgreSQL/SQL Server/ClickHouse等}\n表结构：{提供相关表结构}\n需求描述：{查询需求}\n当前SQL（如优化）：\n{现有SQL}\n\n请输出：\n1. SQL查询语句\n2. 查询逻辑说明\n3. 性能分析与优化建议\n4. 索引建议\n5. 执行计划解读（如适用）\n6. 边界情况处理\n7. 最佳实践建议\n8. 如果是复杂查询，提供分步解释",
     "category": "data-analysis",
-    "tags": [
-      "SQL",
-      "数据库",
-      "查询优化",
-      "数据提取"
-    ],
+    "tags": ["SQL", "数据库", "查询优化", "数据提取"],
     "author": "AI Navigator",
     "seoTitle": "SQL查询优化与编写助手 Prompt | AI Navigator Pro",
     "seoDescription": "专业的SQL编写和优化提示词，帮助高效查询数据并提升性能。",
-    "views": 10200,
-    "createdAt": "2026-05-07"
+    "views": 10200
   },
   {
     "id": "data-ab-test",
     "title": "A/B测试设计与分析专家",
     "content": "你是一位A/B测试专家。请帮我设计和分析A/B测试：\n\n测试类型：{UI优化/功能改动/算法调整/文案优化}\n测试目标：{测试要验证的假设}\n核心指标：{核心评估指标}\n当前数据：{现有基线数据}\n\n请输出：\n1. 实验设计：\n   - 实验假设\n   - 实验分组\n   - 流量分配\n   - 实验周期\n   - 样本量计算\n2. 指标体系（核心指标+护栏指标+观察指标）\n3. 实验实施方案\n4. 数据分析方法：\n   - 统计显著性检验\n   - 置信区间计算\n   - 结果解读\n5. 常见误区与注意事项\n6. 实验报告模板\n7. 如果给我原始数据，我可以帮你做显著性检验",
     "category": "data-analysis",
-    "tags": [
-      "A/B测试",
-      "实验设计",
-      "统计检验",
-      "数据驱动"
-    ],
+    "tags": ["A/B测试", "实验设计", "统计检验", "数据驱动"],
     "author": "AI Navigator",
     "seoTitle": "A/B测试设计与分析专家 Prompt | AI Navigator Pro",
     "seoDescription": "专业的A/B测试设计和分析提示词，用科学的实验方法验证产品优化效果。",
-    "views": 8400,
-    "createdAt": "2026-05-14"
+    "views": 8400
   },
   {
     "id": "data-python-analysis",
     "title": "Python数据分析代码生成",
     "content": "你是一位Python数据分析专家。请帮我编写数据分析代码：\n\n分析目标：{要完成的分析任务}\n数据描述：{数据结构和字段说明}\n数据格式：{CSV/Excel/JSON/SQL等}\n\n请输出：\n1. 完整的Python代码（含注释）\n2. 代码结构说明\n3. 使用的库说明（pandas/numpy/matplotlib/seaborn等）\n4. 数据清洗和预处理步骤\n5. 分析方法说明\n6. 可视化图表代码\n7. 结果解读建议\n8. 常见问题与排查方法",
     "category": "data-analysis",
-    "tags": [
-      "Python",
-      "数据分析",
-      "pandas",
-      "数据可视化"
-    ],
+    "tags": ["Python", "数据分析", "pandas", "数据可视化"],
     "author": "AI Navigator",
     "seoTitle": "Python数据分析代码生成 Prompt | AI Navigator Pro",
     "seoDescription": "专业的Python数据分析代码生成提示词，快速实现数据处理、分析和可视化。",
-    "featured": true,
-    "views": 13800,
-    "createdAt": "2026-05-14"
+    "featured": True,
+    "views": 13800
   },
   {
     "id": "data-user-analysis",
     "title": "用户行为分析与画像构建",
     "content": "你是一位用户行为分析专家。请帮我进行用户行为分析和用户画像构建：\n\n产品类型：{产品类型}\n分析目标：{分析目的}\n可用数据：{可用的数据维度}\n\n请输出：\n1. 用户行为分析框架\n2. 用户分层模型（按价值/行为/生命周期）\n3. 用户画像构建方法：\n   - 人口属性画像\n   - 行为特征画像\n   - 消费特征画像\n   - 兴趣偏好画像\n4. 典型用户Persona（3-5个）\n5. 用户旅程分析\n6. 核心行为路径识别\n7. 高价值用户特征提取\n8. 数据应用建议（运营/产品/营销）\n9. 分析报告模板",
     "category": "data-analysis",
-    "tags": [
-      "用户行为分析",
-      "用户画像",
-      "用户分群",
-      "Persona"
-    ],
+    "tags": ["用户行为分析", "用户画像", "用户分群", "Persona"],
     "author": "AI Navigator",
     "seoTitle": "用户行为分析与画像构建 Prompt | AI Navigator Pro",
     "seoDescription": "专业的用户行为分析和画像构建提示词，深入理解用户、精准指导运营。",
-    "views": 9100,
-    "createdAt": "2026-05-14"
+    "views": 9100
   },
   {
     "id": "data-sales-forecast",
     "title": "销售预测与数据分析模型",
     "content": "你是一位数据分析专家。请帮我设计销售预测模型：\n\n业务类型：{电商/零售/SaaS/B2B等}\n历史数据：{有多久的历史数据}\n预测周期：{预测多长时间}\n影响因素：{已知的影响销量的因素}\n\n请输出：\n1. 销售预测方法选型与对比\n   - 时间序列法（移动平均/指数平滑/ARIMA等）\n   - 回归分析法\n   - 机器学习方法\n2. 数据准备清单\n3. 特征工程建议\n4. 模型构建思路\n5. 准确率评估方法\n6. Python代码框架（可选）\n7. 模型迭代与优化方法\n8. 业务应用场景\n9. 常见问题与应对",
     "category": "data-analysis",
-    "tags": [
-      "销售预测",
-      "预测模型",
-      "时间序列",
-      "数据建模"
-    ],
+    "tags": ["销售预测", "预测模型", "时间序列", "数据建模"],
     "author": "AI Navigator",
     "seoTitle": "销售预测与数据分析模型 Prompt | AI Navigator Pro",
     "seoDescription": "专业的销售预测模型设计提示词，用数据科学提升预测准确度。",
-    "views": 7500,
-    "createdAt": "2026-05-21"
+    "views": 7500
   },
   {
     "id": "data-funnel-analysis",
     "title": "漏斗分析与转化优化",
     "content": "你是一位数据分析专家。请帮我进行漏斗分析和转化优化：\n\n业务场景：{如注册/购买/使用/留存等漏斗}\n漏斗步骤：{列出漏斗的各个步骤}\n当前数据：{各步骤转化率数据（如有）}\n分析目标：{提升转化/定位问题}\n\n请输出：\n1. 漏斗分析框架\n2. 转化率计算方法\n3. 流失原因分析维度：\n   - 用户属性维度\n   - 行为维度\n   - 渠道维度\n   - 时间维度\n4. 关键流失节点识别\n5. 假设检验与验证方法\n6. 转化提升策略（针对每个步骤）\n7. A/B测试建议\n8. 优化效果追踪方法\n9. 分析报告模板",
     "category": "data-analysis",
-    "tags": [
-      "漏斗分析",
-      "转化率",
-      "转化优化",
-      "流失分析"
-    ],
+    "tags": ["漏斗分析", "转化率", "转化优化", "流失分析"],
     "author": "AI Navigator",
     "seoTitle": "漏斗分析与转化优化 Prompt | AI Navigator Pro",
     "seoDescription": "专业的漏斗分析和转化优化提示词，精准定位流失节点、有效提升转化率。",
-    "views": 8800,
-    "createdAt": "2026-05-21"
+    "views": 8800
   },
   {
     "id": "data-excel-skills",
     "title": "Excel高级数据分析技巧",
     "content": "你是一位Excel数据分析专家。请帮我用Excel解决数据分析问题：\n\n问题描述：{需要解决的问题}\n数据结构：{数据的大致结构}\n当前方法：{你目前的做法（如果有）}\n\n请输出：\n1. 最优解决方案（函数/数据透视表/Power Query/VBA）\n2. 详细操作步骤\n3. 具体公式或代码\n4. 示例演示（用样例数据说明）\n5. 常见错误与排查\n6. 性能优化建议\n7. 进阶技巧推荐\n8. 如果Excel不够用，建议的替代方案",
     "category": "data-analysis",
-    "tags": [
-      "Excel",
-      "数据透视表",
-      "VLOOKUP",
-      "办公效率"
-    ],
+    "tags": ["Excel", "数据透视表", "VLOOKUP", "办公效率"],
     "author": "AI Navigator",
     "seoTitle": "Excel高级数据分析技巧 Prompt | AI Navigator Pro",
     "seoDescription": "专业的Excel数据分析技巧提示词，用函数、透视表、Power Query高效处理数据。",
-    "views": 12100,
-    "createdAt": "2026-05-28"
+    "views": 12100
   },
+
+  # ========== education (新增8条) ==========
   {
     "id": "education-course-design",
     "title": "在线课程设计与开发",
     "content": "你是一位在线教育课程设计专家。请帮我设计一门在线课程：\n\n课程主题：{课程主题}\n目标学员：{目标学员画像}\n学员基础：{学员的基础知识水平}\n课程目标：{学完后能达到什么水平}\n课程时长：{总时长或总课时}\n\n请输出：\n1. 课程定位与差异化\n2. 课程大纲设计（章节结构）\n3. 每节课的详细设计：\n   - 学习目标\n   - 内容要点\n   - 教学方法\n   - 互动设计\n   - 课后作业\n4. 课程项目实战设计\n5. 教学方法与技巧\n6. 课件制作建议\n7. 学习效果评估方法\n8. 课程运营与服务设计",
     "category": "education",
-    "tags": [
-      "课程设计",
-      "在线教育",
-      "教学设计",
-      "知识付费"
-    ],
+    "tags": ["课程设计", "在线教育", "教学设计", "知识付费"],
     "author": "AI Navigator",
     "seoTitle": "在线课程设计与开发 Prompt | AI Navigator Pro",
     "seoDescription": "专业的在线课程设计提示词，从大纲到每节课的完整课程开发方案。",
-    "featured": true,
-    "views": 10900,
-    "createdAt": "2026-05-28"
+    "featured": True,
+    "views": 10900
   },
   {
     "id": "education-learning-path",
     "title": "学习路径规划专家",
     "content": "你是一位学习规划和教育专家。请帮我制定学习路径：\n\n学习目标：{想要掌握的技能或领域}\n当前水平：{当前的基础水平}\n学习时间：{每天/每周可投入的时间}\n目标时间：{期望达成目标的时间}\n学习偏好：{偏好的学习方式（视频/书籍/实践等）}\n\n请输出：\n1. 技能树与知识体系图谱\n2. 学习阶段划分（入门/进阶/精通）\n3. 分阶段学习计划（按月/按周）\n4. 每个阶段的：\n   - 学习目标\n   - 核心知识点\n   - 推荐学习资源（书籍/课程/项目）\n   - 实践项目\n   - 检验标准\n5. 学习方法与技巧\n6. 时间管理与自律建议\n7. 常见误区与避坑指南\n8. 进阶方向与持续学习",
     "category": "education",
-    "tags": [
-      "学习路径",
-      "技能学习",
-      "自学规划",
-      "学习方法"
-    ],
+    "tags": ["学习路径", "技能学习", "自学规划", "学习方法"],
     "author": "AI Navigator",
     "seoTitle": "学习路径规划专家 Prompt | AI Navigator Pro",
     "seoDescription": "专业的学习路径规划提示词，系统化高效学习新技能。",
-    "views": 12300,
-    "createdAt": "2026-05-28"
+    "views": 12300
   },
   {
     "id": "education-ai-teacher",
     "title": "AI私教老师（任意学科）",
     "content": "你是一位耐心且专业的AI私教老师。请根据以下信息，为我提供个性化的辅导：\n\n学科/领域：{想学习的学科或技能}\n我的水平：{当前水平（入门/初级/中级/高级）}\n学习目标：{想达到的目标}\n学习偏好：{喜欢的教学方式}\n\n请你：\n1. 先评估我的当前水平（可以问我几个问题）\n2. 根据我的情况定制学习计划\n3. 用生动易懂的方式讲解知识点\n4. 多举例子，最好有生活中的类比\n5. 讲完后用小测验检验我的理解\n6. 根据我的掌握情况调整节奏\n7. 给我布置练习和作业\n8. 鼓励我，帮助我保持学习动力\n\n我们从{具体知识点或第一章}开始吧！",
     "category": "education",
-    "tags": [
-      "AI私教",
-      "一对一辅导",
-      "个性化学习",
-      "智能教学"
-    ],
+    "tags": ["AI私教", "一对一辅导", "个性化学习", "智能教学"],
     "author": "AI Navigator",
     "seoTitle": "AI私教老师（任意学科） Prompt | AI Navigator Pro",
     "seoDescription": "专业的AI私教提示词，提供个性化、互动式的一对一学习辅导体验。",
-    "featured": true,
-    "views": 15700,
-    "createdAt": "2026-05-28"
+    "featured": True,
+    "views": 15700
   },
   {
     "id": "education-exam-prep",
     "title": "考试备考与复习规划",
     "content": "你是一位考试备考专家。请帮我制定考试备考计划：\n\n考试名称：{什么考试}\n考试时间：{距离考试还有多久}\n当前基础：{当前复习进度和水平}\n目标分数：{目标分数}\n可用时间：{每天/每周复习时间}\n\n请输出：\n1. 考试分析（题型/分值/重难点）\n2. 备考阶段划分（基础/强化/冲刺）\n3. 详细复习计划（按天/按周）\n4. 各科/各模块时间分配\n5. 复习方法与技巧：\n   - 高效记忆方法\n   - 做题技巧\n   - 错题本使用方法\n6. 资料推荐\n7. 模考安排与策略\n8. 考前冲刺方案\n9. 心态调整与时间管理\n10. 考场应试技巧",
     "category": "education",
-    "tags": [
-      "考试备考",
-      "复习计划",
-      "应试技巧",
-      "学习效率"
-    ],
+    "tags": ["考试备考", "复习计划", "应试技巧", "学习效率"],
     "author": "AI Navigator",
     "seoTitle": "考试备考与复习规划 Prompt | AI Navigator Pro",
     "seoDescription": "专业的考试备考规划提示词，科学高效备考、提升考试成绩。",
-    "views": 13400,
-    "createdAt": "2026-06-04"
+    "views": 13400
   },
   {
     "id": "education-homework-help",
     "title": "作业辅导与解题思路",
     "content": "你是一位循循善诱的作业辅导老师。请帮我理解和完成作业：\n\n科目：{学科}\n年级/水平：{年级或难度水平}\n题目：\n{题目内容}\n我目前的思路/困惑：{你的想法或卡住的地方}\n\n请你：\n1. 先分析题目考察的知识点\n2. 引导我思考解题思路（不要直接给答案）\n3. 一步步讲解解题过程\n4. 给出最终答案（在我理解之后）\n5. 总结这类题目的解题方法\n6. 给我一道类似的练习题巩固\n7. 拓展相关知识点（如果我学有余力）\n\n注意：请用启发式教学，不要直接给出答案，要引导我思考。",
     "category": "education",
-    "tags": [
-      "作业辅导",
-      "解题思路",
-      "学习辅导",
-      "答疑解惑"
-    ],
+    "tags": ["作业辅导", "解题思路", "学习辅导", "答疑解惑"],
     "author": "AI Navigator",
     "seoTitle": "作业辅导与解题思路 Prompt | AI Navigator Pro",
     "seoDescription": "专业的作业辅导提示词，用启发式教学帮助理解知识、掌握解题方法。",
-    "views": 11200,
-    "createdAt": "2026-06-04"
+    "views": 11200
   },
   {
     "id": "education-language-learning",
     "title": "语言学习教练（英语/日语等）",
     "content": "你是一位专业的语言学习教练。请帮我学习外语：\n\n目标语言：{想学习的语言}\n当前水平：{水平等级，如零基础/四级/N3等}\n学习目标：{学习目标，如日常对话/考试/商务}\n今天想练：{今天想练习的内容，如口语/听力/语法/词汇}\n\n请你：\n1. 用目标语言和我交流（根据我的水平调整难度）\n2. 纠正我的语法和用词错误\n3. 用简单的语言解释语法点\n4. 拓展相关词汇和表达\n5. 给我实用的例句\n6. 设计对话场景练习\n7. 提供学习建议和方法\n8. 每次结束后总结今天学的内容\n\n我们开始吧！",
     "category": "education",
-    "tags": [
-      "语言学习",
-      "英语学习",
-      "日语学习",
-      "口语练习"
-    ],
+    "tags": ["语言学习", "英语学习", "日语学习", "口语练习"],
     "author": "AI Navigator",
     "seoTitle": "语言学习教练（英语/日语等） Prompt | AI Navigator Pro",
     "seoDescription": "专业的语言学习教练提示词，提供沉浸式、互动式的语言学习体验。",
-    "featured": true,
-    "views": 14200,
-    "createdAt": "2026-06-04"
+    "featured": True,
+    "views": 14200
   },
   {
     "id": "education-paper-writing",
     "title": "学术论文写作指导",
     "content": "你是一位学术论文写作指导专家。请帮我写作或修改学术论文：\n\n论文类型：{期刊论文/会议论文/学位论文/课程论文}\n研究领域：{研究方向}\n论文阶段：{选题/开题/写作/修改/投稿}\n当前进展：{当前的进展或问题}\n\n请输出：\n1. 论文选题建议（如需要）\n2. 论文结构框架\n3. 各部分写作要点：\n   - 摘要写作\n   - 引言（研究背景/问题/意义/贡献）\n   - 文献综述\n   - 研究方法\n   - 实验设计\n   - 结果分析\n   - 讨论与结论\n4. 学术规范与引用格式\n5. 常见问题与避坑指南\n6. 投稿与选刊建议\n7. 回复审稿人意见技巧\n8. 如果提供具体段落，我可以帮你润色和改进",
     "category": "education",
-    "tags": [
-      "学术论文",
-      "论文写作",
-      "科研",
-      "学术写作"
-    ],
+    "tags": ["学术论文", "论文写作", "科研", "学术写作"],
     "author": "AI Navigator",
     "seoTitle": "学术论文写作指导 Prompt | AI Navigator Pro",
     "seoDescription": "专业的学术论文写作指导提示词，从选题到投稿的全流程写作支持。",
-    "views": 9600,
-    "createdAt": "2026-06-04"
+    "views": 9600
   },
   {
     "id": "education-reading-notes",
     "title": "高效阅读与读书笔记生成",
     "content": "你是一位阅读指导和知识管理专家。请帮我高效阅读和整理读书笔记：\n\n书籍/文章名称：{书名或文章名}\n类型：{致用类/认知类/文学/专业书籍等}\n阅读目的：{为什么读这本书}\n书籍简介或章节：{提供目录或关键内容}\n\n请输出：\n1. 核心观点提炼（全书的核心思想）\n2. 章节脉络梳理（全书结构）\n3. 关键概念解释\n4. 金句摘录（最有启发的句子）\n5. 我的思考与启发（结合实际）\n6. 可以立即应用的行动清单\n7. 思维导图大纲（文字版）\n8. 推荐延伸阅读\n9. 记忆和复习建议\n\n如果你提供具体章节内容，我可以帮你做更深入的解读。",
     "category": "education",
-    "tags": [
-      "阅读方法",
-      "读书笔记",
-      "知识管理",
-      "高效学习"
-    ],
+    "tags": ["阅读方法", "读书笔记", "知识管理", "高效学习"],
     "author": "AI Navigator",
     "seoTitle": "高效阅读与读书笔记生成 Prompt | AI Navigator Pro",
     "seoDescription": "专业的高效阅读和读书笔记提示词，帮助快速吸收书籍精华、学以致用。",
-    "views": 8500,
-    "createdAt": "2026-06-04"
+    "views": 8500
   },
+
+  # ========== writing (新增8条) ==========
   {
     "id": "writing-story-novel",
     "title": "小说创作与故事架构师",
     "content": "你是一位资深小说创作导师。请帮我创作或完善小说：\n\n小说类型：{如都市/玄幻/言情/悬疑/科幻/历史}\n目标读者：{目标读者群体}\n核心创意：{你的故事创意或想法}\n当前进展：{已经有了什么（如人物/大纲/开头）}\n\n请输出：\n1. 故事核心概念与一句话简介\n2. 世界观/背景设定\n3. 主要人物设定（3-5个主角）：\n   - 人物小传\n   - 性格特点\n   - 人物弧光\n   - 动机与目标\n4. 故事大纲（三幕式/英雄之旅/其他结构）\n5. 章节规划（分卷/分章）\n6. 开篇写法建议（黄金三章）\n7. 悬念与冲突设计\n8. 写作节奏把控建议\n9. 常见问题与避坑指南",
     "category": "writing",
-    "tags": [
-      "小说写作",
-      "故事创作",
-      "网文",
-      "创意写作"
-    ],
+    "tags": ["小说写作", "故事创作", "网文", "创意写作"],
     "author": "AI Navigator",
     "seoTitle": "小说创作与故事架构师 Prompt | AI Navigator Pro",
     "seoDescription": "专业的小说创作和故事架构提示词，从创意到大纲的完整写作指导。",
-    "featured": true,
-    "views": 13100,
-    "createdAt": "2026-06-11"
+    "featured": True,
+    "views": 13100
   },
   {
     "id": "writing-copywriting-master",
     "title": "顶级文案写作大师",
     "content": "你是一位顶级文案写作大师。请帮我撰写高转化率的文案：\n\n文案类型：{如销售文案/品牌文案/海报文案/详情页文案/朋友圈文案}\n产品/服务：{产品或服务描述}\n核心卖点：{产品核心卖点}\n目标受众：{目标用户画像}\n文案风格：{如正式/活泼/专业/温情}\n\n请输出：\n1. 目标用户痛点分析\n2. 核心文案策略\n3. 5个不同角度的标题\n4. 完整文案（按要求的类型）\n5. 文案结构说明（为什么这么写）\n6. 行动号召（CTA）设计\n7. 信任背书与风险逆转\n8. 适配不同渠道的版本\n9. A/B测试建议\n10. 优化和迭代建议",
     "category": "writing",
-    "tags": [
-      "文案写作",
-      "销售文案",
-      "转化率",
-      "文案大师"
-    ],
+    "tags": ["文案写作", "销售文案", "转化率", "文案大师"],
     "author": "AI Navigator",
     "seoTitle": "顶级文案写作大师 Prompt | AI Navigator Pro",
     "seoDescription": "专业的顶级文案写作提示词，用心理学和营销技巧打造高转化文案。",
-    "featured": true,
-    "views": 14700,
-    "createdAt": "2026-06-11"
+    "featured": True,
+    "views": 14700
   },
   {
     "id": "writing-business-writing",
     "title": "商务写作全能助手",
     "content": "你是一位商务写作专家。请帮我撰写商务文书：\n\n文书类型：{如邮件/报告/方案/请示/总结/会议纪要}\n收件人/读者：{发给谁}\n写作目的：{要达到什么目的}\n核心信息：{需要传达的关键信息}\n语气要求：{如正式/委婉/强硬/友好}\n\n请输出：\n1. 写作思路与结构设计\n2. 完整文书内容\n3. 不同语气版本（可选）\n4. 亮点与技巧说明\n5. 注意事项与避坑指南\n6. 如果是邮件，提供：\n   - 3个标题备选\n   - 开头和结尾的不同写法\n   - 跟进邮件模板\n   - 回复邮件模板",
     "category": "writing",
-    "tags": [
-      "商务写作",
-      "商务邮件",
-      "工作报告",
-      "职场写作"
-    ],
+    "tags": ["商务写作", "商务邮件", "工作报告", "职场写作"],
     "author": "AI Navigator",
     "seoTitle": "商务写作全能助手 Prompt | AI Navigator Pro",
     "seoDescription": "专业的商务写作提示词，帮助写出专业、得体、高效的商务文书。",
-    "views": 11500,
-    "createdAt": "2026-06-11"
+    "views": 11500
   },
   {
     "id": "writing-speech-draft",
     "title": "演讲稿与发言稿写作",
     "content": "你是一位演讲撰稿专家。请帮我撰写演讲稿：\n\n演讲场合：{如会议/培训/婚礼/竞聘/颁奖典礼}\n演讲主题：{演讲主题}\n演讲者身份：{你的身份}\n听众：{听众群体}\n演讲时长：{预计时长}\n演讲风格：{如正式/幽默/激情/温情}\n\n请输出：\n1. 演讲稿结构设计\n2. 开场设计（3-5个开场方式）\n3. 完整演讲稿\n4. 金句和亮点设计\n5. 互动设计（如适用）\n6. 结尾设计（3-5个结尾方式）\n7. 演讲技巧与注意事项\n8. PPT配合建议（如适用）\n9. 应急方案（忘词/超时等）",
     "category": "writing",
-    "tags": [
-      "演讲稿",
-      "发言稿",
-      "演讲技巧",
-      "公众演讲"
-    ],
+    "tags": ["演讲稿", "发言稿", "演讲技巧", "公众演讲"],
     "author": "AI Navigator",
     "seoTitle": "演讲稿与发言稿写作 Prompt | AI Navigator Pro",
     "seoDescription": "专业的演讲稿写作提示词，打造有感染力、有说服力的精彩演讲。",
-    "views": 8900,
-    "createdAt": "2026-06-18"
+    "views": 8900
   },
   {
     "id": "writing-article-structure",
     "title": "深度文章结构与写作指导",
     "content": "你是一位深度文章写作专家。请帮我撰写或优化深度文章：\n\n文章主题：{文章主题}\n文章类型：{观点文/干货文/人物稿/调查报道/复盘文}\n目标读者：{目标读者}\n字数要求：{大约字数}\n核心观点：{你的核心观点（如果有的话）}\n\n请输出：\n1. 文章选题角度（3个不同角度）\n2. 文章大纲与结构设计\n3. 开头写法（3种不同开头）\n4. 正文论证框架\n5. 素材与案例建议\n6. 金句设计\n7. 结尾升华方式\n8. 标题（5个备选）\n9. 写作建议与注意事项\n10. 提供具体素材的话，我可以帮你写完整文章",
     "category": "writing",
-    "tags": [
-      "深度写作",
-      "文章结构",
-      "观点文",
-      "写作技巧"
-    ],
+    "tags": ["深度写作", "文章结构", "观点文", "写作技巧"],
     "author": "AI Navigator",
     "seoTitle": "深度文章结构与写作指导 Prompt | AI Navigator Pro",
     "seoDescription": "专业的深度文章写作指导提示词，从选题到结构打造高质量深度内容。",
-    "views": 9700,
-    "createdAt": "2026-06-18"
+    "views": 9700
   },
   {
     "id": "writing-poetry-creative",
     "title": "创意写作与诗歌创作",
     "content": "你是一位创意写作和诗歌创作导师。请帮我进行创意写作：\n\n创作类型：{如现代诗/古体诗/散文/微小说/歌词}\n主题：{创作主题}\n风格要求：{如唯美/豪放/忧伤/治愈/哲理}\n灵感来源：{想表达的情感或故事}\n\n请输出：\n1. 3个不同风格的作品\n2. 每首作品的创作解读\n3. 意象与修辞手法分析\n4. 如果你给我初稿，我可以帮你：\n   - 润色和优化\n   - 调整节奏和韵律\n   - 提升意象和意境\n   - 提供修改建议\n5. 创作技巧分享\n6. 同主题更多创作思路",
     "category": "writing",
-    "tags": [
-      "创意写作",
-      "诗歌",
-      "文学创作",
-      "写作灵感"
-    ],
+    "tags": ["创意写作", "诗歌", "文学创作", "写作灵感"],
     "author": "AI Navigator",
     "seoTitle": "创意写作与诗歌创作 Prompt | AI Navigator Pro",
     "seoDescription": "专业的创意写作和诗歌创作提示词，激发灵感、提升文学表达力。",
-    "views": 7200,
-    "createdAt": "2026-06-18"
+    "views": 7200
   },
   {
     "id": "writing-technical-document",
     "title": "技术文档写作专家",
     "content": "你是一位技术文档写作专家。请帮我撰写专业技术文档：\n\n文档类型：{如产品文档/API文档/用户手册/开发指南/架构设计文档}\n技术领域：{技术方向}\n目标读者：{读者（开发/测试/运维/用户）}\n文档目标：{读者看完能做什么}\n\n请输出：\n1. 文档结构设计\n2. 文档模板\n3. 写作规范与最佳实践\n4. 示例与代码片段建议\n5. 图表建议（架构图/流程图/时序图等）\n6. 术语表设计\n7. 版本管理与维护建议\n8. 常见问题与避坑指南\n9. 如果你提供具体技术内容，我可以帮你写成完整文档",
     "category": "writing",
-    "tags": [
-      "技术文档",
-      "文档写作",
-      "技术写作",
-      "产品文档"
-    ],
+    "tags": ["技术文档", "文档写作", "技术写作", "产品文档"],
     "author": "AI Navigator",
     "seoTitle": "技术文档写作专家 Prompt | AI Navigator Pro",
     "seoDescription": "专业的技术文档写作提示词，写出清晰、准确、易用的技术文档。",
-    "views": 8300,
-    "createdAt": "2026-06-25"
+    "views": 8300
   },
   {
     "id": "writing-rewrite-optimize",
     "title": "文章改写与润色优化",
     "content": "你是一位写作润色专家。请帮我改写和润色文章：\n\n原文：\n{文章内容}\n文章类型：{如公众号/小红书/商务邮件/论文/小说}\n润色要求：{如更流畅/更专业/更口语/更简洁/更有文采}\n目标风格：{期望的风格}\n\n请输出：\n1. 润色后的完整文章\n2. 润色说明（主要修改了什么、为什么）\n3. 不同角度的3个标题（如果需要）\n4. 开头优化（3个版本）\n5. 结尾优化（3个版本）\n6. 金句提炼\n7. 进一步提升建议\n8. 如果是多段落，我会逐段标注修改点",
     "category": "writing",
-    "tags": [
-      "文章润色",
-      "改写优化",
-      "文笔提升",
-      "编辑校对"
-    ],
+    "tags": ["文章润色", "改写优化", "文笔提升", "编辑校对"],
     "author": "AI Navigator",
     "seoTitle": "文章改写与润色优化 Prompt | AI Navigator Pro",
     "seoDescription": "专业的文章改写和润色提示词，让你的文章更流畅、更有感染力。",
-    "featured": true,
-    "views": 12600,
-    "createdAt": "2026-06-25"
+    "featured": True,
+    "views": 12600
   },
   {
     "id": "pm-ai-agent-product",
     "title": "AI Agent产品设计专家",
     "content": "你是一位AI Agent产品设计专家。请帮我设计AI智能体产品：\n\n应用场景：{Agent的使用场景}\n目标用户：{目标用户群体}\n核心能力：{Agent需要具备的核心能力}\n技术偏好：{偏好的技术栈或大模型}\n\n请输出：\n1. Agent定位与核心价值\n2. 功能架构设计\n   - 核心能力模块\n   - 工具调用设计\n   - 记忆系统设计\n   - 规划与推理机制\n3. 交互设计（对话/多模态/工作流）\n4. Prompt工程体系\n5. 评估与迭代机制\n6. 典型用户流程\n7. 技术选型建议\n8. 商业化路径\n9. 风险与安全设计",
     "category": "product-manager",
-    "tags": [
-      "AI Agent",
-      "智能体",
-      "大模型应用",
-      "产品设计"
-    ],
+    "tags": ["AI Agent", "智能体", "大模型应用", "产品设计"],
     "author": "AI Navigator",
     "seoTitle": "AI Agent产品设计专家 Prompt | AI Navigator Pro",
     "seoDescription": "专业的AI Agent产品设计提示词，帮助设计智能体产品的功能架构和交互体验。",
-    "featured": true,
-    "views": 15800,
-    "createdAt": "2026-06-25"
+    "featured": True,
+    "views": 15800
   },
   {
     "id": "dev-llm-app",
     "title": "大模型应用开发架构师",
     "content": "你是一位大模型应用开发架构师。请帮我设计LLM应用的技术方案：\n\n应用类型：{如对话机器人/RAG知识库/Agent/内容生成}\n业务需求：{描述业务场景和需求}\n预估规模：{用户量和调用量预估}\n技术偏好：{偏好的技术栈}\n\n请输出：\n1. 整体架构设计（文字描述Mermaid图）\n2. 大模型选型与对比\n3. Prompt工程策略\n4. RAG方案设计（如适用）\n   - 知识库构建\n   - 向量数据库选型\n   - 检索策略\n   - 重排序方案\n5. Agent与工具调用设计\n6. 记忆系统设计\n7. 流式输出与SSE\n8. 缓存与成本优化\n9. 安全与合规设计\n   - 内容安全\n   - 数据隐私\n   - Prompt注入防护\n10. 监控与评估体系",
     "category": "developer",
-    "tags": [
-      "大模型应用",
-      "LLM",
-      "RAG",
-      "AI开发"
-    ],
+    "tags": ["大模型应用", "LLM", "RAG", "AI开发"],
     "author": "AI Navigator",
     "seoTitle": "大模型应用开发架构师 Prompt | AI Navigator Pro",
     "seoDescription": "专业的大模型应用开发架构设计提示词，涵盖RAG、Agent、Prompt工程等核心技术。",
-    "featured": true,
-    "views": 17500,
-    "createdAt": "2026-06-25"
+    "featured": True,
+    "views": 17500
   },
   {
     "id": "self-media-video-editing",
     "title": "短视频剪辑脚本与节奏设计",
     "content": "你是一位短视频剪辑专家。请帮我设计视频剪辑方案：\n\n视频主题：{视频主题}\n视频时长：{目标时长}\n视频类型：{如知识科普/剧情/好物分享/vlog}\n原始素材：{描述你有的素材类型}\n\n请输出：\n1. 剪辑节奏设计（整体节奏把控）\n2. 详细分镜剪辑脚本（按时间轴）\n   - 时间点\n   - 画面内容\n   - 转场效果\n   - BGM/音效\n   - 字幕/花字\n3. 黄金3秒开头设计\n4. 转场效果建议\n5. BGM和音效推荐\n6. 字幕和花字设计\n7. 封面设计建议\n8. 软件操作技巧提示\n9. 提升完播率的剪辑技巧",
     "category": "self-media",
-    "tags": [
-      "视频剪辑",
-      "剪辑脚本",
-      "短视频",
-      "后期制作"
-    ],
+    "tags": ["视频剪辑", "剪辑脚本", "短视频", "后期制作"],
     "author": "AI Navigator",
     "seoTitle": "短视频剪辑脚本与节奏设计 Prompt | AI Navigator Pro",
     "seoDescription": "专业的短视频剪辑脚本设计提示词，从节奏到转场的完整剪辑方案。",
-    "views": 10600,
-    "createdAt": "2026-06-25"
+    "views": 10600
   }
 ]
+
+dates_2026 = [
+    "2026-01-05", "2026-01-12", "2026-01-18", "2026-01-25",
+    "2026-02-03", "2026-02-10", "2026-02-17", "2026-02-24",
+    "2026-03-04", "2026-03-11", "2026-03-18", "2026-03-25",
+    "2026-04-02", "2026-04-09", "2026-04-16", "2026-04-23", "2026-04-30",
+    "2026-05-07", "2026-05-14", "2026-05-21", "2026-05-28",
+    "2026-06-04", "2026-06-11", "2026-06-18", "2026-06-25"
+]
+
+all_prompts = existing_prompts + new_prompts
+
+random.seed(42)
+random_dates = random.choices(dates_2026, k=len(all_prompts))
+random_dates.sort()
+
+for i, prompt in enumerate(all_prompts):
+    prompt["createdAt"] = random_dates[i]
+
+category_count = {}
+for p in all_prompts:
+    cat = p["category"]
+    category_count[cat] = category_count.get(cat, 0) + 1
+
+with open("/workspace/data/prompts.json", "w", encoding="utf-8") as f:
+    json.dump(all_prompts, f, ensure_ascii=False, indent=2)
+
+print(f"总数量: {len(all_prompts)}")
+print(f"新增数量: {len(new_prompts)}")
+print("\n类别分布:")
+for cat, count in sorted(category_count.items()):
+    print(f"  {cat}: {count}条")

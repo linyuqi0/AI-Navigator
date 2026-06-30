@@ -1,146 +1,30 @@
 [
   {
-    "id": "github-mcp",
-    "name": "GitHub MCP",
-    "logo": "https://api.dicebear.com/7.x/shapes/svg?seed=github-mcp",
-    "description": "官方GitHub MCP服务器，提供仓库管理、Issue处理、PR操作等功能。",
-    "url": "https://github.com/marketplace/mcp",
-    "category": "developer-tools",
-    "tags": [
-      "GitHub",
-      "开发",
-      "仓库管理",
-      "官方"
-    ],
-    "rating": 4.8,
-    "updatedAt": "2024-07-15",
-    "features": [
-      "仓库浏览与搜索",
-      "Issue创建与管理",
-      "Pull Request操作",
-      "代码审查",
-      "Actions触发",
-      "文件读写"
-    ],
-    "seoTitle": "GitHub MCP - 官方GitHub集成 | AI Navigator Pro",
-    "seoDescription": "官方GitHub MCP服务器，提供仓库管理、Issue处理、PR操作等功能。",
-    "featured": true,
-    "trending": true,
-    "views": 78000
-  },
-  {
-    "id": "figma-mcp",
-    "name": "Figma MCP",
-    "logo": "https://api.dicebear.com/7.x/shapes/svg?seed=figma-mcp",
-    "description": "Figma MCP服务器，支持读取和操作Figma设计文件，提取设计资源。",
-    "url": "https://figma.com/developers",
-    "category": "design-tools",
-    "tags": [
-      "Figma",
-      "设计",
-      "UI/UX",
-      "设计系统"
-    ],
-    "rating": 4.7,
-    "updatedAt": "2024-07-12",
-    "features": [
-      "设计文件读取",
-      "组件提取",
-      "样式导出",
-      "设计规范检查",
-      "设计令牌",
-      "原型交互"
-    ],
-    "seoTitle": "Figma MCP - Figma设计集成 | AI Navigator Pro",
-    "seoDescription": "Figma MCP服务器，支持读取和操作Figma设计文件，提取设计资源。",
-    "featured": true,
-    "views": 62000
-  },
-  {
-    "id": "notion-mcp",
-    "name": "Notion MCP",
-    "logo": "https://api.dicebear.com/7.x/shapes/svg?seed=notion-mcp",
-    "description": "Notion MCP服务器，提供知识库查询、页面操作、数据库管理等功能。",
-    "url": "https://developers.notion.com",
+    "id": "google-workspace-mcp",
+    "name": "Google Workspace MCP",
+    "logo": "https://api.dicebear.com/7.x/shapes/svg?seed=gworkspace-mcp",
+    "description": "Google Workspace MCP，Gmail、文档、表格、云端硬盘等办公工具集。",
+    "url": "https://workspace.google.com",
     "category": "productivity",
     "tags": [
-      "Notion",
-      "笔记",
-      "知识库",
-      "生产力"
+      "Google",
+      "Gmail",
+      "文档",
+      "云办公"
     ],
     "rating": 4.6,
-    "updatedAt": "2024-07-10",
     "features": [
-      "页面读取与搜索",
-      "数据库查询",
-      "内容编辑",
-      "块操作",
-      "属性管理",
-      "评论操作"
+      "Gmail邮件",
+      "文档/表格/幻灯片",
+      "云端硬盘",
+      "日历",
+      "Meet会议",
+      "协作编辑"
     ],
-    "seoTitle": "Notion MCP - Notion知识库集成 | AI Navigator Pro",
-    "seoDescription": "Notion MCP服务器，提供知识库查询、页面操作、数据库管理等功能。",
-    "featured": true,
-    "trending": true,
-    "views": 71000
-  },
-  {
-    "id": "slack-mcp",
-    "name": "Slack MCP",
-    "logo": "https://api.dicebear.com/7.x/shapes/svg?seed=slack-mcp",
-    "description": "Slack MCP服务器，支持消息发送、频道管理、用户查询等功能。",
-    "url": "https://api.slack.com",
-    "category": "communication",
-    "tags": [
-      "Slack",
-      "通讯",
-      "团队协作",
-      "消息"
-    ],
-    "rating": 4.5,
-    "updatedAt": "2024-07-08",
-    "features": [
-      "消息发送",
-      "频道管理",
-      "用户查询",
-      "回复线程",
-      "文件分享",
-      "反应操作"
-    ],
-    "seoTitle": "Slack MCP - Slack通讯集成 | AI Navigator Pro",
-    "seoDescription": "Slack MCP服务器，支持消息发送、频道管理、用户查询等功能。",
-    "featured": true,
-    "views": 54000
-  },
-  {
-    "id": "browser-mcp",
-    "name": "Browser MCP",
-    "logo": "https://api.dicebear.com/7.x/shapes/svg?seed=browser-mcp",
-    "description": "浏览器自动化MCP服务器，支持网页导航、截图、数据提取等功能。",
-    "url": "https://playwright.dev",
-    "category": "automation",
-    "tags": [
-      "浏览器",
-      "自动化",
-      "测试",
-      "爬虫"
-    ],
-    "rating": 4.7,
-    "updatedAt": "2024-07-14",
-    "features": [
-      "网页导航",
-      "页面截图",
-      "元素交互",
-      "数据提取",
-      "表单填写",
-      "性能分析"
-    ],
-    "seoTitle": "Browser MCP - 浏览器自动化集成 | AI Navigator Pro",
-    "seoDescription": "浏览器自动化MCP服务器，支持网页导航、截图、数据提取等功能。",
-    "featured": true,
-    "trending": true,
-    "views": 68000
+    "seoTitle": "Google Workspace MCP - 云办公套件 | AI Navigator Pro",
+    "seoDescription": "Google Workspace MCP，Gmail、文档、表格、云端硬盘等办公工具集。",
+    "views": 50000,
+    "updatedAt": "2026-06-27"
   },
   {
     "id": "postgres-mcp",
@@ -156,7 +40,7 @@
       "数据管理"
     ],
     "rating": 4.6,
-    "updatedAt": "2024-07-11",
+    "updatedAt": "2026-06-24",
     "features": [
       "SQL查询执行",
       "数据读写",
@@ -171,32 +55,706 @@
     "views": 49000
   },
   {
-    "id": "playwright-mcp",
-    "name": "Playwright MCP",
-    "logo": "https://api.dicebear.com/7.x/shapes/svg?seed=playwright",
-    "description": "Playwright浏览器自动化MCP，让AI能够浏览网页和操作浏览器。",
-    "url": "https://github.com/microsoft/playwright-mcp",
+    "id": "snyk-mcp",
+    "name": "Snyk MCP",
+    "logo": "https://api.dicebear.com/7.x/shapes/svg?seed=snyk-mcp",
+    "description": "Snyk开发者安全MCP，代码、依赖、容器和基础设施安全扫描。",
+    "url": "https://snyk.io",
+    "category": "security",
+    "tags": [
+      "Snyk",
+      "安全扫描",
+      "DevSecOps",
+      "漏洞检测"
+    ],
+    "rating": 4.6,
+    "features": [
+      "代码安全",
+      "依赖扫描",
+      "容器安全",
+      "IaC安全",
+      "漏洞修复",
+      "CI/CD集成"
+    ],
+    "seoTitle": "Snyk MCP - 开发者安全平台 | AI Navigator Pro",
+    "seoDescription": "Snyk开发者安全MCP，代码、依赖、容器和基础设施安全扫描。",
+    "featured": true,
+    "trending": true,
+    "views": 48000,
+    "updatedAt": "2026-06-24"
+  },
+  {
+    "id": "docker-mcp",
+    "name": "Docker MCP",
+    "logo": "https://api.dicebear.com/7.x/shapes/svg?seed=docker",
+    "description": "Docker容器管理MCP，让AI管理容器化应用。",
+    "url": "https://github.com/modelcontextprotocol/servers",
     "category": "ai-mcp",
     "tags": [
-      "浏览器自动化",
-      "微软",
-      "开源"
+      "Docker",
+      "容器",
+      "DevOps"
     ],
     "features": [
-      "浏览器自动化",
-      "网页截图",
-      "表单操作",
-      "数据抓取",
-      "测试支持"
+      "容器管理",
+      "镜像构建",
+      "日志查看",
+      "网络管理",
+      "卷挂载"
     ],
     "useCases": [
-      "网页测试",
-      "数据采集",
-      "自动化操作",
-      "UI验证"
+      "DevOps",
+      "容器管理",
+      "环境配置",
+      "部署"
+    ],
+    "rating": 4.4,
+    "views": 12000,
+    "updatedAt": "2026-06-21",
+    "seoTitle": "Docker MCP - MCP集成 | AI Navigator Pro",
+    "seoDescription": "Docker容器管理MCP，让AI管理容器化应用。"
+  },
+  {
+    "id": "whatsapp-mcp",
+    "name": "WhatsApp MCP",
+    "logo": "https://api.dicebear.com/7.x/shapes/svg?seed=whatsapp-mcp",
+    "description": "WhatsApp Business MCP，商业消息、客户服务和营销通知平台。",
+    "url": "https://business.whatsapp.com",
+    "category": "communication",
+    "tags": [
+      "WhatsApp",
+      "商业消息",
+      "客服",
+      "营销"
+    ],
+    "rating": 4.4,
+    "features": [
+      "商业消息",
+      "客户服务",
+      "消息模板",
+      "状态更新",
+      "群组管理",
+      "文件共享"
+    ],
+    "seoTitle": "WhatsApp MCP - 商业通讯平台 | AI Navigator Pro",
+    "seoDescription": "WhatsApp Business MCP，商业消息、客户服务和营销通知平台。",
+    "views": 35000,
+    "updatedAt": "2026-06-21"
+  },
+  {
+    "id": "todoist-mcp",
+    "name": "Todoist MCP",
+    "logo": "https://api.dicebear.com/7.x/shapes/svg?seed=todoist-mcp",
+    "description": "Todoist任务管理MCP，高效的待办事项和项目管理工具。",
+    "url": "https://todoist.com",
+    "category": "productivity",
+    "tags": [
+      "Todoist",
+      "任务管理",
+      "待办事项",
+      "效率"
     ],
     "rating": 4.7,
-    "views": 32000
+    "features": [
+      "任务管理",
+      "项目组织",
+      "优先级排序",
+      "提醒通知",
+      "重复任务",
+      "团队协作"
+    ],
+    "seoTitle": "Todoist MCP - 任务管理效率工具 | AI Navigator Pro",
+    "seoDescription": "Todoist任务管理MCP，高效的待办事项和项目管理工具。",
+    "featured": true,
+    "trending": true,
+    "views": 52000,
+    "updatedAt": "2026-06-20"
+  },
+  {
+    "id": "cockroachdb-mcp",
+    "name": "CockroachDB MCP",
+    "logo": "https://api.dicebear.com/7.x/shapes/svg?seed=cockroachdb-mcp",
+    "description": "CockroachDB分布式SQL MCP，云原生分布式关系型数据库。",
+    "url": "https://www.cockroachlabs.com",
+    "category": "database",
+    "tags": [
+      "CockroachDB",
+      "分布式",
+      "SQL",
+      "云原生"
+    ],
+    "rating": 4.5,
+    "features": [
+      "分布式SQL",
+      "水平扩展",
+      "强一致性",
+      "云原生",
+      "自动故障转移",
+      "JSON支持"
+    ],
+    "seoTitle": "CockroachDB MCP - 分布式SQL数据库 | AI Navigator Pro",
+    "seoDescription": "CockroachDB分布式SQL MCP，云原生分布式关系型数据库。",
+    "views": 32000,
+    "updatedAt": "2026-06-19"
+  },
+  {
+    "id": "gitlab-mcp",
+    "name": "GitLab MCP",
+    "logo": "https://api.dicebear.com/7.x/shapes/svg?seed=gitlab-mcp",
+    "description": "GitLab官方MCP服务器，提供仓库管理、CI/CD流水线、Issue跟踪等完整DevOps功能。",
+    "url": "https://gitlab.com/explore",
+    "category": "developer-tools",
+    "tags": [
+      "GitLab",
+      "DevOps",
+      "CI/CD",
+      "仓库管理"
+    ],
+    "rating": 4.7,
+    "features": [
+      "仓库管理",
+      "CI/CD流水线",
+      "Issue跟踪",
+      "代码审查",
+      "Merge Request",
+      "容器注册表"
+    ],
+    "seoTitle": "GitLab MCP - 完整DevOps工具链 | AI Navigator Pro",
+    "seoDescription": "GitLab官方MCP服务器，提供仓库管理、CI/CD流水线、Issue跟踪等完整DevOps功能。",
+    "featured": true,
+    "trending": true,
+    "views": 65000,
+    "updatedAt": "2026-06-18"
+  },
+  {
+    "id": "make-mcp",
+    "name": "Make MCP",
+    "logo": "https://api.dicebear.com/7.x/shapes/svg?seed=make-mcp",
+    "description": "Make（原Integromat）可视化自动化MCP，高级工作流和数据集成平台。",
+    "url": "https://www.make.com",
+    "category": "automation",
+    "tags": [
+      "Make",
+      "Integromat",
+      "自动化",
+      "数据集成"
+    ],
+    "rating": 4.5,
+    "features": [
+      "可视化构建",
+      "高级工作流",
+      "数据转换",
+      "API集成",
+      "定时触发",
+      "错误处理"
+    ],
+    "seoTitle": "Make MCP - 可视化自动化平台 | AI Navigator Pro",
+    "seoDescription": "Make（原Integromat）可视化自动化MCP，高级工作流和数据集成平台。",
+    "views": 38000,
+    "updatedAt": "2026-06-18"
+  },
+  {
+    "id": "neo4j-mcp",
+    "name": "Neo4j MCP",
+    "logo": "https://api.dicebear.com/7.x/shapes/svg?seed=neo4j-mcp",
+    "description": "Neo4j图数据库MCP，支持图查询、知识图谱和网络分析。",
+    "url": "https://neo4j.com",
+    "category": "database",
+    "tags": [
+      "Neo4j",
+      "图数据库",
+      "知识图谱",
+      "Cypher"
+    ],
+    "rating": 4.5,
+    "features": [
+      "图查询Cypher",
+      "节点关系管理",
+      "图算法",
+      "知识图谱",
+      "路径查询",
+      "可视化"
+    ],
+    "seoTitle": "Neo4j MCP - 图数据库 | AI Navigator Pro",
+    "seoDescription": "Neo4j图数据库MCP，支持图查询、知识图谱和网络分析。",
+    "views": 35000,
+    "updatedAt": "2026-06-18"
+  },
+  {
+    "id": "tencent-cloud-mcp",
+    "name": "腾讯云 MCP",
+    "logo": "https://api.dicebear.com/7.x/shapes/svg?seed=tencent-mcp",
+    "description": "腾讯云MCP，腾讯云计算平台，支持CVM、COS、CDB等云服务。",
+    "url": "https://cloud.tencent.com",
+    "category": "cloud",
+    "tags": [
+      "腾讯云",
+      "Tencent Cloud",
+      "云计算",
+      "中国云"
+    ],
+    "rating": 4.4,
+    "features": [
+      "CVM云服务器",
+      "COS对象存储",
+      "CDB数据库",
+      "CDN加速",
+      "SCF云函数",
+      "云监控"
+    ],
+    "seoTitle": "腾讯云 MCP - 腾讯云计算 | AI Navigator Pro",
+    "seoDescription": "腾讯云MCP，腾讯云计算平台，支持CVM、COS、CDB等云服务。",
+    "views": 42000,
+    "updatedAt": "2026-06-18"
+  },
+  {
+    "id": "auth0-mcp",
+    "name": "Auth0 MCP",
+    "logo": "https://api.dicebear.com/7.x/shapes/svg?seed=auth0-mcp",
+    "description": "Auth0身份认证MCP，灵活的认证和授权平台，支持多种登录方式。",
+    "url": "https://auth0.com",
+    "category": "security",
+    "tags": [
+      "Auth0",
+      "认证",
+      "授权",
+      "身份管理"
+    ],
+    "rating": 4.6,
+    "features": [
+      "用户认证",
+      "社交登录",
+      "无密码登录",
+      "MFA多因素",
+      "API授权",
+      "用户管理"
+    ],
+    "seoTitle": "Auth0 MCP - 身份认证平台 | AI Navigator Pro",
+    "seoDescription": "Auth0身份认证MCP，灵活的认证和授权平台，支持多种登录方式。",
+    "views": 36000,
+    "updatedAt": "2026-06-17"
+  },
+  {
+    "id": "elasticsearch-mcp",
+    "name": "Elasticsearch MCP",
+    "logo": "https://api.dicebear.com/7.x/shapes/svg?seed=elasticsearch-mcp",
+    "description": "Elasticsearch搜索引擎MCP，全文检索、日志分析和数据可视化平台。",
+    "url": "https://www.elastic.co",
+    "category": "database",
+    "tags": [
+      "Elasticsearch",
+      "搜索引擎",
+      "日志分析",
+      "ELK"
+    ],
+    "rating": 4.6,
+    "features": [
+      "全文搜索",
+      "索引管理",
+      "聚合分析",
+      "查询DSL",
+      "日志管理",
+      "Kibana集成"
+    ],
+    "seoTitle": "Elasticsearch MCP - 搜索引擎与分析 | AI Navigator Pro",
+    "seoDescription": "Elasticsearch搜索引擎MCP，全文检索、日志分析和数据可视化平台。",
+    "views": 45000,
+    "updatedAt": "2026-06-15"
+  },
+  {
+    "id": "mistral-mcp",
+    "name": "Mistral AI MCP",
+    "logo": "https://api.dicebear.com/7.x/shapes/svg?seed=mistral-mcp",
+    "description": "Mistral AI MCP，欧洲开源大模型，高效能Mistral和Mixtral系列模型。",
+    "url": "https://mistral.ai",
+    "category": "ai-mcp",
+    "tags": [
+      "Mistral",
+      "开源模型",
+      "欧洲AI",
+      "高效"
+    ],
+    "rating": 4.6,
+    "features": [
+      "Mistral模型",
+      "Mixtral MoE",
+      "推理API",
+      "函数调用",
+      "代码生成",
+      "自托管"
+    ],
+    "seoTitle": "Mistral AI MCP - 开源大模型 | AI Navigator Pro",
+    "seoDescription": "Mistral AI MCP，欧洲开源大模型，高效能Mistral和Mixtral系列模型。",
+    "trending": true,
+    "views": 50000,
+    "updatedAt": "2026-06-14"
+  },
+  {
+    "id": "mongodb-mcp",
+    "name": "MongoDB MCP",
+    "logo": "https://api.dicebear.com/7.x/shapes/svg?seed=mongodb-mcp",
+    "description": "MongoDB文档数据库MCP，支持NoSQL查询、聚合管道和文档管理。",
+    "url": "https://www.mongodb.com",
+    "category": "database",
+    "tags": [
+      "MongoDB",
+      "NoSQL",
+      "文档数据库",
+      "非关系型"
+    ],
+    "rating": 4.7,
+    "features": [
+      "文档CRUD",
+      "聚合管道",
+      "索引管理",
+      "数据建模",
+      "备份恢复",
+      "Atlas集成"
+    ],
+    "seoTitle": "MongoDB MCP - 文档数据库 | AI Navigator Pro",
+    "seoDescription": "MongoDB文档数据库MCP，支持NoSQL查询、聚合管道和文档管理。",
+    "featured": true,
+    "trending": true,
+    "views": 58000,
+    "updatedAt": "2026-06-11"
+  },
+  {
+    "id": "fly-io-mcp",
+    "name": "Fly.io MCP",
+    "logo": "https://api.dicebear.com/7.x/shapes/svg?seed=flyio-mcp",
+    "description": "Fly.io MCP，边缘应用部署平台，全球分布式容器化应用部署服务。",
+    "url": "https://fly.io",
+    "category": "cloud",
+    "tags": [
+      "Fly.io",
+      "边缘部署",
+      "容器",
+      "全球部署"
+    ],
+    "rating": 4.5,
+    "features": [
+      "边缘部署",
+      "容器部署",
+      "全球节点",
+      "自动扩缩",
+      "PostgreSQL",
+      "Redis"
+    ],
+    "seoTitle": "Fly.io MCP - 边缘应用部署 | AI Navigator Pro",
+    "seoDescription": "Fly.io MCP，边缘应用部署平台，全球分布式容器化应用部署服务。",
+    "trending": true,
+    "views": 35000,
+    "updatedAt": "2026-06-11"
+  },
+  {
+    "id": "okta-mcp",
+    "name": "Okta MCP",
+    "logo": "https://api.dicebear.com/7.x/shapes/svg?seed=okta-mcp",
+    "description": "Okta身份管理MCP，企业级身份验证和访问管理平台。",
+    "url": "https://www.okta.com",
+    "category": "security",
+    "tags": [
+      "Okta",
+      "身份管理",
+      "SSO",
+      "IAM"
+    ],
+    "rating": 4.6,
+    "features": [
+      "单点登录SSO",
+      "多因素认证",
+      "用户管理",
+      "API访问管理",
+      "生命周期管理",
+      "安全策略"
+    ],
+    "seoTitle": "Okta MCP - 身份访问管理 | AI Navigator Pro",
+    "seoDescription": "Okta身份管理MCP，企业级身份验证和访问管理平台。",
+    "featured": true,
+    "views": 40000,
+    "updatedAt": "2026-06-10"
+  },
+  {
+    "id": "obsidian-mcp",
+    "name": "Obsidian MCP",
+    "logo": "https://api.dicebear.com/7.x/shapes/svg?seed=obsidian-mcp",
+    "description": "Obsidian笔记MCP，基于本地Markdown的双向链接知识管理工具。",
+    "url": "https://obsidian.md",
+    "category": "productivity",
+    "tags": [
+      "Obsidian",
+      "笔记",
+      "知识管理",
+      "双向链接"
+    ],
+    "rating": 4.7,
+    "features": [
+      "笔记管理",
+      "双向链接",
+      "图谱视图",
+      "标签系统",
+      "模板系统",
+      "插件生态"
+    ],
+    "seoTitle": "Obsidian MCP - 本地知识管理 | AI Navigator Pro",
+    "seoDescription": "Obsidian笔记MCP，基于本地Markdown的双向链接知识管理工具。",
+    "trending": true,
+    "views": 45000,
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "id": "slack-ai-mcp",
+    "name": "Slack AI MCP",
+    "logo": "https://api.dicebear.com/7.x/shapes/svg?seed=slack-ai-mcp",
+    "description": "Slack AI增强版MCP，智能摘要、消息总结和AI助手功能。",
+    "url": "https://slack.com/ai",
+    "category": "communication",
+    "tags": [
+      "Slack",
+      "AI",
+      "智能摘要",
+      "团队协作"
+    ],
+    "rating": 4.7,
+    "features": [
+      "消息摘要",
+      "AI助手",
+      "线索搜索",
+      "对话总结",
+      "智能回复",
+      "知识问答"
+    ],
+    "seoTitle": "Slack AI MCP - 智能团队通讯 | AI Navigator Pro",
+    "seoDescription": "Slack AI增强版MCP，智能摘要、消息总结和AI助手功能。",
+    "featured": true,
+    "trending": true,
+    "views": 58000,
+    "updatedAt": "2026-06-06"
+  },
+  {
+    "id": "cohere-mcp",
+    "name": "Cohere MCP",
+    "logo": "https://api.dicebear.com/7.x/shapes/svg?seed=cohere-mcp",
+    "description": "Cohere AI MCP，企业级生成式AI平台，支持Command模型和Embeddings。",
+    "url": "https://cohere.com",
+    "category": "ai-mcp",
+    "tags": [
+      "Cohere",
+      "企业AI",
+      "Embeddings",
+      "生成式AI"
+    ],
+    "rating": 4.5,
+    "features": [
+      "Command模型",
+      "Embeddings",
+      "Rerank",
+      "对话AI",
+      "多语言支持",
+      "企业安全"
+    ],
+    "seoTitle": "Cohere MCP - 企业级AI平台 | AI Navigator Pro",
+    "seoDescription": "Cohere AI MCP，企业级生成式AI平台，支持Command模型和Embeddings。",
+    "views": 42000,
+    "updatedAt": "2026-06-06"
+  },
+  {
+    "id": "github-mcp",
+    "name": "GitHub MCP",
+    "logo": "https://api.dicebear.com/7.x/shapes/svg?seed=github-mcp",
+    "description": "官方GitHub MCP服务器，提供仓库管理、Issue处理、PR操作等功能。",
+    "url": "https://github.com/marketplace/mcp",
+    "category": "developer-tools",
+    "tags": [
+      "GitHub",
+      "开发",
+      "仓库管理",
+      "官方"
+    ],
+    "rating": 4.8,
+    "updatedAt": "2026-06-04",
+    "features": [
+      "仓库浏览与搜索",
+      "Issue创建与管理",
+      "Pull Request操作",
+      "代码审查",
+      "Actions触发",
+      "文件读写"
+    ],
+    "seoTitle": "GitHub MCP - 官方GitHub集成 | AI Navigator Pro",
+    "seoDescription": "官方GitHub MCP服务器，提供仓库管理、Issue处理、PR操作等功能。",
+    "featured": true,
+    "trending": true,
+    "views": 78000
+  },
+  {
+    "id": "browser-mcp",
+    "name": "Browser MCP",
+    "logo": "https://api.dicebear.com/7.x/shapes/svg?seed=browser-mcp",
+    "description": "浏览器自动化MCP服务器，支持网页导航、截图、数据提取等功能。",
+    "url": "https://playwright.dev",
+    "category": "automation",
+    "tags": [
+      "浏览器",
+      "自动化",
+      "测试",
+      "爬虫"
+    ],
+    "rating": 4.7,
+    "updatedAt": "2026-06-04",
+    "features": [
+      "网页导航",
+      "页面截图",
+      "元素交互",
+      "数据提取",
+      "表单填写",
+      "性能分析"
+    ],
+    "seoTitle": "Browser MCP - 浏览器自动化集成 | AI Navigator Pro",
+    "seoDescription": "浏览器自动化MCP服务器，支持网页导航、截图、数据提取等功能。",
+    "featured": true,
+    "trending": true,
+    "views": 68000
+  },
+  {
+    "id": "alibaba-cloud-mcp",
+    "name": "阿里云 MCP",
+    "logo": "https://api.dicebear.com/7.x/shapes/svg?seed=aliyun-mcp",
+    "description": "阿里云MCP，阿里巴巴云计算平台，支持ECS、OSS、RDS等云服务。",
+    "url": "https://www.aliyun.com",
+    "category": "cloud",
+    "tags": [
+      "阿里云",
+      "Alibaba Cloud",
+      "云计算",
+      "中国云"
+    ],
+    "rating": 4.5,
+    "features": [
+      "ECS云服务器",
+      "OSS对象存储",
+      "RDS数据库",
+      "SLB负载均衡",
+      "VPC网络",
+      "云监控"
+    ],
+    "seoTitle": "阿里云 MCP - 阿里巴巴云计算 | AI Navigator Pro",
+    "seoDescription": "阿里云MCP，阿里巴巴云计算平台，支持ECS、OSS、RDS等云服务。",
+    "views": 48000,
+    "updatedAt": "2026-06-04"
+  },
+  {
+    "id": "azure-mcp",
+    "name": "Microsoft Azure MCP",
+    "logo": "https://api.dicebear.com/7.x/shapes/svg?seed=azure-mcp",
+    "description": "Microsoft Azure MCP，微软云服务平台，支持虚拟机、AI服务、数据库等。",
+    "url": "https://azure.microsoft.com",
+    "category": "cloud",
+    "tags": [
+      "Azure",
+      "微软云",
+      "云计算",
+      "企业级"
+    ],
+    "rating": 4.6,
+    "features": [
+      "虚拟机",
+      "Azure Functions",
+      "SQL数据库",
+      "AI服务",
+      "DevOps",
+      "安全中心"
+    ],
+    "seoTitle": "Microsoft Azure MCP - 微软云服务 | AI Navigator Pro",
+    "seoDescription": "Microsoft Azure MCP，微软云服务平台，支持虚拟机、AI服务、数据库等。",
+    "featured": true,
+    "views": 65000,
+    "updatedAt": "2026-05-28"
+  },
+  {
+    "id": "mattermost-mcp",
+    "name": "Mattermost MCP",
+    "logo": "https://api.dicebear.com/7.x/shapes/svg?seed=mattermost-mcp",
+    "description": "Mattermost开源协作MCP，自托管的企业级团队通讯平台。",
+    "url": "https://mattermost.com",
+    "category": "communication",
+    "tags": [
+      "Mattermost",
+      "开源",
+      "自托管",
+      "企业协作"
+    ],
+    "rating": 4.4,
+    "features": [
+      "即时消息",
+      "频道管理",
+      "文件共享",
+      "插件系统",
+      "安全合规",
+      "DevOps集成"
+    ],
+    "seoTitle": "Mattermost MCP - 开源团队协作 | AI Navigator Pro",
+    "seoDescription": "Mattermost开源协作MCP，自托管的企业级团队通讯平台。",
+    "views": 28000,
+    "updatedAt": "2026-05-24"
+  },
+  {
+    "id": "huggingface-mcp",
+    "name": "Hugging Face MCP",
+    "logo": "https://api.dicebear.com/7.x/shapes/svg?seed=huggingface-mcp",
+    "description": "Hugging Face MCP，访问数千个开源AI模型，支持Transformers和推理API。",
+    "url": "https://huggingface.co",
+    "category": "ai-mcp",
+    "tags": [
+      "Hugging Face",
+      "开源模型",
+      "Transformers",
+      "AI社区"
+    ],
+    "rating": 4.7,
+    "features": [
+      "模型库访问",
+      "推理API",
+      "模型托管",
+      "数据集",
+      "Space应用",
+      "Tokenizers"
+    ],
+    "seoTitle": "Hugging Face MCP - 开源AI模型平台 | AI Navigator Pro",
+    "seoDescription": "Hugging Face MCP，访问数千个开源AI模型，支持Transformers和推理API。",
+    "featured": true,
+    "trending": true,
+    "views": 68000,
+    "updatedAt": "2026-05-16"
+  },
+  {
+    "id": "aws-mcp",
+    "name": "AWS MCP",
+    "logo": "https://api.dicebear.com/7.x/shapes/svg?seed=aws-mcp",
+    "description": "Amazon Web Services MCP，AWS云服务全面管理，支持EC2、S3、Lambda等200+服务。",
+    "url": "https://aws.amazon.com",
+    "category": "cloud",
+    "tags": [
+      "AWS",
+      "亚马逊云",
+      "云计算",
+      "IaaS"
+    ],
+    "rating": 4.7,
+    "features": [
+      "EC2管理",
+      "S3存储",
+      "Lambda函数",
+      "RDS数据库",
+      "CloudWatch监控",
+      "IAM权限"
+    ],
+    "seoTitle": "AWS MCP - 亚马逊云服务 | AI Navigator Pro",
+    "seoDescription": "Amazon Web Services MCP，AWS云服务全面管理，支持EC2、S3、Lambda等200+服务。",
+    "featured": true,
+    "trending": true,
+    "views": 72000,
+    "updatedAt": "2026-05-15"
   },
   {
     "id": "filesystem-mcp",
@@ -225,119 +783,93 @@
     ],
     "rating": 4.6,
     "views": 28000,
-    "featured": true
+    "featured": true,
+    "updatedAt": "2026-05-14",
+    "seoTitle": "Filesystem MCP - MCP集成 | AI Navigator Pro",
+    "seoDescription": "文件系统操作的MCP服务器，让AI能够读写本地文件。"
   },
   {
-    "id": "fetch-mcp",
-    "name": "Fetch MCP",
-    "logo": "https://api.dicebear.com/7.x/shapes/svg?seed=fetch",
-    "description": "网页内容抓取MCP，让AI获取并处理网络内容。",
-    "url": "https://github.com/modelcontextprotocol/servers",
-    "category": "ai-mcp",
+    "id": "amplitude-mcp",
+    "name": "Amplitude MCP",
+    "logo": "https://api.dicebear.com/7.x/shapes/svg?seed=amplitude-mcp",
+    "description": "Amplitude MCP，产品分析平台，帮助团队理解用户行为和驱动产品增长。",
+    "url": "https://amplitude.com",
+    "category": "analytics",
     "tags": [
-      "网页抓取",
-      "HTTP",
-      "官方"
+      "Amplitude",
+      "产品分析",
+      "用户行为",
+      "增长"
     ],
+    "rating": 4.6,
     "features": [
-      "网页抓取",
-      "HTML解析",
-      "Markdown转换",
-      "API调用",
-      "批量请求"
+      "行为分析",
+      "用户画像",
+      "留存分析",
+      "漏斗分析",
+      "路径分析",
+      "实验平台"
     ],
-    "useCases": [
-      "信息检索",
-      "数据采集",
-      "内容处理",
-      "API集成"
-    ],
-    "rating": 4.5,
-    "views": 22000
+    "seoTitle": "Amplitude MCP - 产品增长分析 | AI Navigator Pro",
+    "seoDescription": "Amplitude MCP，产品分析平台，帮助团队理解用户行为和驱动产品增长。",
+    "views": 42000,
+    "updatedAt": "2026-05-11"
   },
   {
-    "id": "puppeteer-mcp",
-    "name": "Puppeteer MCP",
-    "logo": "https://api.dicebear.com/7.x/shapes/svg?seed=puppeteer",
-    "description": "Puppeteer浏览器自动化MCP，提供Chrome控制能力。",
-    "url": "https://github.com/modelcontextprotocol/servers",
-    "category": "ai-mcp",
+    "id": "clickhouse-mcp",
+    "name": "ClickHouse MCP",
+    "logo": "https://api.dicebear.com/7.x/shapes/svg?seed=clickhouse-mcp",
+    "description": "ClickHouse列式数据库MCP，高性能OLAP分析和实时数据仓库。",
+    "url": "https://clickhouse.com",
+    "category": "database",
     "tags": [
-      "浏览器自动化",
-      "Puppeteer",
-      "Chrome"
+      "ClickHouse",
+      "OLAP",
+      "列式数据库",
+      "数据分析"
     ],
+    "rating": 4.6,
     "features": [
-      "Chrome控制",
-      "截图功能",
-      "PDF生成",
-      "JS执行",
-      "网络监控"
+      "列式存储",
+      "高速查询",
+      "数据压缩",
+      "实时分析",
+      "分布式集群",
+      "SQL支持"
     ],
-    "useCases": [
-      "网页测试",
-      "数据抓取",
-      "截图",
-      "PDF生成"
-    ],
-    "rating": 4.5,
-    "views": 20000
+    "seoTitle": "ClickHouse MCP - 高性能OLAP数据库 | AI Navigator Pro",
+    "seoDescription": "ClickHouse列式数据库MCP，高性能OLAP分析和实时数据仓库。",
+    "trending": true,
+    "views": 40000,
+    "updatedAt": "2026-05-09"
   },
   {
-    "id": "sqlite-mcp",
-    "name": "SQLite MCP",
-    "logo": "https://api.dicebear.com/7.x/shapes/svg?seed=sqlite",
-    "description": "SQLite数据库MCP，让AI能够执行SQL查询。",
-    "url": "https://github.com/modelcontextprotocol/servers",
-    "category": "ai-mcp",
+    "id": "gcp-mcp",
+    "name": "Google Cloud MCP",
+    "logo": "https://api.dicebear.com/7.x/shapes/svg?seed=gcp-mcp",
+    "description": "Google Cloud Platform MCP，GCP云服务管理，支持Compute、Storage、BigQuery等。",
+    "url": "https://cloud.google.com",
+    "category": "cloud",
     "tags": [
-      "数据库",
-      "SQL",
-      "SQLite"
+      "GCP",
+      "Google Cloud",
+      "云计算",
+      "大数据"
     ],
+    "rating": 4.6,
     "features": [
-      "SQL执行",
-      "数据库管理",
-      "查询优化",
-      "数据导入",
-      "模式查看"
+      "Compute Engine",
+      "Cloud Storage",
+      "BigQuery",
+      "Cloud Functions",
+      "Kubernetes",
+      "Cloud Run"
     ],
-    "useCases": [
-      "数据分析",
-      "查询执行",
-      "数据库管理",
-      "报表生成"
-    ],
-    "rating": 4.4,
-    "views": 18000
-  },
-  {
-    "id": "postgres-mcp",
-    "name": "PostgreSQL MCP",
-    "logo": "https://api.dicebear.com/7.x/shapes/svg?seed=postgres",
-    "description": "PostgreSQL数据库MCP服务器，支持复杂查询。",
-    "url": "https://github.com/modelcontextprotocol/servers",
-    "category": "ai-mcp",
-    "tags": [
-      "数据库",
-      "SQL",
-      "PostgreSQL"
-    ],
-    "features": [
-      "SQL执行",
-      "事务支持",
-      "性能分析",
-      "索引建议",
-      "备份恢复"
-    ],
-    "useCases": [
-      "数据分析",
-      "查询优化",
-      "数据迁移",
-      "DBA工作"
-    ],
-    "rating": 4.5,
-    "views": 15000
+    "seoTitle": "Google Cloud MCP - GCP云服务 | AI Navigator Pro",
+    "seoDescription": "Google Cloud Platform MCP，GCP云服务管理，支持Compute、Storage、BigQuery等。",
+    "featured": true,
+    "views": 62000,
+    "updatedAt": "2026-05-09"
   },
   {
     "id": "github-mcp-pro",
@@ -366,34 +898,2218 @@
     ],
     "rating": 4.6,
     "views": 25000,
-    "trending": true
+    "trending": true,
+    "updatedAt": "2026-05-07",
+    "seoTitle": "GitHub MCP Pro - MCP集成 | AI Navigator Pro",
+    "seoDescription": "增强版GitHub MCP，提供完整的代码管理能力。"
   },
   {
-    "id": "docker-mcp",
-    "name": "Docker MCP",
-    "logo": "https://api.dicebear.com/7.x/shapes/svg?seed=docker",
-    "description": "Docker容器管理MCP，让AI管理容器化应用。",
+    "id": "wazuh-mcp",
+    "name": "Wazuh MCP",
+    "logo": "https://api.dicebear.com/7.x/shapes/svg?seed=wazuh-mcp",
+    "description": "Wazuh安全监控MCP，开源安全信息和事件管理SIEM平台。",
+    "url": "https://wazuh.com",
+    "category": "security",
+    "tags": [
+      "Wazuh",
+      "SIEM",
+      "安全监控",
+      "开源"
+    ],
+    "rating": 4.5,
+    "features": [
+      "入侵检测",
+      "日志分析",
+      "文件完整性",
+      "漏洞检测",
+      "合规性",
+      "威胁情报"
+    ],
+    "seoTitle": "Wazuh MCP - 开源SIEM平台 | AI Navigator Pro",
+    "seoDescription": "Wazuh安全监控MCP，开源安全信息和事件管理SIEM平台。",
+    "trending": true,
+    "views": 34000,
+    "updatedAt": "2026-05-07"
+  },
+  {
+    "id": "playwright-mcp",
+    "name": "Playwright MCP",
+    "logo": "https://api.dicebear.com/7.x/shapes/svg?seed=playwright",
+    "description": "Playwright浏览器自动化MCP，让AI能够浏览网页和操作浏览器。",
+    "url": "https://github.com/microsoft/playwright-mcp",
+    "category": "ai-mcp",
+    "tags": [
+      "浏览器自动化",
+      "微软",
+      "开源"
+    ],
+    "features": [
+      "浏览器自动化",
+      "网页截图",
+      "表单操作",
+      "数据抓取",
+      "测试支持"
+    ],
+    "useCases": [
+      "网页测试",
+      "数据采集",
+      "自动化操作",
+      "UI验证"
+    ],
+    "rating": 4.7,
+    "views": 32000,
+    "updatedAt": "2026-05-03",
+    "seoTitle": "Playwright MCP - MCP集成 | AI Navigator Pro",
+    "seoDescription": "Playwright浏览器自动化MCP，让AI能够浏览网页和操作浏览器。"
+  },
+  {
+    "id": "perplexity-mcp",
+    "name": "Perplexity MCP",
+    "logo": "https://api.dicebear.com/7.x/shapes/svg?seed=perplexity-mcp",
+    "description": "Perplexity AI MCP，AI搜索引擎，实时网络搜索和答案引用来源。",
+    "url": "https://www.perplexity.ai",
+    "category": "ai-mcp",
+    "tags": [
+      "Perplexity",
+      "AI搜索",
+      "搜索引擎",
+      "知识问答"
+    ],
+    "rating": 4.7,
+    "features": [
+      "AI搜索",
+      "实时网络",
+      "来源引用",
+      "专注模式",
+      "Pro搜索",
+      "API访问"
+    ],
+    "seoTitle": "Perplexity MCP - AI搜索引擎 | AI Navigator Pro",
+    "seoDescription": "Perplexity AI MCP，AI搜索引擎，实时网络搜索和答案引用来源。",
+    "featured": true,
+    "trending": true,
+    "views": 62000,
+    "updatedAt": "2026-05-03"
+  },
+  {
+    "id": "looker-mcp",
+    "name": "Looker MCP",
+    "logo": "https://api.dicebear.com/7.x/shapes/svg?seed=looker-mcp",
+    "description": "Google Looker MCP，数据平台，企业级BI和数据应用构建平台。",
+    "url": "https://looker.com",
+    "category": "analytics",
+    "tags": [
+      "Looker",
+      "Google",
+      "BI",
+      "数据平台"
+    ],
+    "rating": 4.5,
+    "features": [
+      "数据建模LookML",
+      "仪表板",
+      "数据探索",
+      "警报",
+      "数据行动",
+      "嵌入分析"
+    ],
+    "seoTitle": "Looker MCP - Google数据平台 | AI Navigator Pro",
+    "seoDescription": "Google Looker MCP，数据平台，企业级BI和数据应用构建平台。",
+    "views": 35000,
+    "updatedAt": "2026-05-03"
+  },
+  {
+    "id": "postgres-mcp",
+    "name": "PostgreSQL MCP",
+    "logo": "https://api.dicebear.com/7.x/shapes/svg?seed=postgres",
+    "description": "PostgreSQL数据库MCP服务器，支持复杂查询。",
     "url": "https://github.com/modelcontextprotocol/servers",
     "category": "ai-mcp",
     "tags": [
+      "数据库",
+      "SQL",
+      "PostgreSQL"
+    ],
+    "features": [
+      "SQL执行",
+      "事务支持",
+      "性能分析",
+      "索引建议",
+      "备份恢复"
+    ],
+    "useCases": [
+      "数据分析",
+      "查询优化",
+      "数据迁移",
+      "DBA工作"
+    ],
+    "rating": 4.5,
+    "views": 15000,
+    "updatedAt": "2026-05-01",
+    "seoTitle": "PostgreSQL MCP - MCP集成 | AI Navigator Pro",
+    "seoDescription": "PostgreSQL数据库MCP服务器，支持复杂查询。"
+  },
+  {
+    "id": "mixpanel-mcp",
+    "name": "Mixpanel MCP",
+    "logo": "https://api.dicebear.com/7.x/shapes/svg?seed=mixpanel-mcp",
+    "description": "Mixpanel产品分析MCP，用户行为分析、漏斗和留存分析平台。",
+    "url": "https://mixpanel.com",
+    "category": "analytics",
+    "tags": [
+      "Mixpanel",
+      "产品分析",
+      "用户行为",
+      "留存分析"
+    ],
+    "rating": 4.6,
+    "features": [
+      "事件跟踪",
+      "漏斗分析",
+      "留存分析",
+      "用户画像",
+      "A/B测试",
+      "消息推送"
+    ],
+    "seoTitle": "Mixpanel MCP - 产品分析平台 | AI Navigator Pro",
+    "seoDescription": "Mixpanel产品分析MCP，用户行为分析、漏斗和留存分析平台。",
+    "featured": true,
+    "views": 48000,
+    "updatedAt": "2026-05-01"
+  },
+  {
+    "id": "datadog-mcp",
+    "name": "Datadog MCP",
+    "logo": "https://api.dicebear.com/7.x/shapes/svg?seed=datadog-mcp",
+    "description": "Datadog可观测性MCP，统一监控、APM、日志和安全的SaaS平台。",
+    "url": "https://www.datadoghq.com",
+    "category": "analytics",
+    "tags": [
+      "Datadog",
+      "监控",
+      "APM",
+      "可观测性"
+    ],
+    "rating": 4.7,
+    "features": [
+      "基础设施监控",
+      "APM",
+      "日志管理",
+      "真实用户监控",
+      "安全监控",
+      "网络监控"
+    ],
+    "seoTitle": "Datadog MCP - 统一可观测性 | AI Navigator Pro",
+    "seoDescription": "Datadog可观测性MCP，统一监控、APM、日志和安全的SaaS平台。",
+    "featured": true,
+    "views": 50000,
+    "updatedAt": "2026-04-27"
+  },
+  {
+    "id": "jetbrains-mcp",
+    "name": "JetBrains MCP",
+    "logo": "https://api.dicebear.com/7.x/shapes/svg?seed=jetbrains-mcp",
+    "description": "JetBrains IDE MCP服务器，支持IntelliJ、PyCharm、WebStorm等JetBrains系列IDE操作。",
+    "url": "https://www.jetbrains.com",
+    "category": "developer-tools",
+    "tags": [
+      "JetBrains",
+      "IntelliJ",
+      "IDE",
+      "智能编码"
+    ],
+    "rating": 4.6,
+    "features": [
+      "代码智能提示",
+      "重构支持",
+      "调试集成",
+      "数据库工具",
+      "测试框架",
+      "代码分析"
+    ],
+    "seoTitle": "JetBrains MCP - 专业开发工具集成 | AI Navigator Pro",
+    "seoDescription": "JetBrains IDE MCP服务器，支持IntelliJ、PyCharm等系列IDE操作。",
+    "views": 45000,
+    "updatedAt": "2026-04-19"
+  },
+  {
+    "id": "openai-mcp",
+    "name": "OpenAI MCP",
+    "logo": "https://api.dicebear.com/7.x/shapes/svg?seed=openai-mcp",
+    "description": "OpenAI官方MCP服务器，支持GPT-4、DALL-E、Whisper等模型调用和功能。",
+    "url": "https://platform.openai.com",
+    "category": "ai-mcp",
+    "tags": [
+      "OpenAI",
+      "GPT",
+      "DALL-E",
+      "官方"
+    ],
+    "rating": 4.9,
+    "features": [
+      "GPT-4对话",
+      "DALL-E图像生成",
+      "Whisper语音",
+      "Embeddings",
+      "Function Calling",
+      "微调支持"
+    ],
+    "seoTitle": "OpenAI MCP - 官方AI模型平台 | AI Navigator Pro",
+    "seoDescription": "OpenAI官方MCP服务器，支持GPT-4、DALL-E、Whisper等模型调用和功能。",
+    "featured": true,
+    "trending": true,
+    "views": 85000,
+    "updatedAt": "2026-04-19"
+  },
+  {
+    "id": "dribbble-mcp",
+    "name": "Dribbble MCP",
+    "logo": "https://api.dicebear.com/7.x/shapes/svg?seed=dribbble-mcp",
+    "description": "Dribbble设计社区MCP，设计灵感发现和设计师作品展示平台。",
+    "url": "https://dribbble.com",
+    "category": "design-tools",
+    "tags": [
+      "Dribbble",
+      "设计社区",
+      "灵感",
+      "作品集"
+    ],
+    "rating": 4.4,
+    "features": [
+      "作品浏览",
+      "设计搜索",
+      "设计师发现",
+      "灵感收藏",
+      "团队展示",
+      "招聘对接"
+    ],
+    "seoTitle": "Dribbble MCP - 设计灵感社区 | AI Navigator Pro",
+    "seoDescription": "Dribbble设计社区MCP，设计灵感发现和设计师作品展示平台。",
+    "views": 29000,
+    "updatedAt": "2026-04-18"
+  },
+  {
+    "id": "zapier-mcp",
+    "name": "Zapier MCP",
+    "logo": "https://api.dicebear.com/7.x/shapes/svg?seed=zapier-mcp",
+    "description": "Zapier自动化MCP，连接数千款应用的无代码工作流自动化平台。",
+    "url": "https://zapier.com",
+    "category": "automation",
+    "tags": [
+      "Zapier",
+      "自动化",
+      "无代码",
+      "工作流"
+    ],
+    "rating": 4.7,
+    "features": [
+      "工作流自动化",
+      "应用集成",
+      "触发器设置",
+      "动作配置",
+      "多步骤Zap",
+      "错误处理"
+    ],
+    "seoTitle": "Zapier MCP - 无代码自动化平台 | AI Navigator Pro",
+    "seoDescription": "Zapier自动化MCP，连接数千款应用的无代码工作流自动化平台。",
+    "featured": true,
+    "trending": true,
+    "views": 58000,
+    "updatedAt": "2026-04-13"
+  },
+  {
+    "id": "dynamodb-mcp",
+    "name": "DynamoDB MCP",
+    "logo": "https://api.dicebear.com/7.x/shapes/svg?seed=dynamodb-mcp",
+    "description": "Amazon DynamoDB MCP，AWS托管的NoSQL键值和文档数据库服务。",
+    "url": "https://aws.amazon.com/dynamodb",
+    "category": "database",
+    "tags": [
+      "DynamoDB",
+      "AWS",
+      "NoSQL",
+      "云数据库"
+    ],
+    "rating": 4.5,
+    "features": [
+      "表管理",
+      "项目CRUD",
+      "查询扫描",
+      "索引管理",
+      "自动扩展",
+      "流处理"
+    ],
+    "seoTitle": "DynamoDB MCP - AWS NoSQL数据库 | AI Navigator Pro",
+    "seoDescription": "Amazon DynamoDB MCP，AWS托管的NoSQL键值和文档数据库服务。",
+    "views": 42000,
+    "updatedAt": "2026-04-13"
+  },
+  {
+    "id": "crewai-mcp",
+    "name": "CrewAI MCP",
+    "logo": "https://api.dicebear.com/7.x/shapes/svg?seed=crewai-mcp",
+    "description": "CrewAI多智能体MCP框架，角色扮演协作AI智能体团队。",
+    "url": "https://www.crewai.com",
+    "category": "ai-mcp",
+    "tags": [
+      "CrewAI",
+      "多智能体",
+      "Agent",
+      "协作"
+    ],
+    "rating": 4.6,
+    "features": [
+      "多智能体协作",
+      "角色扮演",
+      "任务委派",
+      "工具使用",
+      "流程定义",
+      "内存共享"
+    ],
+    "seoTitle": "CrewAI MCP - 多智能体协作框架 | AI Navigator Pro",
+    "seoDescription": "CrewAI多智能体MCP框架，角色扮演协作AI智能体团队。",
+    "trending": true,
+    "views": 48000,
+    "updatedAt": "2026-04-13"
+  },
+  {
+    "id": "anthropic-mcp",
+    "name": "Anthropic MCP",
+    "logo": "https://api.dicebear.com/7.x/shapes/svg?seed=anthropic-mcp",
+    "description": "Anthropic Claude MCP，支持Claude系列模型、长上下文和安全对齐对话。",
+    "url": "https://www.anthropic.com",
+    "category": "ai-mcp",
+    "tags": [
+      "Anthropic",
+      "Claude",
+      "AI助手",
+      "长上下文"
+    ],
+    "rating": 4.8,
+    "features": [
+      "Claude对话",
+      "长上下文支持",
+      "工具使用",
+      "视觉理解",
+      "代码生成",
+      "安全对齐"
+    ],
+    "seoTitle": "Anthropic MCP - Claude AI助手 | AI Navigator Pro",
+    "seoDescription": "Anthropic Claude MCP，支持Claude系列模型、长上下文和安全对齐对话。",
+    "featured": true,
+    "trending": true,
+    "views": 78000,
+    "updatedAt": "2026-04-12"
+  },
+  {
+    "id": "jenkins-mcp",
+    "name": "Jenkins MCP",
+    "logo": "https://api.dicebear.com/7.x/shapes/svg?seed=jenkins-mcp",
+    "description": "Jenkins CI/CD MCP服务器，自动化构建、测试和部署流水线管理。",
+    "url": "https://www.jenkins.io",
+    "category": "developer-tools",
+    "tags": [
+      "Jenkins",
+      "CI/CD",
+      "自动化",
+      "持续集成"
+    ],
+    "rating": 4.4,
+    "features": [
+      "流水线管理",
+      "构建触发",
+      "测试报告",
+      "部署自动化",
+      "插件管理",
+      "任务监控"
+    ],
+    "seoTitle": "Jenkins MCP - CI/CD自动化服务器 | AI Navigator Pro",
+    "seoDescription": "Jenkins CI/CD MCP服务器，自动化构建、测试和部署流水线管理。",
+    "views": 32000,
+    "updatedAt": "2026-04-11"
+  },
+  {
+    "id": "vscode-mcp",
+    "name": "VS Code MCP",
+    "logo": "https://api.dicebear.com/7.x/shapes/svg?seed=vscode-mcp",
+    "description": "Visual Studio Code MCP服务器，支持代码编辑、调试、扩展管理等IDE功能。",
+    "url": "https://code.visualstudio.com/api",
+    "category": "developer-tools",
+    "tags": [
+      "VS Code",
+      "IDE",
+      "代码编辑",
+      "微软"
+    ],
+    "rating": 4.8,
+    "features": [
+      "代码编辑",
+      "调试支持",
+      "扩展管理",
+      "智能提示",
+      "终端集成",
+      "Git集成"
+    ],
+    "seoTitle": "VS Code MCP - 智能代码编辑器 | AI Navigator Pro",
+    "seoDescription": "Visual Studio Code MCP服务器，支持代码编辑、调试、扩展管理等IDE功能。",
+    "featured": true,
+    "views": 72000,
+    "updatedAt": "2026-04-08"
+  },
+  {
+    "id": "netlify-mcp",
+    "name": "Netlify MCP",
+    "logo": "https://api.dicebear.com/7.x/shapes/svg?seed=netlify-mcp",
+    "description": "Netlify MCP，现代Web项目部署平台，支持静态站点、Serverless函数和边缘计算。",
+    "url": "https://www.netlify.com",
+    "category": "cloud",
+    "tags": [
+      "Netlify",
+      "部署",
+      "静态站点",
+      "Jamstack"
+    ],
+    "rating": 4.6,
+    "features": [
+      "持续部署",
+      "预览环境",
+      "Edge Functions",
+      "Forms",
+      "Identity",
+      "Analytics"
+    ],
+    "seoTitle": "Netlify MCP - 现代Web部署平台 | AI Navigator Pro",
+    "seoDescription": "Netlify MCP，现代Web项目部署平台，支持静态站点、Serverless函数和边缘计算。",
+    "views": 45000,
+    "updatedAt": "2026-04-06"
+  },
+  {
+    "id": "vault-mcp",
+    "name": "HashiCorp Vault MCP",
+    "logo": "https://api.dicebear.com/7.x/shapes/svg?seed=vault-mcp",
+    "description": "HashiCorp Vault MCP，密钥和机密管理，安全存储和访问令牌、密码等敏感数据。",
+    "url": "https://www.vaultproject.io",
+    "category": "security",
+    "tags": [
+      "Vault",
+      "密钥管理",
+      "安全",
+      "HashiCorp"
+    ],
+    "rating": 4.7,
+    "features": [
+      "机密管理",
+      "动态密钥",
+      "数据加密",
+      "访问控制",
+      "审计日志",
+      "密钥轮转"
+    ],
+    "seoTitle": "HashiCorp Vault MCP - 密钥管理 | AI Navigator Pro",
+    "seoDescription": "HashiCorp Vault MCP，密钥和机密管理，安全存储和访问令牌、密码等敏感数据。",
+    "featured": true,
+    "views": 42000,
+    "updatedAt": "2026-04-01"
+  },
+  {
+    "id": "segment-mcp",
+    "name": "Segment MCP",
+    "logo": "https://api.dicebear.com/7.x/shapes/svg?seed=segment-mcp",
+    "description": "Segment客户数据平台MCP，收集、清洗和路由客户数据到各工具。",
+    "url": "https://segment.com",
+    "category": "analytics",
+    "tags": [
+      "Segment",
+      "CDP",
+      "客户数据",
+      "数据收集"
+    ],
+    "rating": 4.5,
+    "features": [
+      "数据收集",
+      "数据路由",
+      "身份解析",
+      "受众构建",
+      "数据治理",
+      "协议管理"
+    ],
+    "seoTitle": "Segment MCP - 客户数据平台 | AI Navigator Pro",
+    "seoDescription": "Segment客户数据平台MCP，收集、清洗和路由客户数据到各工具。",
+    "views": 38000,
+    "updatedAt": "2026-04-01"
+  },
+  {
+    "id": "webflow-mcp",
+    "name": "Webflow MCP",
+    "logo": "https://api.dicebear.com/7.x/shapes/svg?seed=webflow-mcp",
+    "description": "Webflow可视化网页设计MCP，无代码响应式网站构建和CMS管理。",
+    "url": "https://webflow.com",
+    "category": "design-tools",
+    "tags": [
+      "Webflow",
+      "网页设计",
+      "无代码",
+      "CMS"
+    ],
+    "rating": 4.5,
+    "features": [
+      "可视化设计",
+      "响应式布局",
+      "CMS系统",
+      "动画交互",
+      "电商功能",
+      "托管部署"
+    ],
+    "seoTitle": "Webflow MCP - 可视化网页构建 | AI Navigator Pro",
+    "seoDescription": "Webflow可视化网页设计MCP，无代码响应式网站构建和CMS管理。",
+    "featured": true,
+    "views": 45000,
+    "updatedAt": "2026-03-27"
+  },
+  {
+    "id": "prefect-mcp",
+    "name": "Prefect MCP",
+    "logo": "https://api.dicebear.com/7.x/shapes/svg?seed=prefect-mcp",
+    "description": "Prefect现代数据工作流MCP，Python原生的数据管道和自动化工具。",
+    "url": "https://www.prefect.io",
+    "category": "automation",
+    "tags": [
+      "Prefect",
+      "数据工作流",
+      "Python",
+      "调度"
+    ],
+    "rating": 4.5,
+    "features": [
+      "流管理",
+      "任务编排",
+      "监控仪表板",
+      "失败重试",
+      "参数化运行",
+      "云/自托管"
+    ],
+    "seoTitle": "Prefect MCP - 现代数据工作流 | AI Navigator Pro",
+    "seoDescription": "Prefect现代数据工作流MCP，Python原生的数据管道和自动化工具。",
+    "trending": true,
+    "views": 35000,
+    "updatedAt": "2026-03-27"
+  },
+  {
+    "id": "npm-mcp",
+    "name": "NPM MCP",
+    "logo": "https://api.dicebear.com/7.x/shapes/svg?seed=npm-mcp",
+    "description": "NPM包管理器MCP服务器，支持包搜索、安装、版本管理等功能。",
+    "url": "https://www.npmjs.com",
+    "category": "developer-tools",
+    "tags": [
+      "NPM",
+      "Node.js",
+      "包管理",
+      "JavaScript"
+    ],
+    "rating": 4.5,
+    "features": [
+      "包搜索",
+      "版本管理",
+      "依赖分析",
+      "安全审计",
+      "发布管理",
+      "下载统计"
+    ],
+    "seoTitle": "NPM MCP - JavaScript包管理 | AI Navigator Pro",
+    "seoDescription": "NPM包管理器MCP服务器，支持包搜索、安装、版本管理等功能。",
+    "views": 38000,
+    "updatedAt": "2026-03-26"
+  },
+  {
+    "id": "figma-plugins-mcp",
+    "name": "Figma Plugins MCP",
+    "logo": "https://api.dicebear.com/7.x/shapes/svg?seed=figma-plugins-mcp",
+    "description": "Figma插件生态MCP，集成数百个Figma插件扩展设计能力。",
+    "url": "https://www.figma.com/community/plugins",
+    "category": "design-tools",
+    "tags": [
+      "Figma",
+      "插件",
+      "设计自动化",
+      "生态系统"
+    ],
+    "rating": 4.5,
+    "features": [
+      "插件管理",
+      "自动布局",
+      "设计令牌",
+      "图标库",
+      "无障碍检查",
+      "代码生成"
+    ],
+    "seoTitle": "Figma Plugins MCP - 设计插件生态 | AI Navigator Pro",
+    "seoDescription": "Figma插件生态MCP，集成数百个Figma插件扩展设计能力。",
+    "views": 36000,
+    "updatedAt": "2026-03-26"
+  },
+  {
+    "id": "digitalocean-mcp",
+    "name": "DigitalOcean MCP",
+    "logo": "https://api.dicebear.com/7.x/shapes/svg?seed=digitalocean-mcp",
+    "description": "DigitalOcean MCP，开发者友好的云平台，简单易用的Droplets和托管服务。",
+    "url": "https://www.digitalocean.com",
+    "category": "cloud",
+    "tags": [
+      "DigitalOcean",
+      "开发者云",
+      "Droplets",
+      "简单易用"
+    ],
+    "rating": 4.5,
+    "features": [
+      "Droplets管理",
+      "托管数据库",
+      "Spaces存储",
+      "App Platform",
+      "Kubernetes",
+      "监控告警"
+    ],
+    "seoTitle": "DigitalOcean MCP - 开发者云平台 | AI Navigator Pro",
+    "seoDescription": "DigitalOcean MCP，开发者友好的云平台，简单易用的Droplets和托管服务。",
+    "views": 38000,
+    "updatedAt": "2026-03-25"
+  },
+  {
+    "id": "telegram-mcp",
+    "name": "Telegram MCP",
+    "logo": "https://api.dicebear.com/7.x/shapes/svg?seed=telegram-mcp",
+    "description": "Telegram即时通讯MCP，支持消息发送、群组管理和机器人开发。",
+    "url": "https://core.telegram.org",
+    "category": "communication",
+    "tags": [
+      "Telegram",
+      "即时通讯",
+      "机器人",
+      "群组"
+    ],
+    "rating": 4.6,
+    "features": [
+      "消息发送",
+      "群组管理",
+      "机器人开发",
+      "文件传输",
+      "频道管理",
+      "贴纸包"
+    ],
+    "seoTitle": "Telegram MCP - 即时通讯平台 | AI Navigator Pro",
+    "seoDescription": "Telegram即时通讯MCP，支持消息发送、群组管理和机器人开发。",
+    "trending": true,
+    "views": 42000,
+    "updatedAt": "2026-03-23"
+  },
+  {
+    "id": "n8n-mcp",
+    "name": "n8n MCP",
+    "logo": "https://api.dicebear.com/7.x/shapes/svg?seed=n8n-mcp",
+    "description": "n8n开源工作流自动化MCP，可自托管的可视化工作流编排工具。",
+    "url": "https://n8n.io",
+    "category": "automation",
+    "tags": [
+      "n8n",
+      "开源",
+      "工作流",
+      "自动化"
+    ],
+    "rating": 4.6,
+    "features": [
+      "可视化编排",
+      "自定义节点",
+      "自托管部署",
+      "Webhook触发",
+      "条件分支",
+      "错误处理"
+    ],
+    "seoTitle": "n8n MCP - 开源工作流自动化 | AI Navigator Pro",
+    "seoDescription": "n8n开源工作流自动化MCP，可自托管的可视化工作流编排工具。",
+    "featured": true,
+    "views": 45000,
+    "updatedAt": "2026-03-21"
+  },
+  {
+    "id": "canva-mcp",
+    "name": "Canva MCP",
+    "logo": "https://api.dicebear.com/7.x/shapes/svg?seed=canva-mcp",
+    "description": "Canva在线设计平台MCP，支持图形设计、演示文稿和社交媒体素材创建。",
+    "url": "https://www.canva.com",
+    "category": "design-tools",
+    "tags": [
+      "Canva",
+      "平面设计",
+      "在线设计",
+      "模板"
+    ],
+    "rating": 4.6,
+    "features": [
+      "模板库",
+      "图形编辑",
+      "品牌套件",
+      "团队协作",
+      "批量设计",
+      "API集成"
+    ],
+    "seoTitle": "Canva MCP - 在线设计平台 | AI Navigator Pro",
+    "seoDescription": "Canva在线设计平台MCP，支持图形设计、演示文稿和社交媒体素材创建。",
+    "featured": true,
+    "trending": true,
+    "views": 58000,
+    "updatedAt": "2026-03-20"
+  },
+  {
+    "id": "trello-mcp",
+    "name": "Trello MCP",
+    "logo": "https://api.dicebear.com/7.x/shapes/svg?seed=trello-mcp",
+    "description": "Trello看板管理MCP，看板式任务和项目管理协作工具。",
+    "url": "https://trello.com",
+    "category": "productivity",
+    "tags": [
+      "Trello",
+      "看板",
+      "项目管理",
+      "协作"
+    ],
+    "rating": 4.5,
+    "features": [
+      "看板管理",
+      "卡片操作",
+      "列表组织",
+      "团队协作",
+      "Power-Ups",
+      "自动化"
+    ],
+    "seoTitle": "Trello MCP - 看板项目管理 | AI Navigator Pro",
+    "seoDescription": "Trello看板管理MCP，看板式任务和项目管理协作工具。",
+    "views": 38000,
+    "updatedAt": "2026-03-19"
+  },
+  {
+    "id": "sonarqube-mcp",
+    "name": "SonarQube MCP",
+    "logo": "https://api.dicebear.com/7.x/shapes/svg?seed=sonarqube-mcp",
+    "description": "SonarQube代码质量MCP，静态代码分析和代码质量持续检测平台。",
+    "url": "https://www.sonarqube.org",
+    "category": "security",
+    "tags": [
+      "SonarQube",
+      "代码质量",
+      "静态分析",
+      "安全扫描"
+    ],
+    "rating": 4.5,
+    "features": [
+      "静态分析",
+      "代码异味",
+      "漏洞检测",
+      "覆盖率",
+      "质量门",
+      "多语言支持"
+    ],
+    "seoTitle": "SonarQube MCP - 代码质量平台 | AI Navigator Pro",
+    "seoDescription": "SonarQube代码质量MCP，静态代码分析和代码质量持续检测平台。",
+    "views": 38000,
+    "updatedAt": "2026-03-17"
+  },
+  {
+    "id": "microsoft-365-mcp",
+    "name": "Microsoft 365 MCP",
+    "logo": "https://api.dicebear.com/7.x/shapes/svg?seed=m365-mcp",
+    "description": "Microsoft 365 MCP，Office文档、邮件、日历、团队协作一站式集成。",
+    "url": "https://www.microsoft.com/microsoft-365",
+    "category": "productivity",
+    "tags": [
+      "Microsoft",
+      "Office",
+      "邮件",
+      "协作"
+    ],
+    "rating": 4.6,
+    "features": [
+      "Word/Excel/PPT",
+      "Outlook邮件",
+      "日历管理",
+      "OneDrive存储",
+      "Teams协作",
+      "SharePoint"
+    ],
+    "seoTitle": "Microsoft 365 MCP - 办公生产力套件 | AI Navigator Pro",
+    "seoDescription": "Microsoft 365 MCP，Office文档、邮件、日历、团队协作一站式集成。",
+    "featured": true,
+    "views": 55000,
+    "updatedAt": "2026-03-15"
+  },
+  {
+    "id": "selenium-mcp",
+    "name": "Selenium MCP",
+    "logo": "https://api.dicebear.com/7.x/shapes/svg?seed=selenium-mcp",
+    "description": "Selenium自动化测试MCP，Web应用自动化测试和浏览器自动化工具。",
+    "url": "https://www.selenium.dev",
+    "category": "automation",
+    "tags": [
+      "Selenium",
+      "自动化测试",
+      "浏览器",
+      "QA"
+    ],
+    "rating": 4.4,
+    "features": [
+      "浏览器自动化",
+      "元素定位",
+      "表单填充",
+      "截图对比",
+      "测试报告",
+      "多浏览器支持"
+    ],
+    "seoTitle": "Selenium MCP - Web自动化测试 | AI Navigator Pro",
+    "seoDescription": "Selenium自动化测试MCP，Web应用自动化测试和浏览器自动化工具。",
+    "views": 32000,
+    "updatedAt": "2026-03-13"
+  },
+  {
+    "id": "microsoft-teams-mcp",
+    "name": "Microsoft Teams MCP",
+    "logo": "https://api.dicebear.com/7.x/shapes/svg?seed=teams-mcp",
+    "description": "Microsoft Teams MCP，企业级团队协作、视频会议和文档共享平台。",
+    "url": "https://learn.microsoft.com/microsoftteams",
+    "category": "communication",
+    "tags": [
+      "Microsoft Teams",
+      "企业协作",
+      "视频会议",
+      "团队"
+    ],
+    "rating": 4.6,
+    "features": [
+      "消息管理",
+      "视频会议",
+      "团队协作",
+      "文件共享",
+      "频道管理",
+      "应用集成"
+    ],
+    "seoTitle": "Microsoft Teams MCP - 企业协作平台 | AI Navigator Pro",
+    "seoDescription": "Microsoft Teams MCP，企业级团队协作、视频会议和文档共享平台。",
+    "featured": true,
+    "views": 55000,
+    "updatedAt": "2026-03-12"
+  },
+  {
+    "id": "notion-mcp",
+    "name": "Notion MCP",
+    "logo": "https://api.dicebear.com/7.x/shapes/svg?seed=notion-mcp",
+    "description": "Notion MCP服务器，提供知识库查询、页面操作、数据库管理等功能。",
+    "url": "https://developers.notion.com",
+    "category": "productivity",
+    "tags": [
+      "Notion",
+      "笔记",
+      "知识库",
+      "生产力"
+    ],
+    "rating": 4.6,
+    "updatedAt": "2026-03-08",
+    "features": [
+      "页面读取与搜索",
+      "数据库查询",
+      "内容编辑",
+      "块操作",
+      "属性管理",
+      "评论操作"
+    ],
+    "seoTitle": "Notion MCP - Notion知识库集成 | AI Navigator Pro",
+    "seoDescription": "Notion MCP服务器，提供知识库查询、页面操作、数据库管理等功能。",
+    "featured": true,
+    "trending": true,
+    "views": 71000
+  },
+  {
+    "id": "tableau-mcp",
+    "name": "Tableau MCP",
+    "logo": "https://api.dicebear.com/7.x/shapes/svg?seed=tableau-mcp",
+    "description": "Tableau数据可视化MCP，商业智能和交互式数据可视化分析平台。",
+    "url": "https://www.tableau.com",
+    "category": "analytics",
+    "tags": [
+      "Tableau",
+      "数据可视化",
+      "BI",
+      "商业智能"
+    ],
+    "rating": 4.6,
+    "features": [
+      "数据可视化",
+      "仪表板",
+      "数据连接",
+      "计算字段",
+      "地图可视化",
+      "故事叙述"
+    ],
+    "seoTitle": "Tableau MCP - 数据可视化BI | AI Navigator Pro",
+    "seoDescription": "Tableau数据可视化MCP，商业智能和交互式数据可视化分析平台。",
+    "featured": true,
+    "views": 45000,
+    "updatedAt": "2026-03-08"
+  },
+  {
+    "id": "discord-mcp",
+    "name": "Discord MCP",
+    "logo": "https://api.dicebear.com/7.x/shapes/svg?seed=discord-mcp",
+    "description": "Discord社区通讯MCP，支持服务器管理、消息发送和成员互动。",
+    "url": "https://discord.com/developers",
+    "category": "communication",
+    "tags": [
+      "Discord",
+      "社区",
+      "语音",
+      "聊天"
+    ],
+    "rating": 4.7,
+    "features": [
+      "消息发送",
+      "服务器管理",
+      "成员管理",
+      "频道管理",
+      "机器人集成",
+      "语音支持"
+    ],
+    "seoTitle": "Discord MCP - 社区通讯平台 | AI Navigator Pro",
+    "seoDescription": "Discord社区通讯MCP，支持服务器管理、消息发送和成员互动。",
+    "featured": true,
+    "trending": true,
+    "views": 62000,
+    "updatedAt": "2026-03-06"
+  },
+  {
+    "id": "postman-mcp",
+    "name": "Postman MCP",
+    "logo": "https://api.dicebear.com/7.x/shapes/svg?seed=postman-mcp",
+    "description": "Postman API测试MCP服务器，支持API调试、测试自动化和文档生成。",
+    "url": "https://www.postman.com",
+    "category": "developer-tools",
+    "tags": [
+      "Postman",
+      "API",
+      "测试",
+      "接口调试"
+    ],
+    "rating": 4.6,
+    "features": [
+      "API调试",
+      "测试自动化",
+      "集合管理",
+      "环境变量",
+      "Mock服务",
+      "文档生成"
+    ],
+    "seoTitle": "Postman MCP - API测试与调试 | AI Navigator Pro",
+    "seoDescription": "Postman API测试MCP服务器，支持API调试、测试自动化和文档生成。",
+    "trending": true,
+    "views": 48000,
+    "updatedAt": "2026-03-05"
+  },
+  {
+    "id": "linear-mcp",
+    "name": "Linear MCP",
+    "logo": "https://api.dicebear.com/7.x/shapes/svg?seed=linear-mcp",
+    "description": "Linear项目管理MCP，现代化的Issue跟踪和项目规划工具。",
+    "url": "https://linear.app",
+    "category": "developer-tools",
+    "tags": [
+      "Linear",
+      "项目管理",
+      "Issue跟踪",
+      "产品开发"
+    ],
+    "rating": 4.7,
+    "features": [
+      "Issue管理",
+      "冲刺规划",
+      "路线图",
+      "周期管理",
+      "团队协作",
+      "API集成"
+    ],
+    "seoTitle": "Linear MCP - 现代化项目管理 | AI Navigator Pro",
+    "seoDescription": "Linear项目管理MCP，现代化的Issue跟踪和项目规划工具。",
+    "trending": true,
+    "views": 41000,
+    "updatedAt": "2026-03-04"
+  },
+  {
+    "id": "coda-mcp",
+    "name": "Coda MCP",
+    "logo": "https://api.dicebear.com/7.x/shapes/svg?seed=coda-mcp",
+    "description": "Coda文档MCP，融合文档、表格和应用的现代化协作平台。",
+    "url": "https://coda.io",
+    "category": "productivity",
+    "tags": [
+      "Coda",
+      "文档",
+      "表格",
+      "协作"
+    ],
+    "rating": 4.5,
+    "features": [
+      "文档编辑",
+      "数据表管理",
+      "自动化",
+      "表单构建",
+      "仪表盘",
+      "团队协作"
+    ],
+    "seoTitle": "Coda MCP - 新一代文档协作 | AI Navigator Pro",
+    "seoDescription": "Coda文档MCP，融合文档、表格和应用的现代化协作平台。",
+    "views": 32000,
+    "updatedAt": "2026-03-03"
+  },
+  {
+    "id": "pipedream-mcp",
+    "name": "Pipedream MCP",
+    "logo": "https://api.dicebear.com/7.x/shapes/svg?seed=pipedream-mcp",
+    "description": "Pipedream开发者自动化MCP，API集成和事件驱动工作流平台。",
+    "url": "https://pipedream.com",
+    "category": "automation",
+    "tags": [
+      "Pipedream",
+      "API集成",
+      "事件驱动",
+      "开发者"
+    ],
+    "rating": 4.5,
+    "features": [
+      "API集成",
+      "事件源",
+      "工作流编辑",
+      "代码步骤",
+      "密钥管理",
+      "调试工具"
+    ],
+    "seoTitle": "Pipedream MCP - 开发者自动化平台 | AI Navigator Pro",
+    "seoDescription": "Pipedream开发者自动化MCP，API集成和事件驱动工作流平台。",
+    "trending": true,
+    "views": 36000,
+    "updatedAt": "2026-03-03"
+  },
+  {
+    "id": "clickup-mcp",
+    "name": "ClickUp MCP",
+    "logo": "https://api.dicebear.com/7.x/shapes/svg?seed=clickup-mcp",
+    "description": "ClickUp一体化工作管理MCP，任务、文档、目标、聊天一站式平台。",
+    "url": "https://clickup.com",
+    "category": "productivity",
+    "tags": [
+      "ClickUp",
+      "工作管理",
+      "任务",
+      "一体化"
+    ],
+    "rating": 4.5,
+    "features": [
+      "任务管理",
+      "文档协作",
+      "目标跟踪",
+      "时间追踪",
+      "仪表盘",
+      "自动化"
+    ],
+    "seoTitle": "ClickUp MCP - 一体化工作平台 | AI Navigator Pro",
+    "seoDescription": "ClickUp一体化工作管理MCP，任务、文档、目标、聊天一站式平台。",
+    "views": 35000,
+    "updatedAt": "2026-02-28"
+  },
+  {
+    "id": "vercel-mcp",
+    "name": "Vercel MCP",
+    "logo": "https://api.dicebear.com/7.x/shapes/svg?seed=vercel-mcp",
+    "description": "Vercel部署平台MCP，支持前端项目部署、预览环境和性能监控。",
+    "url": "https://vercel.com/docs",
+    "category": "developer-tools",
+    "tags": [
+      "Vercel",
+      "部署",
+      "前端",
+      "Serverless"
+    ],
+    "rating": 4.7,
+    "features": [
+      "一键部署",
+      "预览环境",
+      "性能监控",
+      "边缘函数",
+      "域名管理",
+      "Analytics"
+    ],
+    "seoTitle": "Vercel MCP - 前端部署平台 | AI Navigator Pro",
+    "seoDescription": "Vercel部署平台MCP，支持前端项目部署、预览环境和性能监控。",
+    "featured": true,
+    "views": 55000,
+    "updatedAt": "2026-02-25"
+  },
+  {
+    "id": "terraform-mcp",
+    "name": "Terraform MCP",
+    "logo": "https://api.dicebear.com/7.x/shapes/svg?seed=terraform-mcp",
+    "description": "HashiCorp Terraform MCP服务器，基础设施即代码自动化管理工具。",
+    "url": "https://www.terraform.io",
+    "category": "developer-tools",
+    "tags": [
+      "Terraform",
+      "IaC",
+      "基础设施",
+      "HashiCorp"
+    ],
+    "rating": 4.5,
+    "features": [
+      "基础设施编排",
+      "状态管理",
+      "模块管理",
+      "计划预览",
+      "资源监控",
+      "多云支持"
+    ],
+    "seoTitle": "Terraform MCP - 基础设施即代码 | AI Navigator Pro",
+    "seoDescription": "HashiCorp Terraform MCP服务器，基础设施即代码自动化管理工具。",
+    "views": 35000,
+    "updatedAt": "2026-02-23"
+  },
+  {
+    "id": "asana-mcp",
+    "name": "Asana MCP",
+    "logo": "https://api.dicebear.com/7.x/shapes/svg?seed=asana-mcp",
+    "description": "Asana工作管理MCP，团队项目跟踪和工作流程管理平台。",
+    "url": "https://asana.com",
+    "category": "productivity",
+    "tags": [
+      "Asana",
+      "工作管理",
+      "项目跟踪",
+      "团队协作"
+    ],
+    "rating": 4.6,
+    "features": [
+      "项目管理",
+      "任务分配",
+      "时间线",
+      "工作流自动化",
+      "报告分析",
+      "团队协作"
+    ],
+    "seoTitle": "Asana MCP - 团队工作管理 | AI Navigator Pro",
+    "seoDescription": "Asana工作管理MCP，团队项目跟踪和工作流程管理平台。",
+    "featured": true,
+    "views": 48000,
+    "updatedAt": "2026-02-23"
+  },
+  {
+    "id": "zoom-mcp",
+    "name": "Zoom MCP",
+    "logo": "https://api.dicebear.com/7.x/shapes/svg?seed=zoom-mcp",
+    "description": "Zoom视频会议MCP，支持会议管理、录制和虚拟背景等视频通讯功能。",
+    "url": "https://developers.zoom.us",
+    "category": "communication",
+    "tags": [
+      "Zoom",
+      "视频会议",
+      "线上会议",
+      "录制"
+    ],
+    "rating": 4.5,
+    "features": [
+      "会议调度",
+      "视频会议",
+      "会议录制",
+      "参会管理",
+      " breakout房间",
+      "网络研讨会"
+    ],
+    "seoTitle": "Zoom MCP - 视频会议平台 | AI Navigator Pro",
+    "seoDescription": "Zoom视频会议MCP，支持会议管理、录制和虚拟背景等视频通讯功能。",
+    "views": 48000,
+    "updatedAt": "2026-02-22"
+  },
+  {
+    "id": "airflow-mcp",
+    "name": "Apache Airflow MCP",
+    "logo": "https://api.dicebear.com/7.x/shapes/svg?seed=airflow-mcp",
+    "description": "Apache Airflow MCP，数据管道编排和工作流调度平台。",
+    "url": "https://airflow.apache.org",
+    "category": "automation",
+    "tags": [
+      "Airflow",
+      "数据管道",
+      "调度",
+      "Apache"
+    ],
+    "rating": 4.6,
+    "features": [
+      "DAG管理",
+      "任务调度",
+      "依赖管理",
+      "监控告警",
+      "重试机制",
+      "日志管理"
+    ],
+    "seoTitle": "Apache Airflow MCP - 数据管道编排 | AI Navigator Pro",
+    "seoDescription": "Apache Airflow MCP，数据管道编排和工作流调度平台。",
+    "views": 42000,
+    "updatedAt": "2026-02-22"
+  },
+  {
+    "id": "redis-mcp",
+    "name": "Redis MCP",
+    "logo": "https://api.dicebear.com/7.x/shapes/svg?seed=redis-mcp",
+    "description": "Redis内存数据库MCP，支持缓存、消息队列和数据结构存储。",
+    "url": "https://redis.io",
+    "category": "database",
+    "tags": [
+      "Redis",
+      "缓存",
+      "内存数据库",
+      "KV存储"
+    ],
+    "rating": 4.7,
+    "features": [
+      "键值操作",
+      "数据结构",
+      "缓存管理",
+      "发布订阅",
+      "持久化",
+      "集群管理"
+    ],
+    "seoTitle": "Redis MCP - 内存数据存储 | AI Navigator Pro",
+    "seoDescription": "Redis内存数据库MCP，支持缓存、消息队列和数据结构存储。",
+    "featured": true,
+    "trending": true,
+    "views": 55000,
+    "updatedAt": "2026-02-21"
+  },
+  {
+    "id": "mysql-mcp",
+    "name": "MySQL MCP",
+    "logo": "https://api.dicebear.com/7.x/shapes/svg?seed=mysql-mcp",
+    "description": "MySQL数据库MCP服务器，支持SQL查询、数据管理和性能优化。",
+    "url": "https://www.mysql.com",
+    "category": "database",
+    "tags": [
+      "MySQL",
+      "数据库",
+      "SQL",
+      "关系型"
+    ],
+    "rating": 4.6,
+    "features": [
+      "SQL查询执行",
+      "数据读写",
+      "表结构管理",
+      "索引优化",
+      "备份恢复",
+      "性能监控"
+    ],
+    "seoTitle": "MySQL MCP - 关系型数据库 | AI Navigator Pro",
+    "seoDescription": "MySQL数据库MCP服务器，支持SQL查询、数据管理和性能优化。",
+    "featured": true,
+    "views": 52000,
+    "updatedAt": "2026-02-19"
+  },
+  {
+    "id": "google-analytics-mcp",
+    "name": "Google Analytics MCP",
+    "logo": "https://api.dicebear.com/7.x/shapes/svg?seed=ga-mcp",
+    "description": "Google Analytics 4 MCP，网站和应用数据分析，用户行为跟踪和转化分析。",
+    "url": "https://analytics.google.com",
+    "category": "analytics",
+    "tags": [
+      "Google Analytics",
+      "数据分析",
+      "网站统计",
+      "GA4"
+    ],
+    "rating": 4.7,
+    "features": [
+      "流量分析",
+      "用户行为",
+      "转化跟踪",
+      "漏斗分析",
+      "受众洞察",
+      "自定义报表"
+    ],
+    "seoTitle": "Google Analytics MCP - 网站数据分析 | AI Navigator Pro",
+    "seoDescription": "Google Analytics 4 MCP，网站和应用数据分析，用户行为跟踪和转化分析。",
+    "featured": true,
+    "trending": true,
+    "views": 65000,
+    "updatedAt": "2026-02-18"
+  },
+  {
+    "id": "sqlite-mcp",
+    "name": "SQLite MCP",
+    "logo": "https://api.dicebear.com/7.x/shapes/svg?seed=sqlite",
+    "description": "SQLite数据库MCP，让AI能够执行SQL查询。",
+    "url": "https://github.com/modelcontextprotocol/servers",
+    "category": "ai-mcp",
+    "tags": [
+      "数据库",
+      "SQL",
+      "SQLite"
+    ],
+    "features": [
+      "SQL执行",
+      "数据库管理",
+      "查询优化",
+      "数据导入",
+      "模式查看"
+    ],
+    "useCases": [
+      "数据分析",
+      "查询执行",
+      "数据库管理",
+      "报表生成"
+    ],
+    "rating": 4.4,
+    "views": 18000,
+    "updatedAt": "2026-02-17",
+    "seoTitle": "SQLite MCP - MCP集成 | AI Navigator Pro",
+    "seoDescription": "SQLite数据库MCP，让AI能够执行SQL查询。"
+  },
+  {
+    "id": "owasp-mcp",
+    "name": "OWASP MCP",
+    "logo": "https://api.dicebear.com/7.x/shapes/svg?seed=owasp-mcp",
+    "description": "OWASP安全测试MCP，Web应用安全扫描和OWASP Top 10漏洞检测。",
+    "url": "https://owasp.org",
+    "category": "security",
+    "tags": [
+      "OWASP",
+      "安全测试",
+      "Web安全",
+      "漏洞检测"
+    ],
+    "rating": 4.4,
+    "features": [
+      "Top 10检测",
+      "渗透测试",
+      "漏洞扫描",
+      "安全审计",
+      "报告生成",
+      "修复建议"
+    ],
+    "seoTitle": "OWASP MCP - Web安全测试 | AI Navigator Pro",
+    "seoDescription": "OWASP安全测试MCP，Web应用安全扫描和OWASP Top 10漏洞检测。",
+    "views": 32000,
+    "updatedAt": "2026-02-17"
+  },
+  {
+    "id": "crowdstrike-mcp",
+    "name": "CrowdStrike MCP",
+    "logo": "https://api.dicebear.com/7.x/shapes/svg?seed=crowdstrike-mcp",
+    "description": "CrowdStrike Falcon MCP，端点安全和威胁检测平台，云端AI驱动的防护。",
+    "url": "https://www.crowdstrike.com",
+    "category": "security",
+    "tags": [
+      "CrowdStrike",
+      "端点安全",
+      "威胁检测",
+      "EDR"
+    ],
+    "rating": 4.6,
+    "features": [
+      "端点防护",
+      "威胁检测",
+      "响应自动化",
+      "威胁情报",
+      "漏洞管理",
+      "云工作负载"
+    ],
+    "seoTitle": "CrowdStrike MCP - 端点安全平台 | AI Navigator Pro",
+    "seoDescription": "CrowdStrike Falcon MCP，端点安全和威胁检测平台，云端AI驱动的防护。",
+    "views": 38000,
+    "updatedAt": "2026-02-12"
+  },
+  {
+    "id": "supabase-mcp",
+    "name": "Supabase MCP",
+    "logo": "https://api.dicebear.com/7.x/shapes/svg?seed=supabase-mcp",
+    "description": "Supabase Firebase替代MCP，开源后端即服务平台，PostgreSQL为核心。",
+    "url": "https://supabase.com",
+    "category": "database",
+    "tags": [
+      "Supabase",
+      "BaaS",
+      "PostgreSQL",
+      "开源"
+    ],
+    "rating": 4.7,
+    "features": [
+      "PostgreSQL数据库",
+      "实时订阅",
+      "认证授权",
+      "存储服务",
+      "边缘函数",
+      "自动API"
+    ],
+    "seoTitle": "Supabase MCP - 开源后端即服务 | AI Navigator Pro",
+    "seoDescription": "Supabase Firebase替代MCP，开源后端即服务平台，PostgreSQL为核心。",
+    "featured": true,
+    "trending": true,
+    "views": 60000,
+    "updatedAt": "2026-02-09"
+  },
+  {
+    "id": "firebase-mcp",
+    "name": "Firebase MCP",
+    "logo": "https://api.dicebear.com/7.x/shapes/svg?seed=firebase-mcp",
+    "description": "Google Firebase MCP，移动和Web应用开发平台，实时数据库和后端服务。",
+    "url": "https://firebase.google.com",
+    "category": "database",
+    "tags": [
+      "Firebase",
+      "Google",
+      "BaaS",
+      "移动开发"
+    ],
+    "rating": 4.6,
+    "features": [
+      "实时数据库",
+      "云Firestore",
+      "认证服务",
+      "云存储",
+      "云函数",
+      "分析统计"
+    ],
+    "seoTitle": "Firebase MCP - Google应用开发平台 | AI Navigator Pro",
+    "seoDescription": "Google Firebase MCP，移动和Web应用开发平台，实时数据库和后端服务。",
+    "views": 50000,
+    "updatedAt": "2026-02-08"
+  },
+  {
+    "id": "lark-mcp",
+    "name": "Lark MCP",
+    "logo": "https://api.dicebear.com/7.x/shapes/svg?seed=lark-mcp",
+    "description": "飞书Lark MCP，一站式企业协作平台，支持即时通讯、文档和视频会议。",
+    "url": "https://www.larksuite.com",
+    "category": "communication",
+    "tags": [
+      "飞书",
+      "Lark",
+      "企业协作",
+      "办公"
+    ],
+    "rating": 4.6,
+    "features": [
+      "即时通讯",
+      "云文档",
+      "视频会议",
+      "日历",
+      "多维表格",
+      "应用机器人"
+    ],
+    "seoTitle": "Lark MCP - 飞书企业协作 | AI Navigator Pro",
+    "seoDescription": "飞书Lark MCP，一站式企业协作平台，支持即时通讯、文档和视频会议。",
+    "featured": true,
+    "views": 45000,
+    "updatedAt": "2026-02-06"
+  },
+  {
+    "id": "slack-mcp",
+    "name": "Slack MCP",
+    "logo": "https://api.dicebear.com/7.x/shapes/svg?seed=slack-mcp",
+    "description": "Slack MCP服务器，支持消息发送、频道管理、用户查询等功能。",
+    "url": "https://api.slack.com",
+    "category": "communication",
+    "tags": [
+      "Slack",
+      "通讯",
+      "团队协作",
+      "消息"
+    ],
+    "rating": 4.5,
+    "updatedAt": "2026-02-05",
+    "features": [
+      "消息发送",
+      "频道管理",
+      "用户查询",
+      "回复线程",
+      "文件分享",
+      "反应操作"
+    ],
+    "seoTitle": "Slack MCP - Slack通讯集成 | AI Navigator Pro",
+    "seoDescription": "Slack MCP服务器，支持消息发送、频道管理、用户查询等功能。",
+    "featured": true,
+    "views": 54000
+  },
+  {
+    "id": "gemini-mcp",
+    "name": "Google Gemini MCP",
+    "logo": "https://api.dicebear.com/7.x/shapes/svg?seed=gemini-mcp",
+    "description": "Google Gemini MCP，多模态AI模型，支持文本、图像、视频和代码理解。",
+    "url": "https://ai.google.dev",
+    "category": "ai-mcp",
+    "tags": [
+      "Google",
+      "Gemini",
+      "多模态",
+      "AI"
+    ],
+    "rating": 4.7,
+    "features": [
+      "多模态理解",
+      "文本生成",
+      "图像理解",
+      "代码生成",
+      "Embeddings",
+      "函数调用"
+    ],
+    "seoTitle": "Google Gemini MCP - 多模态AI模型 | AI Navigator Pro",
+    "seoDescription": "Google Gemini MCP，多模态AI模型，支持文本、图像、视频和代码理解。",
+    "featured": true,
+    "views": 72000,
+    "updatedAt": "2026-02-05"
+  },
+  {
+    "id": "langchain-mcp",
+    "name": "LangChain MCP",
+    "logo": "https://api.dicebear.com/7.x/shapes/svg?seed=langchain-mcp",
+    "description": "LangChain MCP框架，LLM应用开发框架，支持链、代理、RAG和工具调用。",
+    "url": "https://www.langchain.com",
+    "category": "ai-mcp",
+    "tags": [
+      "LangChain",
+      "LLM框架",
+      "RAG",
+      "Agent"
+    ],
+    "rating": 4.6,
+    "features": [
+      "链管理",
+      "智能代理",
+      "RAG检索",
+      "工具集成",
+      "内存管理",
+      "评估框架"
+    ],
+    "seoTitle": "LangChain MCP - LLM应用开发框架 | AI Navigator Pro",
+    "seoDescription": "LangChain MCP框架，LLM应用开发框架，支持链、代理、RAG和工具调用。",
+    "views": 60000,
+    "updatedAt": "2026-01-28"
+  },
+  {
+    "id": "burp-suite-mcp",
+    "name": "Burp Suite MCP",
+    "logo": "https://api.dicebear.com/7.x/shapes/svg?seed=burp-mcp",
+    "description": "Burp Suite MCP，Web应用安全渗透测试工具，代理、扫描和爬虫功能。",
+    "url": "https://portswigger.net/burp",
+    "category": "security",
+    "tags": [
+      "Burp Suite",
+      "渗透测试",
+      "Web安全",
+      "安全测试"
+    ],
+    "rating": 4.5,
+    "features": [
+      "代理拦截",
+      "漏洞扫描",
+      "爬虫",
+      "Intruder攻击",
+      "Repeater",
+      "报告生成"
+    ],
+    "seoTitle": "Burp Suite MCP - 渗透测试工具 | AI Navigator Pro",
+    "seoDescription": "Burp Suite MCP，Web应用安全渗透测试工具，代理、扫描和爬虫功能。",
+    "views": 30000,
+    "updatedAt": "2026-01-28"
+  },
+  {
+    "id": "cron-mcp",
+    "name": "Cron MCP",
+    "logo": "https://api.dicebear.com/7.x/shapes/svg?seed=cron-mcp",
+    "description": "定时任务管理MCP，支持Cron表达式和定时任务调度与监控。",
+    "url": "https://crontab.guru",
+    "category": "automation",
+    "tags": [
+      "Cron",
+      "定时任务",
+      "调度",
+      "自动化"
+    ],
+    "rating": 4.3,
+    "features": [
+      "任务调度",
+      "Cron表达式",
+      "任务管理",
+      "执行日志",
+      "失败告警",
+      "时区支持"
+    ],
+    "seoTitle": "Cron MCP - 定时任务管理 | AI Navigator Pro",
+    "seoDescription": "定时任务管理MCP，支持Cron表达式和定时任务调度与监控。",
+    "views": 22000,
+    "updatedAt": "2026-01-26"
+  },
+  {
+    "id": "docker-mcp-dev",
+    "name": "Docker Dev MCP",
+    "logo": "https://api.dicebear.com/7.x/shapes/svg?seed=docker-dev-mcp",
+    "description": "Docker开发环境MCP，支持容器构建、镜像管理、编排部署等开发工作流。",
+    "url": "https://docs.docker.com",
+    "category": "developer-tools",
+    "tags": [
       "Docker",
       "容器",
-      "DevOps"
+      "DevOps",
+      "开发环境"
     ],
+    "rating": 4.6,
     "features": [
       "容器管理",
       "镜像构建",
+      "Docker Compose",
       "日志查看",
-      "网络管理",
-      "卷挂载"
+      "网络配置",
+      "卷管理"
     ],
-    "useCases": [
-      "DevOps",
-      "容器管理",
-      "环境配置",
-      "部署"
+    "seoTitle": "Docker Dev MCP - 容器化开发环境 | AI Navigator Pro",
+    "seoDescription": "Docker开发环境MCP，支持容器构建、镜像管理、编排部署等开发工作流。",
+    "trending": true,
+    "views": 42000,
+    "updatedAt": "2026-01-25"
+  },
+  {
+    "id": "ollama-mcp",
+    "name": "Ollama MCP",
+    "logo": "https://api.dicebear.com/7.x/shapes/svg?seed=ollama-mcp",
+    "description": "Ollama本地大模型MCP，本地运行Llama、Mistral等开源大语言模型。",
+    "url": "https://ollama.ai",
+    "category": "ai-mcp",
+    "tags": [
+      "Ollama",
+      "本地模型",
+      "开源",
+      "LLM"
+    ],
+    "rating": 4.8,
+    "features": [
+      "本地模型运行",
+      "模型管理",
+      "多模型支持",
+      "量化模型",
+      "API服务",
+      "自定义模型"
+    ],
+    "seoTitle": "Ollama MCP - 本地大模型运行 | AI Navigator Pro",
+    "seoDescription": "Ollama本地大模型MCP，本地运行Llama、Mistral等开源大语言模型。",
+    "featured": true,
+    "trending": true,
+    "views": 75000,
+    "updatedAt": "2026-01-25"
+  },
+  {
+    "id": "figma-mcp",
+    "name": "Figma MCP",
+    "logo": "https://api.dicebear.com/7.x/shapes/svg?seed=figma-mcp",
+    "description": "Figma MCP服务器，支持读取和操作Figma设计文件，提取设计资源。",
+    "url": "https://figma.com/developers",
+    "category": "design-tools",
+    "tags": [
+      "Figma",
+      "设计",
+      "UI/UX",
+      "设计系统"
+    ],
+    "rating": 4.7,
+    "updatedAt": "2026-01-24",
+    "features": [
+      "设计文件读取",
+      "组件提取",
+      "样式导出",
+      "设计规范检查",
+      "设计令牌",
+      "原型交互"
+    ],
+    "seoTitle": "Figma MCP - Figma设计集成 | AI Navigator Pro",
+    "seoDescription": "Figma MCP服务器，支持读取和操作Figma设计文件，提取设计资源。",
+    "featured": true,
+    "views": 62000
+  },
+  {
+    "id": "framer-mcp",
+    "name": "Framer MCP",
+    "logo": "https://api.dicebear.com/7.x/shapes/svg?seed=framer-mcp",
+    "description": "Framer网站构建器MCP，支持无代码网站设计和交互动效创作。",
+    "url": "https://www.framer.com",
+    "category": "design-tools",
+    "tags": [
+      "Framer",
+      "网站设计",
+      "无代码",
+      "动效设计"
+    ],
+    "rating": 4.6,
+    "features": [
+      "可视化设计",
+      "交互动效",
+      "CMS集成",
+      "响应式设计",
+      "组件库",
+      "发布部署"
+    ],
+    "seoTitle": "Framer MCP - 无代码网站构建 | AI Navigator Pro",
+    "seoDescription": "Framer网站构建器MCP，支持无代码网站设计和交互动效创作。",
+    "trending": true,
+    "views": 42000,
+    "updatedAt": "2026-01-24"
+  },
+  {
+    "id": "grafana-mcp",
+    "name": "Grafana MCP",
+    "logo": "https://api.dicebear.com/7.x/shapes/svg?seed=grafana-mcp",
+    "description": "Grafana可观测性MCP，开源监控和可观测性平台，支持多数据源仪表板。",
+    "url": "https://grafana.com",
+    "category": "analytics",
+    "tags": [
+      "Grafana",
+      "监控",
+      "可观测性",
+      "仪表板"
+    ],
+    "rating": 4.7,
+    "features": [
+      "仪表板",
+      "多数据源",
+      "告警管理",
+      "日志分析",
+      "性能指标",
+      "可观测性"
+    ],
+    "seoTitle": "Grafana MCP - 可观测性平台 | AI Navigator Pro",
+    "seoDescription": "Grafana可观测性MCP，开源监控和可观测性平台，支持多数据源仪表板。",
+    "featured": true,
+    "trending": true,
+    "views": 52000,
+    "updatedAt": "2026-01-24"
+  },
+  {
+    "id": "cloudflare-mcp",
+    "name": "Cloudflare MCP",
+    "logo": "https://api.dicebear.com/7.x/shapes/svg?seed=cloudflare-mcp",
+    "description": "Cloudflare MCP，CDN、安全、边缘计算平台，支持Workers和Pages。",
+    "url": "https://www.cloudflare.com",
+    "category": "cloud",
+    "tags": [
+      "Cloudflare",
+      "CDN",
+      "安全",
+      "边缘计算"
+    ],
+    "rating": 4.7,
+    "features": [
+      "CDN管理",
+      "DNS管理",
+      "SSL证书",
+      "Workers",
+      "Pages部署",
+      "安全防护"
+    ],
+    "seoTitle": "Cloudflare MCP - CDN与边缘计算 | AI Navigator Pro",
+    "seoDescription": "Cloudflare MCP，CDN、安全、边缘计算平台，支持Workers和Pages。",
+    "featured": true,
+    "trending": true,
+    "views": 58000,
+    "updatedAt": "2026-01-22"
+  },
+  {
+    "id": "wechat-mcp",
+    "name": "WeChat MCP",
+    "logo": "https://api.dicebear.com/7.x/shapes/svg?seed=wechat-mcp",
+    "description": "微信公众平台MCP，支持公众号管理、消息推送和小程序开发。",
+    "url": "https://mp.weixin.qq.com",
+    "category": "communication",
+    "tags": [
+      "微信",
+      "公众号",
+      "小程序",
+      "中国市场"
+    ],
+    "rating": 4.5,
+    "features": [
+      "公众号管理",
+      "消息推送",
+      "用户管理",
+      "素材管理",
+      "菜单配置",
+      "数据分析"
+    ],
+    "seoTitle": "WeChat MCP - 微信公众平台集成 | AI Navigator Pro",
+    "seoDescription": "微信公众平台MCP，支持公众号管理、消息推送和小程序开发。",
+    "views": 40000,
+    "updatedAt": "2026-01-20"
+  },
+  {
+    "id": "zeplin-mcp",
+    "name": "Zeplin MCP",
+    "logo": "https://api.dicebear.com/7.x/shapes/svg?seed=zeplin-mcp",
+    "description": "Zeplin设计协作MCP，设计稿标注、资源导出和开发交接平台。",
+    "url": "https://zeplin.io",
+    "category": "design-tools",
+    "tags": [
+      "Zeplin",
+      "设计交接",
+      "标注",
+      "协作"
+    ],
+    "rating": 4.3,
+    "features": [
+      "自动标注",
+      "资源导出",
+      "设计规范",
+      "团队协作",
+      "版本管理",
+      "开发集成"
+    ],
+    "seoTitle": "Zeplin MCP - 设计交接协作 | AI Navigator Pro",
+    "seoDescription": "Zeplin设计协作MCP，设计稿标注、资源导出和开发交接平台。",
+    "views": 25000,
+    "updatedAt": "2026-01-18"
+  },
+  {
+    "id": "sketch-mcp",
+    "name": "Sketch MCP",
+    "logo": "https://api.dicebear.com/7.x/shapes/svg?seed=sketch-mcp",
+    "description": "Sketch设计工具MCP，支持Mac平台专业UI设计和设计系统管理。",
+    "url": "https://www.sketch.com",
+    "category": "design-tools",
+    "tags": [
+      "Sketch",
+      "UI设计",
+      "Mac",
+      "设计系统"
+    ],
+    "rating": 4.5,
+    "features": [
+      "设计文件读取",
+      "符号库管理",
+      "导出资源",
+      "设计规范",
+      "插件系统",
+      "协作功能"
+    ],
+    "seoTitle": "Sketch MCP - 专业UI设计工具 | AI Navigator Pro",
+    "seoDescription": "Sketch设计工具MCP，支持Mac平台专业UI设计和设计系统管理。",
+    "views": 32000,
+    "updatedAt": "2026-01-13"
+  },
+  {
+    "id": "storybook-mcp",
+    "name": "Storybook MCP",
+    "logo": "https://api.dicebear.com/7.x/shapes/svg?seed=storybook-mcp",
+    "description": "Storybook组件开发MCP，UI组件独立开发、测试和文档化工具。",
+    "url": "https://storybook.js.org",
+    "category": "design-tools",
+    "tags": [
+      "Storybook",
+      "组件库",
+      "UI开发",
+      "文档"
+    ],
+    "rating": 4.6,
+    "features": [
+      "组件开发",
+      "交互测试",
+      "视觉回归",
+      "文档生成",
+      "插件生态",
+      "设计集成"
+    ],
+    "seoTitle": "Storybook MCP - UI组件开发工具 | AI Navigator Pro",
+    "seoDescription": "Storybook组件开发MCP，UI组件独立开发、测试和文档化工具。",
+    "views": 38000,
+    "updatedAt": "2026-01-13"
+  },
+  {
+    "id": "roam-research-mcp",
+    "name": "Roam Research MCP",
+    "logo": "https://api.dicebear.com/7.x/shapes/svg?seed=roam-mcp",
+    "description": "Roam Research MCP，网络化思考工具，支持双向链接和每日笔记。",
+    "url": "https://roamresearch.com",
+    "category": "productivity",
+    "tags": [
+      "Roam",
+      "笔记",
+      "双向链接",
+      "网络化思考"
     ],
     "rating": 4.4,
-    "views": 12000
+    "features": [
+      "双向链接",
+      "每日笔记",
+      "页面嵌入",
+      "查询过滤",
+      "模板系统",
+      "Graph视图"
+    ],
+    "seoTitle": "Roam Research MCP - 网络化思考工具 | AI Navigator Pro",
+    "seoDescription": "Roam Research MCP，网络化思考工具，支持双向链接和每日笔记。",
+    "views": 28000,
+    "updatedAt": "2026-01-13"
+  },
+  {
+    "id": "adobe-xd-mcp",
+    "name": "Adobe XD MCP",
+    "logo": "https://api.dicebear.com/7.x/shapes/svg?seed=adobe-xd-mcp",
+    "description": "Adobe XD MCP服务器，支持原型设计、交互设计和设计系统管理。",
+    "url": "https://www.adobe.com/products/xd.html",
+    "category": "design-tools",
+    "tags": [
+      "Adobe XD",
+      "原型设计",
+      "交互设计",
+      "Adobe"
+    ],
+    "rating": 4.4,
+    "features": [
+      "原型设计",
+      "交互原型",
+      "组件库",
+      "响应式设计",
+      "语音原型",
+      "开发交接"
+    ],
+    "seoTitle": "Adobe XD MCP - 原型交互设计 | AI Navigator Pro",
+    "seoDescription": "Adobe XD MCP服务器，支持原型设计、交互设计和设计系统管理。",
+    "views": 28000,
+    "updatedAt": "2026-01-12"
+  },
+  {
+    "id": "hotjar-mcp",
+    "name": "Hotjar MCP",
+    "logo": "https://api.dicebear.com/7.x/shapes/svg?seed=hotjar-mcp",
+    "description": "Hotjar用户体验MCP，热力图、录屏、问卷反馈，了解用户如何与网站互动。",
+    "url": "https://www.hotjar.com",
+    "category": "analytics",
+    "tags": [
+      "Hotjar",
+      "用户体验",
+      "热力图",
+      "录屏"
+    ],
+    "rating": 4.5,
+    "features": [
+      "热力图",
+      "会话录屏",
+      "反馈问卷",
+      "访谈工具",
+      "Funnel分析",
+      "表单分析"
+    ],
+    "seoTitle": "Hotjar MCP - 用户行为分析 | AI Navigator Pro",
+    "seoDescription": "Hotjar用户体验MCP，热力图、录屏、问卷反馈，了解用户如何与网站互动。",
+    "trending": true,
+    "views": 40000,
+    "updatedAt": "2026-01-12"
+  },
+  {
+    "id": "kubernetes-mcp",
+    "name": "Kubernetes MCP",
+    "logo": "https://api.dicebear.com/7.x/shapes/svg?seed=k8s-mcp",
+    "description": "Kubernetes MCP，容器编排管理，支持Pod、Deployment、Service等资源管理。",
+    "url": "https://kubernetes.io",
+    "category": "cloud",
+    "tags": [
+      "Kubernetes",
+      "K8s",
+      "容器编排",
+      "DevOps"
+    ],
+    "rating": 4.7,
+    "features": [
+      "Pod管理",
+      "Deployment",
+      "Service配置",
+      "Helm Charts",
+      "监控日志",
+      "自动扩缩"
+    ],
+    "seoTitle": "Kubernetes MCP - 容器编排平台 | AI Navigator Pro",
+    "seoDescription": "Kubernetes MCP，容器编排管理，支持Pod、Deployment、Service等资源管理。",
+    "featured": true,
+    "trending": true,
+    "views": 55000,
+    "updatedAt": "2026-01-10"
+  },
+  {
+    "id": "temporal-mcp",
+    "name": "Temporal MCP",
+    "logo": "https://api.dicebear.com/7.x/shapes/svg?seed=temporal-mcp",
+    "description": "Temporal微服务编排MCP，持久化工作流引擎和分布式事务管理。",
+    "url": "https://temporal.io",
+    "category": "automation",
+    "tags": [
+      "Temporal",
+      "微服务",
+      "工作流引擎",
+      "分布式"
+    ],
+    "rating": 4.5,
+    "features": [
+      "工作流编排",
+      "持久化执行",
+      "故障恢复",
+      "定时任务",
+      "活动管理",
+      "信号交互"
+    ],
+    "seoTitle": "Temporal MCP - 微服务编排引擎 | AI Navigator Pro",
+    "seoDescription": "Temporal微服务编排MCP，持久化工作流引擎和分布式事务管理。",
+    "views": 30000,
+    "updatedAt": "2026-01-08"
+  },
+  {
+    "id": "power-bi-mcp",
+    "name": "Power BI MCP",
+    "logo": "https://api.dicebear.com/7.x/shapes/svg?seed=powerbi-mcp",
+    "description": "Microsoft Power BI MCP，商业智能工具，数据可视化和企业级报表。",
+    "url": "https://powerbi.microsoft.com",
+    "category": "analytics",
+    "tags": [
+      "Power BI",
+      "微软BI",
+      "数据可视化",
+      "报表"
+    ],
+    "rating": 4.5,
+    "features": [
+      "数据可视化",
+      "仪表板",
+      "报表生成",
+      "数据建模",
+      "Power Query",
+      "自然语言查询"
+    ],
+    "seoTitle": "Power BI MCP - 微软商业智能 | AI Navigator Pro",
+    "seoDescription": "Microsoft Power BI MCP，商业智能工具，数据可视化和企业级报表。",
+    "views": 42000,
+    "updatedAt": "2026-01-08"
+  },
+  {
+    "id": "puppeteer-mcp",
+    "name": "Puppeteer MCP",
+    "logo": "https://api.dicebear.com/7.x/shapes/svg?seed=puppeteer",
+    "description": "Puppeteer浏览器自动化MCP，提供Chrome控制能力。",
+    "url": "https://github.com/modelcontextprotocol/servers",
+    "category": "ai-mcp",
+    "tags": [
+      "浏览器自动化",
+      "Puppeteer",
+      "Chrome"
+    ],
+    "features": [
+      "Chrome控制",
+      "截图功能",
+      "PDF生成",
+      "JS执行",
+      "网络监控"
+    ],
+    "useCases": [
+      "网页测试",
+      "数据抓取",
+      "截图",
+      "PDF生成"
+    ],
+    "rating": 4.5,
+    "views": 20000,
+    "updatedAt": "2026-01-07",
+    "seoTitle": "Puppeteer MCP - MCP集成 | AI Navigator Pro",
+    "seoDescription": "Puppeteer浏览器自动化MCP，提供Chrome控制能力。"
+  },
+  {
+    "id": "llamaindex-mcp",
+    "name": "LlamaIndex MCP",
+    "logo": "https://api.dicebear.com/7.x/shapes/svg?seed=llamaindex-mcp",
+    "description": "LlamaIndex MCP，数据框架，用于将私有数据连接到大语言模型的RAG系统。",
+    "url": "https://www.llamaindex.ai",
+    "category": "ai-mcp",
+    "tags": [
+      "LlamaIndex",
+      "RAG",
+      "数据框架",
+      "检索增强"
+    ],
+    "rating": 4.6,
+    "features": [
+      "数据索引",
+      "检索引擎",
+      "文档加载",
+      "向量化",
+      "查询引擎",
+      "多模态支持"
+    ],
+    "seoTitle": "LlamaIndex MCP - RAG数据框架 | AI Navigator Pro",
+    "seoDescription": "LlamaIndex MCP，数据框架，用于将私有数据连接到大语言模型的RAG系统。",
+    "views": 55000,
+    "updatedAt": "2026-01-05"
+  },
+  {
+    "id": "notion-ai-mcp",
+    "name": "Notion AI MCP",
+    "logo": "https://api.dicebear.com/7.x/shapes/svg?seed=notion-ai-mcp",
+    "description": "Notion AI增强版MCP，集成AI写作、总结和知识库智能检索功能。",
+    "url": "https://www.notion.so/product/ai",
+    "category": "productivity",
+    "tags": [
+      "Notion",
+      "AI",
+      "知识库",
+      "智能写作"
+    ],
+    "rating": 4.8,
+    "features": [
+      "AI写作辅助",
+      "智能总结",
+      "内容生成",
+      "知识库问答",
+      "翻译润色",
+      "头脑风暴"
+    ],
+    "seoTitle": "Notion AI MCP - 智能知识工作空间 | AI Navigator Pro",
+    "seoDescription": "Notion AI增强版MCP，集成AI写作、总结和知识库智能检索功能。",
+    "featured": true,
+    "trending": true,
+    "views": 68000,
+    "updatedAt": "2026-01-02"
+  },
+  {
+    "id": "fetch-mcp",
+    "name": "Fetch MCP",
+    "logo": "https://api.dicebear.com/7.x/shapes/svg?seed=fetch",
+    "description": "网页内容抓取MCP，让AI获取并处理网络内容。",
+    "url": "https://github.com/modelcontextprotocol/servers",
+    "category": "ai-mcp",
+    "tags": [
+      "网页抓取",
+      "HTTP",
+      "官方"
+    ],
+    "features": [
+      "网页抓取",
+      "HTML解析",
+      "Markdown转换",
+      "API调用",
+      "批量请求"
+    ],
+    "useCases": [
+      "信息检索",
+      "数据采集",
+      "内容处理",
+      "API集成"
+    ],
+    "rating": 4.5,
+    "views": 22000,
+    "updatedAt": "2026-01-01",
+    "seoTitle": "Fetch MCP - MCP集成 | AI Navigator Pro",
+    "seoDescription": "网页内容抓取MCP，让AI获取并处理网络内容。"
   }
 ]
