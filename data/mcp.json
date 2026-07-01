@@ -24,7 +24,7 @@
     "seoTitle": "Google Workspace MCP - 云办公套件 | AI Navigator Pro",
     "seoDescription": "Google Workspace MCP，Gmail、文档、表格、云端硬盘等办公工具集。",
     "views": 50000,
-    "updatedAt": "2026-06-27"
+    "updatedAt": "2026-07-15"
   },
   {
     "id": "postgres-mcp",
@@ -40,7 +40,7 @@
       "数据管理"
     ],
     "rating": 4.6,
-    "updatedAt": "2026-06-24",
+    "updatedAt": "2026-07-27",
     "features": [
       "SQL查询执行",
       "数据读写",
@@ -81,7 +81,7 @@
     "featured": true,
     "trending": true,
     "views": 48000,
-    "updatedAt": "2026-06-24"
+    "updatedAt": "2026-07-08"
   },
   {
     "id": "docker-mcp",
@@ -110,7 +110,7 @@
     ],
     "rating": 4.4,
     "views": 12000,
-    "updatedAt": "2026-06-21",
+    "updatedAt": "2026-07-20",
     "seoTitle": "Docker MCP - MCP集成 | AI Navigator Pro",
     "seoDescription": "Docker容器管理MCP，让AI管理容器化应用。"
   },
@@ -139,7 +139,7 @@
     "seoTitle": "WhatsApp MCP - 商业通讯平台 | AI Navigator Pro",
     "seoDescription": "WhatsApp Business MCP，商业消息、客户服务和营销通知平台。",
     "views": 35000,
-    "updatedAt": "2026-06-21"
+    "updatedAt": "2026-07-19"
   },
   {
     "id": "todoist-mcp",
@@ -168,7 +168,7 @@
     "featured": true,
     "trending": true,
     "views": 52000,
-    "updatedAt": "2026-06-20"
+    "updatedAt": "2026-07-31"
   },
   {
     "id": "cockroachdb-mcp",
@@ -195,7 +195,7 @@
     "seoTitle": "CockroachDB MCP - 分布式SQL数据库 | AI Navigator Pro",
     "seoDescription": "CockroachDB分布式SQL MCP，云原生分布式关系型数据库。",
     "views": 32000,
-    "updatedAt": "2026-06-19"
+    "updatedAt": "2026-07-15"
   },
   {
     "id": "gitlab-mcp",
@@ -224,7 +224,7 @@
     "featured": true,
     "trending": true,
     "views": 65000,
-    "updatedAt": "2026-06-18"
+    "updatedAt": "2026-07-14"
   },
   {
     "id": "make-mcp",
@@ -251,7 +251,7 @@
     "seoTitle": "Make MCP - 可视化自动化平台 | AI Navigator Pro",
     "seoDescription": "Make（原Integromat）可视化自动化MCP，高级工作流和数据集成平台。",
     "views": 38000,
-    "updatedAt": "2026-06-18"
+    "updatedAt": "2026-07-23"
   },
   {
     "id": "neo4j-mcp",
@@ -278,7 +278,7 @@
     "seoTitle": "Neo4j MCP - 图数据库 | AI Navigator Pro",
     "seoDescription": "Neo4j图数据库MCP，支持图查询、知识图谱和网络分析。",
     "views": 35000,
-    "updatedAt": "2026-06-18"
+    "updatedAt": "2026-07-29"
   },
   {
     "id": "tencent-cloud-mcp",
@@ -305,7 +305,7 @@
     "seoTitle": "腾讯云 MCP - 腾讯云计算 | AI Navigator Pro",
     "seoDescription": "腾讯云MCP，腾讯云计算平台，支持CVM、COS、CDB等云服务。",
     "views": 42000,
-    "updatedAt": "2026-06-18"
+    "updatedAt": "2026-07-17"
   },
   {
     "id": "auth0-mcp",
@@ -332,7 +332,7 @@
     "seoTitle": "Auth0 MCP - 身份认证平台 | AI Navigator Pro",
     "seoDescription": "Auth0身份认证MCP，灵活的认证和授权平台，支持多种登录方式。",
     "views": 36000,
-    "updatedAt": "2026-06-17"
+    "updatedAt": "2026-07-08"
   },
   {
     "id": "elasticsearch-mcp",
@@ -359,7 +359,7 @@
     "seoTitle": "Elasticsearch MCP - 搜索引擎与分析 | AI Navigator Pro",
     "seoDescription": "Elasticsearch搜索引擎MCP，全文检索、日志分析和数据可视化平台。",
     "views": 45000,
-    "updatedAt": "2026-06-15"
+    "updatedAt": "2026-07-31"
   },
   {
     "id": "mistral-mcp",
@@ -387,7 +387,7 @@
     "seoDescription": "Mistral AI MCP，欧洲开源大模型，高效能Mistral和Mixtral系列模型。",
     "trending": true,
     "views": 50000,
-    "updatedAt": "2026-06-14"
+    "updatedAt": "2026-07-15"
   },
   {
     "id": "mongodb-mcp",
@@ -416,7 +416,7 @@
     "featured": true,
     "trending": true,
     "views": 58000,
-    "updatedAt": "2026-06-11"
+    "updatedAt": "2026-07-30"
   },
   {
     "id": "fly-io-mcp",
@@ -444,7 +444,7 @@
     "seoDescription": "Fly.io MCP，边缘应用部署平台，全球分布式容器化应用部署服务。",
     "trending": true,
     "views": 35000,
-    "updatedAt": "2026-06-11"
+    "updatedAt": "2026-07-03"
   },
   {
     "id": "okta-mcp",
@@ -472,7 +472,7 @@
     "seoDescription": "Okta身份管理MCP，企业级身份验证和访问管理平台。",
     "featured": true,
     "views": 40000,
-    "updatedAt": "2026-06-10"
+    "updatedAt": "2026-07-24"
   },
   {
     "id": "obsidian-mcp",
@@ -500,7 +500,7 @@
     "seoDescription": "Obsidian笔记MCP，基于本地Markdown的双向链接知识管理工具。",
     "trending": true,
     "views": 45000,
-    "updatedAt": "2026-06-08"
+    "updatedAt": "2026-07-01"
   },
   {
     "id": "slack-ai-mcp",
@@ -529,7 +529,7 @@
     "featured": true,
     "trending": true,
     "views": 58000,
-    "updatedAt": "2026-06-06"
+    "updatedAt": "2026-07-15"
   },
   {
     "id": "cohere-mcp",
@@ -556,7 +556,7 @@
     "seoTitle": "Cohere MCP - 企业级AI平台 | AI Navigator Pro",
     "seoDescription": "Cohere AI MCP，企业级生成式AI平台，支持Command模型和Embeddings。",
     "views": 42000,
-    "updatedAt": "2026-06-06"
+    "updatedAt": "2026-07-21"
   },
   {
     "id": "github-mcp",
@@ -572,7 +572,7 @@
       "官方"
     ],
     "rating": 4.8,
-    "updatedAt": "2026-06-04",
+    "updatedAt": "2026-07-05",
     "features": [
       "仓库浏览与搜索",
       "Issue创建与管理",
@@ -601,7 +601,7 @@
       "爬虫"
     ],
     "rating": 4.7,
-    "updatedAt": "2026-06-04",
+    "updatedAt": "2026-07-10",
     "features": [
       "网页导航",
       "页面截图",
@@ -641,7 +641,7 @@
     "seoTitle": "阿里云 MCP - 阿里巴巴云计算 | AI Navigator Pro",
     "seoDescription": "阿里云MCP，阿里巴巴云计算平台，支持ECS、OSS、RDS等云服务。",
     "views": 48000,
-    "updatedAt": "2026-06-04"
+    "updatedAt": "2026-07-06"
   },
   {
     "id": "azure-mcp",
@@ -669,7 +669,7 @@
     "seoDescription": "Microsoft Azure MCP，微软云服务平台，支持虚拟机、AI服务、数据库等。",
     "featured": true,
     "views": 65000,
-    "updatedAt": "2026-05-28"
+    "updatedAt": "2026-07-07"
   },
   {
     "id": "mattermost-mcp",
@@ -696,7 +696,7 @@
     "seoTitle": "Mattermost MCP - 开源团队协作 | AI Navigator Pro",
     "seoDescription": "Mattermost开源协作MCP，自托管的企业级团队通讯平台。",
     "views": 28000,
-    "updatedAt": "2026-05-24"
+    "updatedAt": "2026-07-11"
   },
   {
     "id": "huggingface-mcp",
@@ -725,7 +725,7 @@
     "featured": true,
     "trending": true,
     "views": 68000,
-    "updatedAt": "2026-05-16"
+    "updatedAt": "2026-07-02"
   },
   {
     "id": "aws-mcp",
@@ -754,7 +754,7 @@
     "featured": true,
     "trending": true,
     "views": 72000,
-    "updatedAt": "2026-05-15"
+    "updatedAt": "2026-07-03"
   },
   {
     "id": "filesystem-mcp",
@@ -784,7 +784,7 @@
     "rating": 4.6,
     "views": 28000,
     "featured": true,
-    "updatedAt": "2026-05-14",
+    "updatedAt": "2026-07-09",
     "seoTitle": "Filesystem MCP - MCP集成 | AI Navigator Pro",
     "seoDescription": "文件系统操作的MCP服务器，让AI能够读写本地文件。"
   },
@@ -813,7 +813,7 @@
     "seoTitle": "Amplitude MCP - 产品增长分析 | AI Navigator Pro",
     "seoDescription": "Amplitude MCP，产品分析平台，帮助团队理解用户行为和驱动产品增长。",
     "views": 42000,
-    "updatedAt": "2026-05-11"
+    "updatedAt": "2026-07-15"
   },
   {
     "id": "clickhouse-mcp",
@@ -841,7 +841,7 @@
     "seoDescription": "ClickHouse列式数据库MCP，高性能OLAP分析和实时数据仓库。",
     "trending": true,
     "views": 40000,
-    "updatedAt": "2026-05-09"
+    "updatedAt": "2026-07-15"
   },
   {
     "id": "gcp-mcp",
@@ -869,7 +869,7 @@
     "seoDescription": "Google Cloud Platform MCP，GCP云服务管理，支持Compute、Storage、BigQuery等。",
     "featured": true,
     "views": 62000,
-    "updatedAt": "2026-05-09"
+    "updatedAt": "2026-07-11"
   },
   {
     "id": "github-mcp-pro",
@@ -899,7 +899,7 @@
     "rating": 4.6,
     "views": 25000,
     "trending": true,
-    "updatedAt": "2026-05-07",
+    "updatedAt": "2026-07-22",
     "seoTitle": "GitHub MCP Pro - MCP集成 | AI Navigator Pro",
     "seoDescription": "增强版GitHub MCP，提供完整的代码管理能力。"
   },
@@ -929,7 +929,7 @@
     "seoDescription": "Wazuh安全监控MCP，开源安全信息和事件管理SIEM平台。",
     "trending": true,
     "views": 34000,
-    "updatedAt": "2026-05-07"
+    "updatedAt": "2026-07-07"
   },
   {
     "id": "playwright-mcp",
@@ -958,7 +958,7 @@
     ],
     "rating": 4.7,
     "views": 32000,
-    "updatedAt": "2026-05-03",
+    "updatedAt": "2026-07-31",
     "seoTitle": "Playwright MCP - MCP集成 | AI Navigator Pro",
     "seoDescription": "Playwright浏览器自动化MCP，让AI能够浏览网页和操作浏览器。"
   },
@@ -989,7 +989,7 @@
     "featured": true,
     "trending": true,
     "views": 62000,
-    "updatedAt": "2026-05-03"
+    "updatedAt": "2026-07-18"
   },
   {
     "id": "looker-mcp",
@@ -1016,7 +1016,7 @@
     "seoTitle": "Looker MCP - Google数据平台 | AI Navigator Pro",
     "seoDescription": "Google Looker MCP，数据平台，企业级BI和数据应用构建平台。",
     "views": 35000,
-    "updatedAt": "2026-05-03"
+    "updatedAt": "2026-07-23"
   },
   {
     "id": "postgres-mcp",
@@ -1045,7 +1045,7 @@
     ],
     "rating": 4.5,
     "views": 15000,
-    "updatedAt": "2026-05-01",
+    "updatedAt": "2026-07-26",
     "seoTitle": "PostgreSQL MCP - MCP集成 | AI Navigator Pro",
     "seoDescription": "PostgreSQL数据库MCP服务器，支持复杂查询。"
   },
@@ -1075,7 +1075,7 @@
     "seoDescription": "Mixpanel产品分析MCP，用户行为分析、漏斗和留存分析平台。",
     "featured": true,
     "views": 48000,
-    "updatedAt": "2026-05-01"
+    "updatedAt": "2026-07-27"
   },
   {
     "id": "datadog-mcp",
@@ -1103,7 +1103,7 @@
     "seoDescription": "Datadog可观测性MCP，统一监控、APM、日志和安全的SaaS平台。",
     "featured": true,
     "views": 50000,
-    "updatedAt": "2026-04-27"
+    "updatedAt": "2026-07-26"
   },
   {
     "id": "jetbrains-mcp",
@@ -1130,7 +1130,7 @@
     "seoTitle": "JetBrains MCP - 专业开发工具集成 | AI Navigator Pro",
     "seoDescription": "JetBrains IDE MCP服务器，支持IntelliJ、PyCharm等系列IDE操作。",
     "views": 45000,
-    "updatedAt": "2026-04-19"
+    "updatedAt": "2026-07-17"
   },
   {
     "id": "openai-mcp",
@@ -1159,7 +1159,7 @@
     "featured": true,
     "trending": true,
     "views": 85000,
-    "updatedAt": "2026-04-19"
+    "updatedAt": "2026-07-28"
   },
   {
     "id": "dribbble-mcp",
@@ -1186,7 +1186,7 @@
     "seoTitle": "Dribbble MCP - 设计灵感社区 | AI Navigator Pro",
     "seoDescription": "Dribbble设计社区MCP，设计灵感发现和设计师作品展示平台。",
     "views": 29000,
-    "updatedAt": "2026-04-18"
+    "updatedAt": "2026-07-13"
   },
   {
     "id": "zapier-mcp",
@@ -1215,7 +1215,7 @@
     "featured": true,
     "trending": true,
     "views": 58000,
-    "updatedAt": "2026-04-13"
+    "updatedAt": "2026-07-10"
   },
   {
     "id": "dynamodb-mcp",
@@ -1242,7 +1242,7 @@
     "seoTitle": "DynamoDB MCP - AWS NoSQL数据库 | AI Navigator Pro",
     "seoDescription": "Amazon DynamoDB MCP，AWS托管的NoSQL键值和文档数据库服务。",
     "views": 42000,
-    "updatedAt": "2026-04-13"
+    "updatedAt": "2026-07-27"
   },
   {
     "id": "crewai-mcp",
@@ -1270,7 +1270,7 @@
     "seoDescription": "CrewAI多智能体MCP框架，角色扮演协作AI智能体团队。",
     "trending": true,
     "views": 48000,
-    "updatedAt": "2026-04-13"
+    "updatedAt": "2026-07-02"
   },
   {
     "id": "anthropic-mcp",
@@ -1299,7 +1299,7 @@
     "featured": true,
     "trending": true,
     "views": 78000,
-    "updatedAt": "2026-04-12"
+    "updatedAt": "2026-07-05"
   },
   {
     "id": "jenkins-mcp",
@@ -1326,7 +1326,7 @@
     "seoTitle": "Jenkins MCP - CI/CD自动化服务器 | AI Navigator Pro",
     "seoDescription": "Jenkins CI/CD MCP服务器，自动化构建、测试和部署流水线管理。",
     "views": 32000,
-    "updatedAt": "2026-04-11"
+    "updatedAt": "2026-07-18"
   },
   {
     "id": "vscode-mcp",
@@ -1354,7 +1354,7 @@
     "seoDescription": "Visual Studio Code MCP服务器，支持代码编辑、调试、扩展管理等IDE功能。",
     "featured": true,
     "views": 72000,
-    "updatedAt": "2026-04-08"
+    "updatedAt": "2026-07-30"
   },
   {
     "id": "netlify-mcp",
@@ -1381,7 +1381,7 @@
     "seoTitle": "Netlify MCP - 现代Web部署平台 | AI Navigator Pro",
     "seoDescription": "Netlify MCP，现代Web项目部署平台，支持静态站点、Serverless函数和边缘计算。",
     "views": 45000,
-    "updatedAt": "2026-04-06"
+    "updatedAt": "2026-07-23"
   },
   {
     "id": "vault-mcp",
@@ -1409,7 +1409,7 @@
     "seoDescription": "HashiCorp Vault MCP，密钥和机密管理，安全存储和访问令牌、密码等敏感数据。",
     "featured": true,
     "views": 42000,
-    "updatedAt": "2026-04-01"
+    "updatedAt": "2026-07-08"
   },
   {
     "id": "segment-mcp",
@@ -1436,7 +1436,7 @@
     "seoTitle": "Segment MCP - 客户数据平台 | AI Navigator Pro",
     "seoDescription": "Segment客户数据平台MCP，收集、清洗和路由客户数据到各工具。",
     "views": 38000,
-    "updatedAt": "2026-04-01"
+    "updatedAt": "2026-07-18"
   },
   {
     "id": "webflow-mcp",
@@ -1464,7 +1464,7 @@
     "seoDescription": "Webflow可视化网页设计MCP，无代码响应式网站构建和CMS管理。",
     "featured": true,
     "views": 45000,
-    "updatedAt": "2026-03-27"
+    "updatedAt": "2026-07-02"
   },
   {
     "id": "prefect-mcp",
@@ -1492,7 +1492,7 @@
     "seoDescription": "Prefect现代数据工作流MCP，Python原生的数据管道和自动化工具。",
     "trending": true,
     "views": 35000,
-    "updatedAt": "2026-03-27"
+    "updatedAt": "2026-07-20"
   },
   {
     "id": "npm-mcp",
@@ -1519,7 +1519,7 @@
     "seoTitle": "NPM MCP - JavaScript包管理 | AI Navigator Pro",
     "seoDescription": "NPM包管理器MCP服务器，支持包搜索、安装、版本管理等功能。",
     "views": 38000,
-    "updatedAt": "2026-03-26"
+    "updatedAt": "2026-07-16"
   },
   {
     "id": "figma-plugins-mcp",
@@ -1546,7 +1546,7 @@
     "seoTitle": "Figma Plugins MCP - 设计插件生态 | AI Navigator Pro",
     "seoDescription": "Figma插件生态MCP，集成数百个Figma插件扩展设计能力。",
     "views": 36000,
-    "updatedAt": "2026-03-26"
+    "updatedAt": "2026-07-04"
   },
   {
     "id": "digitalocean-mcp",
@@ -1573,7 +1573,7 @@
     "seoTitle": "DigitalOcean MCP - 开发者云平台 | AI Navigator Pro",
     "seoDescription": "DigitalOcean MCP，开发者友好的云平台，简单易用的Droplets和托管服务。",
     "views": 38000,
-    "updatedAt": "2026-03-25"
+    "updatedAt": "2026-07-17"
   },
   {
     "id": "telegram-mcp",
@@ -1601,7 +1601,7 @@
     "seoDescription": "Telegram即时通讯MCP，支持消息发送、群组管理和机器人开发。",
     "trending": true,
     "views": 42000,
-    "updatedAt": "2026-03-23"
+    "updatedAt": "2026-07-28"
   },
   {
     "id": "n8n-mcp",
@@ -1629,7 +1629,7 @@
     "seoDescription": "n8n开源工作流自动化MCP，可自托管的可视化工作流编排工具。",
     "featured": true,
     "views": 45000,
-    "updatedAt": "2026-03-21"
+    "updatedAt": "2026-07-20"
   },
   {
     "id": "canva-mcp",
@@ -1658,7 +1658,7 @@
     "featured": true,
     "trending": true,
     "views": 58000,
-    "updatedAt": "2026-03-20"
+    "updatedAt": "2026-07-09"
   },
   {
     "id": "trello-mcp",
@@ -1685,7 +1685,7 @@
     "seoTitle": "Trello MCP - 看板项目管理 | AI Navigator Pro",
     "seoDescription": "Trello看板管理MCP，看板式任务和项目管理协作工具。",
     "views": 38000,
-    "updatedAt": "2026-03-19"
+    "updatedAt": "2026-07-19"
   },
   {
     "id": "sonarqube-mcp",
@@ -1712,7 +1712,7 @@
     "seoTitle": "SonarQube MCP - 代码质量平台 | AI Navigator Pro",
     "seoDescription": "SonarQube代码质量MCP，静态代码分析和代码质量持续检测平台。",
     "views": 38000,
-    "updatedAt": "2026-03-17"
+    "updatedAt": "2026-07-11"
   },
   {
     "id": "microsoft-365-mcp",
@@ -1740,7 +1740,7 @@
     "seoDescription": "Microsoft 365 MCP，Office文档、邮件、日历、团队协作一站式集成。",
     "featured": true,
     "views": 55000,
-    "updatedAt": "2026-03-15"
+    "updatedAt": "2026-07-14"
   },
   {
     "id": "selenium-mcp",
@@ -1767,7 +1767,7 @@
     "seoTitle": "Selenium MCP - Web自动化测试 | AI Navigator Pro",
     "seoDescription": "Selenium自动化测试MCP，Web应用自动化测试和浏览器自动化工具。",
     "views": 32000,
-    "updatedAt": "2026-03-13"
+    "updatedAt": "2026-07-28"
   },
   {
     "id": "microsoft-teams-mcp",
@@ -1795,7 +1795,7 @@
     "seoDescription": "Microsoft Teams MCP，企业级团队协作、视频会议和文档共享平台。",
     "featured": true,
     "views": 55000,
-    "updatedAt": "2026-03-12"
+    "updatedAt": "2026-07-27"
   },
   {
     "id": "notion-mcp",
@@ -1811,7 +1811,7 @@
       "生产力"
     ],
     "rating": 4.6,
-    "updatedAt": "2026-03-08",
+    "updatedAt": "2026-07-26",
     "features": [
       "页面读取与搜索",
       "数据库查询",
@@ -1852,7 +1852,7 @@
     "seoDescription": "Tableau数据可视化MCP，商业智能和交互式数据可视化分析平台。",
     "featured": true,
     "views": 45000,
-    "updatedAt": "2026-03-08"
+    "updatedAt": "2026-07-29"
   },
   {
     "id": "discord-mcp",
@@ -1881,7 +1881,7 @@
     "featured": true,
     "trending": true,
     "views": 62000,
-    "updatedAt": "2026-03-06"
+    "updatedAt": "2026-07-09"
   },
   {
     "id": "postman-mcp",
@@ -1909,7 +1909,7 @@
     "seoDescription": "Postman API测试MCP服务器，支持API调试、测试自动化和文档生成。",
     "trending": true,
     "views": 48000,
-    "updatedAt": "2026-03-05"
+    "updatedAt": "2026-07-31"
   },
   {
     "id": "linear-mcp",
@@ -1937,7 +1937,7 @@
     "seoDescription": "Linear项目管理MCP，现代化的Issue跟踪和项目规划工具。",
     "trending": true,
     "views": 41000,
-    "updatedAt": "2026-03-04"
+    "updatedAt": "2026-07-22"
   },
   {
     "id": "coda-mcp",
@@ -1964,7 +1964,7 @@
     "seoTitle": "Coda MCP - 新一代文档协作 | AI Navigator Pro",
     "seoDescription": "Coda文档MCP，融合文档、表格和应用的现代化协作平台。",
     "views": 32000,
-    "updatedAt": "2026-03-03"
+    "updatedAt": "2026-07-04"
   },
   {
     "id": "pipedream-mcp",
@@ -1992,7 +1992,7 @@
     "seoDescription": "Pipedream开发者自动化MCP，API集成和事件驱动工作流平台。",
     "trending": true,
     "views": 36000,
-    "updatedAt": "2026-03-03"
+    "updatedAt": "2026-07-29"
   },
   {
     "id": "clickup-mcp",
@@ -2019,7 +2019,7 @@
     "seoTitle": "ClickUp MCP - 一体化工作平台 | AI Navigator Pro",
     "seoDescription": "ClickUp一体化工作管理MCP，任务、文档、目标、聊天一站式平台。",
     "views": 35000,
-    "updatedAt": "2026-02-28"
+    "updatedAt": "2026-07-11"
   },
   {
     "id": "vercel-mcp",
@@ -2047,7 +2047,7 @@
     "seoDescription": "Vercel部署平台MCP，支持前端项目部署、预览环境和性能监控。",
     "featured": true,
     "views": 55000,
-    "updatedAt": "2026-02-25"
+    "updatedAt": "2026-07-10"
   },
   {
     "id": "terraform-mcp",
@@ -2074,7 +2074,7 @@
     "seoTitle": "Terraform MCP - 基础设施即代码 | AI Navigator Pro",
     "seoDescription": "HashiCorp Terraform MCP服务器，基础设施即代码自动化管理工具。",
     "views": 35000,
-    "updatedAt": "2026-02-23"
+    "updatedAt": "2026-07-16"
   },
   {
     "id": "asana-mcp",
@@ -2102,7 +2102,7 @@
     "seoDescription": "Asana工作管理MCP，团队项目跟踪和工作流程管理平台。",
     "featured": true,
     "views": 48000,
-    "updatedAt": "2026-02-23"
+    "updatedAt": "2026-07-04"
   },
   {
     "id": "zoom-mcp",
@@ -2129,7 +2129,7 @@
     "seoTitle": "Zoom MCP - 视频会议平台 | AI Navigator Pro",
     "seoDescription": "Zoom视频会议MCP，支持会议管理、录制和虚拟背景等视频通讯功能。",
     "views": 48000,
-    "updatedAt": "2026-02-22"
+    "updatedAt": "2026-07-07"
   },
   {
     "id": "airflow-mcp",
@@ -2156,7 +2156,7 @@
     "seoTitle": "Apache Airflow MCP - 数据管道编排 | AI Navigator Pro",
     "seoDescription": "Apache Airflow MCP，数据管道编排和工作流调度平台。",
     "views": 42000,
-    "updatedAt": "2026-02-22"
+    "updatedAt": "2026-07-09"
   },
   {
     "id": "redis-mcp",
@@ -2185,7 +2185,7 @@
     "featured": true,
     "trending": true,
     "views": 55000,
-    "updatedAt": "2026-02-21"
+    "updatedAt": "2026-07-10"
   },
   {
     "id": "mysql-mcp",
@@ -2213,7 +2213,7 @@
     "seoDescription": "MySQL数据库MCP服务器，支持SQL查询、数据管理和性能优化。",
     "featured": true,
     "views": 52000,
-    "updatedAt": "2026-02-19"
+    "updatedAt": "2026-07-10"
   },
   {
     "id": "google-analytics-mcp",
@@ -2242,7 +2242,7 @@
     "featured": true,
     "trending": true,
     "views": 65000,
-    "updatedAt": "2026-02-18"
+    "updatedAt": "2026-07-04"
   },
   {
     "id": "sqlite-mcp",
@@ -2271,7 +2271,7 @@
     ],
     "rating": 4.4,
     "views": 18000,
-    "updatedAt": "2026-02-17",
+    "updatedAt": "2026-07-28",
     "seoTitle": "SQLite MCP - MCP集成 | AI Navigator Pro",
     "seoDescription": "SQLite数据库MCP，让AI能够执行SQL查询。"
   },
@@ -2300,7 +2300,7 @@
     "seoTitle": "OWASP MCP - Web安全测试 | AI Navigator Pro",
     "seoDescription": "OWASP安全测试MCP，Web应用安全扫描和OWASP Top 10漏洞检测。",
     "views": 32000,
-    "updatedAt": "2026-02-17"
+    "updatedAt": "2026-07-03"
   },
   {
     "id": "crowdstrike-mcp",
@@ -2327,7 +2327,7 @@
     "seoTitle": "CrowdStrike MCP - 端点安全平台 | AI Navigator Pro",
     "seoDescription": "CrowdStrike Falcon MCP，端点安全和威胁检测平台，云端AI驱动的防护。",
     "views": 38000,
-    "updatedAt": "2026-02-12"
+    "updatedAt": "2026-07-18"
   },
   {
     "id": "supabase-mcp",
@@ -2356,7 +2356,7 @@
     "featured": true,
     "trending": true,
     "views": 60000,
-    "updatedAt": "2026-02-09"
+    "updatedAt": "2026-07-29"
   },
   {
     "id": "firebase-mcp",
@@ -2383,7 +2383,7 @@
     "seoTitle": "Firebase MCP - Google应用开发平台 | AI Navigator Pro",
     "seoDescription": "Google Firebase MCP，移动和Web应用开发平台，实时数据库和后端服务。",
     "views": 50000,
-    "updatedAt": "2026-02-08"
+    "updatedAt": "2026-07-19"
   },
   {
     "id": "lark-mcp",
@@ -2411,7 +2411,7 @@
     "seoDescription": "飞书Lark MCP，一站式企业协作平台，支持即时通讯、文档和视频会议。",
     "featured": true,
     "views": 45000,
-    "updatedAt": "2026-02-06"
+    "updatedAt": "2026-07-15"
   },
   {
     "id": "slack-mcp",
@@ -2427,7 +2427,7 @@
       "消息"
     ],
     "rating": 4.5,
-    "updatedAt": "2026-02-05",
+    "updatedAt": "2026-07-06",
     "features": [
       "消息发送",
       "频道管理",
@@ -2467,7 +2467,7 @@
     "seoDescription": "Google Gemini MCP，多模态AI模型，支持文本、图像、视频和代码理解。",
     "featured": true,
     "views": 72000,
-    "updatedAt": "2026-02-05"
+    "updatedAt": "2026-07-26"
   },
   {
     "id": "langchain-mcp",
@@ -2494,7 +2494,7 @@
     "seoTitle": "LangChain MCP - LLM应用开发框架 | AI Navigator Pro",
     "seoDescription": "LangChain MCP框架，LLM应用开发框架，支持链、代理、RAG和工具调用。",
     "views": 60000,
-    "updatedAt": "2026-01-28"
+    "updatedAt": "2026-07-28"
   },
   {
     "id": "burp-suite-mcp",
@@ -2521,7 +2521,7 @@
     "seoTitle": "Burp Suite MCP - 渗透测试工具 | AI Navigator Pro",
     "seoDescription": "Burp Suite MCP，Web应用安全渗透测试工具，代理、扫描和爬虫功能。",
     "views": 30000,
-    "updatedAt": "2026-01-28"
+    "updatedAt": "2026-07-08"
   },
   {
     "id": "cron-mcp",
@@ -2548,7 +2548,7 @@
     "seoTitle": "Cron MCP - 定时任务管理 | AI Navigator Pro",
     "seoDescription": "定时任务管理MCP，支持Cron表达式和定时任务调度与监控。",
     "views": 22000,
-    "updatedAt": "2026-01-26"
+    "updatedAt": "2026-07-19"
   },
   {
     "id": "docker-mcp-dev",
@@ -2576,7 +2576,7 @@
     "seoDescription": "Docker开发环境MCP，支持容器构建、镜像管理、编排部署等开发工作流。",
     "trending": true,
     "views": 42000,
-    "updatedAt": "2026-01-25"
+    "updatedAt": "2026-07-01"
   },
   {
     "id": "ollama-mcp",
@@ -2605,7 +2605,7 @@
     "featured": true,
     "trending": true,
     "views": 75000,
-    "updatedAt": "2026-01-25"
+    "updatedAt": "2026-07-10"
   },
   {
     "id": "figma-mcp",
@@ -2621,7 +2621,7 @@
       "设计系统"
     ],
     "rating": 4.7,
-    "updatedAt": "2026-01-24",
+    "updatedAt": "2026-07-02",
     "features": [
       "设计文件读取",
       "组件提取",
@@ -2661,7 +2661,7 @@
     "seoDescription": "Framer网站构建器MCP，支持无代码网站设计和交互动效创作。",
     "trending": true,
     "views": 42000,
-    "updatedAt": "2026-01-24"
+    "updatedAt": "2026-07-21"
   },
   {
     "id": "grafana-mcp",
@@ -2690,7 +2690,7 @@
     "featured": true,
     "trending": true,
     "views": 52000,
-    "updatedAt": "2026-01-24"
+    "updatedAt": "2026-07-19"
   },
   {
     "id": "cloudflare-mcp",
@@ -2719,7 +2719,7 @@
     "featured": true,
     "trending": true,
     "views": 58000,
-    "updatedAt": "2026-01-22"
+    "updatedAt": "2026-07-09"
   },
   {
     "id": "wechat-mcp",
@@ -2746,7 +2746,7 @@
     "seoTitle": "WeChat MCP - 微信公众平台集成 | AI Navigator Pro",
     "seoDescription": "微信公众平台MCP，支持公众号管理、消息推送和小程序开发。",
     "views": 40000,
-    "updatedAt": "2026-01-20"
+    "updatedAt": "2026-07-22"
   },
   {
     "id": "zeplin-mcp",
@@ -2773,7 +2773,7 @@
     "seoTitle": "Zeplin MCP - 设计交接协作 | AI Navigator Pro",
     "seoDescription": "Zeplin设计协作MCP，设计稿标注、资源导出和开发交接平台。",
     "views": 25000,
-    "updatedAt": "2026-01-18"
+    "updatedAt": "2026-07-10"
   },
   {
     "id": "sketch-mcp",
@@ -2800,7 +2800,7 @@
     "seoTitle": "Sketch MCP - 专业UI设计工具 | AI Navigator Pro",
     "seoDescription": "Sketch设计工具MCP，支持Mac平台专业UI设计和设计系统管理。",
     "views": 32000,
-    "updatedAt": "2026-01-13"
+    "updatedAt": "2026-07-09"
   },
   {
     "id": "storybook-mcp",
@@ -2827,7 +2827,7 @@
     "seoTitle": "Storybook MCP - UI组件开发工具 | AI Navigator Pro",
     "seoDescription": "Storybook组件开发MCP，UI组件独立开发、测试和文档化工具。",
     "views": 38000,
-    "updatedAt": "2026-01-13"
+    "updatedAt": "2026-07-27"
   },
   {
     "id": "roam-research-mcp",
@@ -2854,7 +2854,7 @@
     "seoTitle": "Roam Research MCP - 网络化思考工具 | AI Navigator Pro",
     "seoDescription": "Roam Research MCP，网络化思考工具，支持双向链接和每日笔记。",
     "views": 28000,
-    "updatedAt": "2026-01-13"
+    "updatedAt": "2026-07-05"
   },
   {
     "id": "adobe-xd-mcp",
@@ -2881,7 +2881,7 @@
     "seoTitle": "Adobe XD MCP - 原型交互设计 | AI Navigator Pro",
     "seoDescription": "Adobe XD MCP服务器，支持原型设计、交互设计和设计系统管理。",
     "views": 28000,
-    "updatedAt": "2026-01-12"
+    "updatedAt": "2026-07-21"
   },
   {
     "id": "hotjar-mcp",
@@ -2909,7 +2909,7 @@
     "seoDescription": "Hotjar用户体验MCP，热力图、录屏、问卷反馈，了解用户如何与网站互动。",
     "trending": true,
     "views": 40000,
-    "updatedAt": "2026-01-12"
+    "updatedAt": "2026-07-05"
   },
   {
     "id": "kubernetes-mcp",
@@ -2938,7 +2938,7 @@
     "featured": true,
     "trending": true,
     "views": 55000,
-    "updatedAt": "2026-01-10"
+    "updatedAt": "2026-07-06"
   },
   {
     "id": "temporal-mcp",
@@ -2965,7 +2965,7 @@
     "seoTitle": "Temporal MCP - 微服务编排引擎 | AI Navigator Pro",
     "seoDescription": "Temporal微服务编排MCP，持久化工作流引擎和分布式事务管理。",
     "views": 30000,
-    "updatedAt": "2026-01-08"
+    "updatedAt": "2026-07-06"
   },
   {
     "id": "power-bi-mcp",
@@ -2992,7 +2992,7 @@
     "seoTitle": "Power BI MCP - 微软商业智能 | AI Navigator Pro",
     "seoDescription": "Microsoft Power BI MCP，商业智能工具，数据可视化和企业级报表。",
     "views": 42000,
-    "updatedAt": "2026-01-08"
+    "updatedAt": "2026-07-31"
   },
   {
     "id": "puppeteer-mcp",
@@ -3021,7 +3021,7 @@
     ],
     "rating": 4.5,
     "views": 20000,
-    "updatedAt": "2026-01-07",
+    "updatedAt": "2026-07-03",
     "seoTitle": "Puppeteer MCP - MCP集成 | AI Navigator Pro",
     "seoDescription": "Puppeteer浏览器自动化MCP，提供Chrome控制能力。"
   },
@@ -3050,7 +3050,7 @@
     "seoTitle": "LlamaIndex MCP - RAG数据框架 | AI Navigator Pro",
     "seoDescription": "LlamaIndex MCP，数据框架，用于将私有数据连接到大语言模型的RAG系统。",
     "views": 55000,
-    "updatedAt": "2026-01-05"
+    "updatedAt": "2026-07-19"
   },
   {
     "id": "notion-ai-mcp",
@@ -3079,7 +3079,7 @@
     "featured": true,
     "trending": true,
     "views": 68000,
-    "updatedAt": "2026-01-02"
+    "updatedAt": "2026-07-21"
   },
   {
     "id": "fetch-mcp",
@@ -3108,7 +3108,7 @@
     ],
     "rating": 4.5,
     "views": 22000,
-    "updatedAt": "2026-01-01",
+    "updatedAt": "2026-07-06",
     "seoTitle": "Fetch MCP - MCP集成 | AI Navigator Pro",
     "seoDescription": "网页内容抓取MCP，让AI获取并处理网络内容。"
   }

@@ -15,7 +15,7 @@
     "seoDescription": "专业的产品经理PRD写作提示词，帮助快速生成符合大厂规范的产品需求文档。",
     "featured": true,
     "views": 12500,
-    "createdAt": "2026-01-05"
+    "createdAt": "2026-07-10"
   },
   {
     "id": "pm-user-research",
@@ -33,7 +33,7 @@
     "seoDescription": "专业的用户研究访谈提纲生成提示词，帮助产品经理进行深度用户访谈。",
     "featured": true,
     "views": 8900,
-    "createdAt": "2026-01-05"
+    "createdAt": "2026-07-06"
   },
   {
     "id": "operation-copywriting",
@@ -51,7 +51,7 @@
     "seoDescription": "专业的爆款文案写作提示词，支持公众号、小红书、微博、抖音等多种平台。",
     "featured": true,
     "views": 15600,
-    "createdAt": "2026-01-05"
+    "createdAt": "2026-07-20"
   },
   {
     "id": "operation-data-analysis",
@@ -68,7 +68,7 @@
     "seoTitle": "运营数据分析报告生成器 Prompt | AI Navigator Pro",
     "seoDescription": "专业的运营数据分析报告生成提示词，帮助快速产出高质量分析报告。",
     "views": 9800,
-    "createdAt": "2026-01-05"
+    "createdAt": "2026-07-21"
   },
   {
     "id": "design-ui-critique",
@@ -86,7 +86,7 @@
     "seoDescription": "专业的UI设计评审提示词，从视觉、交互、信息架构等多维度进行专业评审。",
     "featured": true,
     "views": 11200,
-    "createdAt": "2026-01-05"
+    "createdAt": "2026-07-25"
   },
   {
     "id": "design-system",
@@ -103,7 +103,7 @@
     "seoTitle": "设计系统搭建顾问 Prompt | AI Navigator Pro",
     "seoDescription": "专业的设计系统搭建咨询提示词，帮助团队建立完整的设计规范和组件系统。",
     "views": 7600,
-    "createdAt": "2026-01-12"
+    "createdAt": "2026-07-11"
   },
   {
     "id": "dev-code-review",
@@ -121,7 +121,7 @@
     "seoDescription": "专业的代码审查提示词，从正确性、性能、安全、可读性等多维度进行审查。",
     "featured": true,
     "views": 14300,
-    "createdAt": "2026-01-12"
+    "createdAt": "2026-07-26"
   },
   {
     "id": "dev-architecture",
@@ -138,7 +138,7 @@
     "seoTitle": "系统架构设计顾问 Prompt | AI Navigator Pro",
     "seoDescription": "专业的系统架构设计咨询提示词，帮助设计高可用、可扩展的系统架构。",
     "views": 10500,
-    "createdAt": "2026-01-12"
+    "createdAt": "2026-07-15"
   },
   {
     "id": "ads-facebook",
@@ -156,7 +156,7 @@
     "seoDescription": "专业的Facebook广告优化提示词，从受众、创意、出价等全方位优化广告效果。",
     "featured": true,
     "views": 8700,
-    "createdAt": "2026-01-12"
+    "createdAt": "2026-07-17"
   },
   {
     "id": "self-media-ip",
@@ -174,7 +174,7 @@
     "seoDescription": "专业的自媒体IP打造指南，从定位、内容到变现全流程规划。",
     "featured": true,
     "views": 13400,
-    "createdAt": "2026-01-18"
+    "createdAt": "2026-07-10"
   },
   {
     "id": "dev-bug-fix",
@@ -191,7 +191,7 @@
     "seoTitle": "Bug定位与修复专家 Prompt | AI Navigator Pro",
     "seoDescription": "专业的Bug定位与修复提示词，帮助快速定位并解决代码问题。",
     "views": 7800,
-    "createdAt": "2026-01-18"
+    "createdAt": "2026-07-16"
   },
   {
     "id": "dev-api-doc",
@@ -208,7 +208,7 @@
     "seoTitle": "API文档生成器 Prompt | AI Navigator Pro",
     "seoDescription": "专业的API文档自动生成提示词，输出标准OpenAPI/Swagger格式文档。",
     "views": 6400,
-    "createdAt": "2026-01-18"
+    "createdAt": "2026-07-08"
   },
   {
     "id": "dev-unit-test",
@@ -225,7 +225,7 @@
     "seoTitle": "单元测试生成器 Prompt | AI Navigator Pro",
     "seoDescription": "专业的单元测试生成提示词，覆盖正常、边界、异常等多种测试场景。",
     "views": 5900,
-    "createdAt": "2026-01-18"
+    "createdAt": "2026-07-03"
   },
   {
     "id": "pm-prototype",
@@ -242,7 +242,7 @@
     "seoTitle": "产品原型设计助手 Prompt | AI Navigator Pro",
     "seoDescription": "专业的产品原型设计提示词，从信息架构到核心页面设计的完整方案。",
     "views": 8200,
-    "createdAt": "2026-01-18"
+    "createdAt": "2026-07-09"
   },
   {
     "id": "operation-growth",
@@ -260,7 +260,7 @@
     "seoDescription": "专业的用户增长策略提示词，基于AARRR模型设计完整的增长方案。",
     "featured": true,
     "views": 9100,
-    "createdAt": "2026-01-18"
+    "createdAt": "2026-07-15"
   },
   {
     "id": "design-logo",
@@ -277,7 +277,7 @@
     "seoTitle": "Logo设计创意顾问 Prompt | AI Navigator Pro",
     "seoDescription": "专业的Logo设计创意咨询提示词，输出多套完整的Logo设计方案。",
     "views": 5800,
-    "createdAt": "2026-01-25"
+    "createdAt": "2026-07-20"
   },
   {
     "id": "ads-google",
@@ -294,7 +294,7 @@
     "seoTitle": "Google Ads优化专家 Prompt | AI Navigator Pro",
     "seoDescription": "专业的Google Ads广告优化提示词，从关键词到出价策略全方位优化。",
     "views": 6200,
-    "createdAt": "2026-02-03"
+    "createdAt": "2026-07-02"
   },
   {
     "id": "self-media-tiktok",
@@ -312,7 +312,7 @@
     "seoDescription": "专业的抖音爆款短视频脚本创作提示词，输出完整的拍摄脚本。",
     "featured": true,
     "views": 11200,
-    "createdAt": "2026-02-03"
+    "createdAt": "2026-07-16"
   },
   {
     "id": "translator-multilang",
@@ -329,7 +329,7 @@
     "seoTitle": "多语言翻译专家 Prompt | AI Navigator Pro",
     "seoDescription": "专业的多语言翻译提示词，支持商务、技术、营销等多种内容类型。",
     "views": 9500,
-    "createdAt": "2026-02-03"
+    "createdAt": "2026-07-02"
   },
   {
     "id": "hr-resume",
@@ -347,7 +347,7 @@
     "seoDescription": "专业的简历优化和面试准备提示词，从简历改写到面试应对全流程。",
     "featured": true,
     "views": 16800,
-    "createdAt": "2026-02-10"
+    "createdAt": "2026-07-02"
   },
   {
     "id": "pm-ai-product-strategy",
@@ -365,7 +365,7 @@
     "seoDescription": "专业的AI产品战略规划提示词，帮助产品经理制定AI时代的产品发展战略。",
     "featured": true,
     "views": 14200,
-    "createdAt": "2026-02-10"
+    "createdAt": "2026-07-12"
   },
   {
     "id": "pm-competitive-analysis",
@@ -382,7 +382,7 @@
     "seoTitle": "竞品分析专业框架 Prompt | AI Navigator Pro",
     "seoDescription": "专业的竞品分析框架提示词，从功能、体验、商业模式等多维度进行深度分析。",
     "views": 8600,
-    "createdAt": "2026-02-10"
+    "createdAt": "2026-07-13"
   },
   {
     "id": "pm-agile-backlog",
@@ -399,7 +399,7 @@
     "seoTitle": "敏捷需求与Backlog管理 Prompt | AI Navigator Pro",
     "seoDescription": "专业的敏捷需求管理提示词，帮助产品负责人高效管理产品Backlog。",
     "views": 7300,
-    "createdAt": "2026-02-10"
+    "createdAt": "2026-07-10"
   },
   {
     "id": "pm-data-metrics",
@@ -416,7 +416,7 @@
     "seoTitle": "产品数据指标体系搭建 Prompt | AI Navigator Pro",
     "seoDescription": "专业的产品数据指标体系搭建提示词，帮助建立数据驱动的产品决策机制。",
     "views": 8100,
-    "createdAt": "2026-02-10"
+    "createdAt": "2026-07-03"
   },
   {
     "id": "pm-pricing-strategy",
@@ -433,7 +433,7 @@
     "seoTitle": "产品定价策略顾问 Prompt | AI Navigator Pro",
     "seoDescription": "专业的产品定价策略咨询提示词，帮助制定最优的产品定价方案。",
     "views": 6900,
-    "createdAt": "2026-02-10"
+    "createdAt": "2026-07-06"
   },
   {
     "id": "pm-roadmap-planner",
@@ -451,7 +451,7 @@
     "seoDescription": "专业的产品路线图规划提示词，帮助产品经理制定清晰的产品发展蓝图。",
     "featured": true,
     "views": 9400,
-    "createdAt": "2026-02-10"
+    "createdAt": "2026-07-24"
   },
   {
     "id": "operation-community",
@@ -469,7 +469,7 @@
     "seoDescription": "专业的社群运营体系搭建提示词，从零开始搭建高活跃高转化的社群。",
     "featured": true,
     "views": 12800,
-    "createdAt": "2026-02-10"
+    "createdAt": "2026-07-05"
   },
   {
     "id": "operation-activity",
@@ -486,7 +486,7 @@
     "seoTitle": "活动策划全案生成器 Prompt | AI Navigator Pro",
     "seoDescription": "专业的活动策划全案生成提示词，从创意到执行的完整活动方案。",
     "views": 10200,
-    "createdAt": "2026-02-10"
+    "createdAt": "2026-07-15"
   },
   {
     "id": "operation-private-domain",
@@ -504,7 +504,7 @@
     "seoDescription": "专业的私域流量运营提示词，帮助搭建从引流到转化的完整私域运营体系。",
     "featured": true,
     "views": 15800,
-    "createdAt": "2026-02-17"
+    "createdAt": "2026-07-28"
   },
   {
     "id": "operation-content-calendar",
@@ -521,7 +521,7 @@
     "seoTitle": "内容日历与选题规划 Prompt | AI Navigator Pro",
     "seoDescription": "专业的内容日历规划提示词，帮助内容运营高效规划月度内容。",
     "views": 8400,
-    "createdAt": "2026-02-17"
+    "createdAt": "2026-07-16"
   },
   {
     "id": "operation-user-lifecycle",
@@ -538,7 +538,7 @@
     "seoTitle": "用户生命周期运营策略 Prompt | AI Navigator Pro",
     "seoDescription": "专业的用户生命周期运营提示词，覆盖从新用户到流失用户的全周期运营策略。",
     "views": 9600,
-    "createdAt": "2026-02-17"
+    "createdAt": "2026-07-02"
   },
   {
     "id": "design-ux-research",
@@ -555,7 +555,7 @@
     "seoTitle": "UX用户体验研究方案 Prompt | AI Navigator Pro",
     "seoDescription": "专业的UX用户体验研究方案提示词，帮助设计师科学开展用户研究。",
     "views": 7100,
-    "createdAt": "2026-02-17"
+    "createdAt": "2026-07-27"
   },
   {
     "id": "design-illustration",
@@ -572,7 +572,7 @@
     "seoTitle": "插画创意与风格指导 Prompt | AI Navigator Pro",
     "seoDescription": "专业的插画创意与风格指导提示词，输出完整的插画设计方案。",
     "views": 8300,
-    "createdAt": "2026-02-17"
+    "createdAt": "2026-07-15"
   },
   {
     "id": "design-motion",
@@ -589,7 +589,7 @@
     "seoTitle": "动效设计规范指南 Prompt | AI Navigator Pro",
     "seoDescription": "专业的动效设计规范提示词，帮助建立完整的产品动效设计体系。",
     "views": 6500,
-    "createdAt": "2026-02-17"
+    "createdAt": "2026-07-13"
   },
   {
     "id": "design-banner",
@@ -607,7 +607,7 @@
     "seoDescription": "专业的Banner和海报设计创意提示词，提供多套高质量设计方案。",
     "featured": true,
     "views": 9900,
-    "createdAt": "2026-02-17"
+    "createdAt": "2026-07-08"
   },
   {
     "id": "design-accessibility",
@@ -624,7 +624,7 @@
     "seoTitle": "无障碍设计合规审计 Prompt | AI Navigator Pro",
     "seoDescription": "专业的无障碍设计审计提示词，帮助产品达到WCAG无障碍标准。",
     "views": 5400,
-    "createdAt": "2026-02-24"
+    "createdAt": "2026-07-29"
   },
   {
     "id": "dev-ai-coding",
@@ -642,7 +642,7 @@
     "seoDescription": "专业的AI辅助编程方案规划提示词，帮助团队最大化AI编程效率。",
     "featured": true,
     "views": 16200,
-    "createdAt": "2026-02-24"
+    "createdAt": "2026-07-20"
   },
   {
     "id": "dev-devops-pipeline",
@@ -659,7 +659,7 @@
     "seoTitle": "DevOps流水线设计专家 Prompt | AI Navigator Pro",
     "seoDescription": "专业的DevOps流水线设计提示词，帮助搭建高效可靠的CI/CD流程。",
     "views": 8800,
-    "createdAt": "2026-02-24"
+    "createdAt": "2026-07-07"
   },
   {
     "id": "dev-refactoring",
@@ -676,7 +676,7 @@
     "seoTitle": "代码重构与技术债治理 Prompt | AI Navigator Pro",
     "seoDescription": "专业的代码重构与技术债治理提示词，帮助团队系统性改善代码质量。",
     "views": 7700,
-    "createdAt": "2026-03-04"
+    "createdAt": "2026-07-26"
   },
   {
     "id": "ads-tiktok",
@@ -694,7 +694,7 @@
     "seoDescription": "专业的TikTok广告投放优化提示词，帮助提升海外短视频广告ROI。",
     "featured": true,
     "views": 10800,
-    "createdAt": "2026-03-04"
+    "createdAt": "2026-07-11"
   },
   {
     "id": "ads-douyin",
@@ -711,7 +711,7 @@
     "seoTitle": "抖音巨量引擎投放专家 Prompt | AI Navigator Pro",
     "seoDescription": "专业的抖音巨量引擎投放提示词，从账户搭建到优化的全流程指导。",
     "views": 11500,
-    "createdAt": "2026-03-11"
+    "createdAt": "2026-07-25"
   },
   {
     "id": "ads-wechat",
@@ -728,7 +728,7 @@
     "seoTitle": "微信广告投放优化 Prompt | AI Navigator Pro",
     "seoDescription": "专业的微信广告投放优化提示词，覆盖朋友圈、公众号、小程序等全场景。",
     "views": 8200,
-    "createdAt": "2026-03-11"
+    "createdAt": "2026-07-25"
   },
   {
     "id": "ads-seo",
@@ -746,7 +746,7 @@
     "seoDescription": "专业的SEO优化咨询提示词，从技术、内容、外链全方位提升搜索排名。",
     "featured": true,
     "views": 13600,
-    "createdAt": "2026-03-11"
+    "createdAt": "2026-07-20"
   },
   {
     "id": "ads-native",
@@ -763,7 +763,7 @@
     "seoTitle": "信息流广告创意工厂 Prompt | AI Navigator Pro",
     "seoDescription": "专业的信息流广告创意生成提示词，批量产出高质量广告创意。",
     "views": 9400,
-    "createdAt": "2026-03-11"
+    "createdAt": "2026-07-20"
   },
   {
     "id": "ads-attribution",
@@ -780,7 +780,7 @@
     "seoTitle": "广告归因与ROI分析专家 Prompt | AI Navigator Pro",
     "seoDescription": "专业的广告归因与ROI分析提示词，帮助科学评估广告效果、优化预算分配。",
     "views": 7100,
-    "createdAt": "2026-03-11"
+    "createdAt": "2026-07-17"
   },
   {
     "id": "self-media-xiaohongshu",
@@ -798,7 +798,7 @@
     "seoDescription": "专业的小红书爆款笔记创作提示词，从标题到封面的完整爆款方案。",
     "featured": true,
     "views": 14800,
-    "createdAt": "2026-03-11"
+    "createdAt": "2026-07-07"
   },
   {
     "id": "self-media-bilibili",
@@ -815,7 +815,7 @@
     "seoTitle": "B站UP主内容策划 Prompt | AI Navigator Pro",
     "seoDescription": "专业的B站内容策划提示词，帮助UP主打造高质量视频内容。",
     "views": 9700,
-    "createdAt": "2026-03-11"
+    "createdAt": "2026-07-27"
   },
   {
     "id": "self-media-wechat-official",
@@ -832,7 +832,7 @@
     "seoTitle": "公众号10W+爆文写作 Prompt | AI Navigator Pro",
     "seoDescription": "专业的公众号爆文写作提示词，从标题到结尾的完整10W+写作方案。",
     "views": 11200,
-    "createdAt": "2026-03-18"
+    "createdAt": "2026-07-20"
   },
   {
     "id": "self-media-monetization",
@@ -850,7 +850,7 @@
     "seoDescription": "专业的自媒体变现规划提示词，帮助找到最适合的变现方式和路径。",
     "featured": true,
     "views": 15300,
-    "createdAt": "2026-03-18"
+    "createdAt": "2026-07-08"
   },
   {
     "id": "self-data-analysis",
@@ -867,7 +867,7 @@
     "seoTitle": "自媒体数据复盘与增长 Prompt | AI Navigator Pro",
     "seoDescription": "专业的自媒体数据复盘提示词，用数据驱动内容优化和粉丝增长。",
     "views": 7900,
-    "createdAt": "2026-03-25"
+    "createdAt": "2026-07-15"
   },
   {
     "id": "self-media-matrix",
@@ -884,7 +884,7 @@
     "seoTitle": "自媒体矩阵运营策略 Prompt | AI Navigator Pro",
     "seoDescription": "专业的自媒体矩阵运营规划提示词，帮助打造多平台联动的内容矩阵。",
     "views": 8600,
-    "createdAt": "2026-04-02"
+    "createdAt": "2026-07-30"
   },
   {
     "id": "translator-business",
@@ -901,7 +901,7 @@
     "seoTitle": "商务英语翻译专家 Prompt | AI Navigator Pro",
     "seoDescription": "专业的商务英语翻译提示词，适用于商务邮件、合同、报价等各种商务场景。",
     "views": 8900,
-    "createdAt": "2026-04-02"
+    "createdAt": "2026-07-27"
   },
   {
     "id": "translator-tech",
@@ -918,7 +918,7 @@
     "seoTitle": "技术文档翻译专家 Prompt | AI Navigator Pro",
     "seoDescription": "专业的技术文档翻译提示词，确保术语准确、表达专业。",
     "views": 7600,
-    "createdAt": "2026-04-09"
+    "createdAt": "2026-07-26"
   },
   {
     "id": "translator-localization",
@@ -935,7 +935,7 @@
     "seoTitle": "产品本地化翻译顾问 Prompt | AI Navigator Pro",
     "seoDescription": "专业的产品本地化翻译提示词，不仅翻译语言，更适配当地文化和用户习惯。",
     "views": 6800,
-    "createdAt": "2026-04-09"
+    "createdAt": "2026-07-08"
   },
   {
     "id": "translator-legal",
@@ -952,7 +952,7 @@
     "seoTitle": "法律合同翻译专家 Prompt | AI Navigator Pro",
     "seoDescription": "专业的法律合同翻译提示词，确保法律文书翻译的准确性和严谨性。",
     "views": 6200,
-    "createdAt": "2026-04-09"
+    "createdAt": "2026-07-31"
   },
   {
     "id": "translator-marketing",
@@ -969,7 +969,7 @@
     "seoTitle": "营销文案翻译与本地化 Prompt | AI Navigator Pro",
     "seoDescription": "专业的营销文案翻译提示词，在翻译的同时保留文案的营销力和感染力。",
     "views": 7300,
-    "createdAt": "2026-04-09"
+    "createdAt": "2026-07-17"
   },
   {
     "id": "translator-subtitle",
@@ -986,7 +986,7 @@
     "seoTitle": "视频字幕翻译与制作 Prompt | AI Navigator Pro",
     "seoDescription": "专业的视频字幕翻译提示词，输出标准SRT格式字幕。",
     "views": 8100,
-    "createdAt": "2026-04-09"
+    "createdAt": "2026-07-11"
   },
   {
     "id": "translator-essay",
@@ -1004,7 +1004,7 @@
     "seoDescription": "专业的留学文书润色和翻译提示词，帮助申请者打造高质量申请文书。",
     "featured": true,
     "views": 10400,
-    "createdAt": "2026-04-16"
+    "createdAt": "2026-07-25"
   },
   {
     "id": "career-planning",
@@ -1022,7 +1022,7 @@
     "seoDescription": "专业的职业发展规划咨询提示词，帮助理清职业方向、制定发展路线。",
     "featured": true,
     "views": 17200,
-    "createdAt": "2026-04-16"
+    "createdAt": "2026-07-11"
   },
   {
     "id": "career-job-change",
@@ -1039,7 +1039,7 @@
     "seoTitle": "跳槽与转行决策助手 Prompt | AI Navigator Pro",
     "seoDescription": "专业的跳槽转行决策辅助提示词，帮助做出理性的职业选择。",
     "views": 12600,
-    "createdAt": "2026-04-16"
+    "createdAt": "2026-07-23"
   },
   {
     "id": "career-salary-negotiation",
@@ -1056,7 +1056,7 @@
     "seoTitle": "薪资谈判策略专家 Prompt | AI Navigator Pro",
     "seoDescription": "专业的薪资谈判策略提示词，帮助你拿到满意的薪资待遇。",
     "views": 11800,
-    "createdAt": "2026-04-16"
+    "createdAt": "2026-07-31"
   },
   {
     "id": "career-promotion",
@@ -1074,7 +1074,7 @@
     "seoDescription": "专业的晋升加薪策略提示词，系统性提升职场竞争力和影响力。",
     "featured": true,
     "views": 13900,
-    "createdAt": "2026-04-23"
+    "createdAt": "2026-07-20"
   },
   {
     "id": "career-side-hustle",
@@ -1091,7 +1091,7 @@
     "seoTitle": "副业规划与启动指南 Prompt | AI Navigator Pro",
     "seoDescription": "专业的副业规划提示词，帮你找到适合的副业方向并顺利启动。",
     "views": 15600,
-    "createdAt": "2026-04-23"
+    "createdAt": "2026-07-15"
   },
   {
     "id": "career-workplace-communication",
@@ -1109,7 +1109,7 @@
     "seoDescription": "专业的职场沟通教练提示词，帮助处理各种职场沟通难题。",
     "featured": true,
     "views": 14500,
-    "createdAt": "2026-04-23"
+    "createdAt": "2026-07-04"
   },
   {
     "id": "career-freelance",
@@ -1126,7 +1126,7 @@
     "seoTitle": "自由职业转型指南 Prompt | AI Navigator Pro",
     "seoDescription": "专业的自由职业转型指南提示词，从技能准备到获客接单的完整规划。",
     "views": 9800,
-    "createdAt": "2026-04-23"
+    "createdAt": "2026-07-08"
   },
   {
     "id": "marketing-brand-strategy",
@@ -1144,7 +1144,7 @@
     "seoDescription": "专业的品牌战略规划提示词，从定位到传播的完整品牌建设方案。",
     "featured": true,
     "views": 12400,
-    "createdAt": "2026-04-23"
+    "createdAt": "2026-07-30"
   },
   {
     "id": "marketing-content-marketing",
@@ -1161,7 +1161,7 @@
     "seoTitle": "内容营销策略顾问 Prompt | AI Navigator Pro",
     "seoDescription": "专业的内容营销策略咨询提示词，帮助建立系统化的内容营销体系。",
     "views": 9300,
-    "createdAt": "2026-04-23"
+    "createdAt": "2026-07-02"
   },
   {
     "id": "marketing-social-media",
@@ -1178,7 +1178,7 @@
     "seoTitle": "社交媒体营销策略师 Prompt | AI Navigator Pro",
     "seoDescription": "专业的社交媒体营销策略提示词，帮助品牌打造有影响力的社媒矩阵。",
     "views": 8700,
-    "createdAt": "2026-04-23"
+    "createdAt": "2026-07-21"
   },
   {
     "id": "marketing-event-marketing",
@@ -1196,7 +1196,7 @@
     "seoDescription": "专业的事件营销策划提示词，帮助品牌打造有传播力的营销事件。",
     "featured": true,
     "views": 10800,
-    "createdAt": "2026-04-30"
+    "createdAt": "2026-07-30"
   },
   {
     "id": "marketing-email-marketing",
@@ -1213,7 +1213,7 @@
     "seoTitle": "邮件营销自动化专家 Prompt | AI Navigator Pro",
     "seoDescription": "专业的邮件营销自动化设计提示词，提升邮件打开率、点击率和转化率。",
     "views": 7200,
-    "createdAt": "2026-04-30"
+    "createdAt": "2026-07-20"
   },
   {
     "id": "marketing-influencer",
@@ -1230,7 +1230,7 @@
     "seoTitle": "KOL营销与达人合作策略 Prompt | AI Navigator Pro",
     "seoDescription": "专业的KOL营销规划提示词，帮助品牌高效开展达人合作营销。",
     "views": 9500,
-    "createdAt": "2026-04-30"
+    "createdAt": "2026-07-06"
   },
   {
     "id": "marketing-growth-hacking",
@@ -1248,7 +1248,7 @@
     "seoDescription": "专业的增长黑客策略提示词，用数据驱动和快速实验实现爆发式增长。",
     "featured": true,
     "views": 13200,
-    "createdAt": "2026-04-30"
+    "createdAt": "2026-07-07"
   },
   {
     "id": "marketing-crm",
@@ -1265,7 +1265,7 @@
     "seoTitle": "CRM客户关系管理策略 Prompt | AI Navigator Pro",
     "seoDescription": "专业的CRM客户关系管理策略提示词，帮助建立完善的客户管理和运营体系。",
     "views": 7800,
-    "createdAt": "2026-05-07"
+    "createdAt": "2026-07-31"
   },
   {
     "id": "data-bi-dashboard",
@@ -1283,7 +1283,7 @@
     "seoDescription": "专业的BI数据看板设计提示词，从指标体系到可视化呈现的完整方案。",
     "featured": true,
     "views": 11600,
-    "createdAt": "2026-05-07"
+    "createdAt": "2026-07-12"
   },
   {
     "id": "data-sql-assistant",
@@ -1300,7 +1300,7 @@
     "seoTitle": "SQL查询优化与编写助手 Prompt | AI Navigator Pro",
     "seoDescription": "专业的SQL编写和优化提示词，帮助高效查询数据并提升性能。",
     "views": 10200,
-    "createdAt": "2026-05-07"
+    "createdAt": "2026-07-25"
   },
   {
     "id": "data-ab-test",
@@ -1317,7 +1317,7 @@
     "seoTitle": "A/B测试设计与分析专家 Prompt | AI Navigator Pro",
     "seoDescription": "专业的A/B测试设计和分析提示词，用科学的实验方法验证产品优化效果。",
     "views": 8400,
-    "createdAt": "2026-05-14"
+    "createdAt": "2026-07-24"
   },
   {
     "id": "data-python-analysis",
@@ -1335,7 +1335,7 @@
     "seoDescription": "专业的Python数据分析代码生成提示词，快速实现数据处理、分析和可视化。",
     "featured": true,
     "views": 13800,
-    "createdAt": "2026-05-14"
+    "createdAt": "2026-07-15"
   },
   {
     "id": "data-user-analysis",
@@ -1352,7 +1352,7 @@
     "seoTitle": "用户行为分析与画像构建 Prompt | AI Navigator Pro",
     "seoDescription": "专业的用户行为分析和画像构建提示词，深入理解用户、精准指导运营。",
     "views": 9100,
-    "createdAt": "2026-05-14"
+    "createdAt": "2026-07-22"
   },
   {
     "id": "data-sales-forecast",
@@ -1369,7 +1369,7 @@
     "seoTitle": "销售预测与数据分析模型 Prompt | AI Navigator Pro",
     "seoDescription": "专业的销售预测模型设计提示词，用数据科学提升预测准确度。",
     "views": 7500,
-    "createdAt": "2026-05-21"
+    "createdAt": "2026-07-22"
   },
   {
     "id": "data-funnel-analysis",
@@ -1386,7 +1386,7 @@
     "seoTitle": "漏斗分析与转化优化 Prompt | AI Navigator Pro",
     "seoDescription": "专业的漏斗分析和转化优化提示词，精准定位流失节点、有效提升转化率。",
     "views": 8800,
-    "createdAt": "2026-05-21"
+    "createdAt": "2026-07-23"
   },
   {
     "id": "data-excel-skills",
@@ -1403,7 +1403,7 @@
     "seoTitle": "Excel高级数据分析技巧 Prompt | AI Navigator Pro",
     "seoDescription": "专业的Excel数据分析技巧提示词，用函数、透视表、Power Query高效处理数据。",
     "views": 12100,
-    "createdAt": "2026-05-28"
+    "createdAt": "2026-07-05"
   },
   {
     "id": "education-course-design",
@@ -1421,7 +1421,7 @@
     "seoDescription": "专业的在线课程设计提示词，从大纲到每节课的完整课程开发方案。",
     "featured": true,
     "views": 10900,
-    "createdAt": "2026-05-28"
+    "createdAt": "2026-07-12"
   },
   {
     "id": "education-learning-path",
@@ -1438,7 +1438,7 @@
     "seoTitle": "学习路径规划专家 Prompt | AI Navigator Pro",
     "seoDescription": "专业的学习路径规划提示词，系统化高效学习新技能。",
     "views": 12300,
-    "createdAt": "2026-05-28"
+    "createdAt": "2026-07-21"
   },
   {
     "id": "education-ai-teacher",
@@ -1456,7 +1456,7 @@
     "seoDescription": "专业的AI私教提示词，提供个性化、互动式的一对一学习辅导体验。",
     "featured": true,
     "views": 15700,
-    "createdAt": "2026-05-28"
+    "createdAt": "2026-07-14"
   },
   {
     "id": "education-exam-prep",
@@ -1473,7 +1473,7 @@
     "seoTitle": "考试备考与复习规划 Prompt | AI Navigator Pro",
     "seoDescription": "专业的考试备考规划提示词，科学高效备考、提升考试成绩。",
     "views": 13400,
-    "createdAt": "2026-06-04"
+    "createdAt": "2026-07-09"
   },
   {
     "id": "education-homework-help",
@@ -1490,7 +1490,7 @@
     "seoTitle": "作业辅导与解题思路 Prompt | AI Navigator Pro",
     "seoDescription": "专业的作业辅导提示词，用启发式教学帮助理解知识、掌握解题方法。",
     "views": 11200,
-    "createdAt": "2026-06-04"
+    "createdAt": "2026-07-28"
   },
   {
     "id": "education-language-learning",
@@ -1508,7 +1508,7 @@
     "seoDescription": "专业的语言学习教练提示词，提供沉浸式、互动式的语言学习体验。",
     "featured": true,
     "views": 14200,
-    "createdAt": "2026-06-04"
+    "createdAt": "2026-07-24"
   },
   {
     "id": "education-paper-writing",
@@ -1525,7 +1525,7 @@
     "seoTitle": "学术论文写作指导 Prompt | AI Navigator Pro",
     "seoDescription": "专业的学术论文写作指导提示词，从选题到投稿的全流程写作支持。",
     "views": 9600,
-    "createdAt": "2026-06-04"
+    "createdAt": "2026-07-15"
   },
   {
     "id": "education-reading-notes",
@@ -1542,7 +1542,7 @@
     "seoTitle": "高效阅读与读书笔记生成 Prompt | AI Navigator Pro",
     "seoDescription": "专业的高效阅读和读书笔记提示词，帮助快速吸收书籍精华、学以致用。",
     "views": 8500,
-    "createdAt": "2026-06-04"
+    "createdAt": "2026-07-01"
   },
   {
     "id": "writing-story-novel",
@@ -1560,7 +1560,7 @@
     "seoDescription": "专业的小说创作和故事架构提示词，从创意到大纲的完整写作指导。",
     "featured": true,
     "views": 13100,
-    "createdAt": "2026-06-11"
+    "createdAt": "2026-07-02"
   },
   {
     "id": "writing-copywriting-master",
@@ -1578,7 +1578,7 @@
     "seoDescription": "专业的顶级文案写作提示词，用心理学和营销技巧打造高转化文案。",
     "featured": true,
     "views": 14700,
-    "createdAt": "2026-06-11"
+    "createdAt": "2026-07-22"
   },
   {
     "id": "writing-business-writing",
@@ -1595,7 +1595,7 @@
     "seoTitle": "商务写作全能助手 Prompt | AI Navigator Pro",
     "seoDescription": "专业的商务写作提示词，帮助写出专业、得体、高效的商务文书。",
     "views": 11500,
-    "createdAt": "2026-06-11"
+    "createdAt": "2026-07-31"
   },
   {
     "id": "writing-speech-draft",
@@ -1612,7 +1612,7 @@
     "seoTitle": "演讲稿与发言稿写作 Prompt | AI Navigator Pro",
     "seoDescription": "专业的演讲稿写作提示词，打造有感染力、有说服力的精彩演讲。",
     "views": 8900,
-    "createdAt": "2026-06-18"
+    "createdAt": "2026-07-20"
   },
   {
     "id": "writing-article-structure",
@@ -1629,7 +1629,7 @@
     "seoTitle": "深度文章结构与写作指导 Prompt | AI Navigator Pro",
     "seoDescription": "专业的深度文章写作指导提示词，从选题到结构打造高质量深度内容。",
     "views": 9700,
-    "createdAt": "2026-06-18"
+    "createdAt": "2026-07-12"
   },
   {
     "id": "writing-poetry-creative",
@@ -1646,7 +1646,7 @@
     "seoTitle": "创意写作与诗歌创作 Prompt | AI Navigator Pro",
     "seoDescription": "专业的创意写作和诗歌创作提示词，激发灵感、提升文学表达力。",
     "views": 7200,
-    "createdAt": "2026-06-18"
+    "createdAt": "2026-07-28"
   },
   {
     "id": "writing-technical-document",
@@ -1663,7 +1663,7 @@
     "seoTitle": "技术文档写作专家 Prompt | AI Navigator Pro",
     "seoDescription": "专业的技术文档写作提示词，写出清晰、准确、易用的技术文档。",
     "views": 8300,
-    "createdAt": "2026-06-25"
+    "createdAt": "2026-07-15"
   },
   {
     "id": "writing-rewrite-optimize",
@@ -1681,7 +1681,7 @@
     "seoDescription": "专业的文章改写和润色提示词，让你的文章更流畅、更有感染力。",
     "featured": true,
     "views": 12600,
-    "createdAt": "2026-06-25"
+    "createdAt": "2026-07-04"
   },
   {
     "id": "pm-ai-agent-product",
@@ -1699,7 +1699,7 @@
     "seoDescription": "专业的AI Agent产品设计提示词，帮助设计智能体产品的功能架构和交互体验。",
     "featured": true,
     "views": 15800,
-    "createdAt": "2026-06-25"
+    "createdAt": "2026-07-29"
   },
   {
     "id": "dev-llm-app",
@@ -1717,7 +1717,7 @@
     "seoDescription": "专业的大模型应用开发架构设计提示词，涵盖RAG、Agent、Prompt工程等核心技术。",
     "featured": true,
     "views": 17500,
-    "createdAt": "2026-06-25"
+    "createdAt": "2026-07-16"
   },
   {
     "id": "self-media-video-editing",
@@ -1734,6 +1734,6 @@
     "seoTitle": "短视频剪辑脚本与节奏设计 Prompt | AI Navigator Pro",
     "seoDescription": "专业的短视频剪辑脚本设计提示词，从节奏到转场的完整剪辑方案。",
     "views": 10600,
-    "createdAt": "2026-06-25"
+    "createdAt": "2026-07-08"
   }
 ]

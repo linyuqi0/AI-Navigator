@@ -1,52 +1,302 @@
 [
-  { "id": "1", "name": "GPT", "slug": "gpt", "count": 145 },
-  { "id": "2", "name": "聊天机器人", "slug": "chatbot", "count": 162 },
-  { "id": "3", "name": "图像生成", "slug": "image-generation", "count": 138 },
-  { "id": "4", "name": "视频生成", "slug": "video-generation", "count": 122 },
-  { "id": "5", "name": "编程助手", "slug": "coding-assistant", "count": 135 },
-  { "id": "6", "name": "内容创作", "slug": "content-creation", "count": 148 },
-  { "id": "7", "name": "OpenAI", "slug": "openai", "count": 128 },
-  { "id": "8", "name": "开源", "slug": "open-source", "count": 152 },
-  { "id": "9", "name": "免费", "slug": "free", "count": 168 },
-  { "id": "10", "name": "生产力", "slug": "productivity", "count": 141 },
-  { "id": "11", "name": "设计", "slug": "design", "count": 133 },
-  { "id": "12", "name": "多模态", "slug": "multimodal", "count": 119 },
-  { "id": "13", "name": "自动化", "slug": "automation", "count": 127 },
-  { "id": "14", "name": "数据分析", "slug": "data-analysis", "count": 124 },
-  { "id": "15", "name": "Agent", "slug": "agent", "count": 131 },
-  { "id": "16", "name": "Prompt", "slug": "prompt", "count": 143 },
-  { "id": "17", "name": "工作流", "slug": "workflow", "count": 118 },
-  { "id": "18", "name": "API", "slug": "api", "count": 136 },
-  { "id": "19", "name": "插件", "slug": "plugin", "count": 121 },
-  { "id": "20", "name": "教育", "slug": "education", "count": 129 },
-  { "id": "21", "name": "Claude", "slug": "claude", "count": 98 },
-  { "id": "22", "name": "Gemini", "slug": "gemini", "count": 85 },
-  { "id": "23", "name": "国产AI", "slug": "chinese-ai", "count": 115 },
-  { "id": "24", "name": "大模型", "slug": "llm", "count": 156 },
-  { "id": "25", "name": "MCP", "slug": "mcp", "count": 111 },
-  { "id": "26", "name": "音乐生成", "slug": "music-generation", "count": 78 },
-  { "id": "27", "name": "语音合成", "slug": "tts", "count": 72 },
-  { "id": "28", "name": "营销", "slug": "marketing", "count": 92 },
-  { "id": "29", "name": "自媒体", "slug": "self-media", "count": 86 },
-  { "id": "30", "name": "产品经理", "slug": "product-manager", "count": 75 },
-  { "id": "31", "name": "UI/UX", "slug": "ui-ux", "count": 88 },
-  { "id": "32", "name": "代码生成", "slug": "code-generation", "count": 105 },
-  { "id": "33", "name": "RAG", "slug": "rag", "count": 68 },
-  { "id": "34", "name": "知识库", "slug": "knowledge-base", "count": 82 },
-  { "id": "35", "name": "AI搜索", "slug": "ai-search", "count": 78 },
-  { "id": "36", "name": "企业级", "slug": "enterprise", "count": 74 },
-  { "id": "37", "name": "SaaS", "slug": "saas", "count": 95 },
-  { "id": "38", "name": "移动端", "slug": "mobile", "count": 65 },
-  { "id": "39", "name": "云服务", "slug": "cloud", "count": 89 },
-  { "id": "40", "name": "安全", "slug": "security", "count": 71 },
-  { "id": "41", "name": "DevOps", "slug": "devops", "count": 69 },
-  { "id": "42", "name": "游戏", "slug": "game", "count": 58 },
-  { "id": "43", "name": "电商", "slug": "ecommerce", "count": 67 },
-  { "id": "44", "name": "金融", "slug": "finance", "count": 62 },
-  { "id": "45", "name": "医疗", "slug": "healthcare", "count": 55 },
-  { "id": "46", "name": "法律", "slug": "legal", "count": 52 },
-  { "id": "47", "name": "3D生成", "slug": "3d-generation", "count": 58 },
-  { "id": "48", "name": "数字人", "slug": "digital-human", "count": 64 },
-  { "id": "49", "name": "AIGC", "slug": "aigc", "count": 142 },
-  { "id": "50", "name": "AGI", "slug": "agi", "count": 48 }
+  {
+    "id": "1",
+    "name": "GPT",
+    "slug": "gpt",
+    "count": 166
+  },
+  {
+    "id": "2",
+    "name": "聊天机器人",
+    "slug": "chatbot",
+    "count": 212
+  },
+  {
+    "id": "3",
+    "name": "图像生成",
+    "slug": "image-generation",
+    "count": 75
+  },
+  {
+    "id": "4",
+    "name": "视频生成",
+    "slug": "video-generation",
+    "count": 386
+  },
+  {
+    "id": "5",
+    "name": "编程助手",
+    "slug": "coding-assistant",
+    "count": 497
+  },
+  {
+    "id": "6",
+    "name": "内容创作",
+    "slug": "content-creation",
+    "count": 62
+  },
+  {
+    "id": "7",
+    "name": "OpenAI",
+    "slug": "openai",
+    "count": 410
+  },
+  {
+    "id": "8",
+    "name": "开源",
+    "slug": "open-source",
+    "count": 312
+  },
+  {
+    "id": "9",
+    "name": "免费",
+    "slug": "free",
+    "count": 166
+  },
+  {
+    "id": "10",
+    "name": "生产力",
+    "slug": "productivity",
+    "count": 377
+  },
+  {
+    "id": "11",
+    "name": "设计",
+    "slug": "design",
+    "count": 395
+  },
+  {
+    "id": "12",
+    "name": "多模态",
+    "slug": "multimodal",
+    "count": 267
+  },
+  {
+    "id": "13",
+    "name": "自动化",
+    "slug": "automation",
+    "count": 76
+  },
+  {
+    "id": "14",
+    "name": "数据分析",
+    "slug": "data-analysis",
+    "count": 318
+  },
+  {
+    "id": "15",
+    "name": "Agent",
+    "slug": "agent",
+    "count": 287
+  },
+  {
+    "id": "16",
+    "name": "Prompt",
+    "slug": "prompt",
+    "count": 203
+  },
+  {
+    "id": "17",
+    "name": "工作流",
+    "slug": "workflow",
+    "count": 257
+  },
+  {
+    "id": "18",
+    "name": "API",
+    "slug": "api",
+    "count": 370
+  },
+  {
+    "id": "19",
+    "name": "插件",
+    "slug": "plugin",
+    "count": 167
+  },
+  {
+    "id": "20",
+    "name": "教育",
+    "slug": "education",
+    "count": 230
+  },
+  {
+    "id": "21",
+    "name": "Claude",
+    "slug": "claude",
+    "count": 417
+  },
+  {
+    "id": "22",
+    "name": "Gemini",
+    "slug": "gemini",
+    "count": 213
+  },
+  {
+    "id": "23",
+    "name": "国产AI",
+    "slug": "chinese-ai",
+    "count": 174
+  },
+  {
+    "id": "24",
+    "name": "大模型",
+    "slug": "llm",
+    "count": 90
+  },
+  {
+    "id": "25",
+    "name": "MCP",
+    "slug": "mcp",
+    "count": 100
+  },
+  {
+    "id": "26",
+    "name": "音乐生成",
+    "slug": "music-generation",
+    "count": 121
+  },
+  {
+    "id": "27",
+    "name": "语音合成",
+    "slug": "tts",
+    "count": 72
+  },
+  {
+    "id": "28",
+    "name": "营销",
+    "slug": "marketing",
+    "count": 365
+  },
+  {
+    "id": "29",
+    "name": "自媒体",
+    "slug": "self-media",
+    "count": 253
+  },
+  {
+    "id": "30",
+    "name": "产品经理",
+    "slug": "product-manager",
+    "count": 381
+  },
+  {
+    "id": "31",
+    "name": "UI/UX",
+    "slug": "ui-ux",
+    "count": 174
+  },
+  {
+    "id": "32",
+    "name": "代码生成",
+    "slug": "code-generation",
+    "count": 263
+  },
+  {
+    "id": "33",
+    "name": "RAG",
+    "slug": "rag",
+    "count": 432
+  },
+  {
+    "id": "34",
+    "name": "知识库",
+    "slug": "knowledge-base",
+    "count": 141
+  },
+  {
+    "id": "35",
+    "name": "AI搜索",
+    "slug": "ai-search",
+    "count": 139
+  },
+  {
+    "id": "36",
+    "name": "企业级",
+    "slug": "enterprise",
+    "count": 217
+  },
+  {
+    "id": "37",
+    "name": "SaaS",
+    "slug": "saas",
+    "count": 311
+  },
+  {
+    "id": "38",
+    "name": "移动端",
+    "slug": "mobile",
+    "count": 116
+  },
+  {
+    "id": "39",
+    "name": "云服务",
+    "slug": "cloud",
+    "count": 261
+  },
+  {
+    "id": "40",
+    "name": "安全",
+    "slug": "security",
+    "count": 104
+  },
+  {
+    "id": "41",
+    "name": "DevOps",
+    "slug": "devops",
+    "count": 316
+  },
+  {
+    "id": "42",
+    "name": "游戏",
+    "slug": "game",
+    "count": 415
+  },
+  {
+    "id": "43",
+    "name": "电商",
+    "slug": "ecommerce",
+    "count": 322
+  },
+  {
+    "id": "44",
+    "name": "金融",
+    "slug": "finance",
+    "count": 237
+  },
+  {
+    "id": "45",
+    "name": "医疗",
+    "slug": "healthcare",
+    "count": 148
+  },
+  {
+    "id": "46",
+    "name": "法律",
+    "slug": "legal",
+    "count": 269
+  },
+  {
+    "id": "47",
+    "name": "3D生成",
+    "slug": "3d-generation",
+    "count": 462
+  },
+  {
+    "id": "48",
+    "name": "数字人",
+    "slug": "digital-human",
+    "count": 162
+  },
+  {
+    "id": "49",
+    "name": "AIGC",
+    "slug": "aigc",
+    "count": 59
+  },
+  {
+    "id": "50",
+    "name": "AGI",
+    "slug": "agi",
+    "count": 106
+  }
 ]
