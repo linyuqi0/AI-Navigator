@@ -3923,5 +3923,1312 @@
     "seoDescription": "AI辅助产品经理完整工作流程，从市场调研到产品上线，大幅提升产品迭代效率。",
     "featured": true,
     "views": 23000
+  },
+  {
+    "id": "ai预算管理工作流",
+    "name": "AI预算管理工作流",
+    "cover": "https://picsum.photos/seed/ai预算管理工作流/800/400",
+    "description": "AI辅助预算编制、执行监控与调整优化工作流。",
+    "category": "finance",
+    "tags": [
+      "content",
+      "product",
+      "design",
+      "customer"
+    ],
+    "steps": [
+      "步骤1：AI辅助执行优化",
+      "步骤2：AI辅助执行优化",
+      "步骤3：AI辅助方案生成",
+      "步骤4：AI辅助效果评估",
+      "步骤5：AI辅助数据收集",
+      "步骤6：AI辅助方案生成",
+      "步骤7：AI辅助数据收集"
+    ],
+    "tools": [
+      "Claude",
+      "Figma",
+      "Excel",
+      "Notion"
+    ],
+    "duration": "1周",
+    "difficulty": "中等",
+    "updatedAt": "2026-07-24",
+    "seoTitle": "AI预算管理工作流 - 2026年最新AI工作流 | AI Navigator Pro",
+    "seoDescription": "AI辅助预算编制、执行监控与调整优化工作流。",
+    "views": 29709
+  },
+  {
+    "id": "ai成本分析工作流",
+    "name": "AI成本分析工作流",
+    "cover": "https://picsum.photos/seed/ai成本分析工作流/800/400",
+    "description": "AI辅助成本核算、分析与控制优化工作流。",
+    "category": "finance",
+    "tags": [
+      "marketing",
+      "product",
+      "design"
+    ],
+    "steps": [
+      "步骤1：AI辅助执行优化",
+      "步骤2：AI辅助分析处理",
+      "步骤3：AI辅助效果评估",
+      "步骤4：AI辅助数据收集",
+      "步骤5：AI辅助方案生成",
+      "步骤6：AI辅助效果评估",
+      "步骤7：AI辅助执行优化"
+    ],
+    "tools": [
+      "Excel",
+      "Python",
+      "Claude",
+      "Figma",
+      "ChatGPT"
+    ],
+    "duration": "持续",
+    "difficulty": "复杂",
+    "updatedAt": "2026-07-12",
+    "seoTitle": "AI成本分析工作流 - 2026年最新AI工作流 | AI Navigator Pro",
+    "seoDescription": "AI辅助成本核算、分析与控制优化工作流。",
+    "views": 12389
+  },
+  {
+    "id": "ai投资决策工作流",
+    "name": "AI投资决策工作流",
+    "cover": "https://picsum.photos/seed/ai投资决策工作流/800/400",
+    "description": "AI辅助投资分析、风险评估与决策支持工作流。",
+    "category": "finance",
+    "tags": [
+      "development",
+      "product",
+      "operation"
+    ],
+    "steps": [
+      "步骤1：AI辅助执行优化",
+      "步骤2：AI辅助分析处理",
+      "步骤3：AI辅助分析处理",
+      "步骤4：AI辅助分析处理",
+      "步骤5：AI辅助分析处理",
+      "步骤6：AI辅助数据收集",
+      "步骤7：AI辅助方案生成"
+    ],
+    "tools": [
+      "ChatGPT",
+      "Excel",
+      "Midjourney"
+    ],
+    "duration": "按需",
+    "difficulty": "简单",
+    "updatedAt": "2026-07-20",
+    "seoTitle": "AI投资决策工作流 - 2026年最新AI工作流 | AI Navigator Pro",
+    "seoDescription": "AI辅助投资分析、风险评估与决策支持工作流。",
+    "views": 59377
+  },
+  {
+    "id": "ai财务报表分析工作流",
+    "name": "AI财务报表分析工作流",
+    "cover": "https://picsum.photos/seed/ai财务报表分析工作流/800/400",
+    "description": "AI辅助财务报表解读、趋势分析与预警工作流。",
+    "category": "finance",
+    "tags": [
+      "product",
+      "customer"
+    ],
+    "steps": [
+      "步骤1：AI辅助执行优化",
+      "步骤2：AI辅助数据收集",
+      "步骤3：AI辅助执行优化",
+      "步骤4：AI辅助方案生成",
+      "步骤5：AI辅助分析处理",
+      "步骤6：AI辅助执行优化"
+    ],
+    "tools": [
+      "Figma",
+      "Python",
+      "Excel",
+      "Notion",
+      "Claude"
+    ],
+    "duration": "按需",
+    "difficulty": "简单",
+    "updatedAt": "2026-07-10",
+    "seoTitle": "AI财务报表分析工作流 - 2026年最新AI工作流 | AI Navigator Pro",
+    "seoDescription": "AI辅助财务报表解读、趋势分析与预警工作流。",
+    "views": 71474
+  },
+  {
+    "id": "ai社交媒体运营工作流",
+    "name": "AI社交媒体运营工作流",
+    "cover": "https://picsum.photos/seed/ai社交媒体运营工作流/800/400",
+    "description": "AI辅助社交媒体内容策划、发布与数据分析工作流。",
+    "category": "marketing",
+    "tags": [
+      "design",
+      "data"
+    ],
+    "steps": [
+      "步骤1：AI辅助方案生成",
+      "步骤2：AI辅助执行优化",
+      "步骤3：AI辅助效果评估",
+      "步骤4：AI辅助效果评估",
+      "步骤5：AI辅助执行优化",
+      "步骤6：AI辅助分析处理",
+      "步骤7：AI辅助分析处理",
+      "步骤8：AI辅助效果评估"
+    ],
+    "tools": [
+      "Figma",
+      "ChatGPT",
+      "Excel"
+    ],
+    "duration": "持续",
+    "difficulty": "中等",
+    "updatedAt": "2026-07-18",
+    "seoTitle": "AI社交媒体运营工作流 - 2026年最新AI工作流 | AI Navigator Pro",
+    "seoDescription": "AI辅助社交媒体内容策划、发布与数据分析工作流。",
+    "views": 23446
+  },
+  {
+    "id": "ai内容营销工作流",
+    "name": "AI内容营销工作流",
+    "cover": "https://picsum.photos/seed/ai内容营销工作流/800/400",
+    "description": "AI辅助内容策略制定、创作与分发优化工作流。",
+    "category": "marketing",
+    "tags": [
+      "content",
+      "marketing",
+      "development",
+      "finance"
+    ],
+    "steps": [
+      "步骤1：AI辅助方案生成",
+      "步骤2：AI辅助执行优化",
+      "步骤3：AI辅助效果评估",
+      "步骤4：AI辅助分析处理",
+      "步骤5：AI辅助执行优化",
+      "步骤6：AI辅助数据收集"
+    ],
+    "tools": [
+      "Zapier",
+      "Midjourney",
+      "ChatGPT"
+    ],
+    "duration": "持续",
+    "difficulty": "简单",
+    "updatedAt": "2026-07-13",
+    "seoTitle": "AI内容营销工作流 - 2026年最新AI工作流 | AI Navigator Pro",
+    "seoDescription": "AI辅助内容策略制定、创作与分发优化工作流。",
+    "views": 75799
+  },
+  {
+    "id": "ai品牌监测工作流",
+    "name": "AI品牌监测工作流",
+    "cover": "https://picsum.photos/seed/ai品牌监测工作流/800/400",
+    "description": "AI辅助品牌声誉监测、舆情分析与危机应对工作流。",
+    "category": "marketing",
+    "tags": [
+      "operation",
+      "hr",
+      "marketing"
+    ],
+    "steps": [
+      "步骤1：AI辅助分析处理",
+      "步骤2：AI辅助数据收集",
+      "步骤3：AI辅助方案生成",
+      "步骤4：AI辅助数据收集",
+      "步骤5：AI辅助方案生成",
+      "步骤6：AI辅助分析处理",
+      "步骤7：AI辅助分析处理"
+    ],
+    "tools": [
+      "Figma",
+      "Python",
+      "Notion"
+    ],
+    "duration": "3-5天",
+    "difficulty": "复杂",
+    "updatedAt": "2026-07-16",
+    "seoTitle": "AI品牌监测工作流 - 2026年最新AI工作流 | AI Navigator Pro",
+    "seoDescription": "AI辅助品牌声誉监测、舆情分析与危机应对工作流。",
+    "views": 68799
+  },
+  {
+    "id": "ai竞品分析工作流",
+    "name": "AI竞品分析工作流",
+    "cover": "https://picsum.photos/seed/ai竞品分析工作流/800/400",
+    "description": "AI辅助竞品动态跟踪、功能对比与策略分析工作流。",
+    "category": "marketing",
+    "tags": [
+      "finance",
+      "marketing",
+      "customer",
+      "product"
+    ],
+    "steps": [
+      "步骤1：AI辅助分析处理",
+      "步骤2：AI辅助效果评估",
+      "步骤3：AI辅助效果评估",
+      "步骤4：AI辅助效果评估",
+      "步骤5：AI辅助执行优化",
+      "步骤6：AI辅助数据收集"
+    ],
+    "tools": [
+      "Notion",
+      "Midjourney",
+      "ChatGPT",
+      "Excel"
+    ],
+    "duration": "3-5天",
+    "difficulty": "中等",
+    "updatedAt": "2026-07-21",
+    "seoTitle": "AI竞品分析工作流 - 2026年最新AI工作流 | AI Navigator Pro",
+    "seoDescription": "AI辅助竞品动态跟踪、功能对比与策略分析工作流。",
+    "views": 69914
+  },
+  {
+    "id": "ai用户研究工作流",
+    "name": "AI用户研究工作流",
+    "cover": "https://picsum.photos/seed/ai用户研究工作流/800/400",
+    "description": "AI辅助用户访谈、问卷分析与洞察提炼工作流。",
+    "category": "product",
+    "tags": [
+      "marketing",
+      "data"
+    ],
+    "steps": [
+      "步骤1：AI辅助效果评估",
+      "步骤2：AI辅助效果评估",
+      "步骤3：AI辅助分析处理",
+      "步骤4：AI辅助分析处理",
+      "步骤5：AI辅助方案生成"
+    ],
+    "tools": [
+      "ChatGPT",
+      "Figma",
+      "Midjourney",
+      "Claude"
+    ],
+    "duration": "按需",
+    "difficulty": "中等",
+    "updatedAt": "2026-07-06",
+    "seoTitle": "AI用户研究工作流 - 2026年最新AI工作流 | AI Navigator Pro",
+    "seoDescription": "AI辅助用户访谈、问卷分析与洞察提炼工作流。",
+    "views": 21221
+  },
+  {
+    "id": "ai需求分析工作流",
+    "name": "AI需求分析工作流",
+    "cover": "https://picsum.photos/seed/ai需求分析工作流/800/400",
+    "description": "AI辅助需求收集、优先级排序与文档撰写工作流。",
+    "category": "product",
+    "tags": [
+      "design",
+      "marketing",
+      "finance",
+      "operation"
+    ],
+    "steps": [
+      "步骤1：AI辅助数据收集",
+      "步骤2：AI辅助执行优化",
+      "步骤3：AI辅助方案生成",
+      "步骤4：AI辅助方案生成",
+      "步骤5：AI辅助数据收集",
+      "步骤6：AI辅助方案生成",
+      "步骤7：AI辅助数据收集",
+      "步骤8：AI辅助方案生成"
+    ],
+    "tools": [
+      "Claude",
+      "Python",
+      "Figma"
+    ],
+    "duration": "1周",
+    "difficulty": "简单",
+    "updatedAt": "2026-07-02",
+    "seoTitle": "AI需求分析工作流 - 2026年最新AI工作流 | AI Navigator Pro",
+    "seoDescription": "AI辅助需求收集、优先级排序与文档撰写工作流。",
+    "views": 56176
+  },
+  {
+    "id": "ai原型设计工作流",
+    "name": "AI原型设计工作流",
+    "cover": "https://picsum.photos/seed/ai原型设计工作流/800/400",
+    "description": "AI辅助原型生成、交互设计与可用性测试工作流。",
+    "category": "product",
+    "tags": [
+      "design",
+      "product",
+      "data",
+      "customer"
+    ],
+    "steps": [
+      "步骤1：AI辅助分析处理",
+      "步骤2：AI辅助分析处理",
+      "步骤3：AI辅助数据收集",
+      "步骤4：AI辅助执行优化",
+      "步骤5：AI辅助数据收集",
+      "步骤6：AI辅助方案生成",
+      "步骤7：AI辅助分析处理",
+      "步骤8：AI辅助数据收集"
+    ],
+    "tools": [
+      "ChatGPT",
+      "Midjourney",
+      "Python"
+    ],
+    "duration": "按需",
+    "difficulty": "中等",
+    "updatedAt": "2026-07-27",
+    "seoTitle": "AI原型设计工作流 - 2026年最新AI工作流 | AI Navigator Pro",
+    "seoDescription": "AI辅助原型生成、交互设计与可用性测试工作流。",
+    "views": 72049
+  },
+  {
+    "id": "ai产品发布工作流",
+    "name": "AI产品发布工作流",
+    "cover": "https://picsum.photos/seed/ai产品发布工作流/800/400",
+    "description": "AI辅助发布计划制定、 checklist 检查与效果复盘工作流。",
+    "category": "product",
+    "tags": [
+      "finance",
+      "operation",
+      "development"
+    ],
+    "steps": [
+      "步骤1：AI辅助数据收集",
+      "步骤2：AI辅助方案生成",
+      "步骤3：AI辅助方案生成",
+      "步骤4：AI辅助数据收集",
+      "步骤5：AI辅助方案生成",
+      "步骤6：AI辅助执行优化",
+      "步骤7：AI辅助执行优化"
+    ],
+    "tools": [
+      "Zapier",
+      "Notion",
+      "Midjourney",
+      "Claude",
+      "Python"
+    ],
+    "duration": "持续",
+    "difficulty": "中等",
+    "updatedAt": "2026-07-30",
+    "seoTitle": "AI产品发布工作流 - 2026年最新AI工作流 | AI Navigator Pro",
+    "seoDescription": "AI辅助发布计划制定、 checklist 检查与效果复盘工作流。",
+    "views": 78062
+  },
+  {
+    "id": "ai活动策划工作流",
+    "name": "AI活动策划工作流",
+    "cover": "https://picsum.photos/seed/ai活动策划工作流/800/400",
+    "description": "AI辅助活动创意、执行方案与效果评估工作流。",
+    "category": "operation",
+    "tags": [
+      "marketing",
+      "hr",
+      "customer"
+    ],
+    "steps": [
+      "步骤1：AI辅助效果评估",
+      "步骤2：AI辅助分析处理",
+      "步骤3：AI辅助效果评估",
+      "步骤4：AI辅助方案生成",
+      "步骤5：AI辅助方案生成",
+      "步骤6：AI辅助数据收集",
+      "步骤7：AI辅助数据收集",
+      "步骤8：AI辅助方案生成"
+    ],
+    "tools": [
+      "Figma",
+      "Midjourney",
+      "Notion",
+      "Zapier",
+      "Excel"
+    ],
+    "duration": "3-5天",
+    "difficulty": "复杂",
+    "updatedAt": "2026-07-15",
+    "seoTitle": "AI活动策划工作流 - 2026年最新AI工作流 | AI Navigator Pro",
+    "seoDescription": "AI辅助活动创意、执行方案与效果评估工作流。",
+    "views": 56077
+  },
+  {
+    "id": "ai社群运营工作流",
+    "name": "AI社群运营工作流",
+    "cover": "https://picsum.photos/seed/ai社群运营工作流/800/400",
+    "description": "AI辅助社群内容规划、用户互动与活跃度提升工作流。",
+    "category": "operation",
+    "tags": [
+      "finance",
+      "design",
+      "hr"
+    ],
+    "steps": [
+      "步骤1：AI辅助数据收集",
+      "步骤2：AI辅助数据收集",
+      "步骤3：AI辅助执行优化",
+      "步骤4：AI辅助方案生成",
+      "步骤5：AI辅助效果评估",
+      "步骤6：AI辅助分析处理",
+      "步骤7：AI辅助数据收集"
+    ],
+    "tools": [
+      "Zapier",
+      "ChatGPT",
+      "Claude"
+    ],
+    "duration": "1-2天",
+    "difficulty": "简单",
+    "updatedAt": "2026-07-25",
+    "seoTitle": "AI社群运营工作流 - 2026年最新AI工作流 | AI Navigator Pro",
+    "seoDescription": "AI辅助社群内容规划、用户互动与活跃度提升工作流。",
+    "views": 58015
+  },
+  {
+    "id": "ai直播运营工作流",
+    "name": "AI直播运营工作流",
+    "cover": "https://picsum.photos/seed/ai直播运营工作流/800/400",
+    "description": "AI辅助直播脚本、互动话术与数据复盘工作流。",
+    "category": "operation",
+    "tags": [
+      "hr",
+      "finance",
+      "product"
+    ],
+    "steps": [
+      "步骤1：AI辅助方案生成",
+      "步骤2：AI辅助方案生成",
+      "步骤3：AI辅助执行优化",
+      "步骤4：AI辅助数据收集",
+      "步骤5：AI辅助效果评估",
+      "步骤6：AI辅助分析处理",
+      "步骤7：AI辅助效果评估",
+      "步骤8：AI辅助方案生成"
+    ],
+    "tools": [
+      "Excel",
+      "Zapier",
+      "Midjourney",
+      "Claude"
+    ],
+    "duration": "1-2天",
+    "difficulty": "简单",
+    "updatedAt": "2026-07-24",
+    "seoTitle": "AI直播运营工作流 - 2026年最新AI工作流 | AI Navigator Pro",
+    "seoDescription": "AI辅助直播脚本、互动话术与数据复盘工作流。",
+    "views": 34385
+  },
+  {
+    "id": "ai供应链管理工作流",
+    "name": "AI供应链管理工作流",
+    "cover": "https://picsum.photos/seed/ai供应链管理工作流/800/400",
+    "description": "AI辅助供应链监控、库存优化与物流协调工作流。",
+    "category": "operation",
+    "tags": [
+      "content",
+      "hr",
+      "marketing"
+    ],
+    "steps": [
+      "步骤1：AI辅助方案生成",
+      "步骤2：AI辅助执行优化",
+      "步骤3：AI辅助分析处理",
+      "步骤4：AI辅助效果评估",
+      "步骤5：AI辅助方案生成",
+      "步骤6：AI辅助执行优化",
+      "步骤7：AI辅助分析处理"
+    ],
+    "tools": [
+      "Midjourney",
+      "Python",
+      "ChatGPT"
+    ],
+    "duration": "持续",
+    "difficulty": "简单",
+    "updatedAt": "2026-07-29",
+    "seoTitle": "AI供应链管理工作流 - 2026年最新AI工作流 | AI Navigator Pro",
+    "seoDescription": "AI辅助供应链监控、库存优化与物流协调工作流。",
+    "views": 68341
+  },
+  {
+    "id": "ai代码审查工作流",
+    "name": "AI代码审查工作流",
+    "cover": "https://picsum.photos/seed/ai代码审查工作流/800/400",
+    "description": "AI辅助代码审查、Bug发现与质量提升工作流。",
+    "category": "development",
+    "tags": [
+      "design",
+      "customer"
+    ],
+    "steps": [
+      "步骤1：AI辅助效果评估",
+      "步骤2：AI辅助效果评估",
+      "步骤3：AI辅助方案生成",
+      "步骤4：AI辅助方案生成",
+      "步骤5：AI辅助分析处理"
+    ],
+    "tools": [
+      "Midjourney",
+      "Python",
+      "Zapier",
+      "Figma",
+      "Claude"
+    ],
+    "duration": "1-2天",
+    "difficulty": "简单",
+    "updatedAt": "2026-07-26",
+    "seoTitle": "AI代码审查工作流 - 2026年最新AI工作流 | AI Navigator Pro",
+    "seoDescription": "AI辅助代码审查、Bug发现与质量提升工作流。",
+    "views": 28202
+  },
+  {
+    "id": "ai技术方案评审工作流",
+    "name": "AI技术方案评审工作流",
+    "cover": "https://picsum.photos/seed/ai技术方案评审工作流/800/400",
+    "description": "AI辅助技术方案评估、风险识别与优化建议工作流。",
+    "category": "development",
+    "tags": [
+      "data",
+      "finance"
+    ],
+    "steps": [
+      "步骤1：AI辅助效果评估",
+      "步骤2：AI辅助效果评估",
+      "步骤3：AI辅助方案生成",
+      "步骤4：AI辅助执行优化",
+      "步骤5：AI辅助效果评估",
+      "步骤6：AI辅助分析处理",
+      "步骤7：AI辅助效果评估"
+    ],
+    "tools": [
+      "Claude",
+      "Midjourney",
+      "Notion"
+    ],
+    "duration": "持续",
+    "difficulty": "复杂",
+    "updatedAt": "2026-07-14",
+    "seoTitle": "AI技术方案评审工作流 - 2026年最新AI工作流 | AI Navigator Pro",
+    "seoDescription": "AI辅助技术方案评估、风险识别与优化建议工作流。",
+    "views": 63665
+  },
+  {
+    "id": "ai自动化测试工作流",
+    "name": "AI自动化测试工作流",
+    "cover": "https://picsum.photos/seed/ai自动化测试工作流/800/400",
+    "description": "AI辅助测试用例生成、执行与报告分析工作流。",
+    "category": "development",
+    "tags": [
+      "marketing",
+      "product",
+      "design",
+      "data"
+    ],
+    "steps": [
+      "步骤1：AI辅助执行优化",
+      "步骤2：AI辅助执行优化",
+      "步骤3：AI辅助效果评估",
+      "步骤4：AI辅助方案生成",
+      "步骤5：AI辅助分析处理"
+    ],
+    "tools": [
+      "Midjourney",
+      "Python",
+      "Claude",
+      "Notion",
+      "ChatGPT"
+    ],
+    "duration": "1-2天",
+    "difficulty": "复杂",
+    "updatedAt": "2026-07-05",
+    "seoTitle": "AI自动化测试工作流 - 2026年最新AI工作流 | AI Navigator Pro",
+    "seoDescription": "AI辅助测试用例生成、执行与报告分析工作流。",
+    "views": 49862
+  },
+  {
+    "id": "ai性能优化工作流",
+    "name": "AI性能优化工作流",
+    "cover": "https://picsum.photos/seed/ai性能优化工作流/800/400",
+    "description": "AI辅助性能监控、瓶颈分析与优化方案工作流。",
+    "category": "development",
+    "tags": [
+      "product",
+      "design"
+    ],
+    "steps": [
+      "步骤1：AI辅助方案生成",
+      "步骤2：AI辅助效果评估",
+      "步骤3：AI辅助方案生成",
+      "步骤4：AI辅助数据收集",
+      "步骤5：AI辅助方案生成",
+      "步骤6：AI辅助分析处理"
+    ],
+    "tools": [
+      "Figma",
+      "Claude",
+      "Excel",
+      "Midjourney",
+      "ChatGPT"
+    ],
+    "duration": "按需",
+    "difficulty": "复杂",
+    "updatedAt": "2026-07-06",
+    "seoTitle": "AI性能优化工作流 - 2026年最新AI工作流 | AI Navigator Pro",
+    "seoDescription": "AI辅助性能监控、瓶颈分析与优化方案工作流。",
+    "views": 30210
+  },
+  {
+    "id": "ai视觉设计工作流",
+    "name": "AI视觉设计工作流",
+    "cover": "https://picsum.photos/seed/ai视觉设计工作流/800/400",
+    "description": "AI辅助视觉风格探索、设计稿生成与规范输出工作流。",
+    "category": "design",
+    "tags": [
+      "customer",
+      "design"
+    ],
+    "steps": [
+      "步骤1：AI辅助数据收集",
+      "步骤2：AI辅助数据收集",
+      "步骤3：AI辅助数据收集",
+      "步骤4：AI辅助效果评估",
+      "步骤5：AI辅助方案生成"
+    ],
+    "tools": [
+      "Notion",
+      "Python",
+      "Figma",
+      "Zapier",
+      "ChatGPT"
+    ],
+    "duration": "持续",
+    "difficulty": "复杂",
+    "updatedAt": "2026-07-18",
+    "seoTitle": "AI视觉设计工作流 - 2026年最新AI工作流 | AI Navigator Pro",
+    "seoDescription": "AI辅助视觉风格探索、设计稿生成与规范输出工作流。",
+    "views": 47967
+  },
+  {
+    "id": "ai设计系统搭建工作流",
+    "name": "AI设计系统搭建工作流",
+    "cover": "https://picsum.photos/seed/ai设计系统搭建工作流/800/400",
+    "description": "AI辅助设计Token定义、组件库搭建与文档生成工作流。",
+    "category": "design",
+    "tags": [
+      "development",
+      "data",
+      "operation",
+      "hr"
+    ],
+    "steps": [
+      "步骤1：AI辅助方案生成",
+      "步骤2：AI辅助执行优化",
+      "步骤3：AI辅助数据收集",
+      "步骤4：AI辅助数据收集",
+      "步骤5：AI辅助分析处理",
+      "步骤6：AI辅助执行优化",
+      "步骤7：AI辅助执行优化",
+      "步骤8：AI辅助执行优化"
+    ],
+    "tools": [
+      "Notion",
+      "Midjourney",
+      "Figma",
+      "Claude"
+    ],
+    "duration": "1周",
+    "difficulty": "复杂",
+    "updatedAt": "2026-07-11",
+    "seoTitle": "AI设计系统搭建工作流 - 2026年最新AI工作流 | AI Navigator Pro",
+    "seoDescription": "AI辅助设计Token定义、组件库搭建与文档生成工作流。",
+    "views": 55268
+  },
+  {
+    "id": "ai设计评审工作流",
+    "name": "AI设计评审工作流",
+    "cover": "https://picsum.photos/seed/ai设计评审工作流/800/400",
+    "description": "AI辅助设计稿检查、一致性验证与反馈整理工作流。",
+    "category": "design",
+    "tags": [
+      "product",
+      "design",
+      "marketing"
+    ],
+    "steps": [
+      "步骤1：AI辅助分析处理",
+      "步骤2：AI辅助执行优化",
+      "步骤3：AI辅助数据收集",
+      "步骤4：AI辅助方案生成",
+      "步骤5：AI辅助执行优化",
+      "步骤6：AI辅助分析处理",
+      "步骤7：AI辅助分析处理"
+    ],
+    "tools": [
+      "ChatGPT",
+      "Midjourney",
+      "Notion"
+    ],
+    "duration": "按需",
+    "difficulty": "中等",
+    "updatedAt": "2026-07-08",
+    "seoTitle": "AI设计评审工作流 - 2026年最新AI工作流 | AI Navigator Pro",
+    "seoDescription": "AI辅助设计稿检查、一致性验证与反馈整理工作流。",
+    "views": 30932
+  },
+  {
+    "id": "ai动效设计工作流",
+    "name": "AI动效设计工作流",
+    "cover": "https://picsum.photos/seed/ai动效设计工作流/800/400",
+    "description": "AI辅助交互动效设计、原型制作与开发交付工作流。",
+    "category": "design",
+    "tags": [
+      "customer",
+      "design",
+      "operation"
+    ],
+    "steps": [
+      "步骤1：AI辅助执行优化",
+      "步骤2：AI辅助效果评估",
+      "步骤3：AI辅助执行优化",
+      "步骤4：AI辅助执行优化",
+      "步骤5：AI辅助方案生成",
+      "步骤6：AI辅助执行优化"
+    ],
+    "tools": [
+      "Claude",
+      "Notion",
+      "Figma"
+    ],
+    "duration": "持续",
+    "difficulty": "简单",
+    "updatedAt": "2026-07-07",
+    "seoTitle": "AI动效设计工作流 - 2026年最新AI工作流 | AI Navigator Pro",
+    "seoDescription": "AI辅助交互动效设计、原型制作与开发交付工作流。",
+    "views": 56254
+  },
+  {
+    "id": "ai招聘管理工作流",
+    "name": "AI招聘管理工作流",
+    "cover": "https://picsum.photos/seed/ai招聘管理工作流/800/400",
+    "description": "AI辅助简历筛选、面试安排与候选人评估工作流。",
+    "category": "hr",
+    "tags": [
+      "finance",
+      "development"
+    ],
+    "steps": [
+      "步骤1：AI辅助效果评估",
+      "步骤2：AI辅助执行优化",
+      "步骤3：AI辅助方案生成",
+      "步骤4：AI辅助效果评估",
+      "步骤5：AI辅助数据收集",
+      "步骤6：AI辅助数据收集",
+      "步骤7：AI辅助执行优化",
+      "步骤8：AI辅助分析处理"
+    ],
+    "tools": [
+      "Excel",
+      "Python",
+      "Notion",
+      "Midjourney"
+    ],
+    "duration": "1-2天",
+    "difficulty": "中等",
+    "updatedAt": "2026-07-02",
+    "seoTitle": "AI招聘管理工作流 - 2026年最新AI工作流 | AI Navigator Pro",
+    "seoDescription": "AI辅助简历筛选、面试安排与候选人评估工作流。",
+    "views": 35513
+  },
+  {
+    "id": "ai员工培训工作流",
+    "name": "AI员工培训工作流",
+    "cover": "https://picsum.photos/seed/ai员工培训工作流/800/400",
+    "description": "AI辅助培训需求分析、课程设计与效果评估工作流。",
+    "category": "hr",
+    "tags": [
+      "content",
+      "development",
+      "marketing"
+    ],
+    "steps": [
+      "步骤1：AI辅助效果评估",
+      "步骤2：AI辅助执行优化",
+      "步骤3：AI辅助效果评估",
+      "步骤4：AI辅助方案生成",
+      "步骤5：AI辅助效果评估",
+      "步骤6：AI辅助效果评估",
+      "步骤7：AI辅助数据收集",
+      "步骤8：AI辅助分析处理"
+    ],
+    "tools": [
+      "Python",
+      "Midjourney",
+      "Zapier"
+    ],
+    "duration": "按需",
+    "difficulty": "中等",
+    "updatedAt": "2026-07-25",
+    "seoTitle": "AI员工培训工作流 - 2026年最新AI工作流 | AI Navigator Pro",
+    "seoDescription": "AI辅助培训需求分析、课程设计与效果评估工作流。",
+    "views": 28909
+  },
+  {
+    "id": "ai绩效管理全流程",
+    "name": "AI绩效管理全流程",
+    "cover": "https://picsum.photos/seed/ai绩效管理全流程/800/400",
+    "description": "AI辅助目标设定、过程跟踪与绩效评估工作流。",
+    "category": "hr",
+    "tags": [
+      "customer",
+      "content"
+    ],
+    "steps": [
+      "步骤1：AI辅助效果评估",
+      "步骤2：AI辅助数据收集",
+      "步骤3：AI辅助数据收集",
+      "步骤4：AI辅助数据收集",
+      "步骤5：AI辅助分析处理",
+      "步骤6：AI辅助方案生成",
+      "步骤7：AI辅助执行优化",
+      "步骤8：AI辅助效果评估"
+    ],
+    "tools": [
+      "Midjourney",
+      "Figma",
+      "Python",
+      "Claude"
+    ],
+    "duration": "1周",
+    "difficulty": "复杂",
+    "updatedAt": "2026-07-11",
+    "seoTitle": "AI绩效管理全流程 - 2026年最新AI工作流 | AI Navigator Pro",
+    "seoDescription": "AI辅助目标设定、过程跟踪与绩效评估工作流。",
+    "views": 31299
+  },
+  {
+    "id": "ai员工关怀工作流",
+    "name": "AI员工关怀工作流",
+    "cover": "https://picsum.photos/seed/ai员工关怀工作流/800/400",
+    "description": "AI辅助员工满意度调查、反馈分析与关怀方案工作流。",
+    "category": "hr",
+    "tags": [
+      "customer",
+      "development",
+      "design"
+    ],
+    "steps": [
+      "步骤1：AI辅助效果评估",
+      "步骤2：AI辅助方案生成",
+      "步骤3：AI辅助执行优化",
+      "步骤4：AI辅助数据收集",
+      "步骤5：AI辅助方案生成",
+      "步骤6：AI辅助方案生成",
+      "步骤7：AI辅助数据收集",
+      "步骤8：AI辅助执行优化"
+    ],
+    "tools": [
+      "Figma",
+      "Python",
+      "Excel",
+      "ChatGPT",
+      "Notion"
+    ],
+    "duration": "1周",
+    "difficulty": "复杂",
+    "updatedAt": "2026-07-26",
+    "seoTitle": "AI员工关怀工作流 - 2026年最新AI工作流 | AI Navigator Pro",
+    "seoDescription": "AI辅助员工满意度调查、反馈分析与关怀方案工作流。",
+    "views": 39824
+  },
+  {
+    "id": "ai数据清洗工作流",
+    "name": "AI数据清洗工作流",
+    "cover": "https://picsum.photos/seed/ai数据清洗工作流/800/400",
+    "description": "AI辅助数据质量检查、清洗规则制定与执行工作流。",
+    "category": "data",
+    "tags": [
+      "finance",
+      "data",
+      "product",
+      "development"
+    ],
+    "steps": [
+      "步骤1：AI辅助分析处理",
+      "步骤2：AI辅助分析处理",
+      "步骤3：AI辅助数据收集",
+      "步骤4：AI辅助效果评估",
+      "步骤5：AI辅助数据收集",
+      "步骤6：AI辅助分析处理",
+      "步骤7：AI辅助数据收集",
+      "步骤8：AI辅助执行优化"
+    ],
+    "tools": [
+      "Python",
+      "Claude",
+      "Notion",
+      "Zapier"
+    ],
+    "duration": "持续",
+    "difficulty": "复杂",
+    "updatedAt": "2026-07-25",
+    "seoTitle": "AI数据清洗工作流 - 2026年最新AI工作流 | AI Navigator Pro",
+    "seoDescription": "AI辅助数据质量检查、清洗规则制定与执行工作流。",
+    "views": 71814
+  },
+  {
+    "id": "ai数据建模工作流",
+    "name": "AI数据建模工作流",
+    "cover": "https://picsum.photos/seed/ai数据建模工作流/800/400",
+    "description": "AI辅助特征工程、模型训练与效果评估工作流。",
+    "category": "data",
+    "tags": [
+      "finance",
+      "product",
+      "operation",
+      "development"
+    ],
+    "steps": [
+      "步骤1：AI辅助执行优化",
+      "步骤2：AI辅助效果评估",
+      "步骤3：AI辅助执行优化",
+      "步骤4：AI辅助方案生成",
+      "步骤5：AI辅助分析处理",
+      "步骤6：AI辅助执行优化",
+      "步骤7：AI辅助效果评估"
+    ],
+    "tools": [
+      "Excel",
+      "Zapier",
+      "Python",
+      "Midjourney"
+    ],
+    "duration": "按需",
+    "difficulty": "中等",
+    "updatedAt": "2026-07-07",
+    "seoTitle": "AI数据建模工作流 - 2026年最新AI工作流 | AI Navigator Pro",
+    "seoDescription": "AI辅助特征工程、模型训练与效果评估工作流。",
+    "views": 42311
+  },
+  {
+    "id": "ai报表自动化工作流",
+    "name": "AI报表自动化工作流",
+    "cover": "https://picsum.photos/seed/ai报表自动化工作流/800/400",
+    "description": "AI辅助报表设计、数据抽取与定时推送工作流。",
+    "category": "data",
+    "tags": [
+      "content",
+      "development",
+      "operation"
+    ],
+    "steps": [
+      "步骤1：AI辅助方案生成",
+      "步骤2：AI辅助分析处理",
+      "步骤3：AI辅助执行优化",
+      "步骤4：AI辅助方案生成",
+      "步骤5：AI辅助执行优化",
+      "步骤6：AI辅助方案生成",
+      "步骤7：AI辅助效果评估"
+    ],
+    "tools": [
+      "Figma",
+      "Midjourney",
+      "ChatGPT",
+      "Zapier",
+      "Notion"
+    ],
+    "duration": "持续",
+    "difficulty": "中等",
+    "updatedAt": "2026-07-31",
+    "seoTitle": "AI报表自动化工作流 - 2026年最新AI工作流 | AI Navigator Pro",
+    "seoDescription": "AI辅助报表设计、数据抽取与定时推送工作流。",
+    "views": 29198
+  },
+  {
+    "id": "ai数据治理工作流",
+    "name": "AI数据治理工作流",
+    "cover": "https://picsum.photos/seed/ai数据治理工作流/800/400",
+    "description": "AI辅助数据标准制定、元数据管理与质量监控工作流。",
+    "category": "data",
+    "tags": [
+      "finance",
+      "development",
+      "marketing"
+    ],
+    "steps": [
+      "步骤1：AI辅助执行优化",
+      "步骤2：AI辅助方案生成",
+      "步骤3：AI辅助执行优化",
+      "步骤4：AI辅助分析处理",
+      "步骤5：AI辅助分析处理",
+      "步骤6：AI辅助效果评估",
+      "步骤7：AI辅助方案生成"
+    ],
+    "tools": [
+      "Figma",
+      "Claude",
+      "ChatGPT",
+      "Zapier",
+      "Python"
+    ],
+    "duration": "3-5天",
+    "difficulty": "简单",
+    "updatedAt": "2026-07-22",
+    "seoTitle": "AI数据治理工作流 - 2026年最新AI工作流 | AI Navigator Pro",
+    "seoDescription": "AI辅助数据标准制定、元数据管理与质量监控工作流。",
+    "views": 79604
+  },
+  {
+    "id": "ai短视频创作工作流",
+    "name": "AI短视频创作工作流",
+    "cover": "https://picsum.photos/seed/ai短视频创作工作流/800/400",
+    "description": "AI辅助选题策划、脚本撰写与视频制作工作流。",
+    "category": "content",
+    "tags": [
+      "operation",
+      "finance"
+    ],
+    "steps": [
+      "步骤1：AI辅助执行优化",
+      "步骤2：AI辅助方案生成",
+      "步骤3：AI辅助执行优化",
+      "步骤4：AI辅助数据收集",
+      "步骤5：AI辅助分析处理"
+    ],
+    "tools": [
+      "Midjourney",
+      "Notion",
+      "Excel"
+    ],
+    "duration": "持续",
+    "difficulty": "中等",
+    "updatedAt": "2026-07-21",
+    "seoTitle": "AI短视频创作工作流 - 2026年最新AI工作流 | AI Navigator Pro",
+    "seoDescription": "AI辅助选题策划、脚本撰写与视频制作工作流。",
+    "views": 36143
+  },
+  {
+    "id": "ai播客制作工作流",
+    "name": "AI播客制作工作流",
+    "cover": "https://picsum.photos/seed/ai播客制作工作流/800/400",
+    "description": "AI辅助选题策划、脚本撰写与音频制作工作流。",
+    "category": "content",
+    "tags": [
+      "design",
+      "development",
+      "finance"
+    ],
+    "steps": [
+      "步骤1：AI辅助效果评估",
+      "步骤2：AI辅助分析处理",
+      "步骤3：AI辅助效果评估",
+      "步骤4：AI辅助数据收集",
+      "步骤5：AI辅助分析处理"
+    ],
+    "tools": [
+      "Midjourney",
+      "ChatGPT",
+      "Notion",
+      "Excel"
+    ],
+    "duration": "3-5天",
+    "difficulty": "复杂",
+    "updatedAt": "2026-07-31",
+    "seoTitle": "AI播客制作工作流 - 2026年最新AI工作流 | AI Navigator Pro",
+    "seoDescription": "AI辅助选题策划、脚本撰写与音频制作工作流。",
+    "views": 47941
+  },
+  {
+    "id": "ai图文排版工作流",
+    "name": "AI图文排版工作流",
+    "cover": "https://picsum.photos/seed/ai图文排版工作流/800/400",
+    "description": "AI辅助内容排版、配图生成与多平台适配工作流。",
+    "category": "content",
+    "tags": [
+      "finance",
+      "development"
+    ],
+    "steps": [
+      "步骤1：AI辅助方案生成",
+      "步骤2：AI辅助方案生成",
+      "步骤3：AI辅助执行优化",
+      "步骤4：AI辅助效果评估",
+      "步骤5：AI辅助效果评估"
+    ],
+    "tools": [
+      "Midjourney",
+      "Python",
+      "Figma",
+      "Notion"
+    ],
+    "duration": "1周",
+    "difficulty": "简单",
+    "updatedAt": "2026-07-26",
+    "seoTitle": "AI图文排版工作流 - 2026年最新AI工作流 | AI Navigator Pro",
+    "seoDescription": "AI辅助内容排版、配图生成与多平台适配工作流。",
+    "views": 24764
+  },
+  {
+    "id": "ai内容分发工作流",
+    "name": "AI内容分发工作流",
+    "cover": "https://picsum.photos/seed/ai内容分发工作流/800/400",
+    "description": "AI辅助内容多平台分发、数据监控与策略优化工作流。",
+    "category": "content",
+    "tags": [
+      "product",
+      "data",
+      "development"
+    ],
+    "steps": [
+      "步骤1：AI辅助数据收集",
+      "步骤2：AI辅助方案生成",
+      "步骤3：AI辅助方案生成",
+      "步骤4：AI辅助效果评估",
+      "步骤5：AI辅助分析处理",
+      "步骤6：AI辅助分析处理"
+    ],
+    "tools": [
+      "Python",
+      "Zapier",
+      "Notion",
+      "Figma",
+      "Midjourney"
+    ],
+    "duration": "1-2天",
+    "difficulty": "中等",
+    "updatedAt": "2026-07-22",
+    "seoTitle": "AI内容分发工作流 - 2026年最新AI工作流 | AI Navigator Pro",
+    "seoDescription": "AI辅助内容多平台分发、数据监控与策略优化工作流。",
+    "views": 22502
+  },
+  {
+    "id": "ai工单处理工作流",
+    "name": "AI工单处理工作流",
+    "cover": "https://picsum.photos/seed/ai工单处理工作流/800/400",
+    "description": "AI辅助工单分类、自动回复与升级处理工作流。",
+    "category": "customer",
+    "tags": [
+      "product",
+      "data"
+    ],
+    "steps": [
+      "步骤1：AI辅助分析处理",
+      "步骤2：AI辅助数据收集",
+      "步骤3：AI辅助方案生成",
+      "步骤4：AI辅助执行优化",
+      "步骤5：AI辅助分析处理",
+      "步骤6：AI辅助执行优化",
+      "步骤7：AI辅助方案生成"
+    ],
+    "tools": [
+      "Figma",
+      "Zapier",
+      "Excel",
+      "Python"
+    ],
+    "duration": "1-2天",
+    "difficulty": "中等",
+    "updatedAt": "2026-07-21",
+    "seoTitle": "AI工单处理工作流 - 2026年最新AI工作流 | AI Navigator Pro",
+    "seoDescription": "AI辅助工单分类、自动回复与升级处理工作流。",
+    "views": 57127
+  },
+  {
+    "id": "ai客户满意度调研工作流",
+    "name": "AI客户满意度调研工作流",
+    "cover": "https://picsum.photos/seed/ai客户满意度调研工作流/800/400",
+    "description": "AI辅助问卷设计、数据收集与洞察分析工作流。",
+    "category": "customer",
+    "tags": [
+      "operation",
+      "finance",
+      "marketing",
+      "customer"
+    ],
+    "steps": [
+      "步骤1：AI辅助分析处理",
+      "步骤2：AI辅助执行优化",
+      "步骤3：AI辅助效果评估",
+      "步骤4：AI辅助方案生成",
+      "步骤5：AI辅助数据收集",
+      "步骤6：AI辅助方案生成",
+      "步骤7：AI辅助方案生成"
+    ],
+    "tools": [
+      "Notion",
+      "Claude",
+      "Python",
+      "Zapier",
+      "Excel"
+    ],
+    "duration": "持续",
+    "difficulty": "复杂",
+    "updatedAt": "2026-07-20",
+    "seoTitle": "AI客户满意度调研工作流 - 2026年最新AI工作流 | AI Navigator Pro",
+    "seoDescription": "AI辅助问卷设计、数据收集与洞察分析工作流。",
+    "views": 58971
+  },
+  {
+    "id": "ai客户流失预警工作流",
+    "name": "AI客户流失预警工作流",
+    "cover": "https://picsum.photos/seed/ai客户流失预警工作流/800/400",
+    "description": "AI辅助流失风险识别、挽回策略与效果跟踪工作流。",
+    "category": "customer",
+    "tags": [
+      "content",
+      "data",
+      "operation"
+    ],
+    "steps": [
+      "步骤1：AI辅助效果评估",
+      "步骤2：AI辅助数据收集",
+      "步骤3：AI辅助效果评估",
+      "步骤4：AI辅助执行优化",
+      "步骤5：AI辅助效果评估",
+      "步骤6：AI辅助方案生成"
+    ],
+    "tools": [
+      "Claude",
+      "ChatGPT",
+      "Figma"
+    ],
+    "duration": "按需",
+    "difficulty": "简单",
+    "updatedAt": "2026-07-19",
+    "seoTitle": "AI客户流失预警工作流 - 2026年最新AI工作流 | AI Navigator Pro",
+    "seoDescription": "AI辅助流失风险识别、挽回策略与效果跟踪工作流。",
+    "views": 29641
+  },
+  {
+    "id": "ai知识库搭建工作流",
+    "name": "AI知识库搭建工作流",
+    "cover": "https://picsum.photos/seed/ai知识库搭建工作流/800/400",
+    "description": "AI辅助FAQ整理、知识库构建与智能问答工作流。",
+    "category": "customer",
+    "tags": [
+      "design",
+      "content"
+    ],
+    "steps": [
+      "步骤1：AI辅助数据收集",
+      "步骤2：AI辅助分析处理",
+      "步骤3：AI辅助效果评估",
+      "步骤4：AI辅助执行优化",
+      "步骤5：AI辅助数据收集",
+      "步骤6：AI辅助效果评估",
+      "步骤7：AI辅助执行优化",
+      "步骤8：AI辅助数据收集"
+    ],
+    "tools": [
+      "Midjourney",
+      "Figma",
+      "Notion",
+      "Excel"
+    ],
+    "duration": "按需",
+    "difficulty": "简单",
+    "updatedAt": "2026-07-18",
+    "seoTitle": "AI知识库搭建工作流 - 2026年最新AI工作流 | AI Navigator Pro",
+    "seoDescription": "AI辅助FAQ整理、知识库构建与智能问答工作流。",
+    "views": 70604
   }
 ]

@@ -1,302 +1,1886 @@
 [
   {
     "id": "1",
-    "name": "GPT",
-    "slug": "gpt",
-    "count": 166
-  },
-  {
-    "id": "2",
-    "name": "聊天机器人",
-    "slug": "chatbot",
-    "count": 212
-  },
-  {
-    "id": "3",
-    "name": "图像生成",
-    "slug": "image-generation",
-    "count": 75
-  },
-  {
-    "id": "4",
-    "name": "视频生成",
-    "slug": "video-generation",
+    "name": "最新",
+    "slug": "最新",
     "count": 386
   },
   {
-    "id": "5",
-    "name": "编程助手",
-    "slug": "coding-assistant",
-    "count": 497
+    "id": "2",
+    "name": "推荐",
+    "slug": "推荐",
+    "count": 374
   },
   {
-    "id": "6",
-    "name": "内容创作",
-    "slug": "content-creation",
-    "count": 62
-  },
-  {
-    "id": "7",
-    "name": "OpenAI",
-    "slug": "openai",
-    "count": 410
-  },
-  {
-    "id": "8",
-    "name": "开源",
-    "slug": "open-source",
-    "count": 312
-  },
-  {
-    "id": "9",
-    "name": "免费",
-    "slug": "free",
-    "count": 166
-  },
-  {
-    "id": "10",
-    "name": "生产力",
-    "slug": "productivity",
-    "count": 377
-  },
-  {
-    "id": "11",
-    "name": "设计",
-    "slug": "design",
-    "count": 395
-  },
-  {
-    "id": "12",
-    "name": "多模态",
-    "slug": "multimodal",
-    "count": 267
-  },
-  {
-    "id": "13",
-    "name": "自动化",
-    "slug": "automation",
-    "count": 76
-  },
-  {
-    "id": "14",
-    "name": "数据分析",
-    "slug": "data-analysis",
-    "count": 318
-  },
-  {
-    "id": "15",
-    "name": "Agent",
-    "slug": "agent",
-    "count": 287
-  },
-  {
-    "id": "16",
-    "name": "Prompt",
-    "slug": "prompt",
-    "count": 203
-  },
-  {
-    "id": "17",
-    "name": "工作流",
-    "slug": "workflow",
-    "count": 257
-  },
-  {
-    "id": "18",
-    "name": "API",
-    "slug": "api",
+    "id": "3",
+    "name": "2026",
+    "slug": "2026",
     "count": 370
   },
   {
+    "id": "4",
+    "name": "高效",
+    "slug": "高效",
+    "count": 358
+  },
+  {
+    "id": "5",
+    "name": "智能",
+    "slug": "智能",
+    "count": 354
+  },
+  {
+    "id": "6",
+    "name": "热门",
+    "slug": "热门",
+    "count": 346
+  },
+  {
+    "id": "7",
+    "name": "创意设计",
+    "slug": "创意设计",
+    "count": 184
+  },
+  {
+    "id": "8",
+    "name": "内容创作",
+    "slug": "内容创作",
+    "count": 177
+  },
+  {
+    "id": "9",
+    "name": "聊天机器人",
+    "slug": "聊天机器人",
+    "count": 132
+  },
+  {
+    "id": "10",
+    "name": "代码生成",
+    "slug": "代码生成",
+    "count": 120
+  },
+  {
+    "id": "11",
+    "name": "AI编程",
+    "slug": "ai编程",
+    "count": 118
+  },
+  {
+    "id": "12",
+    "name": "AI对话",
+    "slug": "ai对话",
+    "count": 118
+  },
+  {
+    "id": "13",
+    "name": "智能助手",
+    "slug": "智能助手",
+    "count": 118
+  },
+  {
+    "id": "14",
+    "name": "开发工具",
+    "slug": "开发工具",
+    "count": 117
+  },
+  {
+    "id": "15",
+    "name": "图像生成",
+    "slug": "图像生成",
+    "count": 112
+  },
+  {
+    "id": "16",
+    "name": "AI生产力",
+    "slug": "ai生产力",
+    "count": 106
+  },
+  {
+    "id": "17",
+    "name": "效率工具",
+    "slug": "效率工具",
+    "count": 106
+  },
+  {
+    "id": "18",
+    "name": "任务管理",
+    "slug": "任务管理",
+    "count": 106
+  },
+  {
     "id": "19",
-    "name": "插件",
-    "slug": "plugin",
-    "count": 167
-  },
-  {
-    "id": "20",
-    "name": "教育",
-    "slug": "education",
-    "count": 230
-  },
-  {
-    "id": "21",
-    "name": "Claude",
-    "slug": "claude",
-    "count": 417
-  },
-  {
-    "id": "22",
-    "name": "Gemini",
-    "slug": "gemini",
-    "count": 213
-  },
-  {
-    "id": "23",
-    "name": "国产AI",
-    "slug": "chinese-ai",
-    "count": 174
-  },
-  {
-    "id": "24",
-    "name": "大模型",
-    "slug": "llm",
-    "count": 90
-  },
-  {
-    "id": "25",
-    "name": "MCP",
-    "slug": "mcp",
+    "name": "自动化",
+    "slug": "自动化",
     "count": 100
   },
   {
+    "id": "20",
+    "name": "AI图像",
+    "slug": "ai图像",
+    "count": 100
+  },
+  {
+    "id": "21",
+    "name": "AI智能体",
+    "slug": "ai智能体",
+    "count": 97
+  },
+  {
+    "id": "22",
+    "name": "Agent框架",
+    "slug": "agent框架",
+    "count": 97
+  },
+  {
+    "id": "23",
+    "name": "视频生成",
+    "slug": "视频生成",
+    "count": 96
+  },
+  {
+    "id": "24",
+    "name": "AI视频",
+    "slug": "ai视频",
+    "count": 95
+  },
+  {
+    "id": "25",
+    "name": "AI写作",
+    "slug": "ai写作",
+    "count": 94
+  },
+  {
     "id": "26",
-    "name": "音乐生成",
-    "slug": "music-generation",
-    "count": 121
+    "name": "AI设计",
+    "slug": "ai设计",
+    "count": 92
   },
   {
     "id": "27",
-    "name": "语音合成",
-    "slug": "tts",
-    "count": 72
+    "name": "文案生成",
+    "slug": "文案生成",
+    "count": 91
   },
   {
     "id": "28",
-    "name": "营销",
-    "slug": "marketing",
-    "count": 365
+    "name": "AI营销",
+    "slug": "ai营销",
+    "count": 85
   },
   {
     "id": "29",
-    "name": "自媒体",
-    "slug": "self-media",
-    "count": 253
+    "name": "图形处理",
+    "slug": "图形处理",
+    "count": 84
   },
   {
     "id": "30",
-    "name": "产品经理",
-    "slug": "product-manager",
-    "count": 381
+    "name": "数据分析",
+    "slug": "数据分析",
+    "count": 82
   },
   {
     "id": "31",
-    "name": "UI/UX",
-    "slug": "ui-ux",
-    "count": 174
+    "name": "AI教育",
+    "slug": "ai教育",
+    "count": 81
   },
   {
     "id": "32",
-    "name": "代码生成",
-    "slug": "code-generation",
-    "count": 263
+    "name": "增长工具",
+    "slug": "增长工具",
+    "count": 81
   },
   {
     "id": "33",
-    "name": "RAG",
-    "slug": "rag",
-    "count": 432
+    "name": "AI搜索",
+    "slug": "ai搜索",
+    "count": 79
   },
   {
     "id": "34",
-    "name": "知识库",
-    "slug": "knowledge-base",
-    "count": 141
+    "name": "知识管理",
+    "slug": "知识管理",
+    "count": 79
   },
   {
     "id": "35",
-    "name": "AI搜索",
-    "slug": "ai-search",
-    "count": 139
+    "name": "AI音频",
+    "slug": "ai音频",
+    "count": 76
   },
   {
     "id": "36",
-    "name": "企业级",
-    "slug": "enterprise",
-    "count": 217
+    "name": "音频生成",
+    "slug": "音频生成",
+    "count": 76
   },
   {
     "id": "37",
-    "name": "SaaS",
-    "slug": "saas",
-    "count": 311
+    "name": "语音处理",
+    "slug": "语音处理",
+    "count": 76
   },
   {
     "id": "38",
-    "name": "移动端",
-    "slug": "mobile",
-    "count": 116
+    "name": "学习工具",
+    "slug": "学习工具",
+    "count": 75
   },
   {
     "id": "39",
-    "name": "云服务",
-    "slug": "cloud",
-    "count": 261
+    "name": "信息检索",
+    "slug": "信息检索",
+    "count": 67
   },
   {
     "id": "40",
-    "name": "安全",
-    "slug": "security",
-    "count": 104
+    "name": "智能发现",
+    "slug": "智能发现",
+    "count": 67
   },
   {
     "id": "41",
-    "name": "DevOps",
-    "slug": "devops",
-    "count": 316
+    "name": "国产AI",
+    "slug": "国产ai",
+    "count": 42
   },
   {
     "id": "42",
-    "name": "游戏",
-    "slug": "game",
-    "count": 415
+    "name": "编程",
+    "slug": "编程",
+    "count": 15
   },
   {
     "id": "43",
-    "name": "电商",
-    "slug": "ecommerce",
-    "count": 322
+    "name": "营销",
+    "slug": "营销",
+    "count": 13
   },
   {
     "id": "44",
-    "name": "金融",
-    "slug": "finance",
-    "count": 237
+    "name": "写作",
+    "slug": "写作",
+    "count": 12
   },
   {
     "id": "45",
-    "name": "医疗",
-    "slug": "healthcare",
-    "count": 148
+    "name": "设计",
+    "slug": "设计",
+    "count": 13
   },
   {
     "id": "46",
-    "name": "法律",
-    "slug": "legal",
-    "count": 269
+    "name": "搜索",
+    "slug": "搜索",
+    "count": 13
   },
   {
     "id": "47",
-    "name": "3D生成",
-    "slug": "3d-generation",
-    "count": 462
+    "name": "音频",
+    "slug": "音频",
+    "count": 12
   },
   {
     "id": "48",
-    "name": "数字人",
-    "slug": "digital-human",
-    "count": 162
+    "name": "效率",
+    "slug": "效率",
+    "count": 12
   },
   {
     "id": "49",
-    "name": "AIGC",
-    "slug": "aigc",
-    "count": 59
+    "name": "教育",
+    "slug": "教育",
+    "count": 10
   },
   {
     "id": "50",
-    "name": "AGI",
-    "slug": "agi",
-    "count": 106
+    "name": "多模态",
+    "slug": "多模态",
+    "count": 7
+  },
+  {
+    "id": "51",
+    "name": "AI绘画",
+    "slug": "ai绘画",
+    "count": 7
+  },
+  {
+    "id": "52",
+    "name": "Google",
+    "slug": "google",
+    "count": 7
+  },
+  {
+    "id": "53",
+    "name": "字节跳动",
+    "slug": "字节跳动",
+    "count": 7
+  },
+  {
+    "id": "54",
+    "name": "OpenAI",
+    "slug": "openai",
+    "count": 6
+  },
+  {
+    "id": "55",
+    "name": "开源",
+    "slug": "开源",
+    "count": 11
+  },
+  {
+    "id": "56",
+    "name": "音乐生成",
+    "slug": "音乐生成",
+    "count": 6
+  },
+  {
+    "id": "57",
+    "name": "企业级",
+    "slug": "企业级",
+    "count": 5
+  },
+  {
+    "id": "58",
+    "name": "语音合成",
+    "slug": "语音合成",
+    "count": 5
+  },
+  {
+    "id": "59",
+    "name": "AI作曲",
+    "slug": "ai作曲",
+    "count": 5
+  },
+  {
+    "id": "60",
+    "name": "百度",
+    "slug": "百度",
+    "count": 4
+  },
+  {
+    "id": "61",
+    "name": "阿里",
+    "slug": "阿里",
+    "count": 4
+  },
+  {
+    "id": "62",
+    "name": "K12",
+    "slug": "k12",
+    "count": 4
+  },
+  {
+    "id": "63",
+    "name": "强推理",
+    "slug": "强推理",
+    "count": 3
+  },
+  {
+    "id": "64",
+    "name": "Anthropic",
+    "slug": "anthropic",
+    "count": 3
+  },
+  {
+    "id": "65",
+    "name": "全栈开发",
+    "slug": "全栈开发",
+    "count": 3
+  },
+  {
+    "id": "66",
+    "name": "文档分析",
+    "slug": "文档分析",
+    "count": 3
+  },
+  {
+    "id": "67",
+    "name": "TTS",
+    "slug": "tts",
+    "count": 3
+  },
+  {
+    "id": "68",
+    "name": "平面设计",
+    "slug": "平面设计",
+    "count": 3
+  },
+  {
+    "id": "69",
+    "name": "UI设计",
+    "slug": "ui设计",
+    "count": 3
+  },
+  {
+    "id": "70",
+    "name": "学习",
+    "slug": "学习",
+    "count": 3
+  },
+  {
+    "id": "71",
+    "name": "Agent",
+    "slug": "agent",
+    "count": 3
+  },
+  {
+    "id": "72",
+    "name": "在线教育",
+    "slug": "在线教育",
+    "count": 3
+  },
+  {
+    "id": "73",
+    "name": "长文本",
+    "slug": "长文本",
+    "count": 2
+  },
+  {
+    "id": "74",
+    "name": "安全",
+    "slug": "安全",
+    "count": 2
+  },
+  {
+    "id": "75",
+    "name": "快手",
+    "slug": "快手",
+    "count": 2
+  },
+  {
+    "id": "76",
+    "name": "编辑器",
+    "slug": "编辑器",
+    "count": 2
+  },
+  {
+    "id": "77",
+    "name": "中文",
+    "slug": "中文",
+    "count": 2
+  },
+  {
+    "id": "78",
+    "name": "本地部署",
+    "slug": "本地部署",
+    "count": 2
+  },
+  {
+    "id": "79",
+    "name": "文字渲染",
+    "slug": "文字渲染",
+    "count": 2
+  },
+  {
+    "id": "80",
+    "name": "海报设计",
+    "slug": "海报设计",
+    "count": 2
+  },
+  {
+    "id": "81",
+    "name": "创意工具",
+    "slug": "创意工具",
+    "count": 2
+  },
+  {
+    "id": "82",
+    "name": "代码补全",
+    "slug": "代码补全",
+    "count": 2
+  },
+  {
+    "id": "83",
+    "name": "Meta",
+    "slug": "meta",
+    "count": 2
+  },
+  {
+    "id": "84",
+    "name": "AI文案",
+    "slug": "ai文案",
+    "count": 2
+  },
+  {
+    "id": "85",
+    "name": "内容生成",
+    "slug": "内容生成",
+    "count": 2
+  },
+  {
+    "id": "86",
+    "name": "中文写作",
+    "slug": "中文写作",
+    "count": 2
+  },
+  {
+    "id": "87",
+    "name": "秘塔",
+    "slug": "秘塔",
+    "count": 2
+  },
+  {
+    "id": "88",
+    "name": "办公效率",
+    "slug": "办公效率",
+    "count": 2
+  },
+  {
+    "id": "89",
+    "name": "UI/UX",
+    "slug": "ui-ux",
+    "count": 3
+  },
+  {
+    "id": "90",
+    "name": "Canva",
+    "slug": "canva",
+    "count": 2
+  },
+  {
+    "id": "91",
+    "name": "AI建站",
+    "slug": "ai建站",
+    "count": 2
+  },
+  {
+    "id": "92",
+    "name": "Adobe",
+    "slug": "adobe",
+    "count": 2
+  },
+  {
+    "id": "93",
+    "name": "PDF",
+    "slug": "pdf",
+    "count": 2
+  },
+  {
+    "id": "94",
+    "name": "工作流",
+    "slug": "工作流",
+    "count": 2
+  },
+  {
+    "id": "95",
+    "name": "Microsoft",
+    "slug": "microsoft",
+    "count": 2
+  },
+  {
+    "id": "96",
+    "name": "Copilot",
+    "slug": "copilot",
+    "count": 2
+  },
+  {
+    "id": "97",
+    "name": "办公AI",
+    "slug": "办公ai",
+    "count": 2
+  },
+  {
+    "id": "98",
+    "name": "隐私",
+    "slug": "隐私",
+    "count": 3
+  },
+  {
+    "id": "99",
+    "name": "CRM",
+    "slug": "crm",
+    "count": 2
+  },
+  {
+    "id": "100",
+    "name": "SaaS",
+    "slug": "saas",
+    "count": 2
+  },
+  {
+    "id": "101",
+    "name": "电商",
+    "slug": "电商",
+    "count": 2
+  },
+  {
+    "id": "102",
+    "name": "私域营销",
+    "slug": "私域营销",
+    "count": 2
+  },
+  {
+    "id": "103",
+    "name": "GPT",
+    "slug": "gpt",
+    "count": 1
+  },
+  {
+    "id": "104",
+    "name": "GPT-5",
+    "slug": "gpt-5",
+    "count": 1
+  },
+  {
+    "id": "105",
+    "name": "Claude 4",
+    "slug": "claude-4",
+    "count": 1
+  },
+  {
+    "id": "106",
+    "name": "安全AI",
+    "slug": "安全ai",
+    "count": 1
+  },
+  {
+    "id": "107",
+    "name": "艺术创作",
+    "slug": "艺术创作",
+    "count": 1
+  },
+  {
+    "id": "108",
+    "name": "Midjourney v7",
+    "slug": "midjourney-v7",
+    "count": 1
+  },
+  {
+    "id": "109",
+    "name": "3D生成",
+    "slug": "3d生成",
+    "count": 1
+  },
+  {
+    "id": "110",
+    "name": "GitHub",
+    "slug": "github",
+    "count": 3
+  },
+  {
+    "id": "111",
+    "name": "AI工程师",
+    "slug": "ai工程师",
+    "count": 1
+  },
+  {
+    "id": "112",
+    "name": "自主Agent",
+    "slug": "自主agent",
+    "count": 1
+  },
+  {
+    "id": "113",
+    "name": "视频编辑",
+    "slug": "视频编辑",
+    "count": 1
+  },
+  {
+    "id": "114",
+    "name": "创作",
+    "slug": "创作",
+    "count": 1
+  },
+  {
+    "id": "115",
+    "name": "Sora",
+    "slug": "sora",
+    "count": 1
+  },
+  {
+    "id": "116",
+    "name": "Sora 2",
+    "slug": "sora-2",
+    "count": 1
+  },
+  {
+    "id": "117",
+    "name": "高清",
+    "slug": "高清",
+    "count": 1
+  },
+  {
+    "id": "118",
+    "name": "可灵3.0",
+    "slug": "可灵3.0",
+    "count": 1
+  },
+  {
+    "id": "119",
+    "name": "研究",
+    "slug": "研究",
+    "count": 1
+  },
+  {
+    "id": "120",
+    "name": "问答",
+    "slug": "问答",
+    "count": 1
+  },
+  {
+    "id": "121",
+    "name": "Bard",
+    "slug": "bard",
+    "count": 1
+  },
+  {
+    "id": "122",
+    "name": "Gemini 2.5",
+    "slug": "gemini-2.5",
+    "count": 1
+  },
+  {
+    "id": "123",
+    "name": "长上下文",
+    "slug": "长上下文",
+    "count": 1
+  },
+  {
+    "id": "124",
+    "name": "文心4.5",
+    "slug": "文心4.5",
+    "count": 1
+  },
+  {
+    "id": "125",
+    "name": "豆包4.0",
+    "slug": "豆包4.0",
+    "count": 1
+  },
+  {
+    "id": "126",
+    "name": "推理",
+    "slug": "推理",
+    "count": 1
+  },
+  {
+    "id": "127",
+    "name": "DeepSeek V3",
+    "slug": "deepseek-v3",
+    "count": 1
+  },
+  {
+    "id": "128",
+    "name": "DALL-E 4",
+    "slug": "dall-e-4",
+    "count": 1
+  },
+  {
+    "id": "129",
+    "name": "3D",
+    "slug": "3d",
+    "count": 1
+  },
+  {
+    "id": "130",
+    "name": "Stable Diffusion",
+    "slug": "stable-diffusion",
+    "count": 1
+  },
+  {
+    "id": "131",
+    "name": "Stable Diffusion 3.5",
+    "slug": "stable-diffusion-3.5",
+    "count": 1
+  },
+  {
+    "id": "132",
+    "name": "Flux",
+    "slug": "flux",
+    "count": 1
+  },
+  {
+    "id": "133",
+    "name": "BFL",
+    "slug": "bfl",
+    "count": 1
+  },
+  {
+    "id": "134",
+    "name": "真实感",
+    "slug": "真实感",
+    "count": 1
+  },
+  {
+    "id": "135",
+    "name": "游戏美术",
+    "slug": "游戏美术",
+    "count": 1
+  },
+  {
+    "id": "136",
+    "name": "角色设计",
+    "slug": "角色设计",
+    "count": 1
+  },
+  {
+    "id": "137",
+    "name": "Ideogram 2.0",
+    "slug": "ideogram-2.0",
+    "count": 1
+  },
+  {
+    "id": "138",
+    "name": "即梦",
+    "slug": "即梦",
+    "count": 1
+  },
+  {
+    "id": "139",
+    "name": "文心一格",
+    "slug": "文心一格",
+    "count": 1
+  },
+  {
+    "id": "140",
+    "name": "Pika",
+    "slug": "pika",
+    "count": 1
+  },
+  {
+    "id": "141",
+    "name": "Pika 3.0",
+    "slug": "pika-3.0",
+    "count": 1
+  },
+  {
+    "id": "142",
+    "name": "即梦视频",
+    "slug": "即梦视频",
+    "count": 1
+  },
+  {
+    "id": "143",
+    "name": "生数科技",
+    "slug": "生数科技",
+    "count": 1
+  },
+  {
+    "id": "144",
+    "name": "Vidu",
+    "slug": "vidu",
+    "count": 1
+  },
+  {
+    "id": "145",
+    "name": "MiniMax",
+    "slug": "minimax",
+    "count": 1
+  },
+  {
+    "id": "146",
+    "name": "海螺AI",
+    "slug": "海螺ai",
+    "count": 1
+  },
+  {
+    "id": "147",
+    "name": "抖音",
+    "slug": "抖音",
+    "count": 1
+  },
+  {
+    "id": "148",
+    "name": "Dreamina",
+    "slug": "dreamina",
+    "count": 1
+  },
+  {
+    "id": "149",
+    "name": "Runway",
+    "slug": "runway",
+    "count": 1
+  },
+  {
+    "id": "150",
+    "name": "Gen-4",
+    "slug": "gen-4",
+    "count": 1
+  },
+  {
+    "id": "151",
+    "name": "专业级",
+    "slug": "专业级",
+    "count": 1
+  },
+  {
+    "id": "152",
+    "name": "IDE",
+    "slug": "ide",
+    "count": 1
+  },
+  {
+    "id": "153",
+    "name": "AI编辑器",
+    "slug": "ai编辑器",
+    "count": 1
+  },
+  {
+    "id": "154",
+    "name": "免费",
+    "slug": "免费",
+    "count": 1
+  },
+  {
+    "id": "155",
+    "name": "隐私保护",
+    "slug": "隐私保护",
+    "count": 1
+  },
+  {
+    "id": "156",
+    "name": "UI生成",
+    "slug": "ui生成",
+    "count": 1
+  },
+  {
+    "id": "157",
+    "name": "React",
+    "slug": "react",
+    "count": 1
+  },
+  {
+    "id": "158",
+    "name": "Vercel",
+    "slug": "vercel",
+    "count": 1
+  },
+  {
+    "id": "159",
+    "name": "AI开发",
+    "slug": "ai开发",
+    "count": 1
+  },
+  {
+    "id": "160",
+    "name": "StackBlitz",
+    "slug": "stackblitz",
+    "count": 1
+  },
+  {
+    "id": "161",
+    "name": "Claude Code",
+    "slug": "claude-code",
+    "count": 1
+  },
+  {
+    "id": "162",
+    "name": "代码助手",
+    "slug": "代码助手",
+    "count": 1
+  },
+  {
+    "id": "163",
+    "name": "Gemini",
+    "slug": "gemini",
+    "count": 1
+  },
+  {
+    "id": "164",
+    "name": "云开发",
+    "slug": "云开发",
+    "count": 1
+  },
+  {
+    "id": "165",
+    "name": "文心快码",
+    "slug": "文心快码",
+    "count": 1
+  },
+  {
+    "id": "166",
+    "name": "通义灵码",
+    "slug": "通义灵码",
+    "count": 1
+  },
+  {
+    "id": "167",
+    "name": "Zed",
+    "slug": "zed",
+    "count": 1
+  },
+  {
+    "id": "168",
+    "name": "高性能",
+    "slug": "高性能",
+    "count": 1
+  },
+  {
+    "id": "169",
+    "name": "配音",
+    "slug": "配音",
+    "count": 1
+  },
+  {
+    "id": "170",
+    "name": "ElevenLabs 3.0",
+    "slug": "elevenlabs-3.0",
+    "count": 1
+  },
+  {
+    "id": "171",
+    "name": "声音克隆",
+    "slug": "声音克隆",
+    "count": 1
+  },
+  {
+    "id": "172",
+    "name": "Suno v5",
+    "slug": "suno-v5",
+    "count": 1
+  },
+  {
+    "id": "173",
+    "name": "歌曲生成",
+    "slug": "歌曲生成",
+    "count": 1
+  },
+  {
+    "id": "174",
+    "name": "Udio v2",
+    "slug": "udio-v2",
+    "count": 1
+  },
+  {
+    "id": "175",
+    "name": "音乐制作",
+    "slug": "音乐制作",
+    "count": 1
+  },
+  {
+    "id": "176",
+    "name": "科大讯飞",
+    "slug": "科大讯飞",
+    "count": 1
+  },
+  {
+    "id": "177",
+    "name": "中文语音",
+    "slug": "中文语音",
+    "count": 1
+  },
+  {
+    "id": "178",
+    "name": "MusicGen",
+    "slug": "musicgen",
+    "count": 1
+  },
+  {
+    "id": "179",
+    "name": "语音生成",
+    "slug": "语音生成",
+    "count": 1
+  },
+  {
+    "id": "180",
+    "name": "Voicebox",
+    "slug": "voicebox",
+    "count": 1
+  },
+  {
+    "id": "181",
+    "name": "网易",
+    "slug": "网易",
+    "count": 1
+  },
+  {
+    "id": "182",
+    "name": "小冰",
+    "slug": "小冰",
+    "count": 1
+  },
+  {
+    "id": "183",
+    "name": "虚拟人",
+    "slug": "虚拟人",
+    "count": 1
+  },
+  {
+    "id": "184",
+    "name": "Notion",
+    "slug": "notion",
+    "count": 2
+  },
+  {
+    "id": "185",
+    "name": "办公",
+    "slug": "办公",
+    "count": 1
+  },
+  {
+    "id": "186",
+    "name": "英文",
+    "slug": "英文",
+    "count": 1
+  },
+  {
+    "id": "187",
+    "name": "语法检查",
+    "slug": "语法检查",
+    "count": 1
+  },
+  {
+    "id": "188",
+    "name": "GrammarlyGO",
+    "slug": "grammarlygo",
+    "count": 1
+  },
+  {
+    "id": "189",
+    "name": "生成式AI",
+    "slug": "生成式ai",
+    "count": 1
+  },
+  {
+    "id": "190",
+    "name": "英文写作",
+    "slug": "英文写作",
+    "count": 1
+  },
+  {
+    "id": "191",
+    "name": "营销文案",
+    "slug": "营销文案",
+    "count": 1
+  },
+  {
+    "id": "192",
+    "name": "性价比",
+    "slug": "性价比",
+    "count": 1
+  },
+  {
+    "id": "193",
+    "name": "写作辅助",
+    "slug": "写作辅助",
+    "count": 1
+  },
+  {
+    "id": "194",
+    "name": "豆包",
+    "slug": "豆包",
+    "count": 1
+  },
+  {
+    "id": "195",
+    "name": "通义千问",
+    "slug": "通义千问",
+    "count": 1
+  },
+  {
+    "id": "196",
+    "name": "办公写作",
+    "slug": "办公写作",
+    "count": 1
+  },
+  {
+    "id": "197",
+    "name": "Notion AI 2.0",
+    "slug": "notion-ai-2.0",
+    "count": 1
+  },
+  {
+    "id": "198",
+    "name": "Figma",
+    "slug": "figma",
+    "count": 2
+  },
+  {
+    "id": "199",
+    "name": "Figma AI 2.0",
+    "slug": "figma-ai-2.0",
+    "count": 1
+  },
+  {
+    "id": "200",
+    "name": "设计系统",
+    "slug": "设计系统",
+    "count": 2
+  },
+  {
+    "id": "201",
+    "name": "Magic Studio",
+    "slug": "magic-studio",
+    "count": 1
+  },
+  {
+    "id": "202",
+    "name": "网站",
+    "slug": "网站",
+    "count": 1
+  },
+  {
+    "id": "203",
+    "name": "Framer",
+    "slug": "framer",
+    "count": 1
+  },
+  {
+    "id": "204",
+    "name": "矢量图",
+    "slug": "矢量图",
+    "count": 1
+  },
+  {
+    "id": "205",
+    "name": "插画",
+    "slug": "插画",
+    "count": 1
+  },
+  {
+    "id": "206",
+    "name": "Firefly 3",
+    "slug": "firefly-3",
+    "count": 1
+  },
+  {
+    "id": "207",
+    "name": "即时设计",
+    "slug": "即时设计",
+    "count": 1
+  },
+  {
+    "id": "208",
+    "name": "协作",
+    "slug": "协作",
+    "count": 1
+  },
+  {
+    "id": "209",
+    "name": "稿定设计",
+    "slug": "稿定设计",
+    "count": 1
+  },
+  {
+    "id": "210",
+    "name": "模板",
+    "slug": "模板",
+    "count": 1
+  },
+  {
+    "id": "211",
+    "name": "Uizard",
+    "slug": "uizard",
+    "count": 1
+  },
+  {
+    "id": "212",
+    "name": "草图转设计",
+    "slug": "草图转设计",
+    "count": 1
+  },
+  {
+    "id": "213",
+    "name": "Galileo AI",
+    "slug": "galileo-ai",
+    "count": 1
+  },
+  {
+    "id": "214",
+    "name": "生成式设计",
+    "slug": "生成式设计",
+    "count": 1
+  },
+  {
+    "id": "215",
+    "name": "AI笔记",
+    "slug": "ai笔记",
+    "count": 1
+  },
+  {
+    "id": "216",
+    "name": "NotebookLM 2.0",
+    "slug": "notebooklm-2.0",
+    "count": 1
+  },
+  {
+    "id": "217",
+    "name": "AI研究",
+    "slug": "ai研究",
+    "count": 1
+  },
+  {
+    "id": "218",
+    "name": "Zapier",
+    "slug": "zapier",
+    "count": 1
+  },
+  {
+    "id": "219",
+    "name": "可视化",
+    "slug": "可视化",
+    "count": 1
+  },
+  {
+    "id": "220",
+    "name": "Windows",
+    "slug": "windows",
+    "count": 1
+  },
+  {
+    "id": "221",
+    "name": "Workspace AI",
+    "slug": "workspace-ai",
+    "count": 1
+  },
+  {
+    "id": "222",
+    "name": "飞书",
+    "slug": "飞书",
+    "count": 1
+  },
+  {
+    "id": "223",
+    "name": "钉钉",
+    "slug": "钉钉",
+    "count": 1
+  },
+  {
+    "id": "224",
+    "name": "企业办公",
+    "slug": "企业办公",
+    "count": 1
+  },
+  {
+    "id": "225",
+    "name": "Obsidian",
+    "slug": "obsidian",
+    "count": 1
+  },
+  {
+    "id": "226",
+    "name": "笔记",
+    "slug": "笔记",
+    "count": 2
+  },
+  {
+    "id": "227",
+    "name": "Canvas",
+    "slug": "canvas",
+    "count": 1
+  },
+  {
+    "id": "228",
+    "name": "演示文稿",
+    "slug": "演示文稿",
+    "count": 1
+  },
+  {
+    "id": "229",
+    "name": "Gamma",
+    "slug": "gamma",
+    "count": 1
+  },
+  {
+    "id": "230",
+    "name": "PPT生成",
+    "slug": "ppt生成",
+    "count": 1
+  },
+  {
+    "id": "231",
+    "name": "自主代理",
+    "slug": "自主代理",
+    "count": 1
+  },
+  {
+    "id": "232",
+    "name": "Replit",
+    "slug": "replit",
+    "count": 1
+  },
+  {
+    "id": "233",
+    "name": "开发平台",
+    "slug": "开发平台",
+    "count": 1
+  },
+  {
+    "id": "234",
+    "name": "AI应用",
+    "slug": "ai应用",
+    "count": 1
+  },
+  {
+    "id": "235",
+    "name": "Perplexity Pro",
+    "slug": "perplexity-pro",
+    "count": 1
+  },
+  {
+    "id": "236",
+    "name": "研究工具",
+    "slug": "研究工具",
+    "count": 1
+  },
+  {
+    "id": "237",
+    "name": "AI概览",
+    "slug": "ai概览",
+    "count": 1
+  },
+  {
+    "id": "238",
+    "name": "Bing",
+    "slug": "bing",
+    "count": 1
+  },
+  {
+    "id": "239",
+    "name": "中文搜索",
+    "slug": "中文搜索",
+    "count": 1
+  },
+  {
+    "id": "240",
+    "name": "天工",
+    "slug": "天工",
+    "count": 1
+  },
+  {
+    "id": "241",
+    "name": "昆仑万维",
+    "slug": "昆仑万维",
+    "count": 1
+  },
+  {
+    "id": "242",
+    "name": "360",
+    "slug": "360",
+    "count": 1
+  },
+  {
+    "id": "243",
+    "name": "DuckDuckGo",
+    "slug": "duckduckgo",
+    "count": 1
+  },
+  {
+    "id": "244",
+    "name": "匿名",
+    "slug": "匿名",
+    "count": 1
+  },
+  {
+    "id": "245",
+    "name": "Kagi",
+    "slug": "kagi",
+    "count": 1
+  },
+  {
+    "id": "246",
+    "name": "付费搜索",
+    "slug": "付费搜索",
+    "count": 1
+  },
+  {
+    "id": "247",
+    "name": "无广告",
+    "slug": "无广告",
+    "count": 1
+  },
+  {
+    "id": "248",
+    "name": "Exa",
+    "slug": "exa",
+    "count": 1
+  },
+  {
+    "id": "249",
+    "name": "语义搜索",
+    "slug": "语义搜索",
+    "count": 1
+  },
+  {
+    "id": "250",
+    "name": "开发者API",
+    "slug": "开发者api",
+    "count": 1
+  },
+  {
+    "id": "251",
+    "name": "Khan Academy",
+    "slug": "khan-academy",
+    "count": 1
+  },
+  {
+    "id": "252",
+    "name": "AI学习助手",
+    "slug": "ai学习助手",
+    "count": 1
+  },
+  {
+    "id": "253",
+    "name": "Duolingo",
+    "slug": "duolingo",
+    "count": 1
+  },
+  {
+    "id": "254",
+    "name": "语言学习",
+    "slug": "语言学习",
+    "count": 1
+  },
+  {
+    "id": "255",
+    "name": "学而思",
+    "slug": "学而思",
+    "count": 1
+  },
+  {
+    "id": "256",
+    "name": "作业帮",
+    "slug": "作业帮",
+    "count": 1
+  },
+  {
+    "id": "257",
+    "name": "拍照搜题",
+    "slug": "拍照搜题",
+    "count": 1
+  },
+  {
+    "id": "258",
+    "name": "Coursera",
+    "slug": "coursera",
+    "count": 1
+  },
+  {
+    "id": "259",
+    "name": "职业教育",
+    "slug": "职业教育",
+    "count": 1
+  },
+  {
+    "id": "260",
+    "name": "Quizlet",
+    "slug": "quizlet",
+    "count": 1
+  },
+  {
+    "id": "261",
+    "name": "闪卡",
+    "slug": "闪卡",
+    "count": 1
+  },
+  {
+    "id": "262",
+    "name": "记忆学习",
+    "slug": "记忆学习",
+    "count": 1
+  },
+  {
+    "id": "263",
+    "name": "猿辅导",
+    "slug": "猿辅导",
+    "count": 1
+  },
+  {
+    "id": "264",
+    "name": "新东方",
+    "slug": "新东方",
+    "count": 1
+  },
+  {
+    "id": "265",
+    "name": "语言培训",
+    "slug": "语言培训",
+    "count": 1
+  },
+  {
+    "id": "266",
+    "name": "留学",
+    "slug": "留学",
+    "count": 1
+  },
+  {
+    "id": "267",
+    "name": "企业培训",
+    "slug": "企业培训",
+    "count": 1
+  },
+  {
+    "id": "268",
+    "name": "Sana Labs",
+    "slug": "sana-labs",
+    "count": 1
+  },
+  {
+    "id": "269",
+    "name": "数学辅导",
+    "slug": "数学辅导",
+    "count": 1
+  },
+  {
+    "id": "270",
+    "name": "STEM",
+    "slug": "stem",
+    "count": 1
+  },
+  {
+    "id": "271",
+    "name": "HubSpot",
+    "slug": "hubspot",
+    "count": 1
+  },
+  {
+    "id": "272",
+    "name": "Salesforce",
+    "slug": "salesforce",
+    "count": 1
+  },
+  {
+    "id": "273",
+    "name": "Einstein",
+    "slug": "einstein",
+    "count": 1
+  },
+  {
+    "id": "274",
+    "name": "神策数据",
+    "slug": "神策数据",
+    "count": 1
+  },
+  {
+    "id": "275",
+    "name": "营销云",
+    "slug": "营销云",
+    "count": 1
+  },
+  {
+    "id": "276",
+    "name": "有赞",
+    "slug": "有赞",
+    "count": 1
+  },
+  {
+    "id": "277",
+    "name": "微盟",
+    "slug": "微盟",
+    "count": 1
+  },
+  {
+    "id": "278",
+    "name": "Iterable",
+    "slug": "iterable",
+    "count": 1
+  },
+  {
+    "id": "279",
+    "name": "多渠道",
+    "slug": "多渠道",
+    "count": 1
+  },
+  {
+    "id": "280",
+    "name": "Klaviyo",
+    "slug": "klaviyo",
+    "count": 1
+  },
+  {
+    "id": "281",
+    "name": "邮件营销",
+    "slug": "邮件营销",
+    "count": 1
+  },
+  {
+    "id": "282",
+    "name": "增长黑盒",
+    "slug": "增长黑盒",
+    "count": 1
+  },
+  {
+    "id": "283",
+    "name": "营销研究",
+    "slug": "营销研究",
+    "count": 1
+  },
+  {
+    "id": "284",
+    "name": "竞品分析",
+    "slug": "竞品分析",
+    "count": 1
+  },
+  {
+    "id": "285",
+    "name": "热云数据",
+    "slug": "热云数据",
+    "count": 1
+  },
+  {
+    "id": "286",
+    "name": "移动营销",
+    "slug": "移动营销",
+    "count": 1
+  },
+  {
+    "id": "287",
+    "name": "归因分析",
+    "slug": "归因分析",
+    "count": 1
+  },
+  {
+    "id": "288",
+    "name": "Jasper",
+    "slug": "jasper",
+    "count": 1
+  },
+  {
+    "id": "289",
+    "name": "Marketo",
+    "slug": "marketo",
+    "count": 1
+  },
+  {
+    "id": "290",
+    "name": "B2B营销",
+    "slug": "b2b营销",
+    "count": 1
+  },
+  {
+    "id": "291",
+    "name": "营销自动化",
+    "slug": "营销自动化",
+    "count": 1
+  },
+  {
+    "id": "292",
+    "name": "MCP",
+    "slug": "mcp",
+    "count": 10
+  },
+  {
+    "id": "293",
+    "name": "开发",
+    "slug": "开发",
+    "count": 2
+  },
+  {
+    "id": "294",
+    "name": "代码管理",
+    "slug": "代码管理",
+    "count": 2
+  },
+  {
+    "id": "295",
+    "name": "官方",
+    "slug": "官方",
+    "count": 2
+  },
+  {
+    "id": "296",
+    "name": "知识库",
+    "slug": "知识库",
+    "count": 1
+  },
+  {
+    "id": "297",
+    "name": "生产力",
+    "slug": "生产力",
+    "count": 1
+  },
+  {
+    "id": "298",
+    "name": "浏览器自动化",
+    "slug": "浏览器自动化",
+    "count": 1
+  },
+  {
+    "id": "299",
+    "name": "微软",
+    "slug": "微软",
+    "count": 1
+  },
+  {
+    "id": "300",
+    "name": "测试",
+    "slug": "测试",
+    "count": 1
+  },
+  {
+    "id": "301",
+    "name": "Slack",
+    "slug": "slack",
+    "count": 1
+  },
+  {
+    "id": "302",
+    "name": "通讯",
+    "slug": "通讯",
+    "count": 1
+  },
+  {
+    "id": "303",
+    "name": "团队协作",
+    "slug": "团队协作",
+    "count": 1
+  },
+  {
+    "id": "304",
+    "name": "消息",
+    "slug": "消息",
+    "count": 1
+  },
+  {
+    "id": "305",
+    "name": "文件系统",
+    "slug": "文件系统",
+    "count": 1
+  },
+  {
+    "id": "306",
+    "name": "高级功能",
+    "slug": "高级功能",
+    "count": 1
+  },
+  {
+    "id": "307",
+    "name": "网页抓取",
+    "slug": "网页抓取",
+    "count": 1
+  },
+  {
+    "id": "308",
+    "name": "HTTP",
+    "slug": "http",
+    "count": 1
+  },
+  {
+    "id": "309",
+    "name": "PostgreSQL",
+    "slug": "postgresql",
+    "count": 1
+  },
+  {
+    "id": "310",
+    "name": "数据库",
+    "slug": "数据库",
+    "count": 1
+  },
+  {
+    "id": "311",
+    "name": "SQL",
+    "slug": "sql",
+    "count": 1
+  },
+  {
+    "id": "312",
+    "name": "数据管理",
+    "slug": "数据管理",
+    "count": 1
+  },
+  {
+    "id": "313",
+    "name": "Brave",
+    "slug": "brave",
+    "count": 1
+  },
+  {
+    "id": "314",
+    "name": "浏览器",
+    "slug": "浏览器",
+    "count": 1
   }
 ]

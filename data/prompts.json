@@ -1735,5 +1735,832 @@
     "seoDescription": "专业的短视频剪辑脚本设计提示词，从节奏到转场的完整剪辑方案。",
     "views": 10600,
     "createdAt": "2026-07-08"
+  },
+  {
+    "id": "product-manager-20",
+    "title": "AI产品需求评审专家",
+    "content": "你是一位资深的产品评审专家，请帮我评审以下产品需求...\n\n请按照专业标准，输出高质量、可操作的内容。",
+    "category": "product-manager",
+    "tags": [
+      "writer",
+      "data-analyst"
+    ],
+    "author": "AI Navigator",
+    "seoTitle": "AI产品需求评审专家 Prompt | AI Navigator Pro",
+    "seoDescription": "专业的AI产品需求评审专家提示词，帮助快速生成高质量内容。",
+    "featured": false,
+    "views": 7479,
+    "createdAt": "2026-07-14"
+  },
+  {
+    "id": "product-manager-21",
+    "title": "竞品分析报告生成器",
+    "content": "你是一位专业的竞品分析师，请根据以下信息生成竞品分析报告...\n\n请按照专业标准，输出高质量、可操作的内容。",
+    "category": "product-manager",
+    "tags": [
+      "writer",
+      "designer",
+      "general"
+    ],
+    "author": "AI Navigator",
+    "seoTitle": "竞品分析报告生成器 Prompt | AI Navigator Pro",
+    "seoDescription": "专业的竞品分析报告生成器提示词，帮助快速生成高质量内容。",
+    "featured": false,
+    "views": 9284,
+    "createdAt": "2026-07-07"
+  },
+  {
+    "id": "product-manager-22",
+    "title": "用户旅程地图绘制助手",
+    "content": "你是一位用户体验设计专家，请帮我绘制用户旅程地图...\n\n请按照专业标准，输出高质量、可操作的内容。",
+    "category": "product-manager",
+    "tags": [
+      "operation",
+      "data-analyst"
+    ],
+    "author": "AI Navigator",
+    "seoTitle": "用户旅程地图绘制助手 Prompt | AI Navigator Pro",
+    "seoDescription": "专业的用户旅程地图绘制助手提示词，帮助快速生成高质量内容。",
+    "featured": false,
+    "views": 9798,
+    "createdAt": "2026-07-11"
+  },
+  {
+    "id": "product-manager-23",
+    "title": "A/B测试方案设计专家",
+    "content": "你是一位增长黑客，请帮我设计A/B测试方案...\n\n请按照专业标准，输出高质量、可操作的内容。",
+    "category": "product-manager",
+    "tags": [
+      "product-manager",
+      "data-analyst",
+      "education"
+    ],
+    "author": "AI Navigator",
+    "seoTitle": "A/B测试方案设计专家 Prompt | AI Navigator Pro",
+    "seoDescription": "专业的A/B测试方案设计专家提示词，帮助快速生成高质量内容。",
+    "featured": false,
+    "views": 11022,
+    "createdAt": "2026-07-28"
+  },
+  {
+    "id": "product-manager-24",
+    "title": "数据埋点设计助手",
+    "content": "你是一位数据产品经理，请帮我设计数据埋点方案...\n\n请按照专业标准，输出高质量、可操作的内容。",
+    "category": "product-manager",
+    "tags": [
+      "writer",
+      "education"
+    ],
+    "author": "AI Navigator",
+    "seoTitle": "数据埋点设计助手 Prompt | AI Navigator Pro",
+    "seoDescription": "专业的数据埋点设计助手提示词，帮助快速生成高质量内容。",
+    "featured": false,
+    "views": 8446,
+    "createdAt": "2026-07-18"
+  },
+  {
+    "id": "operation-25",
+    "title": "新媒体选题策划师",
+    "content": "你是一位资深新媒体运营，请帮我策划下周的选题...\n\n请按照专业标准，输出高质量、可操作的内容。",
+    "category": "operation",
+    "tags": [
+      "writer",
+      "marketing",
+      "designer"
+    ],
+    "author": "AI Navigator",
+    "seoTitle": "新媒体选题策划师 Prompt | AI Navigator Pro",
+    "seoDescription": "专业的新媒体选题策划师提示词，帮助快速生成高质量内容。",
+    "featured": false,
+    "views": 6912,
+    "createdAt": "2026-07-19"
+  },
+  {
+    "id": "operation-26",
+    "title": "社群运营SOP生成器",
+    "content": "你是一位社群运营专家，请帮我生成社群运营SOP...\n\n请按照专业标准，输出高质量、可操作的内容。",
+    "category": "operation",
+    "tags": [
+      "designer",
+      "hr",
+      "product-manager"
+    ],
+    "author": "AI Navigator",
+    "seoTitle": "社群运营SOP生成器 Prompt | AI Navigator Pro",
+    "seoDescription": "专业的社群运营SOP生成器提示词，帮助快速生成高质量内容。",
+    "featured": false,
+    "views": 10749,
+    "createdAt": "2026-07-23"
+  },
+  {
+    "id": "operation-27",
+    "title": "活动策划方案撰写",
+    "content": "你是一位活动策划专家，请帮我撰写活动方案...\n\n请按照专业标准，输出高质量、可操作的内容。",
+    "category": "operation",
+    "tags": [
+      "hr",
+      "developer",
+      "writer"
+    ],
+    "author": "AI Navigator",
+    "seoTitle": "活动策划方案撰写 Prompt | AI Navigator Pro",
+    "seoDescription": "专业的活动策划方案撰写提示词，帮助快速生成高质量内容。",
+    "featured": false,
+    "views": 5068,
+    "createdAt": "2026-07-17"
+  },
+  {
+    "id": "operation-28",
+    "title": "短视频脚本生成器",
+    "content": "你是一位短视频编导，请帮我生成脚本...\n\n请按照专业标准，输出高质量、可操作的内容。",
+    "category": "operation",
+    "tags": [
+      "operation",
+      "writer",
+      "general"
+    ],
+    "author": "AI Navigator",
+    "seoTitle": "短视频脚本生成器 Prompt | AI Navigator Pro",
+    "seoDescription": "专业的短视频脚本生成器提示词，帮助快速生成高质量内容。",
+    "featured": false,
+    "views": 10486,
+    "createdAt": "2026-07-01"
+  },
+  {
+    "id": "operation-29",
+    "title": "KOL合作方案撰写",
+    "content": "你是一位达人运营，请帮我撰写KOL合作方案...\n\n请按照专业标准，输出高质量、可操作的内容。",
+    "category": "operation",
+    "tags": [
+      "hr",
+      "developer"
+    ],
+    "author": "AI Navigator",
+    "seoTitle": "KOL合作方案撰写 Prompt | AI Navigator Pro",
+    "seoDescription": "专业的KOL合作方案撰写提示词，帮助快速生成高质量内容。",
+    "featured": true,
+    "views": 7342,
+    "createdAt": "2026-07-11"
+  },
+  {
+    "id": "developer-30",
+    "title": "代码重构专家",
+    "content": "你是一位资深架构师，请帮我重构以下代码...\n\n请按照专业标准，输出高质量、可操作的内容。",
+    "category": "developer",
+    "tags": [
+      "operation",
+      "marketing",
+      "hr"
+    ],
+    "author": "AI Navigator",
+    "seoTitle": "代码重构专家 Prompt | AI Navigator Pro",
+    "seoDescription": "专业的代码重构专家提示词，帮助快速生成高质量内容。",
+    "featured": false,
+    "views": 10994,
+    "createdAt": "2026-07-28"
+  },
+  {
+    "id": "developer-31",
+    "title": "技术方案评审专家",
+    "content": "你是一位技术负责人，请帮我评审以下技术方案...\n\n请按照专业标准，输出高质量、可操作的内容。",
+    "category": "developer",
+    "tags": [
+      "general",
+      "operation"
+    ],
+    "author": "AI Navigator",
+    "seoTitle": "技术方案评审专家 Prompt | AI Navigator Pro",
+    "seoDescription": "专业的技术方案评审专家提示词，帮助快速生成高质量内容。",
+    "featured": false,
+    "views": 7708,
+    "createdAt": "2026-07-08"
+  },
+  {
+    "id": "developer-32",
+    "title": "API设计规范助手",
+    "content": "你是一位API设计专家，请帮我设计RESTful API...\n\n请按照专业标准，输出高质量、可操作的内容。",
+    "category": "developer",
+    "tags": [
+      "hr",
+      "operation"
+    ],
+    "author": "AI Navigator",
+    "seoTitle": "API设计规范助手 Prompt | AI Navigator Pro",
+    "seoDescription": "专业的API设计规范助手提示词，帮助快速生成高质量内容。",
+    "featured": false,
+    "views": 4646,
+    "createdAt": "2026-07-15"
+  },
+  {
+    "id": "developer-33",
+    "title": "数据库优化顾问",
+    "content": "你是一位数据库专家，请帮我优化以下SQL...\n\n请按照专业标准，输出高质量、可操作的内容。",
+    "category": "developer",
+    "tags": [
+      "data-analyst",
+      "product-manager"
+    ],
+    "author": "AI Navigator",
+    "seoTitle": "数据库优化顾问 Prompt | AI Navigator Pro",
+    "seoDescription": "专业的数据库优化顾问提示词，帮助快速生成高质量内容。",
+    "featured": true,
+    "views": 3919,
+    "createdAt": "2026-07-10"
+  },
+  {
+    "id": "developer-34",
+    "title": "系统架构设计助手",
+    "content": "你是一位架构师，请帮我设计系统架构...\n\n请按照专业标准，输出高质量、可操作的内容。",
+    "category": "developer",
+    "tags": [
+      "marketing",
+      "hr",
+      "developer"
+    ],
+    "author": "AI Navigator",
+    "seoTitle": "系统架构设计助手 Prompt | AI Navigator Pro",
+    "seoDescription": "专业的系统架构设计助手提示词，帮助快速生成高质量内容。",
+    "featured": false,
+    "views": 9751,
+    "createdAt": "2026-07-19"
+  },
+  {
+    "id": "designer-35",
+    "title": "UI设计规范生成器",
+    "content": "你是一位UI设计专家，请帮我生成设计规范...\n\n请按照专业标准，输出高质量、可操作的内容。",
+    "category": "designer",
+    "tags": [
+      "developer",
+      "general"
+    ],
+    "author": "AI Navigator",
+    "seoTitle": "UI设计规范生成器 Prompt | AI Navigator Pro",
+    "seoDescription": "专业的UI设计规范生成器提示词，帮助快速生成高质量内容。",
+    "featured": true,
+    "views": 9267,
+    "createdAt": "2026-07-20"
+  },
+  {
+    "id": "designer-36",
+    "title": "配色方案推荐助手",
+    "content": "你是一位色彩专家，请帮我推荐配色方案...\n\n请按照专业标准，输出高质量、可操作的内容。",
+    "category": "designer",
+    "tags": [
+      "writer",
+      "developer"
+    ],
+    "author": "AI Navigator",
+    "seoTitle": "配色方案推荐助手 Prompt | AI Navigator Pro",
+    "seoDescription": "专业的配色方案推荐助手提示词，帮助快速生成高质量内容。",
+    "featured": false,
+    "views": 7161,
+    "createdAt": "2026-07-15"
+  },
+  {
+    "id": "designer-37",
+    "title": "设计评审反馈专家",
+    "content": "你是一位设计总监，请帮我评审以下设计稿...\n\n请按照专业标准，输出高质量、可操作的内容。",
+    "category": "designer",
+    "tags": [
+      "product-manager",
+      "writer",
+      "data-analyst"
+    ],
+    "author": "AI Navigator",
+    "seoTitle": "设计评审反馈专家 Prompt | AI Navigator Pro",
+    "seoDescription": "专业的设计评审反馈专家提示词，帮助快速生成高质量内容。",
+    "featured": false,
+    "views": 5588,
+    "createdAt": "2026-07-03"
+  },
+  {
+    "id": "designer-38",
+    "title": "图标设计描述生成",
+    "content": "你是一位图标设计师，请帮我描述以下图标设计...\n\n请按照专业标准，输出高质量、可操作的内容。",
+    "category": "designer",
+    "tags": [
+      "marketing",
+      "data-analyst",
+      "hr"
+    ],
+    "author": "AI Navigator",
+    "seoTitle": "图标设计描述生成 Prompt | AI Navigator Pro",
+    "seoDescription": "专业的图标设计描述生成提示词，帮助快速生成高质量内容。",
+    "featured": false,
+    "views": 10484,
+    "createdAt": "2026-07-28"
+  },
+  {
+    "id": "designer-39",
+    "title": "设计趋势分析报告",
+    "content": "你是一位设计趋势分析师，请帮我分析2026年设计趋势...\n\n请按照专业标准，输出高质量、可操作的内容。",
+    "category": "designer",
+    "tags": [
+      "designer",
+      "hr",
+      "writer"
+    ],
+    "author": "AI Navigator",
+    "seoTitle": "设计趋势分析报告 Prompt | AI Navigator Pro",
+    "seoDescription": "专业的设计趋势分析报告提示词，帮助快速生成高质量内容。",
+    "featured": false,
+    "views": 9248,
+    "createdAt": "2026-07-19"
+  },
+  {
+    "id": "data-analyst-40",
+    "title": "SQL查询优化专家",
+    "content": "你是一位数据分析师，请帮我优化以下SQL查询...\n\n请按照专业标准，输出高质量、可操作的内容。",
+    "category": "data-analyst",
+    "tags": [
+      "general",
+      "data-analyst",
+      "education"
+    ],
+    "author": "AI Navigator",
+    "seoTitle": "SQL查询优化专家 Prompt | AI Navigator Pro",
+    "seoDescription": "专业的SQL查询优化专家提示词，帮助快速生成高质量内容。",
+    "featured": true,
+    "views": 9484,
+    "createdAt": "2026-07-09"
+  },
+  {
+    "id": "data-analyst-41",
+    "title": "数据可视化方案设计",
+    "content": "你是一位数据可视化专家，请帮我设计图表方案...\n\n请按照专业标准，输出高质量、可操作的内容。",
+    "category": "data-analyst",
+    "tags": [
+      "general",
+      "product-manager"
+    ],
+    "author": "AI Navigator",
+    "seoTitle": "数据可视化方案设计 Prompt | AI Navigator Pro",
+    "seoDescription": "专业的数据可视化方案设计提示词，帮助快速生成高质量内容。",
+    "featured": false,
+    "views": 11138,
+    "createdAt": "2026-07-27"
+  },
+  {
+    "id": "data-analyst-42",
+    "title": "AARRR模型分析助手",
+    "content": "你是一位增长分析师，请帮我用AARRR模型分析...\n\n请按照专业标准，输出高质量、可操作的内容。",
+    "category": "data-analyst",
+    "tags": [
+      "designer",
+      "marketing",
+      "general"
+    ],
+    "author": "AI Navigator",
+    "seoTitle": "AARRR模型分析助手 Prompt | AI Navigator Pro",
+    "seoDescription": "专业的AARRR模型分析助手提示词，帮助快速生成高质量内容。",
+    "featured": false,
+    "views": 7106,
+    "createdAt": "2026-07-22"
+  },
+  {
+    "id": "data-analyst-43",
+    "title": "用户分群策略设计",
+    "content": "你是一位数据分析师，请帮我设计用户分群策略...\n\n请按照专业标准，输出高质量、可操作的内容。",
+    "category": "data-analyst",
+    "tags": [
+      "operation",
+      "product-manager"
+    ],
+    "author": "AI Navigator",
+    "seoTitle": "用户分群策略设计 Prompt | AI Navigator Pro",
+    "seoDescription": "专业的用户分群策略设计提示词，帮助快速生成高质量内容。",
+    "featured": false,
+    "views": 10222,
+    "createdAt": "2026-07-02"
+  },
+  {
+    "id": "data-analyst-44",
+    "title": "漏斗分析专家",
+    "content": "你是一位转化分析专家，请帮我分析转化漏斗...\n\n请按照专业标准，输出高质量、可操作的内容。",
+    "category": "data-analyst",
+    "tags": [
+      "developer",
+      "operation",
+      "data-analyst"
+    ],
+    "author": "AI Navigator",
+    "seoTitle": "漏斗分析专家 Prompt | AI Navigator Pro",
+    "seoDescription": "专业的漏斗分析专家提示词，帮助快速生成高质量内容。",
+    "featured": false,
+    "views": 9807,
+    "createdAt": "2026-07-06"
+  },
+  {
+    "id": "marketing-45",
+    "title": "SEO优化方案生成",
+    "content": "你是一位SEO专家，请帮我生成优化方案...\n\n请按照专业标准，输出高质量、可操作的内容。",
+    "category": "marketing",
+    "tags": [
+      "developer",
+      "education"
+    ],
+    "author": "AI Navigator",
+    "seoTitle": "SEO优化方案生成 Prompt | AI Navigator Pro",
+    "seoDescription": "专业的SEO优化方案生成提示词，帮助快速生成高质量内容。",
+    "featured": false,
+    "views": 8994,
+    "createdAt": "2026-07-17"
+  },
+  {
+    "id": "marketing-46",
+    "title": "SEM投放策略助手",
+    "content": "你是一位SEM专家，请帮我制定投放策略...\n\n请按照专业标准，输出高质量、可操作的内容。",
+    "category": "marketing",
+    "tags": [
+      "developer",
+      "data-analyst",
+      "writer"
+    ],
+    "author": "AI Navigator",
+    "seoTitle": "SEM投放策略助手 Prompt | AI Navigator Pro",
+    "seoDescription": "专业的SEM投放策略助手提示词，帮助快速生成高质量内容。",
+    "featured": false,
+    "views": 7835,
+    "createdAt": "2026-07-24"
+  },
+  {
+    "id": "marketing-47",
+    "title": "品牌定位分析专家",
+    "content": "你是一位品牌策划，请帮我分析品牌定位...\n\n请按照专业标准，输出高质量、可操作的内容。",
+    "category": "marketing",
+    "tags": [
+      "operation",
+      "writer",
+      "general"
+    ],
+    "author": "AI Navigator",
+    "seoTitle": "品牌定位分析专家 Prompt | AI Navigator Pro",
+    "seoDescription": "专业的品牌定位分析专家提示词，帮助快速生成高质量内容。",
+    "featured": false,
+    "views": 6696,
+    "createdAt": "2026-07-28"
+  },
+  {
+    "id": "marketing-48",
+    "title": "营销漏斗优化师",
+    "content": "你是一位营销专家，请帮我优化营销漏斗...\n\n请按照专业标准，输出高质量、可操作的内容。",
+    "category": "marketing",
+    "tags": [
+      "education",
+      "marketing",
+      "operation"
+    ],
+    "author": "AI Navigator",
+    "seoTitle": "营销漏斗优化师 Prompt | AI Navigator Pro",
+    "seoDescription": "专业的营销漏斗优化师提示词，帮助快速生成高质量内容。",
+    "featured": false,
+    "views": 3228,
+    "createdAt": "2026-07-09"
+  },
+  {
+    "id": "marketing-49",
+    "title": "公关危机处理方案",
+    "content": "你是一位公关专家，请帮我制定危机处理方案...\n\n请按照专业标准，输出高质量、可操作的内容。",
+    "category": "marketing",
+    "tags": [
+      "writer",
+      "marketing"
+    ],
+    "author": "AI Navigator",
+    "seoTitle": "公关危机处理方案 Prompt | AI Navigator Pro",
+    "seoDescription": "专业的公关危机处理方案提示词，帮助快速生成高质量内容。",
+    "featured": false,
+    "views": 7295,
+    "createdAt": "2026-07-19"
+  },
+  {
+    "id": "hr-50",
+    "title": "面试问题设计专家",
+    "content": "你是一位HR专家，请帮我设计面试问题...\n\n请按照专业标准，输出高质量、可操作的内容。",
+    "category": "hr",
+    "tags": [
+      "marketing",
+      "operation",
+      "designer"
+    ],
+    "author": "AI Navigator",
+    "seoTitle": "面试问题设计专家 Prompt | AI Navigator Pro",
+    "seoDescription": "专业的面试问题设计专家提示词，帮助快速生成高质量内容。",
+    "featured": false,
+    "views": 8374,
+    "createdAt": "2026-07-30"
+  },
+  {
+    "id": "hr-51",
+    "title": "绩效评估方案生成",
+    "content": "你是一位HRBP，请帮我生成绩效评估方案...\n\n请按照专业标准，输出高质量、可操作的内容。",
+    "category": "hr",
+    "tags": [
+      "operation",
+      "writer"
+    ],
+    "author": "AI Navigator",
+    "seoTitle": "绩效评估方案生成 Prompt | AI Navigator Pro",
+    "seoDescription": "专业的绩效评估方案生成提示词，帮助快速生成高质量内容。",
+    "featured": false,
+    "views": 7951,
+    "createdAt": "2026-07-21"
+  },
+  {
+    "id": "hr-52",
+    "title": "员工培训计划设计",
+    "content": "你是一位培训专家，请帮我设计培训计划...\n\n请按照专业标准，输出高质量、可操作的内容。",
+    "category": "hr",
+    "tags": [
+      "operation",
+      "developer",
+      "product-manager"
+    ],
+    "author": "AI Navigator",
+    "seoTitle": "员工培训计划设计 Prompt | AI Navigator Pro",
+    "seoDescription": "专业的员工培训计划设计提示词，帮助快速生成高质量内容。",
+    "featured": false,
+    "views": 7986,
+    "createdAt": "2026-07-16"
+  },
+  {
+    "id": "hr-53",
+    "title": "薪酬体系设计助手",
+    "content": "你是一位薪酬专家，请帮我设计薪酬体系...\n\n请按照专业标准，输出高质量、可操作的内容。",
+    "category": "hr",
+    "tags": [
+      "operation",
+      "designer"
+    ],
+    "author": "AI Navigator",
+    "seoTitle": "薪酬体系设计助手 Prompt | AI Navigator Pro",
+    "seoDescription": "专业的薪酬体系设计助手提示词，帮助快速生成高质量内容。",
+    "featured": false,
+    "views": 5222,
+    "createdAt": "2026-07-13"
+  },
+  {
+    "id": "hr-54",
+    "title": "企业文化建设方案",
+    "content": "你是一位OD专家，请帮我设计企业文化建设方案...\n\n请按照专业标准，输出高质量、可操作的内容。",
+    "category": "hr",
+    "tags": [
+      "marketing",
+      "education",
+      "hr"
+    ],
+    "author": "AI Navigator",
+    "seoTitle": "企业文化建设方案 Prompt | AI Navigator Pro",
+    "seoDescription": "专业的企业文化建设方案提示词，帮助快速生成高质量内容。",
+    "featured": false,
+    "views": 5531,
+    "createdAt": "2026-07-29"
+  },
+  {
+    "id": "writer-55",
+    "title": "小说情节设计助手",
+    "content": "你是一位小说作家，请帮我设计小说情节...\n\n请按照专业标准，输出高质量、可操作的内容。",
+    "category": "writer",
+    "tags": [
+      "operation",
+      "writer",
+      "hr"
+    ],
+    "author": "AI Navigator",
+    "seoTitle": "小说情节设计助手 Prompt | AI Navigator Pro",
+    "seoDescription": "专业的小说情节设计助手提示词，帮助快速生成高质量内容。",
+    "featured": false,
+    "views": 7583,
+    "createdAt": "2026-07-02"
+  },
+  {
+    "id": "writer-56",
+    "title": "学术论文润色专家",
+    "content": "你是一位学术编辑，请帮我润色以下论文...\n\n请按照专业标准，输出高质量、可操作的内容。",
+    "category": "writer",
+    "tags": [
+      "designer",
+      "writer",
+      "education"
+    ],
+    "author": "AI Navigator",
+    "seoTitle": "学术论文润色专家 Prompt | AI Navigator Pro",
+    "seoDescription": "专业的学术论文润色专家提示词，帮助快速生成高质量内容。",
+    "featured": false,
+    "views": 8942,
+    "createdAt": "2026-07-04"
+  },
+  {
+    "id": "writer-57",
+    "title": "商业计划书撰写",
+    "content": "你是一位商业顾问，请帮我撰写商业计划书...\n\n请按照专业标准，输出高质量、可操作的内容。",
+    "category": "writer",
+    "tags": [
+      "education",
+      "marketing",
+      "product-manager"
+    ],
+    "author": "AI Navigator",
+    "seoTitle": "商业计划书撰写 Prompt | AI Navigator Pro",
+    "seoDescription": "专业的商业计划书撰写提示词，帮助快速生成高质量内容。",
+    "featured": false,
+    "views": 6109,
+    "createdAt": "2026-07-31"
+  },
+  {
+    "id": "writer-58",
+    "title": "新闻稿写作助手",
+    "content": "你是一位记者，请帮我撰写新闻稿...\n\n请按照专业标准，输出高质量、可操作的内容。",
+    "category": "writer",
+    "tags": [
+      "writer",
+      "operation"
+    ],
+    "author": "AI Navigator",
+    "seoTitle": "新闻稿写作助手 Prompt | AI Navigator Pro",
+    "seoDescription": "专业的新闻稿写作助手提示词，帮助快速生成高质量内容。",
+    "featured": false,
+    "views": 3349,
+    "createdAt": "2026-07-02"
+  },
+  {
+    "id": "writer-59",
+    "title": "诗歌创作助手",
+    "content": "你是一位诗人，请帮我创作一首诗歌...\n\n请按照专业标准，输出高质量、可操作的内容。",
+    "category": "writer",
+    "tags": [
+      "designer",
+      "developer",
+      "general"
+    ],
+    "author": "AI Navigator",
+    "seoTitle": "诗歌创作助手 Prompt | AI Navigator Pro",
+    "seoDescription": "专业的诗歌创作助手提示词，帮助快速生成高质量内容。",
+    "featured": true,
+    "views": 6394,
+    "createdAt": "2026-07-19"
+  },
+  {
+    "id": "education-60",
+    "title": "课程大纲设计专家",
+    "content": "你是一位教育专家，请帮我设计课程大纲...\n\n请按照专业标准，输出高质量、可操作的内容。",
+    "category": "education",
+    "tags": [
+      "designer",
+      "marketing"
+    ],
+    "author": "AI Navigator",
+    "seoTitle": "课程大纲设计专家 Prompt | AI Navigator Pro",
+    "seoDescription": "专业的课程大纲设计专家提示词，帮助快速生成高质量内容。",
+    "featured": false,
+    "views": 3046,
+    "createdAt": "2026-07-09"
+  },
+  {
+    "id": "education-61",
+    "title": "教学方案生成器",
+    "content": "你是一位教师，请帮我生成教学方案...\n\n请按照专业标准，输出高质量、可操作的内容。",
+    "category": "education",
+    "tags": [
+      "developer",
+      "education"
+    ],
+    "author": "AI Navigator",
+    "seoTitle": "教学方案生成器 Prompt | AI Navigator Pro",
+    "seoDescription": "专业的教学方案生成器提示词，帮助快速生成高质量内容。",
+    "featured": false,
+    "views": 5858,
+    "createdAt": "2026-07-04"
+  },
+  {
+    "id": "education-62",
+    "title": "考试题目生成助手",
+    "content": "你是一位出题专家，请帮我生成考试题目...\n\n请按照专业标准，输出高质量、可操作的内容。",
+    "category": "education",
+    "tags": [
+      "developer",
+      "product-manager"
+    ],
+    "author": "AI Navigator",
+    "seoTitle": "考试题目生成助手 Prompt | AI Navigator Pro",
+    "seoDescription": "专业的考试题目生成助手提示词，帮助快速生成高质量内容。",
+    "featured": false,
+    "views": 6898,
+    "createdAt": "2026-07-19"
+  },
+  {
+    "id": "education-63",
+    "title": "学习路径规划师",
+    "content": "你是一位学习顾问，请帮我规划学习路径...\n\n请按照专业标准，输出高质量、可操作的内容。",
+    "category": "education",
+    "tags": [
+      "product-manager",
+      "developer",
+      "data-analyst"
+    ],
+    "author": "AI Navigator",
+    "seoTitle": "学习路径规划师 Prompt | AI Navigator Pro",
+    "seoDescription": "专业的学习路径规划师提示词，帮助快速生成高质量内容。",
+    "featured": true,
+    "views": 9897,
+    "createdAt": "2026-07-17"
+  },
+  {
+    "id": "education-64",
+    "title": "家长会发言稿撰写",
+    "content": "你是一位班主任，请帮我撰写家长会发言稿...\n\n请按照专业标准，输出高质量、可操作的内容。",
+    "category": "education",
+    "tags": [
+      "operation",
+      "writer"
+    ],
+    "author": "AI Navigator",
+    "seoTitle": "家长会发言稿撰写 Prompt | AI Navigator Pro",
+    "seoDescription": "专业的家长会发言稿撰写提示词，帮助快速生成高质量内容。",
+    "featured": false,
+    "views": 8931,
+    "createdAt": "2026-07-17"
+  },
+  {
+    "id": "general-65",
+    "title": "会议纪要整理专家",
+    "content": "你是一位行政助理，请帮我整理以下会议纪要...\n\n请按照专业标准，输出高质量、可操作的内容。",
+    "category": "general",
+    "tags": [
+      "writer",
+      "education"
+    ],
+    "author": "AI Navigator",
+    "seoTitle": "会议纪要整理专家 Prompt | AI Navigator Pro",
+    "seoDescription": "专业的会议纪要整理专家提示词，帮助快速生成高质量内容。",
+    "featured": false,
+    "views": 3710,
+    "createdAt": "2026-07-24"
+  },
+  {
+    "id": "general-66",
+    "title": "邮件撰写助手",
+    "content": "你是一位商务写作专家，请帮我撰写以下邮件...\n\n请按照专业标准，输出高质量、可操作的内容。",
+    "category": "general",
+    "tags": [
+      "writer",
+      "product-manager",
+      "education"
+    ],
+    "author": "AI Navigator",
+    "seoTitle": "邮件撰写助手 Prompt | AI Navigator Pro",
+    "seoDescription": "专业的邮件撰写助手提示词，帮助快速生成高质量内容。",
+    "featured": false,
+    "views": 9580,
+    "createdAt": "2026-07-14"
+  },
+  {
+    "id": "general-67",
+    "title": "PPT大纲生成器",
+    "content": "你是一位演示专家，请帮我生成PPT大纲...\n\n请按照专业标准，输出高质量、可操作的内容。",
+    "category": "general",
+    "tags": [
+      "writer",
+      "general"
+    ],
+    "author": "AI Navigator",
+    "seoTitle": "PPT大纲生成器 Prompt | AI Navigator Pro",
+    "seoDescription": "专业的PPT大纲生成器提示词，帮助快速生成高质量内容。",
+    "featured": true,
+    "views": 4323,
+    "createdAt": "2026-07-11"
+  },
+  {
+    "id": "general-68",
+    "title": "周报生成助手",
+    "content": "你是一位职场达人，请帮我生成周报...\n\n请按照专业标准，输出高质量、可操作的内容。",
+    "category": "general",
+    "tags": [
+      "operation",
+      "developer"
+    ],
+    "author": "AI Navigator",
+    "seoTitle": "周报生成助手 Prompt | AI Navigator Pro",
+    "seoDescription": "专业的周报生成助手提示词，帮助快速生成高质量内容。",
+    "featured": false,
+    "views": 11984,
+    "createdAt": "2026-07-23"
+  },
+  {
+    "id": "general-69",
+    "title": "旅行攻略生成器",
+    "content": "你是一位旅行达人，请帮我生成旅行攻略...\n\n请按照专业标准，输出高质量、可操作的内容。",
+    "category": "general",
+    "tags": [
+      "hr",
+      "education",
+      "data-analyst"
+    ],
+    "author": "AI Navigator",
+    "seoTitle": "旅行攻略生成器 Prompt | AI Navigator Pro",
+    "seoDescription": "专业的旅行攻略生成器提示词，帮助快速生成高质量内容。",
+    "featured": false,
+    "views": 10048,
+    "createdAt": "2026-07-04"
   }
 ]

@@ -998,5 +998,475 @@
     "publishedAt": "2026-07-10",
     "image": "https://picsum.photos/seed/news4/600/400",
     "category": "开发工具"
+  },
+  {
+    "id": "news-200",
+    "title": "GPT-5 Turbo发布，推理速度提升300%",
+    "summary": "OpenAI发布GPT-5 Turbo，推理速度提升300%，成本降低50%。",
+    "url": "https://example.com/news",
+    "source": "OpenAI官方",
+    "publishedAt": "2026-07-22",
+    "image": "https://picsum.photos/seed/news-200/600/400",
+    "category": "AI聊天"
+  },
+  {
+    "id": "news-201",
+    "title": "Claude 4.5上线，多模态能力全面升级",
+    "summary": "Anthropic推出Claude 4.5，图像理解和生成能力大幅提升。",
+    "url": "https://example.com/news",
+    "source": "Anthropic官方",
+    "publishedAt": "2026-07-26",
+    "image": "https://picsum.photos/seed/news-201/600/400",
+    "category": "AI聊天"
+  },
+  {
+    "id": "news-202",
+    "title": "DeepSeek V4开源，性能超越GPT-4",
+    "summary": "DeepSeek发布V4版本并全面开源，在多项基准测试中超越GPT-4。",
+    "url": "https://example.com/news",
+    "source": "DeepSeek",
+    "publishedAt": "2026-07-10",
+    "image": "https://picsum.photos/seed/news-202/600/400",
+    "category": "大模型"
+  },
+  {
+    "id": "news-203",
+    "title": "Midjourney v8发布，支持3D模型生成",
+    "summary": "Midjourney v8支持从文本直接生成3D模型和360度全景图。",
+    "url": "https://example.com/news",
+    "source": "Midjourney",
+    "publishedAt": "2026-07-24",
+    "image": "https://picsum.photos/seed/news-203/600/400",
+    "category": "AI图像"
+  },
+  {
+    "id": "news-204",
+    "title": "Runway Gen-4实现10分钟电影级视频",
+    "summary": "Runway Gen-4可生成10分钟连贯电影级视频，画面质量显著提升。",
+    "url": "https://example.com/news",
+    "source": "Runway",
+    "publishedAt": "2026-07-01",
+    "image": "https://picsum.photos/seed/news-204/600/400",
+    "category": "AI视频"
+  },
+  {
+    "id": "news-205",
+    "title": "Cursor AI估值突破100亿美元",
+    "summary": "AI编程工具Cursor完成新一轮融资，估值突破100亿美元。",
+    "url": "https://example.com/news",
+    "source": "TechCrunch",
+    "publishedAt": "2026-07-13",
+    "image": "https://picsum.photos/seed/news-205/600/400",
+    "category": "融资"
+  },
+  {
+    "id": "news-206",
+    "title": "Google Gemini 2.5 Pro正式发布",
+    "summary": "Google发布Gemini 2.5 Pro，多语言能力和代码能力全面增强。",
+    "url": "https://example.com/news",
+    "source": "Google",
+    "publishedAt": "2026-07-09",
+    "image": "https://picsum.photos/seed/news-206/600/400",
+    "category": "AI聊天"
+  },
+  {
+    "id": "news-207",
+    "title": "Meta Llama 4开源，参数达400B",
+    "summary": "Meta开源Llama 4，最大版本参数达4000亿，性能媲美闭源模型。",
+    "url": "https://example.com/news",
+    "source": "Meta",
+    "publishedAt": "2026-07-27",
+    "image": "https://picsum.photos/seed/news-207/600/400",
+    "category": "开源"
+  },
+  {
+    "id": "news-208",
+    "title": "xAI Grok 3发布，推理能力大幅提升",
+    "summary": "马斯克旗下xAI发布Grok 3，数学和代码推理能力显著提升。",
+    "url": "https://example.com/news",
+    "source": "xAI",
+    "publishedAt": "2026-07-01",
+    "image": "https://picsum.photos/seed/news-208/600/400",
+    "category": "AI聊天"
+  },
+  {
+    "id": "news-209",
+    "title": "苹果Apple Intelligence中文版上线",
+    "summary": "Apple Intelligence正式支持中文，Siri智能化程度大幅提升。",
+    "url": "https://example.com/news",
+    "source": "Apple",
+    "publishedAt": "2026-07-24",
+    "image": "https://picsum.photos/seed/news-209/600/400",
+    "category": "产品发布"
+  },
+  {
+    "id": "news-210",
+    "title": "华为盘古大模型5.0发布",
+    "summary": "华为发布盘古大模型5.0，行业应用能力全面升级。",
+    "url": "https://example.com/news",
+    "source": "华为",
+    "publishedAt": "2026-07-07",
+    "image": "https://picsum.photos/seed/news-210/600/400",
+    "category": "大模型"
+  },
+  {
+    "id": "news-211",
+    "title": "百度文心一言5.0正式发布",
+    "summary": "百度发布文心一言5.0，中文理解和生成能力再上新台阶。",
+    "url": "https://example.com/news",
+    "source": "百度",
+    "publishedAt": "2026-07-19",
+    "image": "https://picsum.photos/seed/news-211/600/400",
+    "category": "AI聊天"
+  },
+  {
+    "id": "news-212",
+    "title": "阿里通义千问3.0开源",
+    "summary": "阿里巴巴开源通义千问3.0，性能达到国际领先水平。",
+    "url": "https://example.com/news",
+    "source": "阿里",
+    "publishedAt": "2026-07-03",
+    "image": "https://picsum.photos/seed/news-212/600/400",
+    "category": "开源"
+  },
+  {
+    "id": "news-213",
+    "title": "字节跳动豆包大模型2.0发布",
+    "summary": "字节跳动发布豆包大模型2.0，多模态能力显著增强。",
+    "url": "https://example.com/news",
+    "source": "字节跳动",
+    "publishedAt": "2026-07-02",
+    "image": "https://picsum.photos/seed/news-213/600/400",
+    "category": "大模型"
+  },
+  {
+    "id": "news-214",
+    "title": "Moonshot Kimi k2发布，长文本突破",
+    "summary": "月之暗面发布Kimi k2，长文本处理能力突破500万字。",
+    "url": "https://example.com/news",
+    "source": "Moonshot",
+    "publishedAt": "2026-07-14",
+    "image": "https://picsum.photos/seed/news-214/600/400",
+    "category": "AI聊天"
+  },
+  {
+    "id": "news-215",
+    "title": "MiniMaxabab 7发布，视频生成亮眼",
+    "summary": "MiniMax发布abab 7，视频生成和语音合成能力大幅提升。",
+    "url": "https://example.com/news",
+    "source": "MiniMax",
+    "publishedAt": "2026-07-12",
+    "image": "https://picsum.photos/seed/news-215/600/400",
+    "category": "AI视频"
+  },
+  {
+    "id": "news-216",
+    "title": "智谱AI GLM-5发布，Agent能力突出",
+    "summary": "智谱AI发布GLM-5，Agent自主任务执行能力行业领先。",
+    "url": "https://example.com/news",
+    "source": "智谱AI",
+    "publishedAt": "2026-07-23",
+    "image": "https://picsum.photos/seed/news-216/600/400",
+    "category": "AI Agent"
+  },
+  {
+    "id": "news-217",
+    "title": "商汤日日新6.0发布，多模态领先",
+    "summary": "商汤科技发布日日新6.0，多模态理解能力达到新高度。",
+    "url": "https://example.com/news",
+    "source": "商汤",
+    "publishedAt": "2026-07-03",
+    "image": "https://picsum.photos/seed/news-217/600/400",
+    "category": "AI图像"
+  },
+  {
+    "id": "news-218",
+    "title": "讯飞星火大模型4.0发布",
+    "summary": "科大讯飞发布星火大模型4.0，语音交互能力再升级。",
+    "url": "https://example.com/news",
+    "source": "讯飞",
+    "publishedAt": "2026-07-18",
+    "image": "https://picsum.photos/seed/news-218/600/400",
+    "category": "AI音频"
+  },
+  {
+    "id": "news-219",
+    "title": "腾讯云混元大模型2.0发布",
+    "summary": "腾讯发布混元大模型2.0，中文创作和游戏理解能力突出。",
+    "url": "https://example.com/news",
+    "source": "腾讯",
+    "publishedAt": "2026-07-02",
+    "image": "https://picsum.photos/seed/news-219/600/400",
+    "category": "大模型"
+  },
+  {
+    "id": "news-220",
+    "title": "MCP协议2.0发布，安全性增强",
+    "summary": "Model Context Protocol 2.0发布，新增身份验证和数据加密。",
+    "url": "https://example.com/news",
+    "source": "MCP官方",
+    "publishedAt": "2026-07-30",
+    "image": "https://picsum.photos/seed/news-220/600/400",
+    "category": "MCP"
+  },
+  {
+    "id": "news-221",
+    "title": "AI编程助手市场突破200亿美元",
+    "summary": "全球AI编程助手市场规模突破200亿美元，年增长率超80%。",
+    "url": "https://example.com/news",
+    "source": "Gartner",
+    "publishedAt": "2026-07-29",
+    "image": "https://picsum.photos/seed/news-221/600/400",
+    "category": "行业"
+  },
+  {
+    "id": "news-222",
+    "title": "欧盟AI法案正式实施",
+    "summary": "欧盟人工智能法案正式生效，对高风险AI应用提出严格要求。",
+    "url": "https://example.com/news",
+    "source": "欧盟",
+    "publishedAt": "2026-07-03",
+    "image": "https://picsum.photos/seed/news-222/600/400",
+    "category": "政策"
+  },
+  {
+    "id": "news-223",
+    "title": "美国发布AI安全框架2.0",
+    "summary": "美国NIST发布AI安全框架2.0，为企业提供AI风险管理指南。",
+    "url": "https://example.com/news",
+    "source": "NIST",
+    "publishedAt": "2026-07-30",
+    "image": "https://picsum.photos/seed/news-223/600/400",
+    "category": "政策"
+  },
+  {
+    "id": "news-224",
+    "title": "中国发布生成式AI服务管理办法",
+    "summary": "中国发布生成式人工智能服务管理暂行办法，规范AI服务市场。",
+    "url": "https://example.com/news",
+    "source": "网信办",
+    "publishedAt": "2026-07-16",
+    "image": "https://picsum.photos/seed/news-224/600/400",
+    "category": "政策"
+  },
+  {
+    "id": "news-225",
+    "title": "NVIDIA发布H200 AI芯片",
+    "summary": "NVIDIA发布H200 GPU，AI训练和推理性能提升90%。",
+    "url": "https://example.com/news",
+    "source": "NVIDIA",
+    "publishedAt": "2026-07-02",
+    "image": "https://picsum.photos/seed/news-225/600/400",
+    "category": "硬件"
+  },
+  {
+    "id": "news-226",
+    "title": "AMD发布MI350挑战NVIDIA",
+    "summary": "AMD发布MI350 AI加速器，性能对标H200，价格更具竞争力。",
+    "url": "https://example.com/news",
+    "source": "AMD",
+    "publishedAt": "2026-07-10",
+    "image": "https://picsum.photos/seed/news-226/600/400",
+    "category": "硬件"
+  },
+  {
+    "id": "news-227",
+    "title": "Google TPU v6发布",
+    "summary": "Google发布TPU v6，训练和推理效率大幅提升。",
+    "url": "https://example.com/news",
+    "source": "Google",
+    "publishedAt": "2026-07-14",
+    "image": "https://picsum.photos/seed/news-227/600/400",
+    "category": "硬件"
+  },
+  {
+    "id": "news-228",
+    "title": "苹果M5芯片集成NPU",
+    "summary": "苹果M5芯片神经网络引擎性能提升4倍，端侧AI能力增强。",
+    "url": "https://example.com/news",
+    "source": "Apple",
+    "publishedAt": "2026-07-06",
+    "image": "https://picsum.photos/seed/news-228/600/400",
+    "category": "硬件"
+  },
+  {
+    "id": "news-229",
+    "title": "AI蛋白质折叠新突破",
+    "summary": "AlphaFold 3预测蛋白质结构准确率达95%，加速药物研发。",
+    "url": "https://example.com/news",
+    "source": "DeepMind",
+    "publishedAt": "2026-07-25",
+    "image": "https://picsum.photos/seed/news-229/600/400",
+    "category": "研究"
+  },
+  {
+    "id": "news-230",
+    "title": "AI自主发现新数学定理",
+    "summary": "Google DeepMind AI系统自主发现新的数学定理和证明。",
+    "url": "https://example.com/news",
+    "source": "DeepMind",
+    "publishedAt": "2026-07-05",
+    "image": "https://picsum.photos/seed/news-230/600/400",
+    "category": "研究"
+  },
+  {
+    "id": "news-231",
+    "title": "多模态大模型理解物理世界",
+    "summary": "研究展示多模态大模型已具备初步物理世界理解能力。",
+    "url": "https://example.com/news",
+    "source": "MIT",
+    "publishedAt": "2026-07-25",
+    "image": "https://picsum.photos/seed/news-231/600/400",
+    "category": "研究"
+  },
+  {
+    "id": "news-232",
+    "title": "AI药物发现进入临床试验",
+    "summary": "AI设计的药物分子首次进入人体临床试验阶段。",
+    "url": "https://example.com/news",
+    "source": "Insilico",
+    "publishedAt": "2026-07-21",
+    "image": "https://picsum.photos/seed/news-232/600/400",
+    "category": "研究"
+  },
+  {
+    "id": "news-233",
+    "title": "自动驾驶L4级别商业化落地",
+    "summary": "百度Apollo和Waymo实现L4级别无人驾驶出租车大规模商业化。",
+    "url": "https://example.com/news",
+    "source": "多企业",
+    "publishedAt": "2026-07-24",
+    "image": "https://picsum.photos/seed/news-233/600/400",
+    "category": "行业"
+  },
+  {
+    "id": "news-234",
+    "title": "AI客服替代率超60%",
+    "summary": "研究显示企业AI客服替代人工比例已超60%，满意度持续提升。",
+    "url": "https://example.com/news",
+    "source": "Gartner",
+    "publishedAt": "2026-07-21",
+    "image": "https://picsum.photos/seed/news-234/600/400",
+    "category": "行业"
+  },
+  {
+    "id": "news-235",
+    "title": "AI内容创作工具用户破10亿",
+    "summary": "全球AI内容创作工具月活用户突破10亿大关。",
+    "url": "https://example.com/news",
+    "source": "Statista",
+    "publishedAt": "2026-07-31",
+    "image": "https://picsum.photos/seed/news-235/600/400",
+    "category": "行业"
+  },
+  {
+    "id": "news-236",
+    "title": "开源大模型数量破5000",
+    "summary": "Hugging Face平台开源大模型数量突破5000个。",
+    "url": "https://example.com/news",
+    "source": "Hugging Face",
+    "publishedAt": "2026-07-14",
+    "image": "https://picsum.photos/seed/news-236/600/400",
+    "category": "开源"
+  },
+  {
+    "id": "news-237",
+    "title": "AI Agent框架生态爆发",
+    "summary": "主流AI Agent框架月下载量均突破百万，生态快速成熟。",
+    "url": "https://example.com/news",
+    "source": "GitHub",
+    "publishedAt": "2026-07-12",
+    "image": "https://picsum.photos/seed/news-237/600/400",
+    "category": "生态"
+  },
+  {
+    "id": "news-238",
+    "title": "企业AI采用率达75%",
+    "summary": "全球500强企业AI技术采用率达到75%，生成式AI成为标配。",
+    "url": "https://example.com/news",
+    "source": "McKinsey",
+    "publishedAt": "2026-07-29",
+    "image": "https://picsum.photos/seed/news-238/600/400",
+    "category": "行业"
+  },
+  {
+    "id": "news-239",
+    "title": "AI能耗问题引发关注",
+    "summary": "大规模AI训练和推理能耗问题引发业界关注，绿色AI成为新方向。",
+    "url": "https://example.com/news",
+    "source": "Nature",
+    "publishedAt": "2026-07-13",
+    "image": "https://picsum.photos/seed/news-239/600/400",
+    "category": "研究"
+  },
+  {
+    "id": "news-240",
+    "title": "人形机器人量产在即",
+    "summary": "特斯拉Optimus和Figure AI人形机器人进入量产准备阶段。",
+    "url": "https://example.com/news",
+    "source": "多企业",
+    "publishedAt": "2026-07-15",
+    "image": "https://picsum.photos/seed/news-240/600/400",
+    "category": "硬件"
+  },
+  {
+    "id": "news-241",
+    "title": "脑机接口AI取得突破",
+    "summary": "Neuralink脑机接口结合AI实现意念打字速度大幅提升。",
+    "url": "https://example.com/news",
+    "source": "Neuralink",
+    "publishedAt": "2026-07-28",
+    "image": "https://picsum.photos/seed/news-241/600/400",
+    "category": "研究"
+  },
+  {
+    "id": "news-242",
+    "title": "AI教育个性化取得进展",
+    "summary": "AI个性化教育系统在K12领域效果显著，学习效率提升40%。",
+    "url": "https://example.com/news",
+    "source": "Stanford",
+    "publishedAt": "2026-07-30",
+    "image": "https://picsum.photos/seed/news-242/600/400",
+    "category": "研究"
+  },
+  {
+    "id": "news-243",
+    "title": "量子计算与AI结合",
+    "summary": "IBM展示量子计算与AI结合的新范式，解决传统计算难题。",
+    "url": "https://example.com/news",
+    "source": "IBM",
+    "publishedAt": "2026-07-30",
+    "image": "https://picsum.photos/seed/news-243/600/400",
+    "category": "研究"
+  },
+  {
+    "id": "news-244",
+    "title": "AI数字人技术成熟",
+    "summary": "AI数字人技术在直播、客服领域大规模应用，成本降低80%。",
+    "url": "https://example.com/news",
+    "source": "多企业",
+    "publishedAt": "2026-07-13",
+    "image": "https://picsum.photos/seed/news-244/600/400",
+    "category": "AI视频"
+  },
+  {
+    "id": "news-245",
+    "title": "3D生成AI成为新风口",
+    "summary": "3D模型生成AI工具获得大额融资，游戏和工业设计领域需求旺盛。",
+    "url": "https://example.com/news",
+    "source": "TechCrunch",
+    "publishedAt": "2026-07-13",
+    "image": "https://picsum.photos/seed/news-245/600/400",
+    "category": "AI图像"
+  },
+  {
+    "id": "news-246",
+    "title": "AI编程进入低代码时代",
+    "summary": "AI编程工具让非技术人员也能开发应用，低代码市场爆发。",
+    "url": "https://example.com/news",
+    "source": "多企业",
+    "publishedAt": "2026-07-03",
+    "image": "https://picsum.photos/seed/news-246/600/400",
+    "category": "AI编程"
   }
 ]

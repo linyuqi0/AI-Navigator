@@ -3456,5 +3456,1559 @@
     "featured": true,
     "trending": true,
     "views": 65000
+  },
+  {
+    "id": "autocode-pro",
+    "name": "AutoCode Pro",
+    "avatar": "https://api.dicebear.com/7.x/bottts/svg?seed=autocode-pro",
+    "description": "智能代码生成Agent，支持多语言编程和自动化代码审查。",
+    "url": "https://example.com/autocode-pro",
+    "category": "developer-agents",
+    "tags": [
+      "创作",
+      "AI",
+      "编程"
+    ],
+    "rating": 4.2,
+    "updatedAt": "2026-07-31",
+    "features": [
+      "上下文记忆",
+      "多工具集成",
+      "报表生成",
+      "实时学习",
+      "任务分解"
+    ],
+    "useCases": [
+      "项目管理",
+      "个人效率提升",
+      "数据分析",
+      "市场调研"
+    ],
+    "seoTitle": "AutoCode Pro - 开发Agent | AI Navigator Pro",
+    "seoDescription": "智能代码生成Agent，支持多语言编程和自动化代码审查。",
+    "featured": false,
+    "trending": false,
+    "views": 73876
+  },
+  {
+    "id": "datamind",
+    "name": "DataMind",
+    "avatar": "https://api.dicebear.com/7.x/bottts/svg?seed=datamind",
+    "description": "企业级数据分析Agent，自动发现数据洞察并生成可视化报告。",
+    "url": "https://example.com/datamind",
+    "category": "data-agents",
+    "tags": [
+      "创作",
+      "生产力",
+      "智能体",
+      "AI"
+    ],
+    "rating": 4.2,
+    "updatedAt": "2026-07-05",
+    "features": [
+      "报表生成",
+      "自主决策",
+      "API调用",
+      "上下文记忆",
+      "多工具集成"
+    ],
+    "useCases": [
+      "数据分析",
+      "市场调研",
+      "代码开发",
+      "内容创作"
+    ],
+    "seoTitle": "DataMind - 数据Agent | AI Navigator Pro",
+    "seoDescription": "企业级数据分析Agent，自动发现数据洞察并生成可视化报告。",
+    "featured": false,
+    "trending": false,
+    "views": 127696
+  },
+  {
+    "id": "contentforge",
+    "name": "ContentForge",
+    "avatar": "https://api.dicebear.com/7.x/bottts/svg?seed=contentforge",
+    "description": "AI内容创作Agent，自动生成文章、视频脚本和社交媒体内容。",
+    "url": "https://example.com/contentforge",
+    "category": "creative-agents",
+    "tags": [
+      "生产力",
+      "商业",
+      "编程",
+      "数据分析"
+    ],
+    "rating": 4.7,
+    "updatedAt": "2026-07-18",
+    "features": [
+      "上下文记忆",
+      "自主决策",
+      "自然语言交互",
+      "实时学习"
+    ],
+    "useCases": [
+      "项目管理",
+      "企业自动化"
+    ],
+    "seoTitle": "ContentForge - 创意Agent | AI Navigator Pro",
+    "seoDescription": "AI内容创作Agent，自动生成文章、视频脚本和社交媒体内容。",
+    "featured": false,
+    "trending": false,
+    "views": 74045
+  },
+  {
+    "id": "salespilot",
+    "name": "SalesPilot",
+    "avatar": "https://api.dicebear.com/7.x/bottts/svg?seed=salespilot",
+    "description": "智能销售助手Agent，自动化客户跟进和销售流程管理。",
+    "url": "https://example.com/salespilot",
+    "category": "business-agents",
+    "tags": [
+      "AI",
+      "生产力",
+      "编程",
+      "商业"
+    ],
+    "rating": 4.8,
+    "updatedAt": "2026-07-17",
+    "features": [
+      "实时学习",
+      "多工具集成",
+      "自然语言交互",
+      "API调用",
+      "自主决策"
+    ],
+    "useCases": [
+      "代码开发",
+      "内容创作",
+      "企业自动化",
+      "项目管理"
+    ],
+    "seoTitle": "SalesPilot - 商业Agent | AI Navigator Pro",
+    "seoDescription": "智能销售助手Agent，自动化客户跟进和销售流程管理。",
+    "featured": false,
+    "trending": false,
+    "views": 85612
+  },
+  {
+    "id": "researchbot",
+    "name": "ResearchBot",
+    "avatar": "https://api.dicebear.com/7.x/bottts/svg?seed=researchbot",
+    "description": "学术研究Agent，自动检索文献、整理资料和生成综述。",
+    "url": "https://example.com/researchbot",
+    "category": "research-agents",
+    "tags": [
+      "编程",
+      "自动化"
+    ],
+    "rating": 4.9,
+    "updatedAt": "2026-07-31",
+    "features": [
+      "多工具集成",
+      "上下文记忆",
+      "实时学习"
+    ],
+    "useCases": [
+      "数据分析",
+      "个人效率提升"
+    ],
+    "seoTitle": "ResearchBot - 研究Agent | AI Navigator Pro",
+    "seoDescription": "学术研究Agent，自动检索文献、整理资料和生成综述。",
+    "featured": false,
+    "trending": false,
+    "views": 48287
+  },
+  {
+    "id": "taskmaster",
+    "name": "TaskMaster",
+    "avatar": "https://api.dicebear.com/7.x/bottts/svg?seed=taskmaster",
+    "description": "通用任务管理Agent，自动规划、执行和跟踪复杂任务。",
+    "url": "https://example.com/taskmaster",
+    "category": "general-agents",
+    "tags": [
+      "创作",
+      "自动化",
+      "生产力"
+    ],
+    "rating": 4.8,
+    "updatedAt": "2026-07-23",
+    "features": [
+      "任务分解",
+      "实时学习",
+      "上下文记忆"
+    ],
+    "useCases": [
+      "代码开发",
+      "内容创作",
+      "客户服务",
+      "市场调研"
+    ],
+    "seoTitle": "TaskMaster - 通用Agent | AI Navigator Pro",
+    "seoDescription": "通用任务管理Agent，自动规划、执行和跟踪复杂任务。",
+    "featured": true,
+    "trending": false,
+    "views": 93627
+  },
+  {
+    "id": "healthguard",
+    "name": "HealthGuard",
+    "avatar": "https://api.dicebear.com/7.x/bottts/svg?seed=healthguard",
+    "description": "个人健康管理Agent，提供饮食、运动和睡眠建议。",
+    "url": "https://example.com/healthguard",
+    "category": "personal-agents",
+    "tags": [
+      "智能体",
+      "生产力"
+    ],
+    "rating": 4.2,
+    "updatedAt": "2026-07-03",
+    "features": [
+      "自主决策",
+      "多工具集成",
+      "报表生成",
+      "上下文记忆",
+      "自然语言交互"
+    ],
+    "useCases": [
+      "内容创作",
+      "数据分析"
+    ],
+    "seoTitle": "HealthGuard - 个人Agent | AI Navigator Pro",
+    "seoDescription": "个人健康管理Agent，提供饮食、运动和睡眠建议。",
+    "featured": false,
+    "trending": false,
+    "views": 39684
+  },
+  {
+    "id": "supportai",
+    "name": "SupportAI",
+    "avatar": "https://api.dicebear.com/7.x/bottts/svg?seed=supportai",
+    "description": "智能客服Agent，7x24小时自动响应客户咨询。",
+    "url": "https://example.com/supportai",
+    "category": "customer-service-agents",
+    "tags": [
+      "商业",
+      "自动化",
+      "智能体",
+      "数据分析"
+    ],
+    "rating": 4.2,
+    "updatedAt": "2026-07-04",
+    "features": [
+      "API调用",
+      "自然语言交互",
+      "实时学习",
+      "上下文记忆",
+      "任务分解"
+    ],
+    "useCases": [
+      "企业自动化",
+      "代码开发",
+      "市场调研",
+      "项目管理"
+    ],
+    "seoTitle": "SupportAI - 客服Agent | AI Navigator Pro",
+    "seoDescription": "智能客服Agent，7x24小时自动响应客户咨询。",
+    "featured": true,
+    "trending": false,
+    "views": 33644
+  },
+  {
+    "id": "codereviewer",
+    "name": "CodeReviewer",
+    "avatar": "https://api.dicebear.com/7.x/bottts/svg?seed=codereviewer",
+    "description": "自动化代码审查Agent，发现潜在Bug和安全漏洞。",
+    "url": "https://example.com/codereviewer",
+    "category": "developer-agents",
+    "tags": [
+      "智能体",
+      "自动化"
+    ],
+    "rating": 4.5,
+    "updatedAt": "2026-07-05",
+    "features": [
+      "自然语言交互",
+      "报表生成",
+      "实时学习",
+      "多工具集成"
+    ],
+    "useCases": [
+      "项目管理",
+      "市场调研"
+    ],
+    "seoTitle": "CodeReviewer - 开发Agent | AI Navigator Pro",
+    "seoDescription": "自动化代码审查Agent，发现潜在Bug和安全漏洞。",
+    "featured": false,
+    "trending": false,
+    "views": 18261
+  },
+  {
+    "id": "marketsense",
+    "name": "MarketSense",
+    "avatar": "https://api.dicebear.com/7.x/bottts/svg?seed=marketsense",
+    "description": "市场情报Agent，实时监控竞品动态和市场趋势。",
+    "url": "https://example.com/marketsense",
+    "category": "business-agents",
+    "tags": [
+      "编程",
+      "商业",
+      "自动化",
+      "数据分析"
+    ],
+    "rating": 4.4,
+    "updatedAt": "2026-07-16",
+    "features": [
+      "API调用",
+      "自主决策",
+      "多工具集成"
+    ],
+    "useCases": [
+      "企业自动化",
+      "内容创作",
+      "数据分析"
+    ],
+    "seoTitle": "MarketSense - 商业Agent | AI Navigator Pro",
+    "seoDescription": "市场情报Agent，实时监控竞品动态和市场趋势。",
+    "featured": false,
+    "trending": false,
+    "views": 79776
+  },
+  {
+    "id": "designpartner",
+    "name": "DesignPartner",
+    "avatar": "https://api.dicebear.com/7.x/bottts/svg?seed=designpartner",
+    "description": "AI设计协作Agent，辅助UI/UX设计和原型制作。",
+    "url": "https://example.com/designpartner",
+    "category": "creative-agents",
+    "tags": [
+      "商业",
+      "自动化",
+      "创作"
+    ],
+    "rating": 4.3,
+    "updatedAt": "2026-07-31",
+    "features": [
+      "自主决策",
+      "上下文记忆",
+      "自然语言交互"
+    ],
+    "useCases": [
+      "企业自动化",
+      "客户服务"
+    ],
+    "seoTitle": "DesignPartner - 创意Agent | AI Navigator Pro",
+    "seoDescription": "AI设计协作Agent，辅助UI/UX设计和原型制作。",
+    "featured": false,
+    "trending": false,
+    "views": 144231
+  },
+  {
+    "id": "docgenius",
+    "name": "DocGenius",
+    "avatar": "https://api.dicebear.com/7.x/bottts/svg?seed=docgenius",
+    "description": "智能文档处理Agent，自动撰写、编辑和格式化文档。",
+    "url": "https://example.com/docgenius",
+    "category": "general-agents",
+    "tags": [
+      "编程",
+      "生产力"
+    ],
+    "rating": 4.1,
+    "updatedAt": "2026-07-06",
+    "features": [
+      "多工具集成",
+      "上下文记忆",
+      "报表生成"
+    ],
+    "useCases": [
+      "个人效率提升",
+      "客户服务",
+      "项目管理"
+    ],
+    "seoTitle": "DocGenius - 通用Agent | AI Navigator Pro",
+    "seoDescription": "智能文档处理Agent，自动撰写、编辑和格式化文档。",
+    "featured": false,
+    "trending": true,
+    "views": 26491
+  },
+  {
+    "id": "testrunner",
+    "name": "TestRunner",
+    "avatar": "https://api.dicebear.com/7.x/bottts/svg?seed=testrunner",
+    "description": "自动化测试Agent，生成测试用例并执行回归测试。",
+    "url": "https://example.com/testrunner",
+    "category": "developer-agents",
+    "tags": [
+      "数据分析",
+      "AI",
+      "自动化"
+    ],
+    "rating": 4.7,
+    "updatedAt": "2026-07-11",
+    "features": [
+      "任务分解",
+      "实时学习",
+      "多工具集成"
+    ],
+    "useCases": [
+      "客户服务",
+      "内容创作",
+      "数据分析",
+      "企业自动化"
+    ],
+    "seoTitle": "TestRunner - 开发Agent | AI Navigator Pro",
+    "seoDescription": "自动化测试Agent，生成测试用例并执行回归测试。",
+    "featured": true,
+    "trending": false,
+    "views": 31209
+  },
+  {
+    "id": "financebot",
+    "name": "FinanceBot",
+    "avatar": "https://api.dicebear.com/7.x/bottts/svg?seed=financebot",
+    "description": "财务管理Agent，自动记账、预算分析和报表生成。",
+    "url": "https://example.com/financebot",
+    "category": "business-agents",
+    "tags": [
+      "智能体",
+      "生产力"
+    ],
+    "rating": 4.3,
+    "updatedAt": "2026-07-30",
+    "features": [
+      "多工具集成",
+      "报表生成",
+      "自然语言交互",
+      "上下文记忆"
+    ],
+    "useCases": [
+      "项目管理",
+      "市场调研"
+    ],
+    "seoTitle": "FinanceBot - 商业Agent | AI Navigator Pro",
+    "seoDescription": "财务管理Agent，自动记账、预算分析和报表生成。",
+    "featured": false,
+    "trending": false,
+    "views": 143658
+  },
+  {
+    "id": "learnpath",
+    "name": "LearnPath",
+    "avatar": "https://api.dicebear.com/7.x/bottts/svg?seed=learnpath",
+    "description": "个性化学习Agent，制定学习计划并跟踪学习进度。",
+    "url": "https://example.com/learnpath",
+    "category": "personal-agents",
+    "tags": [
+      "生产力",
+      "数据分析"
+    ],
+    "rating": 4.1,
+    "updatedAt": "2026-07-29",
+    "features": [
+      "任务分解",
+      "自主决策",
+      "API调用"
+    ],
+    "useCases": [
+      "数据分析",
+      "项目管理",
+      "市场调研",
+      "客户服务"
+    ],
+    "seoTitle": "LearnPath - 个人Agent | AI Navigator Pro",
+    "seoDescription": "个性化学习Agent，制定学习计划并跟踪学习进度。",
+    "featured": false,
+    "trending": false,
+    "views": 74201
+  },
+  {
+    "id": "seoagent",
+    "name": "SEOAgent",
+    "avatar": "https://api.dicebear.com/7.x/bottts/svg?seed=seoagent",
+    "description": "SEO优化Agent，自动分析网站排名并提供优化建议。",
+    "url": "https://example.com/seoagent",
+    "category": "business-agents",
+    "tags": [
+      "商业",
+      "AI",
+      "编程",
+      "数据分析"
+    ],
+    "rating": 4.6,
+    "updatedAt": "2026-07-27",
+    "features": [
+      "自主决策",
+      "报表生成",
+      "自然语言交互",
+      "多工具集成"
+    ],
+    "useCases": [
+      "客户服务",
+      "个人效率提升",
+      "代码开发",
+      "内容创作"
+    ],
+    "seoTitle": "SEOAgent - 商业Agent | AI Navigator Pro",
+    "seoDescription": "SEO优化Agent，自动分析网站排名并提供优化建议。",
+    "featured": false,
+    "trending": false,
+    "views": 7534
+  },
+  {
+    "id": "socialmanager",
+    "name": "SocialManager",
+    "avatar": "https://api.dicebear.com/7.x/bottts/svg?seed=socialmanager",
+    "description": "社交媒体管理Agent，自动发布内容和分析互动数据。",
+    "url": "https://example.com/socialmanager",
+    "category": "creative-agents",
+    "tags": [
+      "自动化",
+      "数据分析"
+    ],
+    "rating": 4.9,
+    "updatedAt": "2026-07-18",
+    "features": [
+      "上下文记忆",
+      "任务分解",
+      "API调用"
+    ],
+    "useCases": [
+      "市场调研",
+      "个人效率提升"
+    ],
+    "seoTitle": "SocialManager - 创意Agent | AI Navigator Pro",
+    "seoDescription": "社交媒体管理Agent，自动发布内容和分析互动数据。",
+    "featured": true,
+    "trending": false,
+    "views": 15458
+  },
+  {
+    "id": "bughunter",
+    "name": "BugHunter",
+    "avatar": "https://api.dicebear.com/7.x/bottts/svg?seed=bughunter",
+    "description": "漏洞挖掘Agent，自动扫描代码安全漏洞和性能问题。",
+    "url": "https://example.com/bughunter",
+    "category": "developer-agents",
+    "tags": [
+      "智能体",
+      "数据分析",
+      "自动化"
+    ],
+    "rating": 4.7,
+    "updatedAt": "2026-07-12",
+    "features": [
+      "API调用",
+      "任务分解",
+      "上下文记忆",
+      "多工具集成",
+      "报表生成"
+    ],
+    "useCases": [
+      "数据分析",
+      "内容创作"
+    ],
+    "seoTitle": "BugHunter - 开发Agent | AI Navigator Pro",
+    "seoDescription": "漏洞挖掘Agent，自动扫描代码安全漏洞和性能问题。",
+    "featured": true,
+    "trending": false,
+    "views": 92080
+  },
+  {
+    "id": "meetingai",
+    "name": "MeetingAI",
+    "avatar": "https://api.dicebear.com/7.x/bottts/svg?seed=meetingai",
+    "description": "会议智能Agent，自动生成会议纪要、待办事项和行动项。",
+    "url": "https://example.com/meetingai",
+    "category": "general-agents",
+    "tags": [
+      "智能体",
+      "AI",
+      "自动化"
+    ],
+    "rating": 4.8,
+    "updatedAt": "2026-07-04",
+    "features": [
+      "自主决策",
+      "API调用",
+      "实时学习",
+      "多工具集成"
+    ],
+    "useCases": [
+      "项目管理",
+      "数据分析"
+    ],
+    "seoTitle": "MeetingAI - 通用Agent | AI Navigator Pro",
+    "seoDescription": "会议智能Agent，自动生成会议纪要、待办事项和行动项。",
+    "featured": false,
+    "trending": false,
+    "views": 64662
+  },
+  {
+    "id": "travelplanner",
+    "name": "TravelPlanner",
+    "avatar": "https://api.dicebear.com/7.x/bottts/svg?seed=travelplanner",
+    "description": "智能旅行规划Agent，自动制定行程和预订服务。",
+    "url": "https://example.com/travelplanner",
+    "category": "personal-agents",
+    "tags": [
+      "编程",
+      "数据分析"
+    ],
+    "rating": 4.2,
+    "updatedAt": "2026-07-11",
+    "features": [
+      "多工具集成",
+      "API调用",
+      "自然语言交互",
+      "上下文记忆"
+    ],
+    "useCases": [
+      "市场调研",
+      "代码开发",
+      "客户服务",
+      "数据分析"
+    ],
+    "seoTitle": "TravelPlanner - 个人Agent | AI Navigator Pro",
+    "seoDescription": "智能旅行规划Agent，自动制定行程和预订服务。",
+    "featured": false,
+    "trending": false,
+    "views": 73475
+  },
+  {
+    "id": "devopsbot",
+    "name": "DevOpsBot",
+    "avatar": "https://api.dicebear.com/7.x/bottts/svg?seed=devopsbot",
+    "description": "DevOps自动化Agent，管理CI/CD流程和基础设施。",
+    "url": "https://example.com/devopsbot",
+    "category": "developer-agents",
+    "tags": [
+      "生产力",
+      "编程"
+    ],
+    "rating": 4.1,
+    "updatedAt": "2026-07-14",
+    "features": [
+      "上下文记忆",
+      "实时学习",
+      "任务分解",
+      "报表生成"
+    ],
+    "useCases": [
+      "市场调研",
+      "客户服务"
+    ],
+    "seoTitle": "DevOpsBot - 开发Agent | AI Navigator Pro",
+    "seoDescription": "DevOps自动化Agent，管理CI/CD流程和基础设施。",
+    "featured": false,
+    "trending": true,
+    "views": 119309
+  },
+  {
+    "id": "customerinsight",
+    "name": "CustomerInsight",
+    "avatar": "https://api.dicebear.com/7.x/bottts/svg?seed=customerinsight",
+    "description": "客户洞察Agent，分析用户行为并提供增长建议。",
+    "url": "https://example.com/customerinsight",
+    "category": "business-agents",
+    "tags": [
+      "智能体",
+      "AI"
+    ],
+    "rating": 4.4,
+    "updatedAt": "2026-07-31",
+    "features": [
+      "上下文记忆",
+      "任务分解",
+      "自然语言交互",
+      "自主决策",
+      "报表生成"
+    ],
+    "useCases": [
+      "客户服务",
+      "代码开发",
+      "内容创作",
+      "数据分析"
+    ],
+    "seoTitle": "CustomerInsight - 商业Agent | AI Navigator Pro",
+    "seoDescription": "客户洞察Agent，分析用户行为并提供增长建议。",
+    "featured": false,
+    "trending": false,
+    "views": 38367
+  },
+  {
+    "id": "paperhelper",
+    "name": "PaperHelper",
+    "avatar": "https://api.dicebear.com/7.x/bottts/svg?seed=paperhelper",
+    "description": "论文写作辅助Agent，提供文献推荐和写作指导。",
+    "url": "https://example.com/paperhelper",
+    "category": "research-agents",
+    "tags": [
+      "创作",
+      "数据分析"
+    ],
+    "rating": 4.9,
+    "updatedAt": "2026-07-22",
+    "features": [
+      "自然语言交互",
+      "任务分解",
+      "API调用",
+      "报表生成",
+      "实时学习"
+    ],
+    "useCases": [
+      "企业自动化",
+      "数据分析",
+      "市场调研",
+      "个人效率提升"
+    ],
+    "seoTitle": "PaperHelper - 研究Agent | AI Navigator Pro",
+    "seoDescription": "论文写作辅助Agent，提供文献推荐和写作指导。",
+    "featured": false,
+    "trending": false,
+    "views": 89475
+  },
+  {
+    "id": "musiccomposer",
+    "name": "MusicComposer",
+    "avatar": "https://api.dicebear.com/7.x/bottts/svg?seed=musiccomposer",
+    "description": "AI音乐创作Agent，自动生成旋律和编曲。",
+    "url": "https://example.com/musiccomposer",
+    "category": "creative-agents",
+    "tags": [
+      "商业",
+      "智能体",
+      "数据分析"
+    ],
+    "rating": 4.2,
+    "updatedAt": "2026-07-16",
+    "features": [
+      "自然语言交互",
+      "上下文记忆",
+      "自主决策",
+      "报表生成",
+      "任务分解"
+    ],
+    "useCases": [
+      "内容创作",
+      "代码开发"
+    ],
+    "seoTitle": "MusicComposer - 创意Agent | AI Navigator Pro",
+    "seoDescription": "AI音乐创作Agent，自动生成旋律和编曲。",
+    "featured": false,
+    "trending": false,
+    "views": 43627
+  },
+  {
+    "id": "legalassist",
+    "name": "LegalAssist",
+    "avatar": "https://api.dicebear.com/7.x/bottts/svg?seed=legalassist",
+    "description": "法律助手Agent，自动审查合同和法规合规检查。",
+    "url": "https://example.com/legalassist",
+    "category": "business-agents",
+    "tags": [
+      "编程",
+      "自动化"
+    ],
+    "rating": 5.0,
+    "updatedAt": "2026-07-20",
+    "features": [
+      "报表生成",
+      "实时学习",
+      "上下文记忆"
+    ],
+    "useCases": [
+      "内容创作",
+      "代码开发",
+      "市场调研",
+      "项目管理"
+    ],
+    "seoTitle": "LegalAssist - 商业Agent | AI Navigator Pro",
+    "seoDescription": "法律助手Agent，自动审查合同和法规合规检查。",
+    "featured": false,
+    "trending": false,
+    "views": 6453
+  },
+  {
+    "id": "fitnesscoach",
+    "name": "FitnessCoach",
+    "avatar": "https://api.dicebear.com/7.x/bottts/svg?seed=fitnesscoach",
+    "description": "AI健身教练Agent，制定训练计划和动作指导。",
+    "url": "https://example.com/fitnesscoach",
+    "category": "personal-agents",
+    "tags": [
+      "创作",
+      "自动化"
+    ],
+    "rating": 4.2,
+    "updatedAt": "2026-07-31",
+    "features": [
+      "报表生成",
+      "自主决策",
+      "任务分解",
+      "多工具集成",
+      "API调用"
+    ],
+    "useCases": [
+      "数据分析",
+      "市场调研",
+      "内容创作"
+    ],
+    "seoTitle": "FitnessCoach - 个人Agent | AI Navigator Pro",
+    "seoDescription": "AI健身教练Agent，制定训练计划和动作指导。",
+    "featured": false,
+    "trending": false,
+    "views": 88177
+  },
+  {
+    "id": "chatbuilder",
+    "name": "ChatBuilder",
+    "avatar": "https://api.dicebear.com/7.x/bottts/svg?seed=chatbuilder",
+    "description": "对话系统构建Agent，快速搭建聊天机器人。",
+    "url": "https://example.com/chatbuilder",
+    "category": "developer-agents",
+    "tags": [
+      "创作",
+      "商业",
+      "生产力"
+    ],
+    "rating": 4.4,
+    "updatedAt": "2026-07-06",
+    "features": [
+      "报表生成",
+      "实时学习",
+      "自然语言交互",
+      "多工具集成",
+      "上下文记忆"
+    ],
+    "useCases": [
+      "项目管理",
+      "代码开发",
+      "个人效率提升",
+      "数据分析"
+    ],
+    "seoTitle": "ChatBuilder - 开发Agent | AI Navigator Pro",
+    "seoDescription": "对话系统构建Agent，快速搭建聊天机器人。",
+    "featured": false,
+    "trending": false,
+    "views": 66471
+  },
+  {
+    "id": "datacleaner",
+    "name": "DataCleaner",
+    "avatar": "https://api.dicebear.com/7.x/bottts/svg?seed=datacleaner",
+    "description": "数据清洗Agent，自动处理缺失值、异常值和重复数据。",
+    "url": "https://example.com/datacleaner",
+    "category": "data-agents",
+    "tags": [
+      "数据分析",
+      "AI",
+      "生产力"
+    ],
+    "rating": 4.1,
+    "updatedAt": "2026-07-05",
+    "features": [
+      "API调用",
+      "上下文记忆",
+      "多工具集成"
+    ],
+    "useCases": [
+      "内容创作",
+      "企业自动化",
+      "项目管理",
+      "代码开发"
+    ],
+    "seoTitle": "DataCleaner - 数据Agent | AI Navigator Pro",
+    "seoDescription": "数据清洗Agent，自动处理缺失值、异常值和重复数据。",
+    "featured": false,
+    "trending": false,
+    "views": 21322
+  },
+  {
+    "id": "brandguard",
+    "name": "BrandGuard",
+    "avatar": "https://api.dicebear.com/7.x/bottts/svg?seed=brandguard",
+    "description": "品牌监测Agent，实时追踪品牌声誉和舆情。",
+    "url": "https://example.com/brandguard",
+    "category": "business-agents",
+    "tags": [
+      "创作",
+      "智能体"
+    ],
+    "rating": 4.9,
+    "updatedAt": "2026-07-19",
+    "features": [
+      "自主决策",
+      "API调用",
+      "任务分解",
+      "实时学习",
+      "上下文记忆"
+    ],
+    "useCases": [
+      "代码开发",
+      "数据分析"
+    ],
+    "seoTitle": "BrandGuard - 商业Agent | AI Navigator Pro",
+    "seoDescription": "品牌监测Agent，实时追踪品牌声誉和舆情。",
+    "featured": false,
+    "trending": false,
+    "views": 114843
+  },
+  {
+    "id": "videoeditor",
+    "name": "VideoEditor",
+    "avatar": "https://api.dicebear.com/7.x/bottts/svg?seed=videoeditor",
+    "description": "AI视频编辑Agent，自动剪辑、加字幕和特效。",
+    "url": "https://example.com/videoeditor",
+    "category": "creative-agents",
+    "tags": [
+      "智能体",
+      "商业",
+      "自动化",
+      "AI"
+    ],
+    "rating": 4.4,
+    "updatedAt": "2026-07-01",
+    "features": [
+      "上下文记忆",
+      "报表生成",
+      "API调用",
+      "实时学习"
+    ],
+    "useCases": [
+      "数据分析",
+      "市场调研",
+      "内容创作",
+      "个人效率提升"
+    ],
+    "seoTitle": "VideoEditor - 创意Agent | AI Navigator Pro",
+    "seoDescription": "AI视频编辑Agent，自动剪辑、加字幕和特效。",
+    "featured": false,
+    "trending": false,
+    "views": 108290
+  },
+  {
+    "id": "memorypal",
+    "name": "MemoryPal",
+    "avatar": "https://api.dicebear.com/7.x/bottts/svg?seed=memorypal",
+    "description": "智能记忆助手Agent，自动整理笔记和知识库。",
+    "url": "https://example.com/memorypal",
+    "category": "general-agents",
+    "tags": [
+      "编程",
+      "商业",
+      "数据分析",
+      "智能体"
+    ],
+    "rating": 4.1,
+    "updatedAt": "2026-07-15",
+    "features": [
+      "自主决策",
+      "自然语言交互",
+      "实时学习"
+    ],
+    "useCases": [
+      "内容创作",
+      "项目管理",
+      "数据分析"
+    ],
+    "seoTitle": "MemoryPal - 通用Agent | AI Navigator Pro",
+    "seoDescription": "智能记忆助手Agent，自动整理笔记和知识库。",
+    "featured": false,
+    "trending": false,
+    "views": 77943
+  },
+  {
+    "id": "interviewprep",
+    "name": "InterviewPrep",
+    "avatar": "https://api.dicebear.com/7.x/bottts/svg?seed=interviewprep",
+    "description": "面试准备Agent，模拟面试和提供反馈建议。",
+    "url": "https://example.com/interviewprep",
+    "category": "personal-agents",
+    "tags": [
+      "生产力",
+      "创作",
+      "编程"
+    ],
+    "rating": 4.5,
+    "updatedAt": "2026-07-24",
+    "features": [
+      "自主决策",
+      "自然语言交互",
+      "多工具集成",
+      "报表生成",
+      "任务分解"
+    ],
+    "useCases": [
+      "内容创作",
+      "个人效率提升"
+    ],
+    "seoTitle": "InterviewPrep - 个人Agent | AI Navigator Pro",
+    "seoDescription": "面试准备Agent，模拟面试和提供反馈建议。",
+    "featured": false,
+    "trending": false,
+    "views": 67533
+  },
+  {
+    "id": "schemabot",
+    "name": "SchemaBot",
+    "avatar": "https://api.dicebear.com/7.x/bottts/svg?seed=schemabot",
+    "description": "数据库设计Agent，自动生成Schema和优化建议。",
+    "url": "https://example.com/schemabot",
+    "category": "developer-agents",
+    "tags": [
+      "商业",
+      "数据分析"
+    ],
+    "rating": 4.1,
+    "updatedAt": "2026-07-31",
+    "features": [
+      "报表生成",
+      "上下文记忆",
+      "自然语言交互"
+    ],
+    "useCases": [
+      "数据分析",
+      "客户服务",
+      "市场调研"
+    ],
+    "seoTitle": "SchemaBot - 开发Agent | AI Navigator Pro",
+    "seoDescription": "数据库设计Agent，自动生成Schema和优化建议。",
+    "featured": false,
+    "trending": false,
+    "views": 47930
+  },
+  {
+    "id": "trendanalyzer",
+    "name": "TrendAnalyzer",
+    "avatar": "https://api.dicebear.com/7.x/bottts/svg?seed=trendanalyzer",
+    "description": "趋势分析Agent，识别数据趋势并预测未来走向。",
+    "url": "https://example.com/trendanalyzer",
+    "category": "data-agents",
+    "tags": [
+      "自动化",
+      "生产力",
+      "编程"
+    ],
+    "rating": 4.9,
+    "updatedAt": "2026-07-19",
+    "features": [
+      "API调用",
+      "实时学习",
+      "上下文记忆",
+      "多工具集成",
+      "自主决策"
+    ],
+    "useCases": [
+      "内容创作",
+      "企业自动化",
+      "代码开发",
+      "数据分析"
+    ],
+    "seoTitle": "TrendAnalyzer - 数据Agent | AI Navigator Pro",
+    "seoDescription": "趋势分析Agent，识别数据趋势并预测未来走向。",
+    "featured": false,
+    "trending": false,
+    "views": 36733
+  },
+  {
+    "id": "pragent",
+    "name": "PRAgent",
+    "avatar": "https://api.dicebear.com/7.x/bottts/svg?seed=pragent",
+    "description": "公关助手Agent，自动撰写新闻稿和危机公关策略。",
+    "url": "https://example.com/pragent",
+    "category": "business-agents",
+    "tags": [
+      "编程",
+      "AI",
+      "生产力",
+      "智能体"
+    ],
+    "rating": 4.7,
+    "updatedAt": "2026-07-03",
+    "features": [
+      "上下文记忆",
+      "自主决策",
+      "实时学习",
+      "报表生成",
+      "API调用"
+    ],
+    "useCases": [
+      "代码开发",
+      "项目管理",
+      "内容创作"
+    ],
+    "seoTitle": "PRAgent - 商业Agent | AI Navigator Pro",
+    "seoDescription": "公关助手Agent，自动撰写新闻稿和危机公关策略。",
+    "featured": false,
+    "trending": false,
+    "views": 141772
+  },
+  {
+    "id": "storyteller",
+    "name": "StoryTeller",
+    "avatar": "https://api.dicebear.com/7.x/bottts/svg?seed=storyteller",
+    "description": "AI故事创作Agent，生成长篇小说的情节和角色。",
+    "url": "https://example.com/storyteller",
+    "category": "creative-agents",
+    "tags": [
+      "生产力",
+      "商业",
+      "创作",
+      "智能体"
+    ],
+    "rating": 4.5,
+    "updatedAt": "2026-07-27",
+    "features": [
+      "任务分解",
+      "自然语言交互",
+      "多工具集成",
+      "自主决策",
+      "API调用"
+    ],
+    "useCases": [
+      "内容创作",
+      "市场调研",
+      "项目管理"
+    ],
+    "seoTitle": "StoryTeller - 创意Agent | AI Navigator Pro",
+    "seoDescription": "AI故事创作Agent，生成长篇小说的情节和角色。",
+    "featured": false,
+    "trending": false,
+    "views": 93184
+  },
+  {
+    "id": "calendarai",
+    "name": "CalendarAI",
+    "avatar": "https://api.dicebear.com/7.x/bottts/svg?seed=calendarai",
+    "description": "智能日程Agent，自动安排会议和优化时间管理。",
+    "url": "https://example.com/calendarai",
+    "category": "general-agents",
+    "tags": [
+      "商业",
+      "创作"
+    ],
+    "rating": 4.3,
+    "updatedAt": "2026-07-16",
+    "features": [
+      "上下文记忆",
+      "API调用",
+      "自然语言交互"
+    ],
+    "useCases": [
+      "客户服务",
+      "项目管理",
+      "代码开发"
+    ],
+    "seoTitle": "CalendarAI - 通用Agent | AI Navigator Pro",
+    "seoDescription": "智能日程Agent，自动安排会议和优化时间管理。",
+    "featured": false,
+    "trending": false,
+    "views": 140430
+  },
+  {
+    "id": "nutritionist",
+    "name": "Nutritionist",
+    "avatar": "https://api.dicebear.com/7.x/bottts/svg?seed=nutritionist",
+    "description": "AI营养师Agent，个性化饮食计划和营养分析。",
+    "url": "https://example.com/nutritionist",
+    "category": "personal-agents",
+    "tags": [
+      "自动化",
+      "商业"
+    ],
+    "rating": 4.7,
+    "updatedAt": "2026-07-16",
+    "features": [
+      "实时学习",
+      "上下文记忆",
+      "报表生成",
+      "API调用",
+      "任务分解"
+    ],
+    "useCases": [
+      "个人效率提升",
+      "数据分析"
+    ],
+    "seoTitle": "Nutritionist - 个人Agent | AI Navigator Pro",
+    "seoDescription": "AI营养师Agent，个性化饮食计划和营养分析。",
+    "featured": false,
+    "trending": false,
+    "views": 85270
+  },
+  {
+    "id": "apitester",
+    "name": "APITester",
+    "avatar": "https://api.dicebear.com/7.x/bottts/svg?seed=apitester",
+    "description": "API测试Agent，自动生成测试用例和性能测试。",
+    "url": "https://example.com/apitester",
+    "category": "developer-agents",
+    "tags": [
+      "数据分析",
+      "智能体",
+      "生产力",
+      "商业"
+    ],
+    "rating": 4.3,
+    "updatedAt": "2026-07-24",
+    "features": [
+      "上下文记忆",
+      "自然语言交互",
+      "报表生成",
+      "实时学习",
+      "API调用"
+    ],
+    "useCases": [
+      "客户服务",
+      "个人效率提升",
+      "企业自动化"
+    ],
+    "seoTitle": "APITester - 开发Agent | AI Navigator Pro",
+    "seoDescription": "API测试Agent，自动生成测试用例和性能测试。",
+    "featured": false,
+    "trending": false,
+    "views": 145473
+  },
+  {
+    "id": "anomalybot",
+    "name": "AnomalyBot",
+    "avatar": "https://api.dicebear.com/7.x/bottts/svg?seed=anomalybot",
+    "description": "异常检测Agent，实时监控数据异常并告警。",
+    "url": "https://example.com/anomalybot",
+    "category": "data-agents",
+    "tags": [
+      "AI",
+      "自动化",
+      "创作",
+      "智能体"
+    ],
+    "rating": 4.3,
+    "updatedAt": "2026-07-19",
+    "features": [
+      "任务分解",
+      "自主决策",
+      "多工具集成",
+      "自然语言交互",
+      "上下文记忆"
+    ],
+    "useCases": [
+      "数据分析",
+      "项目管理",
+      "企业自动化"
+    ],
+    "seoTitle": "AnomalyBot - 数据Agent | AI Navigator Pro",
+    "seoDescription": "异常检测Agent，实时监控数据异常并告警。",
+    "featured": false,
+    "trending": false,
+    "views": 16931
+  },
+  {
+    "id": "leadgen",
+    "name": "LeadGen",
+    "avatar": "https://api.dicebear.com/7.x/bottts/svg?seed=leadgen",
+    "description": "潜在客户挖掘Agent，自动识别和培育销售线索。",
+    "url": "https://example.com/leadgen",
+    "category": "business-agents",
+    "tags": [
+      "生产力",
+      "数据分析"
+    ],
+    "rating": 4.9,
+    "updatedAt": "2026-07-21",
+    "features": [
+      "多工具集成",
+      "API调用",
+      "自主决策",
+      "任务分解"
+    ],
+    "useCases": [
+      "项目管理",
+      "内容创作",
+      "市场调研"
+    ],
+    "seoTitle": "LeadGen - 商业Agent | AI Navigator Pro",
+    "seoDescription": "潜在客户挖掘Agent，自动识别和培育销售线索。",
+    "featured": false,
+    "trending": false,
+    "views": 71185
+  },
+  {
+    "id": "illustratorai",
+    "name": "IllustratorAI",
+    "avatar": "https://api.dicebear.com/7.x/bottts/svg?seed=illustratorai",
+    "description": "AI插画助手Agent，生成风格化插画和概念图。",
+    "url": "https://example.com/illustratorai",
+    "category": "creative-agents",
+    "tags": [
+      "自动化",
+      "创作",
+      "编程"
+    ],
+    "rating": 4.4,
+    "updatedAt": "2026-07-03",
+    "features": [
+      "自主决策",
+      "多工具集成",
+      "API调用",
+      "任务分解",
+      "自然语言交互"
+    ],
+    "useCases": [
+      "内容创作",
+      "企业自动化"
+    ],
+    "seoTitle": "IllustratorAI - 创意Agent | AI Navigator Pro",
+    "seoDescription": "AI插画助手Agent，生成风格化插画和概念图。",
+    "featured": false,
+    "trending": false,
+    "views": 64162
+  },
+  {
+    "id": "emailbot",
+    "name": "EmailBot",
+    "avatar": "https://api.dicebear.com/7.x/bottts/svg?seed=emailbot",
+    "description": "邮件智能Agent，自动分类、回复和撰写邮件。",
+    "url": "https://example.com/emailbot",
+    "category": "general-agents",
+    "tags": [
+      "创作",
+      "智能体",
+      "商业",
+      "AI"
+    ],
+    "rating": 4.9,
+    "updatedAt": "2026-07-14",
+    "features": [
+      "自主决策",
+      "任务分解",
+      "上下文记忆",
+      "报表生成"
+    ],
+    "useCases": [
+      "内容创作",
+      "数据分析"
+    ],
+    "seoTitle": "EmailBot - 通用Agent | AI Navigator Pro",
+    "seoDescription": "邮件智能Agent，自动分类、回复和撰写邮件。",
+    "featured": false,
+    "trending": false,
+    "views": 50564
+  },
+  {
+    "id": "languagetutor",
+    "name": "LanguageTutor",
+    "avatar": "https://api.dicebear.com/7.x/bottts/svg?seed=languagetutor",
+    "description": "AI语言导师Agent，个性化语言学习和练习。",
+    "url": "https://example.com/languagetutor",
+    "category": "personal-agents",
+    "tags": [
+      "自动化",
+      "商业",
+      "编程",
+      "智能体"
+    ],
+    "rating": 4.5,
+    "updatedAt": "2026-07-20",
+    "features": [
+      "任务分解",
+      "自主决策",
+      "多工具集成",
+      "自然语言交互"
+    ],
+    "useCases": [
+      "客户服务",
+      "代码开发",
+      "内容创作",
+      "企业自动化"
+    ],
+    "seoTitle": "LanguageTutor - 个人Agent | AI Navigator Pro",
+    "seoDescription": "AI语言导师Agent，个性化语言学习和练习。",
+    "featured": false,
+    "trending": false,
+    "views": 56857
+  },
+  {
+    "id": "deploybot",
+    "name": "DeployBot",
+    "avatar": "https://api.dicebear.com/7.x/bottts/svg?seed=deploybot",
+    "description": "自动化部署Agent，管理应用发布和回滚。",
+    "url": "https://example.com/deploybot",
+    "category": "developer-agents",
+    "tags": [
+      "自动化",
+      "生产力",
+      "商业"
+    ],
+    "rating": 4.6,
+    "updatedAt": "2026-07-30",
+    "features": [
+      "自然语言交互",
+      "自主决策",
+      "API调用",
+      "多工具集成"
+    ],
+    "useCases": [
+      "客户服务",
+      "内容创作",
+      "企业自动化"
+    ],
+    "seoTitle": "DeployBot - 开发Agent | AI Navigator Pro",
+    "seoDescription": "自动化部署Agent，管理应用发布和回滚。",
+    "featured": false,
+    "trending": false,
+    "views": 110515
+  },
+  {
+    "id": "reportgen",
+    "name": "ReportGen",
+    "avatar": "https://api.dicebear.com/7.x/bottts/svg?seed=reportgen",
+    "description": "报表生成Agent，自动创建业务报表和数据看板。",
+    "url": "https://example.com/reportgen",
+    "category": "data-agents",
+    "tags": [
+      "商业",
+      "智能体",
+      "编程"
+    ],
+    "rating": 4.6,
+    "updatedAt": "2026-07-29",
+    "features": [
+      "上下文记忆",
+      "任务分解",
+      "自然语言交互",
+      "自主决策"
+    ],
+    "useCases": [
+      "内容创作",
+      "代码开发"
+    ],
+    "seoTitle": "ReportGen - 数据Agent | AI Navigator Pro",
+    "seoDescription": "报表生成Agent，自动创建业务报表和数据看板。",
+    "featured": false,
+    "trending": false,
+    "views": 10438
+  },
+  {
+    "id": "competitorspy",
+    "name": "CompetitorSpy",
+    "avatar": "https://api.dicebear.com/7.x/bottts/svg?seed=competitorspy",
+    "description": "竞品监控Agent，跟踪竞品功能更新和定价策略。",
+    "url": "https://example.com/competitorspy",
+    "category": "business-agents",
+    "tags": [
+      "生产力",
+      "商业",
+      "编程",
+      "自动化"
+    ],
+    "rating": 4.5,
+    "updatedAt": "2026-07-21",
+    "features": [
+      "任务分解",
+      "多工具集成",
+      "报表生成",
+      "实时学习"
+    ],
+    "useCases": [
+      "项目管理",
+      "企业自动化",
+      "内容创作",
+      "数据分析"
+    ],
+    "seoTitle": "CompetitorSpy - 商业Agent | AI Navigator Pro",
+    "seoDescription": "竞品监控Agent，跟踪竞品功能更新和定价策略。",
+    "featured": false,
+    "trending": false,
+    "views": 32420
+  },
+  {
+    "id": "podcastai",
+    "name": "PodcastAI",
+    "avatar": "https://api.dicebear.com/7.x/bottts/svg?seed=podcastai",
+    "description": "播客制作Agent，自动剪辑、加音效和生成节目。",
+    "url": "https://example.com/podcastai",
+    "category": "creative-agents",
+    "tags": [
+      "数据分析",
+      "智能体"
+    ],
+    "rating": 4.7,
+    "updatedAt": "2026-07-10",
+    "features": [
+      "API调用",
+      "报表生成",
+      "任务分解",
+      "自主决策",
+      "实时学习"
+    ],
+    "useCases": [
+      "代码开发",
+      "数据分析"
+    ],
+    "seoTitle": "PodcastAI - 创意Agent | AI Navigator Pro",
+    "seoDescription": "播客制作Agent，自动剪辑、加音效和生成节目。",
+    "featured": false,
+    "trending": false,
+    "views": 110952
+  },
+  {
+    "id": "focusmate",
+    "name": "FocusMate",
+    "avatar": "https://api.dicebear.com/7.x/bottts/svg?seed=focusmate",
+    "description": "专注助手Agent，屏蔽干扰并提供番茄工作法支持。",
+    "url": "https://example.com/focusmate",
+    "category": "general-agents",
+    "tags": [
+      "编程",
+      "数据分析",
+      "生产力",
+      "智能体"
+    ],
+    "rating": 4.4,
+    "updatedAt": "2026-07-07",
+    "features": [
+      "上下文记忆",
+      "任务分解",
+      "实时学习",
+      "报表生成",
+      "自主决策"
+    ],
+    "useCases": [
+      "客户服务",
+      "项目管理"
+    ],
+    "seoTitle": "FocusMate - 通用Agent | AI Navigator Pro",
+    "seoDescription": "专注助手Agent，屏蔽干扰并提供番茄工作法支持。",
+    "featured": true,
+    "trending": false,
+    "views": 132064
+  },
+  {
+    "id": "sleepcoach",
+    "name": "SleepCoach",
+    "avatar": "https://api.dicebear.com/7.x/bottts/svg?seed=sleepcoach",
+    "description": "睡眠改善Agent，分析睡眠数据并提供改善建议。",
+    "url": "https://example.com/sleepcoach",
+    "category": "personal-agents",
+    "tags": [
+      "编程",
+      "数据分析"
+    ],
+    "rating": 4.6,
+    "updatedAt": "2026-07-08",
+    "features": [
+      "自然语言交互",
+      "报表生成",
+      "任务分解",
+      "自主决策",
+      "实时学习"
+    ],
+    "useCases": [
+      "内容创作",
+      "市场调研"
+    ],
+    "seoTitle": "SleepCoach - 个人Agent | AI Navigator Pro",
+    "seoDescription": "睡眠改善Agent，分析睡眠数据并提供改善建议。",
+    "featured": false,
+    "trending": false,
+    "views": 35793
   }
 ]

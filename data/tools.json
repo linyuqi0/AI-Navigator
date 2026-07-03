@@ -16,7 +16,7 @@
     ],
     "category": "ai-chat",
     "rating": 4.9,
-    "updatedAt": "2026-06-15",
+    "updatedAt": "2026-07-21",
     "screenshots": [
       "https://picsum.photos/seed/chatgpt1/800/500",
       "https://picsum.photos/seed/chatgpt2/800/500"
@@ -64,7 +64,7 @@
     ],
     "category": "ai-chat",
     "rating": 4.9,
-    "updatedAt": "2026-06-20",
+    "updatedAt": "2026-07-04",
     "screenshots": [
       "https://picsum.photos/seed/gpt5_1/800/500",
       "https://picsum.photos/seed/gpt5_2/800/500"
@@ -112,7 +112,7 @@
     ],
     "category": "ai-chat",
     "rating": 4.8,
-    "updatedAt": "2026-06-10",
+    "updatedAt": "2026-07-01",
     "screenshots": [
       "https://picsum.photos/seed/claude1/800/500",
       "https://picsum.photos/seed/claude2/800/500"
@@ -160,7 +160,7 @@
     ],
     "category": "ai-chat",
     "rating": 4.9,
-    "updatedAt": "2026-06-18",
+    "updatedAt": "2026-07-24",
     "screenshots": [
       "https://picsum.photos/seed/claude4_1/800/500",
       "https://picsum.photos/seed/claude4_2/800/500"
@@ -207,7 +207,7 @@
     ],
     "category": "ai-image",
     "rating": 4.9,
-    "updatedAt": "2026-06-12",
+    "updatedAt": "2026-07-09",
     "screenshots": [
       "https://picsum.photos/seed/midjourney1/800/500",
       "https://picsum.photos/seed/midjourney2/800/500"
@@ -254,7 +254,7 @@
     ],
     "category": "ai-image",
     "rating": 4.9,
-    "updatedAt": "2026-06-25",
+    "updatedAt": "2026-07-08",
     "screenshots": [
       "https://picsum.photos/seed/mjv7_1/800/500",
       "https://picsum.photos/seed/mjv7_2/800/500"
@@ -301,7 +301,7 @@
     ],
     "category": "ai-coding",
     "rating": 4.7,
-    "updatedAt": "2026-05-28",
+    "updatedAt": "2026-07-08",
     "screenshots": [
       "https://picsum.photos/seed/copilot1/800/500"
     ],
@@ -346,7 +346,7 @@
     ],
     "category": "ai-coding",
     "rating": 4.8,
-    "updatedAt": "2026-06-22",
+    "updatedAt": "2026-07-05",
     "screenshots": [
       "https://picsum.photos/seed/devin1/800/500",
       "https://picsum.photos/seed/devin2/800/500"
@@ -393,7 +393,7 @@
     ],
     "category": "ai-video",
     "rating": 4.6,
-    "updatedAt": "2026-05-24",
+    "updatedAt": "2026-07-24",
     "screenshots": [
       "https://picsum.photos/seed/runway1/800/500"
     ],
@@ -439,7 +439,7 @@
     ],
     "category": "ai-video",
     "rating": 4.8,
-    "updatedAt": "2026-06-05",
+    "updatedAt": "2026-07-04",
     "screenshots": [
       "https://picsum.photos/seed/sora1/800/500"
     ],
@@ -484,7 +484,7 @@
     ],
     "category": "ai-video",
     "rating": 4.9,
-    "updatedAt": "2026-06-28",
+    "updatedAt": "2026-07-22",
     "screenshots": [
       "https://picsum.photos/seed/sora2_1/800/500",
       "https://picsum.photos/seed/sora2_2/800/500"
@@ -532,7 +532,7 @@
     ],
     "category": "ai-video",
     "rating": 4.8,
-    "updatedAt": "2026-06-26",
+    "updatedAt": "2026-07-24",
     "screenshots": [
       "https://picsum.photos/seed/kling3_1/800/500",
       "https://picsum.photos/seed/kling3_2/800/500"
@@ -579,7 +579,7 @@
     ],
     "category": "ai-chat",
     "rating": 4.7,
-    "updatedAt": "2026-06-08",
+    "updatedAt": "2026-07-29",
     "screenshots": [
       "https://picsum.photos/seed/perplexity1/800/500"
     ],
@@ -624,7 +624,7 @@
     ],
     "category": "ai-coding",
     "rating": 4.8,
-    "updatedAt": "2026-06-14",
+    "updatedAt": "2026-07-18",
     "screenshots": [
       "https://picsum.photos/seed/cursor1/800/500"
     ],
@@ -670,7 +670,7 @@
     ],
     "category": "ai-chat",
     "rating": 4.6,
-    "updatedAt": "2026-05-30",
+    "updatedAt": "2026-07-03",
     "screenshots": [
       "https://picsum.photos/seed/gemini1/800/500"
     ],
@@ -716,7 +716,7 @@
     ],
     "category": "ai-chat",
     "rating": 4.8,
-    "updatedAt": "2026-06-16",
+    "updatedAt": "2026-07-19",
     "screenshots": [
       "https://picsum.photos/seed/gemini25_1/800/500",
       "https://picsum.photos/seed/gemini25_2/800/500"
@@ -763,7 +763,7 @@
     ],
     "category": "ai-chat",
     "rating": 4.5,
-    "updatedAt": "2026-04-20",
+    "updatedAt": "2026-07-14",
     "screenshots": [
       "https://picsum.photos/seed/wenxin1/800/500"
     ],
@@ -805,7 +805,7 @@
     ],
     "category": "ai-chat",
     "rating": 4.7,
-    "updatedAt": "2026-06-02",
+    "updatedAt": "2026-07-02",
     "screenshots": [
       "https://picsum.photos/seed/wenxin45_1/800/500",
       "https://picsum.photos/seed/wenxin45_2/800/500"
@@ -852,7 +852,7 @@
     ],
     "category": "ai-chat",
     "rating": 4.5,
-    "updatedAt": "2026-04-25",
+    "updatedAt": "2026-07-01",
     "screenshots": [
       "https://picsum.photos/seed/tongyi1/800/500"
     ],
@@ -893,7 +893,7 @@
     ],
     "category": "ai-chat",
     "rating": 4.7,
-    "updatedAt": "2026-06-06",
+    "updatedAt": "2026-07-03",
     "screenshots": [
       "https://picsum.photos/seed/kimi1/800/500"
     ],
@@ -935,7 +935,7 @@
     ],
     "category": "ai-chat",
     "rating": 4.5,
-    "updatedAt": "2026-05-15",
+    "updatedAt": "2026-07-07",
     "screenshots": [
       "https://picsum.photos/seed/doubao1/800/500"
     ],
@@ -977,7 +977,7 @@
     ],
     "category": "ai-chat",
     "rating": 4.7,
-    "updatedAt": "2026-06-12",
+    "updatedAt": "2026-07-08",
     "screenshots": [
       "https://picsum.photos/seed/doubao4_1/800/500",
       "https://picsum.photos/seed/doubao4_2/800/500"
@@ -1024,7 +1024,7 @@
     ],
     "category": "ai-chat",
     "rating": 4.8,
-    "updatedAt": "2026-06-20",
+    "updatedAt": "2026-07-17",
     "screenshots": [
       "https://picsum.photos/seed/deepseek1/800/500"
     ],
@@ -1067,7 +1067,7 @@
     ],
     "category": "ai-chat",
     "rating": 4.9,
-    "updatedAt": "2026-06-24",
+    "updatedAt": "2026-07-20",
     "screenshots": [
       "https://picsum.photos/seed/dsv3_1/800/500",
       "https://picsum.photos/seed/dsv3_2/800/500"
@@ -1113,7 +1113,7 @@
     ],
     "category": "ai-image",
     "rating": 4.8,
-    "updatedAt": "2026-05-20",
+    "updatedAt": "2026-07-01",
     "screenshots": [
       "https://picsum.photos/seed/dalle1/800/500"
     ],
@@ -1155,7 +1155,7 @@
     ],
     "category": "ai-image",
     "rating": 4.9,
-    "updatedAt": "2026-06-23",
+    "updatedAt": "2026-07-18",
     "screenshots": [
       "https://picsum.photos/seed/dalle4_1/800/500",
       "https://picsum.photos/seed/dalle4_2/800/500"
@@ -1202,7 +1202,7 @@
     ],
     "category": "ai-image",
     "rating": 4.7,
-    "updatedAt": "2026-05-18",
+    "updatedAt": "2026-07-07",
     "screenshots": [
       "https://picsum.photos/seed/sd1/800/500"
     ],
@@ -1243,7 +1243,7 @@
     ],
     "category": "ai-image",
     "rating": 4.8,
-    "updatedAt": "2026-06-10",
+    "updatedAt": "2026-07-23",
     "screenshots": [
       "https://picsum.photos/seed/sd35_1/800/500",
       "https://picsum.photos/seed/sd35_2/800/500"
@@ -1291,7 +1291,7 @@
     ],
     "category": "ai-image",
     "rating": 4.8,
-    "updatedAt": "2026-06-08",
+    "updatedAt": "2026-07-21",
     "screenshots": [
       "https://picsum.photos/seed/flux1/800/500",
       "https://picsum.photos/seed/flux2/800/500"
@@ -1337,7 +1337,7 @@
     ],
     "category": "ai-image",
     "rating": 4.6,
-    "updatedAt": "2026-04-28",
+    "updatedAt": "2026-07-23",
     "screenshots": [
       "https://picsum.photos/seed/leonardo1/800/500"
     ],
@@ -1376,7 +1376,7 @@
     ],
     "category": "ai-image",
     "rating": 4.5,
-    "updatedAt": "2026-05-05",
+    "updatedAt": "2026-07-18",
     "screenshots": [
       "https://picsum.photos/seed/ideogram1/800/500"
     ],
@@ -1415,7 +1415,7 @@
     ],
     "category": "ai-image",
     "rating": 4.7,
-    "updatedAt": "2026-06-15",
+    "updatedAt": "2026-07-14",
     "screenshots": [
       "https://picsum.photos/seed/ideo2_1/800/500",
       "https://picsum.photos/seed/ideo2_2/800/500"
@@ -1462,7 +1462,7 @@
     ],
     "category": "ai-image",
     "rating": 4.6,
-    "updatedAt": "2026-05-22",
+    "updatedAt": "2026-07-08",
     "screenshots": [
       "https://picsum.photos/seed/jimeng1/800/500",
       "https://picsum.photos/seed/jimeng2/800/500"
@@ -1509,7 +1509,7 @@
     ],
     "category": "ai-image",
     "rating": 4.5,
-    "updatedAt": "2026-05-12",
+    "updatedAt": "2026-07-15",
     "screenshots": [
       "https://picsum.photos/seed/yige1/800/500",
       "https://picsum.photos/seed/yige2/800/500"
@@ -1553,7 +1553,7 @@
     ],
     "category": "ai-video",
     "rating": 4.6,
-    "updatedAt": "2026-05-08",
+    "updatedAt": "2026-07-19",
     "screenshots": [
       "https://picsum.photos/seed/pika1/800/500"
     ],
@@ -1593,7 +1593,7 @@
     ],
     "category": "ai-video",
     "rating": 4.7,
-    "updatedAt": "2026-06-18",
+    "updatedAt": "2026-07-09",
     "screenshots": [
       "https://picsum.photos/seed/pika3_1/800/500",
       "https://picsum.photos/seed/pika3_2/800/500"
@@ -1640,7 +1640,7 @@
     ],
     "category": "ai-video",
     "rating": 4.7,
-    "updatedAt": "2026-06-01",
+    "updatedAt": "2026-07-26",
     "screenshots": [
       "https://picsum.photos/seed/kling1/800/500"
     ],
@@ -1683,7 +1683,7 @@
     ],
     "category": "ai-video",
     "rating": 4.7,
-    "updatedAt": "2026-06-14",
+    "updatedAt": "2026-07-28",
     "screenshots": [
       "https://picsum.photos/seed/jmvideo1/800/500",
       "https://picsum.photos/seed/jmvideo2/800/500"
@@ -1730,7 +1730,7 @@
     ],
     "category": "ai-video",
     "rating": 4.6,
-    "updatedAt": "2026-06-05",
+    "updatedAt": "2026-07-01",
     "screenshots": [
       "https://picsum.photos/seed/vidu1/800/500",
       "https://picsum.photos/seed/vidu2/800/500"
@@ -1776,7 +1776,7 @@
     ],
     "category": "ai-video",
     "rating": 4.6,
-    "updatedAt": "2026-05-28",
+    "updatedAt": "2026-07-25",
     "screenshots": [
       "https://picsum.photos/seed/hailuo1/800/500",
       "https://picsum.photos/seed/hailuo2/800/500"
@@ -1822,7 +1822,7 @@
     ],
     "category": "ai-video",
     "rating": 4.5,
-    "updatedAt": "2026-05-15",
+    "updatedAt": "2026-07-26",
     "screenshots": [
       "https://picsum.photos/seed/dreamina1/800/500",
       "https://picsum.photos/seed/dreamina2/800/500"
@@ -1868,7 +1868,7 @@
     ],
     "category": "ai-video",
     "rating": 4.8,
-    "updatedAt": "2026-06-20",
+    "updatedAt": "2026-07-06",
     "screenshots": [
       "https://picsum.photos/seed/runwayg4_1/800/500",
       "https://picsum.photos/seed/runwayg4_2/800/500"
@@ -1915,7 +1915,7 @@
     ],
     "category": "ai-coding",
     "rating": 4.7,
-    "updatedAt": "2026-05-25",
+    "updatedAt": "2026-07-23",
     "screenshots": [
       "https://picsum.photos/seed/windsurf1/800/500"
     ],
@@ -1955,7 +1955,7 @@
     ],
     "category": "ai-coding",
     "rating": 4.6,
-    "updatedAt": "2026-04-22",
+    "updatedAt": "2026-07-14",
     "screenshots": [
       "https://picsum.photos/seed/codeium1/800/500"
     ],
@@ -1995,7 +1995,7 @@
     ],
     "category": "ai-coding",
     "rating": 4.5,
-    "updatedAt": "2026-04-18",
+    "updatedAt": "2026-07-11",
     "screenshots": [
       "https://picsum.photos/seed/tabnine1/800/500"
     ],
@@ -2035,7 +2035,7 @@
     ],
     "category": "ai-coding",
     "rating": 4.8,
-    "updatedAt": "2026-06-12",
+    "updatedAt": "2026-07-09",
     "screenshots": [
       "https://picsum.photos/seed/v0_1/800/500"
     ],
@@ -2077,7 +2077,7 @@
     ],
     "category": "ai-coding",
     "rating": 4.7,
-    "updatedAt": "2026-05-30",
+    "updatedAt": "2026-07-05",
     "screenshots": [
       "https://picsum.photos/seed/bolt1/800/500"
     ],
@@ -2119,7 +2119,7 @@
     ],
     "category": "ai-coding",
     "rating": 4.8,
-    "updatedAt": "2026-06-22",
+    "updatedAt": "2026-07-07",
     "screenshots": [
       "https://picsum.photos/seed/claudecode1/800/500",
       "https://picsum.photos/seed/claudecode2/800/500"
@@ -2167,7 +2167,7 @@
     ],
     "category": "ai-coding",
     "rating": 4.6,
-    "updatedAt": "2026-06-08",
+    "updatedAt": "2026-07-31",
     "screenshots": [
       "https://picsum.photos/seed/geminicode1/800/500",
       "https://picsum.photos/seed/geminicode2/800/500"
@@ -2213,7 +2213,7 @@
     ],
     "category": "ai-coding",
     "rating": 4.5,
-    "updatedAt": "2026-05-20",
+    "updatedAt": "2026-07-25",
     "screenshots": [
       "https://picsum.photos/seed/kuaima1/800/500",
       "https://picsum.photos/seed/kuaima2/800/500"
@@ -2259,7 +2259,7 @@
     ],
     "category": "ai-coding",
     "rating": 4.5,
-    "updatedAt": "2026-05-18",
+    "updatedAt": "2026-07-11",
     "screenshots": [
       "https://picsum.photos/seed/lingma1/800/500",
       "https://picsum.photos/seed/lingma2/800/500"
@@ -2305,7 +2305,7 @@
     ],
     "category": "ai-coding",
     "rating": 4.6,
-    "updatedAt": "2026-06-02",
+    "updatedAt": "2026-07-04",
     "screenshots": [
       "https://picsum.photos/seed/zed1/800/500",
       "https://picsum.photos/seed/zed2/800/500"
@@ -2351,7 +2351,7 @@
     ],
     "category": "ai-audio",
     "rating": 4.9,
-    "updatedAt": "2026-06-15",
+    "updatedAt": "2026-07-03",
     "screenshots": [
       "https://picsum.photos/seed/eleven1/800/500"
     ],
@@ -2393,7 +2393,7 @@
     ],
     "category": "ai-audio",
     "rating": 4.9,
-    "updatedAt": "2026-06-25",
+    "updatedAt": "2026-07-13",
     "screenshots": [
       "https://picsum.photos/seed/eleven3_1/800/500",
       "https://picsum.photos/seed/eleven3_2/800/500"
@@ -2439,7 +2439,7 @@
     ],
     "category": "ai-audio",
     "rating": 4.8,
-    "updatedAt": "2026-06-10",
+    "updatedAt": "2026-07-04",
     "screenshots": [
       "https://picsum.photos/seed/suno1/800/500"
     ],
@@ -2482,7 +2482,7 @@
     ],
     "category": "ai-audio",
     "rating": 4.9,
-    "updatedAt": "2026-06-28",
+    "updatedAt": "2026-07-12",
     "screenshots": [
       "https://picsum.photos/seed/sunov5_1/800/500",
       "https://picsum.photos/seed/sunov5_2/800/500"
@@ -2528,7 +2528,7 @@
     ],
     "category": "ai-audio",
     "rating": 4.7,
-    "updatedAt": "2026-05-28",
+    "updatedAt": "2026-07-28",
     "screenshots": [
       "https://picsum.photos/seed/udio1/800/500"
     ],
@@ -2568,7 +2568,7 @@
     ],
     "category": "ai-audio",
     "rating": 4.8,
-    "updatedAt": "2026-06-22",
+    "updatedAt": "2026-07-12",
     "screenshots": [
       "https://picsum.photos/seed/udiov2_1/800/500",
       "https://picsum.photos/seed/udiov2_2/800/500"
@@ -2615,7 +2615,7 @@
     ],
     "category": "ai-audio",
     "rating": 4.6,
-    "updatedAt": "2026-05-25",
+    "updatedAt": "2026-07-20",
     "screenshots": [
       "https://picsum.photos/seed/doubaovoice1/800/500",
       "https://picsum.photos/seed/doubaovoice2/800/500"
@@ -2661,7 +2661,7 @@
     ],
     "category": "ai-audio",
     "rating": 4.7,
-    "updatedAt": "2026-06-05",
+    "updatedAt": "2026-07-09",
     "screenshots": [
       "https://picsum.photos/seed/xunfei1/800/500",
       "https://picsum.photos/seed/xunfei2/800/500"
@@ -2707,7 +2707,7 @@
     ],
     "category": "ai-audio",
     "rating": 4.6,
-    "updatedAt": "2026-06-12",
+    "updatedAt": "2026-07-26",
     "screenshots": [
       "https://picsum.photos/seed/musicgen2_1/800/500",
       "https://picsum.photos/seed/musicgen2_2/800/500"
@@ -2753,7 +2753,7 @@
     ],
     "category": "ai-audio",
     "rating": 4.5,
-    "updatedAt": "2026-05-30",
+    "updatedAt": "2026-07-02",
     "screenshots": [
       "https://picsum.photos/seed/voicebox2_1/800/500",
       "https://picsum.photos/seed/voicebox2_2/800/500"
@@ -2799,7 +2799,7 @@
     ],
     "category": "ai-audio",
     "rating": 4.5,
-    "updatedAt": "2026-05-20",
+    "updatedAt": "2026-07-24",
     "screenshots": [
       "https://picsum.photos/seed/tianyin1/800/500",
       "https://picsum.photos/seed/tianyin2/800/500"
@@ -2845,7 +2845,7 @@
     ],
     "category": "ai-audio",
     "rating": 4.6,
-    "updatedAt": "2026-06-02",
+    "updatedAt": "2026-07-15",
     "screenshots": [
       "https://picsum.photos/seed/xiaobing1/800/500",
       "https://picsum.photos/seed/xiaobing2/800/500"
@@ -2890,7 +2890,7 @@
     ],
     "category": "ai-writing",
     "rating": 4.6,
-    "updatedAt": "2026-05-15",
+    "updatedAt": "2026-07-18",
     "screenshots": [
       "https://picsum.photos/seed/notion1/800/500"
     ],
@@ -2930,7 +2930,7 @@
     ],
     "category": "ai-writing",
     "rating": 4.5,
-    "updatedAt": "2026-04-25",
+    "updatedAt": "2026-07-04",
     "screenshots": [
       "https://picsum.photos/seed/jasper1/800/500"
     ],
@@ -2969,7 +2969,7 @@
     ],
     "category": "ai-writing",
     "rating": 4.4,
-    "updatedAt": "2026-04-20",
+    "updatedAt": "2026-07-30",
     "screenshots": [
       "https://picsum.photos/seed/copyai1/800/500"
     ],
@@ -3009,7 +3009,7 @@
     ],
     "category": "ai-writing",
     "rating": 4.8,
-    "updatedAt": "2026-06-08",
+    "updatedAt": "2026-07-13",
     "screenshots": [
       "https://picsum.photos/seed/grammarly1/800/500"
     ],
@@ -3049,7 +3049,7 @@
     ],
     "category": "ai-writing",
     "rating": 4.7,
-    "updatedAt": "2026-06-18",
+    "updatedAt": "2026-07-03",
     "screenshots": [
       "https://picsum.photos/seed/grammarlygo1/800/500",
       "https://picsum.photos/seed/grammarlygo2/800/500"
@@ -3095,7 +3095,7 @@
     ],
     "category": "ai-writing",
     "rating": 4.5,
-    "updatedAt": "2026-05-10",
+    "updatedAt": "2026-07-18",
     "screenshots": [
       "https://picsum.photos/seed/writesonic1/800/500",
       "https://picsum.photos/seed/writesonic2/800/500"
@@ -3140,7 +3140,7 @@
     ],
     "category": "ai-writing",
     "rating": 4.4,
-    "updatedAt": "2026-04-28",
+    "updatedAt": "2026-07-10",
     "screenshots": [
       "https://picsum.photos/seed/rytr1/800/500",
       "https://picsum.photos/seed/rytr2/800/500"
@@ -3186,7 +3186,7 @@
     ],
     "category": "ai-writing",
     "rating": 4.6,
-    "updatedAt": "2026-05-22",
+    "updatedAt": "2026-07-27",
     "screenshots": [
       "https://picsum.photos/seed/xiezuomao1/800/500",
       "https://picsum.photos/seed/xiezuomao2/800/500"
@@ -3232,7 +3232,7 @@
     ],
     "category": "ai-writing",
     "rating": 4.5,
-    "updatedAt": "2026-05-18",
+    "updatedAt": "2026-07-21",
     "screenshots": [
       "https://picsum.photos/seed/doubaowrite1/800/500",
       "https://picsum.photos/seed/doubaowrite2/800/500"
@@ -3278,7 +3278,7 @@
     ],
     "category": "ai-writing",
     "rating": 4.6,
-    "updatedAt": "2026-06-01",
+    "updatedAt": "2026-07-20",
     "screenshots": [
       "https://picsum.photos/seed/tongyiwrite1/800/500",
       "https://picsum.photos/seed/tongyiwrite2/800/500"
@@ -3323,7 +3323,7 @@
     ],
     "category": "ai-writing",
     "rating": 4.7,
-    "updatedAt": "2026-06-15",
+    "updatedAt": "2026-07-29",
     "screenshots": [
       "https://picsum.photos/seed/notionai2_1/800/500",
       "https://picsum.photos/seed/notionai2_2/800/500"
@@ -3369,7 +3369,7 @@
     ],
     "category": "ai-design",
     "rating": 4.7,
-    "updatedAt": "2026-06-05",
+    "updatedAt": "2026-07-28",
     "screenshots": [
       "https://picsum.photos/seed/figma1/800/500"
     ],
@@ -3410,7 +3410,7 @@
     ],
     "category": "ai-design",
     "rating": 4.8,
-    "updatedAt": "2026-06-22",
+    "updatedAt": "2026-07-12",
     "screenshots": [
       "https://picsum.photos/seed/figmaai2_1/800/500",
       "https://picsum.photos/seed/figmaai2_2/800/500"
@@ -3457,7 +3457,7 @@
     ],
     "category": "ai-design",
     "rating": 4.7,
-    "updatedAt": "2026-06-10",
+    "updatedAt": "2026-07-19",
     "screenshots": [
       "https://picsum.photos/seed/canva1/800/500"
     ],
@@ -3498,7 +3498,7 @@
     ],
     "category": "ai-design",
     "rating": 4.8,
-    "updatedAt": "2026-06-25",
+    "updatedAt": "2026-07-07",
     "screenshots": [
       "https://picsum.photos/seed/canvamagic1/800/500",
       "https://picsum.photos/seed/canvamagic2/800/500"
@@ -3545,7 +3545,7 @@
     ],
     "category": "ai-design",
     "rating": 4.6,
-    "updatedAt": "2026-05-20",
+    "updatedAt": "2026-07-23",
     "screenshots": [
       "https://picsum.photos/seed/framer1/800/500"
     ],
@@ -3585,7 +3585,7 @@
     ],
     "category": "ai-design",
     "rating": 4.6,
-    "updatedAt": "2026-05-12",
+    "updatedAt": "2026-07-03",
     "screenshots": [
       "https://picsum.photos/seed/recraft1/800/500"
     ],
@@ -3626,7 +3626,7 @@
     ],
     "category": "ai-design",
     "rating": 4.8,
-    "updatedAt": "2026-06-18",
+    "updatedAt": "2026-07-02",
     "screenshots": [
       "https://picsum.photos/seed/firefly3_1/800/500",
       "https://picsum.photos/seed/firefly3_2/800/500"
@@ -3674,7 +3674,7 @@
     ],
     "category": "ai-design",
     "rating": 4.5,
-    "updatedAt": "2026-05-25",
+    "updatedAt": "2026-07-22",
     "screenshots": [
       "https://picsum.photos/seed/jsdesign1/800/500",
       "https://picsum.photos/seed/jsdesign2/800/500"
@@ -3720,7 +3720,7 @@
     ],
     "category": "ai-design",
     "rating": 4.5,
-    "updatedAt": "2026-05-15",
+    "updatedAt": "2026-07-08",
     "screenshots": [
       "https://picsum.photos/seed/gaoding1/800/500",
       "https://picsum.photos/seed/gaoding2/800/500"
@@ -3766,7 +3766,7 @@
     ],
     "category": "ai-design",
     "rating": 4.6,
-    "updatedAt": "2026-06-08",
+    "updatedAt": "2026-07-25",
     "screenshots": [
       "https://picsum.photos/seed/uizard1/800/500",
       "https://picsum.photos/seed/uizard2/800/500"
@@ -3811,7 +3811,7 @@
     ],
     "category": "ai-design",
     "rating": 4.7,
-    "updatedAt": "2026-06-12",
+    "updatedAt": "2026-07-10",
     "screenshots": [
       "https://picsum.photos/seed/galileo1/800/500",
       "https://picsum.photos/seed/galileo2/800/500"
@@ -3856,7 +3856,7 @@
     ],
     "category": "ai-productivity",
     "rating": 4.8,
-    "updatedAt": "2026-06-14",
+    "updatedAt": "2026-07-03",
     "screenshots": [
       "https://picsum.photos/seed/notebooklm1/800/500"
     ],
@@ -3899,7 +3899,7 @@
     ],
     "category": "ai-productivity",
     "rating": 4.9,
-    "updatedAt": "2026-06-26",
+    "updatedAt": "2026-07-28",
     "screenshots": [
       "https://picsum.photos/seed/nblm2_1/800/500",
       "https://picsum.photos/seed/nblm2_2/800/500"
@@ -3946,7 +3946,7 @@
     ],
     "category": "ai-productivity",
     "rating": 4.5,
-    "updatedAt": "2026-04-30",
+    "updatedAt": "2026-07-08",
     "screenshots": [
       "https://picsum.photos/seed/chatpdf1/800/500"
     ],
@@ -3985,7 +3985,7 @@
     ],
     "category": "ai-productivity",
     "rating": 4.6,
-    "updatedAt": "2026-05-05",
+    "updatedAt": "2026-07-28",
     "screenshots": [
       "https://picsum.photos/seed/humata1/800/500"
     ],
@@ -4025,7 +4025,7 @@
     ],
     "category": "ai-productivity",
     "rating": 4.6,
-    "updatedAt": "2026-05-22",
+    "updatedAt": "2026-07-04",
     "screenshots": [
       "https://picsum.photos/seed/zapier1/800/500"
     ],
@@ -4065,7 +4065,7 @@
     ],
     "category": "ai-productivity",
     "rating": 4.7,
-    "updatedAt": "2026-05-18",
+    "updatedAt": "2026-07-13",
     "screenshots": [
       "https://picsum.photos/seed/make1/800/500"
     ],
@@ -4106,7 +4106,7 @@
     ],
     "category": "ai-productivity",
     "rating": 4.7,
-    "updatedAt": "2026-06-10",
+    "updatedAt": "2026-07-09",
     "screenshots": [
       "https://picsum.photos/seed/mscopilot1/800/500",
       "https://picsum.photos/seed/mscopilot2/800/500"
@@ -4153,7 +4153,7 @@
     ],
     "category": "ai-productivity",
     "rating": 4.6,
-    "updatedAt": "2026-06-05",
+    "updatedAt": "2026-07-15",
     "screenshots": [
       "https://picsum.photos/seed/gwsai1/800/500",
       "https://picsum.photos/seed/gwsai2/800/500"
@@ -4199,7 +4199,7 @@
     ],
     "category": "ai-productivity",
     "rating": 4.7,
-    "updatedAt": "2026-06-16",
+    "updatedAt": "2026-07-21",
     "screenshots": [
       "https://picsum.photos/seed/feishuai1/800/500",
       "https://picsum.photos/seed/feishuai2/800/500"
@@ -4247,7 +4247,7 @@
     ],
     "category": "ai-productivity",
     "rating": 4.6,
-    "updatedAt": "2026-06-08",
+    "updatedAt": "2026-07-27",
     "screenshots": [
       "https://picsum.photos/seed/dingdingai1/800/500",
       "https://picsum.photos/seed/dingdingai2/800/500"
@@ -4293,7 +4293,7 @@
     ],
     "category": "ai-productivity",
     "rating": 4.7,
-    "updatedAt": "2026-06-20",
+    "updatedAt": "2026-07-12",
     "screenshots": [
       "https://picsum.photos/seed/obsidianai1/800/500",
       "https://picsum.photos/seed/obsidianai2/800/500"
@@ -4340,7 +4340,7 @@
     ],
     "category": "ai-productivity",
     "rating": 4.7,
-    "updatedAt": "2026-06-12",
+    "updatedAt": "2026-07-06",
     "screenshots": [
       "https://picsum.photos/seed/gamma1/800/500",
       "https://picsum.photos/seed/gamma2/800/500"
@@ -4385,7 +4385,7 @@
     ],
     "category": "ai-agent",
     "rating": 4.8,
-    "updatedAt": "2026-06-22",
+    "updatedAt": "2026-07-12",
     "screenshots": [
       "https://picsum.photos/seed/manus1/800/500"
     ],
@@ -4426,7 +4426,7 @@
     ],
     "category": "ai-agent",
     "rating": 4.7,
-    "updatedAt": "2026-06-15",
+    "updatedAt": "2026-07-12",
     "screenshots": [
       "https://picsum.photos/seed/lovable1/800/500"
     ],
@@ -4467,7 +4467,7 @@
     ],
     "category": "ai-agent",
     "rating": 4.6,
-    "updatedAt": "2026-05-30",
+    "updatedAt": "2026-07-07",
     "screenshots": [
       "https://picsum.photos/seed/replit1/800/500"
     ],
@@ -4506,7 +4506,7 @@
     ],
     "category": "ai-search",
     "rating": 4.6,
-    "updatedAt": "2026-05-10",
+    "updatedAt": "2026-07-22",
     "screenshots": [
       "https://picsum.photos/seed/brave1/800/500"
     ],
@@ -4545,7 +4545,7 @@
     ],
     "category": "ai-search",
     "rating": 4.4,
-    "updatedAt": "2026-04-28",
+    "updatedAt": "2026-07-09",
     "screenshots": [
       "https://picsum.photos/seed/youcom1/800/500"
     ],
@@ -4585,7 +4585,7 @@
     ],
     "category": "ai-search",
     "rating": 4.8,
-    "updatedAt": "2026-06-18",
+    "updatedAt": "2026-07-23",
     "screenshots": [
       "https://picsum.photos/seed/pppro1/800/500",
       "https://picsum.photos/seed/pppro2/800/500"
@@ -4632,7 +4632,7 @@
     ],
     "category": "ai-search",
     "rating": 4.7,
-    "updatedAt": "2026-06-14",
+    "updatedAt": "2026-07-30",
     "screenshots": [
       "https://picsum.photos/seed/gsearchai1/800/500",
       "https://picsum.photos/seed/gsearchai2/800/500"
@@ -4678,7 +4678,7 @@
     ],
     "category": "ai-search",
     "rating": 4.6,
-    "updatedAt": "2026-06-10",
+    "updatedAt": "2026-07-22",
     "screenshots": [
       "https://picsum.photos/seed/bingcopilot1/800/500",
       "https://picsum.photos/seed/bingcopilot2/800/500"
@@ -4724,7 +4724,7 @@
     ],
     "category": "ai-search",
     "rating": 4.7,
-    "updatedAt": "2026-06-16",
+    "updatedAt": "2026-07-21",
     "screenshots": [
       "https://picsum.photos/seed/mitasearch1/800/500",
       "https://picsum.photos/seed/mitasearch2/800/500"
@@ -4771,7 +4771,7 @@
     ],
     "category": "ai-search",
     "rating": 4.5,
-    "updatedAt": "2026-05-28",
+    "updatedAt": "2026-07-03",
     "screenshots": [
       "https://picsum.photos/seed/tiangong1/800/500",
       "https://picsum.photos/seed/tiangong2/800/500"
@@ -4817,7 +4817,7 @@
     ],
     "category": "ai-search",
     "rating": 4.4,
-    "updatedAt": "2026-05-20",
+    "updatedAt": "2026-07-20",
     "screenshots": [
       "https://picsum.photos/seed/360search1/800/500",
       "https://picsum.photos/seed/360search2/800/500"
@@ -4863,7 +4863,7 @@
     ],
     "category": "ai-search",
     "rating": 4.6,
-    "updatedAt": "2026-06-02",
+    "updatedAt": "2026-07-21",
     "screenshots": [
       "https://picsum.photos/seed/ddgai1/800/500",
       "https://picsum.photos/seed/ddgai2/800/500"
@@ -4909,7 +4909,7 @@
     ],
     "category": "ai-search",
     "rating": 4.7,
-    "updatedAt": "2026-06-08",
+    "updatedAt": "2026-07-06",
     "screenshots": [
       "https://picsum.photos/seed/kagi1/800/500",
       "https://picsum.photos/seed/kagi2/800/500"
@@ -4955,7 +4955,7 @@
     ],
     "category": "ai-search",
     "rating": 4.6,
-    "updatedAt": "2026-06-12",
+    "updatedAt": "2026-07-18",
     "screenshots": [
       "https://picsum.photos/seed/exa1/800/500",
       "https://picsum.photos/seed/exa2/800/500"
@@ -5000,7 +5000,7 @@
     ],
     "category": "ai-education",
     "rating": 4.7,
-    "updatedAt": "2026-06-10",
+    "updatedAt": "2026-07-24",
     "screenshots": [
       "https://picsum.photos/seed/khanmigo1/800/500",
       "https://picsum.photos/seed/khanmigo2/800/500"
@@ -5047,7 +5047,7 @@
     ],
     "category": "ai-education",
     "rating": 4.8,
-    "updatedAt": "2026-06-14",
+    "updatedAt": "2026-07-08",
     "screenshots": [
       "https://picsum.photos/seed/duolingo1/800/500",
       "https://picsum.photos/seed/duolingo2/800/500"
@@ -5095,7 +5095,7 @@
     ],
     "category": "ai-education",
     "rating": 4.6,
-    "updatedAt": "2026-06-08",
+    "updatedAt": "2026-07-06",
     "screenshots": [
       "https://picsum.photos/seed/xueersi1/800/500",
       "https://picsum.photos/seed/xueersi2/800/500"
@@ -5141,7 +5141,7 @@
     ],
     "category": "ai-education",
     "rating": 4.5,
-    "updatedAt": "2026-05-28",
+    "updatedAt": "2026-07-15",
     "screenshots": [
       "https://picsum.photos/seed/zuoyebang1/800/500",
       "https://picsum.photos/seed/zuoyebang2/800/500"
@@ -5187,7 +5187,7 @@
     ],
     "category": "ai-education",
     "rating": 4.7,
-    "updatedAt": "2026-06-12",
+    "updatedAt": "2026-07-13",
     "screenshots": [
       "https://picsum.photos/seed/courseraai1/800/500",
       "https://picsum.photos/seed/courseraai2/800/500"
@@ -5233,7 +5233,7 @@
     ],
     "category": "ai-education",
     "rating": 4.6,
-    "updatedAt": "2026-05-30",
+    "updatedAt": "2026-07-09",
     "screenshots": [
       "https://picsum.photos/seed/quizletai1/800/500",
       "https://picsum.photos/seed/quizletai2/800/500"
@@ -5279,7 +5279,7 @@
     ],
     "category": "ai-education",
     "rating": 4.5,
-    "updatedAt": "2026-05-22",
+    "updatedAt": "2026-07-30",
     "screenshots": [
       "https://picsum.photos/seed/yuanfudao1/800/500",
       "https://picsum.photos/seed/yuanfudao2/800/500"
@@ -5325,7 +5325,7 @@
     ],
     "category": "ai-education",
     "rating": 4.5,
-    "updatedAt": "2026-05-18",
+    "updatedAt": "2026-07-21",
     "screenshots": [
       "https://picsum.photos/seed/xdfai1/800/500",
       "https://picsum.photos/seed/xdfai2/800/500"
@@ -5371,7 +5371,7 @@
     ],
     "category": "ai-education",
     "rating": 4.6,
-    "updatedAt": "2026-06-05",
+    "updatedAt": "2026-07-23",
     "screenshots": [
       "https://picsum.photos/seed/sana1/800/500",
       "https://picsum.photos/seed/sana2/800/500"
@@ -5417,7 +5417,7 @@
     ],
     "category": "ai-education",
     "rating": 4.7,
-    "updatedAt": "2026-06-02",
+    "updatedAt": "2026-07-18",
     "screenshots": [
       "https://picsum.photos/seed/thinkster1/800/500",
       "https://picsum.photos/seed/thinkster2/800/500"
@@ -5463,7 +5463,7 @@
     ],
     "category": "ai-marketing",
     "rating": 4.7,
-    "updatedAt": "2026-06-12",
+    "updatedAt": "2026-07-08",
     "screenshots": [
       "https://picsum.photos/seed/hubspotai1/800/500",
       "https://picsum.photos/seed/hubspotai2/800/500"
@@ -5511,7 +5511,7 @@
     ],
     "category": "ai-marketing",
     "rating": 4.7,
-    "updatedAt": "2026-06-18",
+    "updatedAt": "2026-07-22",
     "screenshots": [
       "https://picsum.photos/seed/einstein1/800/500",
       "https://picsum.photos/seed/einstein2/800/500"
@@ -5559,7 +5559,7 @@
     ],
     "category": "ai-marketing",
     "rating": 4.6,
-    "updatedAt": "2026-06-08",
+    "updatedAt": "2026-07-11",
     "screenshots": [
       "https://picsum.photos/seed/shence1/800/500",
       "https://picsum.photos/seed/shence2/800/500"
@@ -5605,7 +5605,7 @@
     ],
     "category": "ai-marketing",
     "rating": 4.5,
-    "updatedAt": "2026-05-28",
+    "updatedAt": "2026-07-27",
     "screenshots": [
       "https://picsum.photos/seed/youzan1/800/500",
       "https://picsum.photos/seed/youzan2/800/500"
@@ -5651,7 +5651,7 @@
     ],
     "category": "ai-marketing",
     "rating": 4.5,
-    "updatedAt": "2026-05-22",
+    "updatedAt": "2026-07-25",
     "screenshots": [
       "https://picsum.photos/seed/weimob1/800/500",
       "https://picsum.photos/seed/weimob2/800/500"
@@ -5697,7 +5697,7 @@
     ],
     "category": "ai-marketing",
     "rating": 4.6,
-    "updatedAt": "2026-06-05",
+    "updatedAt": "2026-07-25",
     "screenshots": [
       "https://picsum.photos/seed/iterable1/800/500",
       "https://picsum.photos/seed/iterable2/800/500"
@@ -5743,7 +5743,7 @@
     ],
     "category": "ai-marketing",
     "rating": 4.6,
-    "updatedAt": "2026-06-10",
+    "updatedAt": "2026-07-02",
     "screenshots": [
       "https://picsum.photos/seed/klaviyo1/800/500",
       "https://picsum.photos/seed/klaviyo2/800/500"
@@ -5789,7 +5789,7 @@
     ],
     "category": "ai-marketing",
     "rating": 4.5,
-    "updatedAt": "2026-05-25",
+    "updatedAt": "2026-07-08",
     "screenshots": [
       "https://picsum.photos/seed/zengzhang1/800/500",
       "https://picsum.photos/seed/zengzhang2/800/500"
@@ -5835,7 +5835,7 @@
     ],
     "category": "ai-marketing",
     "rating": 4.5,
-    "updatedAt": "2026-05-18",
+    "updatedAt": "2026-07-27",
     "screenshots": [
       "https://picsum.photos/seed/reyun1/800/500",
       "https://picsum.photos/seed/reyun2/800/500"
@@ -5881,7 +5881,7 @@
     ],
     "category": "ai-marketing",
     "rating": 4.7,
-    "updatedAt": "2026-06-15",
+    "updatedAt": "2026-07-02",
     "screenshots": [
       "https://picsum.photos/seed/jasperm1/800/500",
       "https://picsum.photos/seed/jasperm2/800/500"
@@ -5927,7 +5927,7 @@
     ],
     "category": "ai-marketing",
     "rating": 4.6,
-    "updatedAt": "2026-06-02",
+    "updatedAt": "2026-07-26",
     "screenshots": [
       "https://picsum.photos/seed/marketo1/800/500",
       "https://picsum.photos/seed/marketo2/800/500"
@@ -52997,5 +52997,414 @@
     "featured": true,
     "trending": false,
     "views": 433909
+  },
+  {
+    "id": "github-mcp",
+    "name": "GitHub MCP",
+    "logo": "https://api.dicebear.com/7.x/shapes/svg?seed=github-mcp",
+    "description": "官方GitHub MCP服务器，提供仓库管理、Issue处理、PR操作、代码审查等功能，让AI直接操作GitHub。",
+    "url": "https://github.com/modelcontextprotocol/servers/tree/main/src/github",
+    "price": "免费",
+    "isFree": true,
+    "tags": [
+      "MCP",
+      "GitHub",
+      "开发",
+      "代码管理",
+      "开源"
+    ],
+    "category": "ai-agent",
+    "rating": 4.8,
+    "updatedAt": "2026-07-21",
+    "screenshots": [
+      "https://picsum.photos/seed/github-mcp1/800/500"
+    ],
+    "features": [
+      "仓库管理",
+      "Issue操作",
+      "PR处理",
+      "代码审查",
+      "分支管理",
+      "Webhook集成"
+    ],
+    "seoTitle": "GitHub MCP - 官方MCP服务器 | AI Navigator Pro",
+    "seoDescription": "官方GitHub MCP服务器，让AI Agent直接操作GitHub仓库。",
+    "featured": true,
+    "trending": true,
+    "views": 85000
+  },
+  {
+    "id": "figma-mcp",
+    "name": "Figma MCP",
+    "logo": "https://api.dicebear.com/7.x/shapes/svg?seed=figma-mcp",
+    "description": "Figma MCP服务器，支持读取和操作Figma设计文件，提取设计资源、组件和样式，让AI辅助设计工作流。",
+    "url": "https://github.com/GLips/Figma-Context-MCP",
+    "price": "免费",
+    "isFree": true,
+    "tags": [
+      "MCP",
+      "Figma",
+      "设计",
+      "UI/UX",
+      "设计系统"
+    ],
+    "category": "ai-agent",
+    "rating": 4.6,
+    "updatedAt": "2026-07-04",
+    "screenshots": [
+      "https://picsum.photos/seed/figma-mcp1/800/500"
+    ],
+    "features": [
+      "设计文件读取",
+      "组件提取",
+      "样式同步",
+      "设计资源管理",
+      "自动标注"
+    ],
+    "seoTitle": "Figma MCP - 设计协作MCP服务器 | AI Navigator Pro",
+    "seoDescription": "Figma MCP服务器，让AI Agent读取和操作设计文件。",
+    "featured": false,
+    "trending": true,
+    "views": 62000
+  },
+  {
+    "id": "notion-mcp",
+    "name": "Notion MCP",
+    "logo": "https://api.dicebear.com/7.x/shapes/svg?seed=notion-mcp",
+    "description": "Notion MCP服务器，提供知识库查询、页面操作、数据库管理等功能，让AI与Notion深度集成。",
+    "url": "https://github.com/makenotion/notion-mcp-server",
+    "price": "免费",
+    "isFree": true,
+    "tags": [
+      "MCP",
+      "Notion",
+      "笔记",
+      "知识库",
+      "生产力"
+    ],
+    "category": "ai-agent",
+    "rating": 4.7,
+    "updatedAt": "2026-07-01",
+    "screenshots": [
+      "https://picsum.photos/seed/notion-mcp1/800/500"
+    ],
+    "features": [
+      "页面管理",
+      "数据库查询",
+      "知识库检索",
+      "内容创建",
+      "协作编辑"
+    ],
+    "seoTitle": "Notion MCP - 知识库MCP服务器 | AI Navigator Pro",
+    "seoDescription": "Notion MCP服务器，让AI Agent管理和查询Notion知识库。",
+    "featured": true,
+    "trending": false,
+    "views": 78000
+  },
+  {
+    "id": "playwright-mcp",
+    "name": "Playwright MCP",
+    "logo": "https://api.dicebear.com/7.x/shapes/svg?seed=playwright-mcp",
+    "description": "Playwright浏览器自动化MCP，让AI能够浏览网页、执行操作和提取数据，支持多浏览器引擎。",
+    "url": "https://github.com/anthropics/playwright-mcp",
+    "price": "免费",
+    "isFree": true,
+    "tags": [
+      "MCP",
+      "浏览器自动化",
+      "微软",
+      "开源",
+      "测试"
+    ],
+    "category": "ai-agent",
+    "rating": 4.5,
+    "updatedAt": "2026-07-24",
+    "screenshots": [
+      "https://picsum.photos/seed/playwright-mcp1/800/500"
+    ],
+    "features": [
+      "网页浏览",
+      "元素操作",
+      "数据抓取",
+      "自动化测试",
+      "多浏览器支持"
+    ],
+    "seoTitle": "Playwright MCP - 浏览器自动化MCP | AI Navigator Pro",
+    "seoDescription": "Playwright MCP让AI Agent自动浏览网页和执行操作。",
+    "featured": false,
+    "trending": true,
+    "views": 55000
+  },
+  {
+    "id": "slack-mcp",
+    "name": "Slack MCP",
+    "logo": "https://api.dicebear.com/7.x/shapes/svg?seed=slack-mcp",
+    "description": "Slack MCP服务器，支持消息发送、频道管理、用户查询等功能，让AI与团队协作平台无缝集成。",
+    "url": "https://github.com/modelcontextprotocol/servers/tree/main/src/slack",
+    "price": "免费",
+    "isFree": true,
+    "tags": [
+      "MCP",
+      "Slack",
+      "通讯",
+      "团队协作",
+      "消息"
+    ],
+    "category": "ai-agent",
+    "rating": 4.4,
+    "updatedAt": "2026-07-09",
+    "screenshots": [
+      "https://picsum.photos/seed/slack-mcp1/800/500"
+    ],
+    "features": [
+      "消息发送",
+      "频道管理",
+      "用户查询",
+      "文件共享",
+      "通知推送"
+    ],
+    "seoTitle": "Slack MCP - 团队协作MCP服务器 | AI Navigator Pro",
+    "seoDescription": "Slack MCP服务器，让AI Agent管理和操作Slack工作区。",
+    "featured": false,
+    "trending": false,
+    "views": 48000
+  },
+  {
+    "id": "filesystem-mcp",
+    "name": "Filesystem MCP",
+    "logo": "https://api.dicebear.com/7.x/shapes/svg?seed=filesystem-mcp",
+    "description": "文件系统操作的MCP服务器，让AI能够安全地读写本地文件，管理目录结构，是开发Agent的基础设施。",
+    "url": "https://github.com/modelcontextprotocol/servers/tree/main/src/filesystem",
+    "price": "免费",
+    "isFree": true,
+    "tags": [
+      "MCP",
+      "文件系统",
+      "官方",
+      "开源",
+      "开发"
+    ],
+    "category": "ai-agent",
+    "rating": 4.6,
+    "updatedAt": "2026-07-08",
+    "screenshots": [
+      "https://picsum.photos/seed/filesystem-mcp1/800/500"
+    ],
+    "features": [
+      "文件读写",
+      "目录管理",
+      "权限控制",
+      "路径安全",
+      "批量操作"
+    ],
+    "seoTitle": "Filesystem MCP - 文件系统MCP服务器 | AI Navigator Pro",
+    "seoDescription": "Filesystem MCP让AI Agent安全地读写本地文件。",
+    "featured": false,
+    "trending": true,
+    "views": 52000
+  },
+  {
+    "id": "github-mcp-pro",
+    "name": "GitHub MCP Pro",
+    "logo": "https://api.dicebear.com/7.x/shapes/svg?seed=github-mcp-pro",
+    "description": "增强版GitHub MCP服务器，提供完整的代码管理能力，支持高级搜索、代码分析和自动化工作流。",
+    "url": "https://github.com/github/github-mcp",
+    "price": "免费",
+    "isFree": true,
+    "tags": [
+      "MCP",
+      "GitHub",
+      "代码管理",
+      "开源",
+      "高级功能"
+    ],
+    "category": "ai-agent",
+    "rating": 4.7,
+    "updatedAt": "2026-07-08",
+    "screenshots": [
+      "https://picsum.photos/seed/github-mcp-pro1/800/500"
+    ],
+    "features": [
+      "高级搜索",
+      "代码分析",
+      "自动化工作流",
+      "安全扫描",
+      "依赖管理"
+    ],
+    "seoTitle": "GitHub MCP Pro - 增强版GitHub MCP | AI Navigator Pro",
+    "seoDescription": "增强版GitHub MCP，提供完整代码管理和分析能力。",
+    "featured": true,
+    "trending": false,
+    "views": 60000
+  },
+  {
+    "id": "fetch-mcp",
+    "name": "Fetch MCP",
+    "logo": "https://api.dicebear.com/7.x/shapes/svg?seed=fetch-mcp",
+    "description": "网页内容抓取MCP，让AI安全地获取并处理网络内容，支持HTML解析和格式转换。",
+    "url": "https://github.com/modelcontextprotocol/servers/tree/main/src/fetch",
+    "price": "免费",
+    "isFree": true,
+    "tags": [
+      "MCP",
+      "网页抓取",
+      "HTTP",
+      "官方",
+      "开源"
+    ],
+    "category": "ai-agent",
+    "rating": 4.5,
+    "updatedAt": "2026-07-05",
+    "screenshots": [
+      "https://picsum.photos/seed/fetch-mcp1/800/500"
+    ],
+    "features": [
+      "网页抓取",
+      "HTML解析",
+      "格式转换",
+      "内容提取",
+      "安全访问"
+    ],
+    "seoTitle": "Fetch MCP - 网页抓取MCP服务器 | AI Navigator Pro",
+    "seoDescription": "Fetch MCP让AI Agent安全抓取和处理网页内容。",
+    "featured": false,
+    "trending": false,
+    "views": 45000
+  },
+  {
+    "id": "postgres-mcp",
+    "name": "PostgreSQL MCP",
+    "logo": "https://api.dicebear.com/7.x/shapes/svg?seed=postgres-mcp",
+    "description": "PostgreSQL数据库MCP服务器，支持SQL查询、数据操作、Schema管理等，让AI直接操作数据库。",
+    "url": "https://github.com/modelcontextprotocol/servers/tree/main/src/postgres",
+    "price": "免费",
+    "isFree": true,
+    "tags": [
+      "MCP",
+      "PostgreSQL",
+      "数据库",
+      "SQL",
+      "数据管理"
+    ],
+    "category": "ai-agent",
+    "rating": 4.6,
+    "updatedAt": "2026-07-24",
+    "screenshots": [
+      "https://picsum.photos/seed/postgres-mcp1/800/500"
+    ],
+    "features": [
+      "SQL查询",
+      "数据读写",
+      "Schema管理",
+      "表结构查询",
+      "索引优化"
+    ],
+    "seoTitle": "PostgreSQL MCP - 数据库MCP服务器 | AI Navigator Pro",
+    "seoDescription": "PostgreSQL MCP让AI Agent直接操作数据库。",
+    "featured": true,
+    "trending": true,
+    "views": 72000
+  },
+  {
+    "id": "brave-mcp",
+    "name": "Brave MCP",
+    "logo": "https://api.dicebear.com/7.x/shapes/svg?seed=brave-mcp",
+    "description": "Brave浏览器MCP服务器，支持隐私浏览和广告拦截，让AI在保护隐私的前提下浏览网页。",
+    "url": "https://github.com/brave/brave-mcp",
+    "price": "免费",
+    "isFree": true,
+    "tags": [
+      "MCP",
+      "Brave",
+      "浏览器",
+      "隐私",
+      "搜索"
+    ],
+    "category": "ai-agent",
+    "rating": 4.3,
+    "updatedAt": "2026-07-04",
+    "screenshots": [
+      "https://picsum.photos/seed/brave-mcp1/800/500"
+    ],
+    "features": [
+      "隐私浏览",
+      "广告拦截",
+      "网页搜索",
+      "内容提取",
+      "安全访问"
+    ],
+    "seoTitle": "Brave MCP - 隐私浏览MCP服务器 | AI Navigator Pro",
+    "seoDescription": "Brave MCP让AI Agent在保护隐私的前提下浏览网页。",
+    "featured": false,
+    "trending": false,
+    "views": 38000
+  },
+  {
+    "id": "gmail-mcp",
+    "name": "Gmail MCP",
+    "logo": "https://api.dicebear.com/7.x/shapes/svg?seed=gmail-mcp",
+    "description": "Gmail邮件MCP服务器，支持邮件收发、搜索、标签管理和自动回复，让AI Agent管理邮箱。",
+    "url": "https://github.com/modelcontextprotocol/servers/tree/main/src/gmail",
+    "price": "免费",
+    "isFree": true,
+    "tags": [
+      "MCP",
+      "Gmail",
+      "邮件",
+      "通讯",
+      "Google"
+    ],
+    "category": "ai-agent",
+    "rating": 4.5,
+    "updatedAt": "2026-07-21",
+    "screenshots": [
+      "https://picsum.photos/seed/gmail-mcp1/800/500"
+    ],
+    "features": [
+      "邮件收发",
+      "邮件搜索",
+      "标签管理",
+      "自动回复",
+      "附件处理"
+    ],
+    "seoTitle": "Gmail MCP - 邮件管理MCP服务器 | AI Navigator Pro",
+    "seoDescription": "Gmail MCP让AI Agent自动管理邮件收发和搜索。",
+    "featured": false,
+    "trending": false,
+    "views": 50000
+  },
+  {
+    "id": "discord-mcp",
+    "name": "Discord MCP",
+    "logo": "https://api.dicebear.com/7.x/shapes/svg?seed=discord-mcp",
+    "description": "Discord社区通讯MCP，支持服务器管理、消息发送、成员互动和频道操作，让AI融入社区。",
+    "url": "https://github.com/modelcontextprotocol/servers/tree/main/src/discord",
+    "price": "免费",
+    "isFree": true,
+    "tags": [
+      "MCP",
+      "Discord",
+      "社区",
+      "语音",
+      "聊天"
+    ],
+    "category": "ai-agent",
+    "rating": 4.4,
+    "updatedAt": "2026-07-04",
+    "screenshots": [
+      "https://picsum.photos/seed/discord-mcp1/800/500"
+    ],
+    "features": [
+      "服务器管理",
+      "消息发送",
+      "成员互动",
+      "频道操作",
+      "语音集成"
+    ],
+    "seoTitle": "Discord MCP - 社区通讯MCP服务器 | AI Navigator Pro",
+    "seoDescription": "Discord MCP让AI Agent管理和互动Discord社区。",
+    "featured": false,
+    "trending": false,
+    "views": 42000
   }
 ]

@@ -1,0 +1,105 @@
+============================================================
+JSON数据文件审查报告
+============================================================
+
+【1. 各JSON文件条目数量统计】
+----------------------------------------
+agents.json: 100 条
+prompts.json: 100 条
+mcp.json: 111 条
+workflows.json: 106 条
+news.json: 100 条
+rankings.json: 24 条
+tools.json: 1227 条
+categories.json: 16 条
+
+【2. tools.json category数量与categories.json对比】
+----------------------------------------
+tools.json 中的category分布（共 12 个）:
+  ai-chat: 133
+  ai-coding: 128
+  ai-productivity: 118
+  ai-image: 112
+  ai-writing: 102
+  ai-agent: 100
+  ai-video: 96
+  ai-design: 95
+  ai-marketing: 92
+  ai-audio: 88
+  ai-education: 85
+  ai-search: 78
+
+categories.json 中的条目: 16
+同名category对比结果:
+  AI Agent: 实际=0, 声明=100 [tools.json中无此category]
+  AI写作: 实际=0, 声明=102 [tools.json中无此category]
+  AI图像: 实际=0, 声明=112 [tools.json中无此category]
+  AI搜索: 实际=0, 声明=78 [tools.json中无此category]
+  AI教育: 实际=0, 声明=85 [tools.json中无此category]
+  AI编程: 实际=0, 声明=128 [tools.json中无此category]
+  AI聊天: 实际=0, 声明=133 [tools.json中无此category]
+  AI营销: 实际=0, 声明=92 [tools.json中无此category]
+  AI视频: 实际=0, 声明=96 [tools.json中无此category]
+  AI设计: 实际=0, 声明=95 [tools.json中无此category]
+  AI资讯: 实际=0, 声明=100 [tools.json中无此category]
+  AI音频: 实际=0, 声明=88 [tools.json中无此category]
+  MCP服务器: 实际=0, 声明=111 [tools.json中无此category]
+  工作流: 实际=0, 声明=106 [tools.json中无此category]
+  提示词库: 实际=0, 声明=100 [tools.json中无此category]
+  效率工具: 实际=0, 声明=118 [tools.json中无此category]
+  无匹配的category名称
+
+【3. 时间戳检查 (updatedAt/createdAt/publishedAt)】
+----------------------------------------
+目标：找出不在 2026年7月 的日期
+发现异常时间戳的文件:
+  tools.json: 133 条异常
+    示例: chatgpt[updatedAt]=2026-06-15
+    示例: gpt-5[updatedAt]=2026-06-20
+    示例: claude[updatedAt]=2026-06-10
+
+【4. tools.json ID重复检查】
+----------------------------------------
+未发现重复ID，共 1227 个唯一ID。
+
+【5. agents.json 字段完整性检查】
+----------------------------------------
+总条目数: 100
+字段不完整条目: 100
+各字段缺失频率统计:
+  icon: 100/100 条缺失
+  fullDescription: 100/100 条缺失
+  model: 100/100 条缺失
+  pros: 100/100 条缺失
+  cons: 100/100 条缺失
+  pricing: 100/100 条缺失
+  website: 100/100 条缺失
+  docsUrl: 100/100 条缺失
+  reviewCount: 100/100 条缺失
+  createdAt: 100/100 条缺失
+示例（前5条）:
+  ID=devin-2 (Devin 2.0):
+    缺失: icon, fullDescription, model, pros, cons, pricing, website, docsUrl, reviewCount, createdAt
+  ID=manus (Manus Pro):
+    缺失: icon, fullDescription, model, pros, cons, pricing, website, docsUrl, reviewCount, createdAt
+  ID=devin (Devin):
+    缺失: icon, fullDescription, model, pros, cons, pricing, website, docsUrl, reviewCount, createdAt
+  ID=cursor-agent (Cursor Agent):
+    缺失: icon, fullDescription, model, pros, cons, pricing, website, docsUrl, reviewCount, createdAt
+  ID=claude-code-2 (Claude Code 2):
+    缺失: icon, fullDescription, model, pros, cons, pricing, website, docsUrl, reviewCount, createdAt
+
+【6. 文件结构检查】
+----------------------------------------
+  agents.json: 有效JSON数组 (100条)
+  prompts.json: 有效JSON数组 (100条)
+  mcp.json: 有效JSON数组 (111条)
+  workflows.json: 有效JSON数组 (106条)
+  news.json: 有效JSON数组 (100条)
+  rankings.json: 有效JSON数组 (24条)
+  tools.json: 有效JSON数组 (1227条)
+  categories.json: 有效JSON数组 (16条)
+
+============================================================
+审查结束
+============================================================

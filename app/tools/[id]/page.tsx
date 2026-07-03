@@ -243,7 +243,7 @@ export default function ToolDetailPage({ params }: ToolPageProps) {
 
           <TabsContent value="screenshots">
             <div className="grid md:grid-cols-2 gap-6">
-              {tool.screenshots.map((src, idx) => (
+              {(tool.screenshots || []).map((src, idx) => (
                 <div
                   key={idx}
                   className="rounded-xl overflow-hidden border border-border/50 shadow-lg"
@@ -265,7 +265,7 @@ export default function ToolDetailPage({ params }: ToolPageProps) {
               </CardHeader>
               <CardContent>
                 <div className="grid sm:grid-cols-2 gap-3">
-                  {tool.useCases.map((useCase, idx) => (
+                  {(tool.useCases || []).map((useCase, idx) => (
                     <div
                       key={idx}
                       className="flex items-start gap-3 p-3 rounded-lg bg-muted/30"
@@ -286,7 +286,7 @@ export default function ToolDetailPage({ params }: ToolPageProps) {
               </CardHeader>
               <CardContent>
                 <div className="flex flex-wrap gap-3">
-                  {tool.competitors.map((comp) => (
+                  {(tool.competitors || []).map((comp) => (
                     <Badge
                       key={comp}
                       variant="outline"

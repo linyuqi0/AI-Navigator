@@ -3111,5 +3111,536 @@
     "updatedAt": "2026-07-06",
     "seoTitle": "Fetch MCP - MCP集成 | AI Navigator Pro",
     "seoDescription": "网页内容抓取MCP，让AI获取并处理网络内容。"
+  },
+  {
+    "id": "jira-mcp",
+    "name": "Jira MCP",
+    "logo": "https://api.dicebear.com/7.x/shapes/svg?seed=jira-mcp",
+    "description": "Jira项目管理MCP服务器，支持任务跟踪和敏捷开发。",
+    "url": "https://example.com/jira-mcp",
+    "category": "productivity",
+    "tags": [
+      "database",
+      "finance",
+      "developer",
+      "ai"
+    ],
+    "rating": 4.5,
+    "updatedAt": "2026-07-08",
+    "features": [
+      "API集成",
+      "批量处理",
+      "实时同步",
+      "通知推送"
+    ],
+    "seoTitle": "Jira MCP - 生产力 MCP | AI Navigator Pro",
+    "seoDescription": "Jira项目管理MCP服务器，支持任务跟踪和敏捷开发。",
+    "views": 35262
+  },
+  {
+    "id": "confluence-mcp",
+    "name": "Confluence MCP",
+    "logo": "https://api.dicebear.com/7.x/shapes/svg?seed=confluence-mcp",
+    "description": "Confluence知识库MCP服务器，支持文档协作。",
+    "url": "https://example.com/confluence-mcp",
+    "category": "productivity",
+    "tags": [
+      "database",
+      "search",
+      "browser",
+      "cloud"
+    ],
+    "rating": 4.7,
+    "updatedAt": "2026-07-12",
+    "features": [
+      "通知推送",
+      "数据查询",
+      "批量处理"
+    ],
+    "seoTitle": "Confluence MCP - 生产力 MCP | AI Navigator Pro",
+    "seoDescription": "Confluence知识库MCP服务器，支持文档协作。",
+    "views": 13594
+  },
+  {
+    "id": "stripe-mcp",
+    "name": "Stripe MCP",
+    "logo": "https://api.dicebear.com/7.x/shapes/svg?seed=stripe-mcp",
+    "description": "Stripe支付MCP服务器，支持支付处理和账单管理。",
+    "url": "https://example.com/stripe-mcp",
+    "category": "finance",
+    "tags": [
+      "browser",
+      "database"
+    ],
+    "rating": 4.7,
+    "updatedAt": "2026-07-12",
+    "features": [
+      "数据查询",
+      "权限控制",
+      "批量处理"
+    ],
+    "seoTitle": "Stripe MCP - 金融 MCP | AI Navigator Pro",
+    "seoDescription": "Stripe支付MCP服务器，支持支付处理和账单管理。",
+    "views": 44810
+  },
+  {
+    "id": "shopify-mcp",
+    "name": "Shopify MCP",
+    "logo": "https://api.dicebear.com/7.x/shapes/svg?seed=shopify-mcp",
+    "description": "Shopify电商MCP服务器，支持商品和订单管理。",
+    "url": "https://example.com/shopify-mcp",
+    "category": "finance",
+    "tags": [
+      "database",
+      "browser",
+      "search"
+    ],
+    "rating": 4.9,
+    "updatedAt": "2026-07-31",
+    "features": [
+      "数据查询",
+      "自动化操作",
+      "权限控制",
+      "批量处理"
+    ],
+    "seoTitle": "Shopify MCP - 金融 MCP | AI Navigator Pro",
+    "seoDescription": "Shopify电商MCP服务器，支持商品和订单管理。",
+    "views": 31045
+  },
+  {
+    "id": "duckduckgo-mcp",
+    "name": "DuckDuckGo MCP",
+    "logo": "https://api.dicebear.com/7.x/shapes/svg?seed=duckduckgo-mcp",
+    "description": "DuckDuckGo隐私搜索MCP服务器，支持匿名搜索。",
+    "url": "https://example.com/duckduckgo-mcp",
+    "category": "search",
+    "tags": [
+      "social",
+      "finance"
+    ],
+    "rating": 4.2,
+    "updatedAt": "2026-07-22",
+    "features": [
+      "实时同步",
+      "批量处理",
+      "数据查询",
+      "自动化操作"
+    ],
+    "seoTitle": "DuckDuckGo MCP - 搜索 MCP | AI Navigator Pro",
+    "seoDescription": "DuckDuckGo隐私搜索MCP服务器，支持匿名搜索。",
+    "views": 44455
+  },
+  {
+    "id": "brave-mcp",
+    "name": "Brave MCP",
+    "logo": "https://api.dicebear.com/7.x/shapes/svg?seed=brave-mcp",
+    "description": "Brave浏览器MCP服务器，支持隐私浏览和广告拦截。",
+    "url": "https://example.com/brave-mcp",
+    "category": "browser",
+    "tags": [
+      "database",
+      "communication",
+      "developer"
+    ],
+    "rating": 4.8,
+    "updatedAt": "2026-07-28",
+    "features": [
+      "数据查询",
+      "权限控制",
+      "API集成",
+      "自动化操作",
+      "通知推送"
+    ],
+    "seoTitle": "Brave MCP - 浏览器 MCP | AI Navigator Pro",
+    "seoDescription": "Brave浏览器MCP服务器，支持隐私浏览和广告拦截。",
+    "views": 19823
+  },
+  {
+    "id": "twitter-mcp",
+    "name": "Twitter MCP",
+    "logo": "https://api.dicebear.com/7.x/shapes/svg?seed=twitter-mcp",
+    "description": "Twitter/X社交MCP服务器，支持推文发布和趋势分析。",
+    "url": "https://example.com/twitter-mcp",
+    "category": "social",
+    "tags": [
+      "communication",
+      "search",
+      "finance"
+    ],
+    "rating": 4.0,
+    "updatedAt": "2026-07-28",
+    "features": [
+      "批量处理",
+      "数据查询",
+      "内容管理"
+    ],
+    "seoTitle": "Twitter MCP - 社交 MCP | AI Navigator Pro",
+    "seoDescription": "Twitter/X社交MCP服务器，支持推文发布和趋势分析。",
+    "views": 56560
+  },
+  {
+    "id": "linkedin-mcp",
+    "name": "LinkedIn MCP",
+    "logo": "https://api.dicebear.com/7.x/shapes/svg?seed=linkedin-mcp",
+    "description": "LinkedIn职场社交MCP服务器，支持人脉和内容管理。",
+    "url": "https://example.com/linkedin-mcp",
+    "category": "social",
+    "tags": [
+      "productivity",
+      "database",
+      "developer",
+      "ai"
+    ],
+    "rating": 4.4,
+    "updatedAt": "2026-07-11",
+    "features": [
+      "API集成",
+      "自动化操作",
+      "通知推送"
+    ],
+    "seoTitle": "LinkedIn MCP - 社交 MCP | AI Navigator Pro",
+    "seoDescription": "LinkedIn职场社交MCP服务器，支持人脉和内容管理。",
+    "views": 29258
+  },
+  {
+    "id": "youtube-mcp",
+    "name": "YouTube MCP",
+    "logo": "https://api.dicebear.com/7.x/shapes/svg?seed=youtube-mcp",
+    "description": "YouTube视频MCP服务器，支持视频搜索和播放列表。",
+    "url": "https://example.com/youtube-mcp",
+    "category": "social",
+    "tags": [
+      "social",
+      "database",
+      "productivity",
+      "finance"
+    ],
+    "rating": 4.2,
+    "updatedAt": "2026-07-20",
+    "features": [
+      "内容管理",
+      "自动化操作",
+      "实时同步"
+    ],
+    "seoTitle": "YouTube MCP - 社交 MCP | AI Navigator Pro",
+    "seoDescription": "YouTube视频MCP服务器，支持视频搜索和播放列表。",
+    "views": 51380
+  },
+  {
+    "id": "spotify-mcp",
+    "name": "Spotify MCP",
+    "logo": "https://api.dicebear.com/7.x/shapes/svg?seed=spotify-mcp",
+    "description": "Spotify音乐MCP服务器，支持播放列表和推荐。",
+    "url": "https://example.com/spotify-mcp",
+    "category": "social",
+    "tags": [
+      "ai",
+      "social",
+      "browser"
+    ],
+    "rating": 4.3,
+    "updatedAt": "2026-07-25",
+    "features": [
+      "内容管理",
+      "自动化操作",
+      "实时同步",
+      "数据查询",
+      "批量处理"
+    ],
+    "seoTitle": "Spotify MCP - 社交 MCP | AI Navigator Pro",
+    "seoDescription": "Spotify音乐MCP服务器，支持播放列表和推荐。",
+    "views": 52447
+  },
+  {
+    "id": "openweather-mcp",
+    "name": "OpenWeather MCP",
+    "logo": "https://api.dicebear.com/7.x/shapes/svg?seed=openweather-mcp",
+    "description": "OpenWeather天气MCP服务器，支持全球天气查询。",
+    "url": "https://example.com/openweather-mcp",
+    "category": "ai",
+    "tags": [
+      "social",
+      "ai",
+      "communication",
+      "productivity"
+    ],
+    "rating": 4.2,
+    "updatedAt": "2026-07-20",
+    "features": [
+      "数据查询",
+      "内容管理",
+      "自动化操作"
+    ],
+    "seoTitle": "OpenWeather MCP - AI服务 MCP | AI Navigator Pro",
+    "seoDescription": "OpenWeather天气MCP服务器，支持全球天气查询。",
+    "views": 21843
+  },
+  {
+    "id": "wikipedia-mcp",
+    "name": "Wikipedia MCP",
+    "logo": "https://api.dicebear.com/7.x/shapes/svg?seed=wikipedia-mcp",
+    "description": "Wikipedia百科MCP服务器，支持知识检索。",
+    "url": "https://example.com/wikipedia-mcp",
+    "category": "search",
+    "tags": [
+      "communication",
+      "social"
+    ],
+    "rating": 4.3,
+    "updatedAt": "2026-07-01",
+    "features": [
+      "批量处理",
+      "内容管理",
+      "通知推送",
+      "实时同步"
+    ],
+    "seoTitle": "Wikipedia MCP - 搜索 MCP | AI Navigator Pro",
+    "seoDescription": "Wikipedia百科MCP服务器，支持知识检索。",
+    "views": 42903
+  },
+  {
+    "id": "google-maps-mcp",
+    "name": "Google Maps MCP",
+    "logo": "https://api.dicebear.com/7.x/shapes/svg?seed=google-maps-mcp",
+    "description": "Google Maps地图MCP服务器，支持地点搜索和导航。",
+    "url": "https://example.com/google-maps-mcp",
+    "category": "search",
+    "tags": [
+      "developer",
+      "finance",
+      "search",
+      "productivity"
+    ],
+    "rating": 4.4,
+    "updatedAt": "2026-07-24",
+    "features": [
+      "批量处理",
+      "数据查询",
+      "实时同步"
+    ],
+    "seoTitle": "Google Maps MCP - 搜索 MCP | AI Navigator Pro",
+    "seoDescription": "Google Maps地图MCP服务器，支持地点搜索和导航。",
+    "views": 13102
+  },
+  {
+    "id": "monday-mcp",
+    "name": "Monday MCP",
+    "logo": "https://api.dicebear.com/7.x/shapes/svg?seed=monday-mcp",
+    "description": "Monday.com工作管理MCP服务器，支持可视化工作流。",
+    "url": "https://example.com/monday-mcp",
+    "category": "productivity",
+    "tags": [
+      "social",
+      "browser",
+      "finance"
+    ],
+    "rating": 4.7,
+    "updatedAt": "2026-07-14",
+    "features": [
+      "内容管理",
+      "实时同步",
+      "数据查询",
+      "自动化操作"
+    ],
+    "seoTitle": "Monday MCP - 生产力 MCP | AI Navigator Pro",
+    "seoDescription": "Monday.com工作管理MCP服务器，支持可视化工作流。",
+    "views": 19263
+  },
+  {
+    "id": "dropbox-mcp",
+    "name": "Dropbox MCP",
+    "logo": "https://api.dicebear.com/7.x/shapes/svg?seed=dropbox-mcp",
+    "description": "Dropbox云存储MCP服务器，支持文件同步和共享。",
+    "url": "https://example.com/dropbox-mcp",
+    "category": "cloud",
+    "tags": [
+      "ai",
+      "search",
+      "database",
+      "developer"
+    ],
+    "rating": 4.8,
+    "updatedAt": "2026-07-08",
+    "features": [
+      "批量处理",
+      "权限控制",
+      "数据查询",
+      "实时同步"
+    ],
+    "seoTitle": "Dropbox MCP - 云服务 MCP | AI Navigator Pro",
+    "seoDescription": "Dropbox云存储MCP服务器，支持文件同步和共享。",
+    "views": 28334
+  },
+  {
+    "id": "onedrive-mcp",
+    "name": "OneDrive MCP",
+    "logo": "https://api.dicebear.com/7.x/shapes/svg?seed=onedrive-mcp",
+    "description": "Microsoft OneDrive MCP服务器，支持Office文件协作。",
+    "url": "https://example.com/onedrive-mcp",
+    "category": "cloud",
+    "tags": [
+      "search",
+      "developer",
+      "social",
+      "browser"
+    ],
+    "rating": 4.2,
+    "updatedAt": "2026-07-17",
+    "features": [
+      "内容管理",
+      "权限控制",
+      "批量处理",
+      "通知推送",
+      "自动化操作"
+    ],
+    "seoTitle": "OneDrive MCP - 云服务 MCP | AI Navigator Pro",
+    "seoDescription": "Microsoft OneDrive MCP服务器，支持Office文件协作。",
+    "views": 31009
+  },
+  {
+    "id": "teams-mcp",
+    "name": "Teams MCP",
+    "logo": "https://api.dicebear.com/7.x/shapes/svg?seed=teams-mcp",
+    "description": "Microsoft Teams MCP服务器，支持团队协作。",
+    "url": "https://example.com/teams-mcp",
+    "category": "communication",
+    "tags": [
+      "cloud",
+      "developer",
+      "database",
+      "ai"
+    ],
+    "rating": 4.3,
+    "updatedAt": "2026-07-06",
+    "features": [
+      "自动化操作",
+      "批量处理",
+      "API集成",
+      "数据查询",
+      "内容管理"
+    ],
+    "seoTitle": "Teams MCP - 通讯 MCP | AI Navigator Pro",
+    "seoDescription": "Microsoft Teams MCP服务器，支持团队协作。",
+    "views": 58649
+  },
+  {
+    "id": "gmail-mcp",
+    "name": "Gmail MCP",
+    "logo": "https://api.dicebear.com/7.x/shapes/svg?seed=gmail-mcp",
+    "description": "Gmail邮件MCP服务器，支持邮件收发和搜索。",
+    "url": "https://example.com/gmail-mcp",
+    "category": "communication",
+    "tags": [
+      "ai",
+      "social",
+      "finance",
+      "search"
+    ],
+    "rating": 4.9,
+    "updatedAt": "2026-07-19",
+    "features": [
+      "API集成",
+      "批量处理",
+      "通知推送",
+      "自动化操作",
+      "内容管理"
+    ],
+    "seoTitle": "Gmail MCP - 通讯 MCP | AI Navigator Pro",
+    "seoDescription": "Gmail邮件MCP服务器，支持邮件收发和搜索。",
+    "views": 36820
+  },
+  {
+    "id": "calendar-mcp",
+    "name": "Calendar MCP",
+    "logo": "https://api.dicebear.com/7.x/shapes/svg?seed=calendar-mcp",
+    "description": "Google Calendar MCP服务器，支持日程管理和提醒。",
+    "url": "https://example.com/calendar-mcp",
+    "category": "productivity",
+    "tags": [
+      "ai",
+      "social"
+    ],
+    "rating": 4.6,
+    "updatedAt": "2026-07-26",
+    "features": [
+      "数据查询",
+      "自动化操作",
+      "权限控制",
+      "通知推送"
+    ],
+    "seoTitle": "Calendar MCP - 生产力 MCP | AI Navigator Pro",
+    "seoDescription": "Google Calendar MCP服务器，支持日程管理和提醒。",
+    "views": 28342
+  },
+  {
+    "id": "drive-mcp",
+    "name": "Drive MCP",
+    "logo": "https://api.dicebear.com/7.x/shapes/svg?seed=drive-mcp",
+    "description": "Google Drive MCP服务器，支持文件管理和共享。",
+    "url": "https://example.com/drive-mcp",
+    "category": "cloud",
+    "tags": [
+      "ai",
+      "productivity",
+      "finance"
+    ],
+    "rating": 4.4,
+    "updatedAt": "2026-07-10",
+    "features": [
+      "内容管理",
+      "权限控制",
+      "批量处理"
+    ],
+    "seoTitle": "Drive MCP - 云服务 MCP | AI Navigator Pro",
+    "seoDescription": "Google Drive MCP服务器，支持文件管理和共享。",
+    "views": 41231
+  },
+  {
+    "id": "docs-mcp",
+    "name": "Docs MCP",
+    "logo": "https://api.dicebear.com/7.x/shapes/svg?seed=docs-mcp",
+    "description": "Google Docs MCP服务器，支持文档协作编辑。",
+    "url": "https://example.com/docs-mcp",
+    "category": "productivity",
+    "tags": [
+      "ai",
+      "finance",
+      "productivity"
+    ],
+    "rating": 4.4,
+    "updatedAt": "2026-07-26",
+    "features": [
+      "实时同步",
+      "自动化操作",
+      "权限控制",
+      "通知推送",
+      "内容管理"
+    ],
+    "seoTitle": "Docs MCP - 生产力 MCP | AI Navigator Pro",
+    "seoDescription": "Google Docs MCP服务器，支持文档协作编辑。",
+    "views": 12054
+  },
+  {
+    "id": "sheets-mcp",
+    "name": "Sheets MCP",
+    "logo": "https://api.dicebear.com/7.x/shapes/svg?seed=sheets-mcp",
+    "description": "Google Sheets MCP服务器，支持表格数据处理。",
+    "url": "https://example.com/sheets-mcp",
+    "category": "productivity",
+    "tags": [
+      "database",
+      "search",
+      "social"
+    ],
+    "rating": 4.5,
+    "updatedAt": "2026-07-06",
+    "features": [
+      "实时同步",
+      "API集成",
+      "通知推送"
+    ],
+    "seoTitle": "Sheets MCP - 生产力 MCP | AI Navigator Pro",
+    "seoDescription": "Google Sheets MCP服务器，支持表格数据处理。",
+    "views": 36797
   }
 ]
