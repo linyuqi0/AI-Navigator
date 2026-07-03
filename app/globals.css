@@ -70,12 +70,19 @@
   * {
     @apply border-border;
   }
+  *:not(svg):not(svg *) {
+    @apply border-border;
+  }
   body {
     @apply bg-background text-foreground;
     font-feature-settings: "rlig" 1, "calt" 1;
   }
   html {
     scroll-behavior: smooth;
+  }
+  svg {
+    border: none !important;
+    outline: none !important;
   }
 }
 
@@ -99,4 +106,12 @@
   .glass-card {
     @apply backdrop-blur-md bg-white/60 dark:bg-black/40 border border-white/20 dark:border-white/10;
   }
+}
+
+svg.lucide {
+  display: inline-block;
+  vertical-align: middle;
+  fill: none;
+  stroke-linecap: round;
+  stroke-linejoin: round;
 }
