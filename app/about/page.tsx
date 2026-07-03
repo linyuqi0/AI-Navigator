@@ -108,7 +108,9 @@ export default function AboutPage() {
                 <span className="text-sm">Twitter</span>
               </a>
               <a
-                href="/rss.xml"
+                href={withBasePath("/rss.xml")}
+                target="_blank"
+                rel="noopener noreferrer"
                 className="flex flex-col items-center gap-2 p-4 rounded-xl border border-border/50 hover:border-primary/50 hover:bg-muted/30 transition-all"
               >
                 <Rss className="h-6 w-6" />

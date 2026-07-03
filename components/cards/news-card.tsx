@@ -1,7 +1,6 @@
-import Link from "next/link";
-import { Newspaper, Calendar } from "lucide-react";
+import { Newspaper, Calendar, ExternalLink } from "lucide-react";
 import { Card, CardContent } from "@/components/ui/card";
-import { cn, withBasePath } from "@/lib/utils";
+import { cn } from "@/lib/utils";
 import type { NewsItem } from "@/lib/types";
 
 interface NewsCardProps {
@@ -12,10 +11,15 @@ interface NewsCardProps {
 
 export function NewsCard({ news, className, featured = false }: NewsCardProps) {
   return (
-    <a href={news.url} target="_blank" rel="noopener noreferrer">
+    <a
+      href={news.url}
+      target="_blank"
+      rel="noopener noreferrer"
+      className="block"
+    >
       <Card
         className={cn(
-          "group h-full overflow-hidden transition-all duration-300 hover:shadow-lg cursor-pointer border-border/50 bg-card/50 backdrop-blur-sm",
+          "group h-full overflow-hidden transition-all duration-300 hover:shadow-lg hover:-translate-y-1 cursor-pointer border-border/50 bg-card/50 backdrop-blur-sm",
           featured && "md:flex",
           className
         )}
@@ -49,15 +53,18 @@ export function NewsCard({ news, className, featured = false }: NewsCardProps) {
             </p>
           )}
 
-          <div className="flex items-center gap-3 text-xs text-muted-foreground pt-1">
-            <span className="flex items-center gap-1">
-              <Newspaper className="h-3.5 w-3.5" />
-              {news.source}
-            </span>
-            <span className="flex items-center gap-1">
-              <Calendar className="h-3.5 w-3.5" />
-              {new Date(news.publishedAt).toLocaleDateString("zh-CN")}
-            </span>
+          <div className="flex items-center justify-between text-xs text-muted-foreground pt-1">
+            <div className="flex items-center gap-3">
+              <span className="flex items-center gap-1">
+                <Newspaper className="h-3.5 w-3.5" />
+                {news.source}
+              </span>
+              <span className="flex items-center gap-1">
+                <Calendar className="h-3.5 w-3.5" />
+                {new Date(news.publishedAt).toLocaleDateString("zh-CN")}
+              </span>
+            </div>
+            <ExternalLink className="h-3.5 w-3.5 opacity-0 group-hover:opacity-100 transition-opacity" />
           </div>
         </CardContent>
       </Card>

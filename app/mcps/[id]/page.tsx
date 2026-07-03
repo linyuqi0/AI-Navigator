@@ -2,17 +2,12 @@ import { notFound } from "next/navigation";
 import { Metadata } from "next";
 import {
   Star,
-  ExternalLink,
   Calendar,
   Tag,
   CheckCircle2,
-  Share2,
-  Heart,
   ChevronLeft,
   Eye,
-  Puzzle,
 } from "lucide-react";
-import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import {
   Card,
@@ -22,6 +17,7 @@ import {
 } from "@/components/ui/card";
 import { getMCPById, mcps } from "@/lib/data";
 import { MCPCard } from "@/components/cards/mcp-card";
+import { DetailActions } from "@/components/detail-actions";
 import { formatDate, formatNumber, withBasePath } from "@/lib/utils";
 import Link from "next/link";
 
@@ -99,22 +95,14 @@ export default function MCPDetailPage({ params }: MCPPageProps) {
             </div>
           </div>
 
-          <div className="flex flex-wrap gap-3">
-            <Button size="lg" asChild>
-              <a href={mcp.url} target="_blank" rel="noopener noreferrer">
-                了解更多
-                <ExternalLink className="ml-2 h-4 w-4" />
-              </a>
-            </Button>
-            <Button variant="outline" size="lg">
-              <Heart className="mr-2 h-4 w-4" />
-              收藏
-            </Button>
-            <Button variant="outline" size="lg">
-              <Share2 className="mr-2 h-4 w-4" />
-              分享
-            </Button>
-          </div>
+          <DetailActions
+            id={mcp.id}
+            type="mcp"
+            name={mcp.name}
+            description={mcp.description}
+            image={mcp.logo}
+            url={mcp.url}
+          />
 
           <div className="flex flex-wrap gap-2">
             {mcp.tags.map((tag) => (

@@ -56,7 +56,7 @@ export function WorkflowCard({ workflow, className }: WorkflowCardProps) {
           <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent" />
           <button
             onClick={toggleFavorite}
-            className="absolute top-3 right-3 p-1.5 rounded-full bg-black/30 backdrop-blur-sm opacity-0 group-hover:opacity-100 transition-opacity"
+            className="absolute top-3 right-3 p-1.5 rounded-full bg-black/30 backdrop-blur-sm opacity-0 group-hover:opacity-100 transition-opacity z-10 relative"
             aria-label="收藏"
           >
             <Heart

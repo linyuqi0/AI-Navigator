@@ -271,10 +271,8 @@ export default function HomePage() {
                     viewport={{ once: true }}
                     transition={{ delay: index * 0.1 }}
                   >
-                    <a
-                      href={tool.url}
-                      target="_blank"
-                      rel="noopener noreferrer"
+                    <Link
+                      href={withBasePath(`/tools/${tool.id}`)}
                       className="flex items-center gap-4 p-4 rounded-xl bg-card border border-border/50 hover:border-primary/50 hover:shadow-sm transition-all group"
                     >
                       <span className="text-xl font-bold text-muted-foreground/30 w-6">
@@ -299,7 +297,7 @@ export default function HomePage() {
                       >
                         {tool.rating}
                       </Badge>
-                    </a>
+                    </Link>
                   </motion.div>
                 ))}
               </div>

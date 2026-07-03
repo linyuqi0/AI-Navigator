@@ -67,22 +67,18 @@
 }
 
 @layer base {
-  * {
+  html {
     @apply border-border;
+    scroll-behavior: smooth;
   }
-  *:not(svg):not(svg *) {
-    @apply border-border;
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
   }
   body {
     @apply bg-background text-foreground;
     font-feature-settings: "rlig" 1, "calt" 1;
-  }
-  html {
-    scroll-behavior: smooth;
-  }
-  svg {
-    border: none !important;
-    outline: none !important;
   }
 }
 
@@ -108,10 +104,23 @@
   }
 }
 
-svg.lucide {
+/* Lucide / SVG icon rendering fixes */
+svg,
+svg * {
+  border: none !important;
+  outline: none !important;
+}
+
+svg {
   display: inline-block;
   vertical-align: middle;
+  flex-shrink: 0;
+}
+
+svg.lucide,
+svg[data-lucide] {
   fill: none;
+  stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
 }

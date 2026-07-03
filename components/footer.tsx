@@ -42,7 +42,9 @@ export function Footer() {
                 <Twitter className="h-4 w-4" />
               </a>
               <a
-                href="/rss.xml"
+                href={withBasePath("/rss.xml")}
+                target="_blank"
+                rel="noopener noreferrer"
                 className="p-2 rounded-md text-muted-foreground hover:text-foreground hover:bg-muted/50 transition-colors"
                 aria-label="RSS"
               >
@@ -137,7 +139,7 @@ export function Footer() {
                 </Link>
               </li>
               <li>
-                <a href="/rss.xml" className="hover:text-foreground transition-colors">
+                <a href={withBasePath("/rss.xml")} target="_blank" rel="noopener noreferrer" className="hover:text-foreground transition-colors">
                   RSS 订阅
                 </a>
               </li>

@@ -59,7 +59,7 @@ export function PromptCard({ prompt, className }: PromptCardProps) {
           <div className="flex items-start justify-between mb-3">
             <div className="flex items-center gap-2">
               <div className="h-9 w-9 rounded-lg bg-morandi-teal/10 flex items-center justify-center">
-                <MessageSquareText className="h-4.5 w-4.5 text-morandi-teal" />
+                <MessageSquareText className="h-5 w-5 text-morandi-teal" />
               </div>
               {prompt.featured && (
                 <Badge className="text-xs bg-morandi-sage/10 text-morandi-sage border-morandi-sage/20">

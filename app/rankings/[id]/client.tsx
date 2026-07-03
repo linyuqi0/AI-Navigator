@@ -85,7 +85,8 @@ export function RankingDetailClient({ ranking }: Props) {
                 return (
                   <div
                     key={item.toolId}
-                    className="flex items-center gap-4 p-4 md:p-6 hover:bg-muted/30 transition-colors"
+                    className="flex items-center gap-4 p-4 md:p-6 hover:bg-muted/30 transition-colors cursor-pointer group"
+                    onClick={() => router.push(withBasePath(`/tools/${tool.id}`))}
                   >
                     <div className="w-10 flex items-center justify-center">
                       {getRankIcon(item.rank)}
@@ -96,7 +97,7 @@ export function RankingDetailClient({ ranking }: Props) {
                       className="h-12 w-12 rounded-xl object-cover shrink-0"
                     />
                     <div className="flex-1 min-w-0">
-                      <div className="font-semibold text-base">
+                      <div className="font-semibold text-base group-hover:text-primary transition-colors">
                         {tool.name}
                       </div>
                       <p className="text-sm text-muted-foreground line-clamp-1">
@@ -123,7 +124,10 @@ export function RankingDetailClient({ ranking }: Props) {
                     </div>
                     <Button
                       size="sm"
-                      onClick={() => window.open(tool.url, "_blank", "noopener,noreferrer")}
+                      onClick={(e) => {
+                        e.stopPropagation();
+                        window.open(tool.url, "_blank", "noopener,noreferrer");
+                      }}
                     >
                       <ExternalLink className="h-3 w-3 mr-1" />
                       访问

@@ -2,17 +2,12 @@ import { notFound } from "next/navigation";
 import { Metadata } from "next";
 import {
   Star,
-  ExternalLink,
   Calendar,
   Tag,
   CheckCircle2,
-  XCircle,
-  Share2,
-  Heart,
   ChevronLeft,
   Eye,
 } from "lucide-react";
-import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import {
   Card,
@@ -28,9 +23,9 @@ import {
 } from "@/components/ui/tabs";
 import { getToolById, tools } from "@/lib/data";
 import { ToolCard } from "@/components/cards/tool-card";
+import { DetailActions } from "@/components/detail-actions";
 import { formatDate, formatNumber, withBasePath } from "@/lib/utils";
 import Link from "next/link";
-import Image from "next/image";
 
 interface ToolPageProps {
   params: { id: string };
@@ -151,22 +146,14 @@ export default function ToolDetailPage({ params }: ToolPageProps) {
               </div>
             </div>
 
-            <div className="flex flex-wrap gap-3">
-              <Button size="lg" asChild>
-                <a href={tool.url} target="_blank" rel="noopener noreferrer">
-                  访问官网
-                  <ExternalLink className="ml-2 h-4 w-4" />
-                </a>
-              </Button>
-              <Button variant="outline" size="lg">
-                <Heart className="mr-2 h-4 w-4" />
-                收藏
-              </Button>
-              <Button variant="outline" size="lg">
-                <Share2 className="mr-2 h-4 w-4" />
-                分享
-              </Button>
-            </div>
+            <DetailActions
+              id={tool.id}
+              type="tool"
+              name={tool.name}
+              description={tool.description}
+              image={tool.logo}
+              url={tool.url}
+            />
 
             <div className="flex flex-wrap gap-2">
               {tool.tags.map((tag) => (

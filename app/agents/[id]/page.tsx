@@ -2,17 +2,12 @@ import { notFound } from "next/navigation";
 import { Metadata } from "next";
 import {
   Star,
-  ExternalLink,
   Calendar,
   Tag,
   CheckCircle2,
-  Share2,
-  Heart,
   ChevronLeft,
   Eye,
-  Bot,
 } from "lucide-react";
-import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import {
   Card,
@@ -28,6 +23,7 @@ import {
 } from "@/components/ui/tabs";
 import { getAgentById, agents } from "@/lib/data";
 import { AgentCard } from "@/components/cards/agent-card";
+import { DetailActions } from "@/components/detail-actions";
 import { formatDate, formatNumber, withBasePath } from "@/lib/utils";
 import Link from "next/link";
 
@@ -105,22 +101,14 @@ export default function AgentDetailPage({ params }: AgentPageProps) {
             </div>
           </div>
 
-          <div className="flex flex-wrap gap-3">
-            <Button size="lg" asChild>
-              <a href={agent.url} target="_blank" rel="noopener noreferrer">
-                访问官网
-                <ExternalLink className="ml-2 h-4 w-4" />
-              </a>
-            </Button>
-            <Button variant="outline" size="lg">
-              <Heart className="mr-2 h-4 w-4" />
-              收藏
-            </Button>
-            <Button variant="outline" size="lg">
-              <Share2 className="mr-2 h-4 w-4" />
-              分享
-            </Button>
-          </div>
+          <DetailActions
+            id={agent.id}
+            type="agent"
+            name={agent.name}
+            description={agent.description}
+            image={agent.avatar}
+            url={agent.url}
+          />
 
           <div className="flex flex-wrap gap-2">
             {agent.tags.map((tag) => (

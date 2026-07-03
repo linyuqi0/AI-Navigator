@@ -50,21 +50,16 @@ export function SearchDialog() {
 
   const handleSelect = (result: SearchResult) => {
     setOpen(false);
-    // Tool/Agent/MCP 直接打开外站
-    if (result.type === "tool" || result.type === "agent" || result.type === "mcp") {
-      const url = (result.item as any).url;
-      if (url) {
-        window.open(url, "_blank", "noopener,noreferrer");
-        return;
-      }
-    }
-    // Prompt 和 Workflow 跳转到详情页
     const paths: Record<string, string> = {
+      tool: `/tools/${result.item.id}`,
+      agent: `/agents/${result.item.id}`,
+      mcp: `/mcps/${result.item.id}`,
       prompt: `/prompts/${result.item.id}`,
       workflow: `/workflows/${result.item.id}`,
     };
-    if (paths[result.type]) {
-      router.push(withBasePath(paths[result.type]));
+    const path = paths[result.type];
+    if (path) {
+      router.push(withBasePath(path));
     }
   };
 

@@ -1,9 +1,10 @@
 "use client";
 
+import Link from "next/link";
 import { Star, ExternalLink, Heart, Globe } from "lucide-react";
 import { Badge } from "@/components/ui/badge";
 import { Card, CardContent, CardFooter } from "@/components/ui/card";
-import { cn, formatNumber } from "@/lib/utils";
+import { cn, formatNumber, withBasePath } from "@/lib/utils";
 import type { MCP } from "@/lib/types";
 import { useState, useEffect } from "react";
 import { isFavorite, addFavorite, removeFavorite } from "@/lib/db";
@@ -40,18 +41,20 @@ export function MCPCard({ mcp, className }: MCPCardProps) {
   };
 
   const handleOpen = (e: React.MouseEvent) => {
+    e.preventDefault();
     e.stopPropagation();
     window.open(mcp.url, "_blank", "noopener,noreferrer");
   };
 
   return (
-    <Card
-      className={cn(
-        "group h-full overflow-hidden transition-all duration-300 hover:shadow-lg hover:-translate-y-1 border-border/50 bg-card/50 backdrop-blur-sm",
-        className
-      )}
-    >
-      <CardContent className="p-5">
+    <Link href={withBasePath(`/mcps/${mcp.id}`)} className="block">
+      <Card
+        className={cn(
+          "group h-full overflow-hidden transition-all duration-300 hover:shadow-lg hover:-translate-y-1 border-border/50 bg-card/50 backdrop-blur-sm cursor-pointer",
+          className
+        )}
+      >
+        <CardContent className="p-5">
         <div className="flex items-start justify-between mb-4">
           <div className="relative h-12 w-12 rounded-xl overflow-hidden bg-morandi-sand/10 flex items-center justify-center">
             <img
@@ -118,12 +121,13 @@ export function MCPCard({ mcp, className }: MCPCardProps) {
         </div>
         <button
           onClick={handleOpen}
-          className="inline-flex items-center gap-1 text-xs px-2.5 py-1 rounded-md bg-primary text-primary-foreground hover:bg-primary/90 transition-colors"
+          className="inline-flex items-center gap-1 text-xs px-2.5 py-1 rounded-md bg-primary text-primary-foreground hover:bg-primary/90 transition-colors z-10 relative"
         >
           <ExternalLink className="h-3 w-3" />
           访问
         </button>
       </CardFooter>
     </Card>
+    </Link>
   );
 }
